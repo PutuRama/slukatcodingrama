@@ -87,5 +87,11 @@ module.exports = {
                 })
 
             })
+    },
+    logOut : async function(req,res){
+        const dbConnect = db.getDb();
+        dbConnect.collection("authToken").deleteOne({token:req.body.token}).then(function(result){
+            return res.json(response(true, "LOGGED_OUT", "Your Logged Out Now", null))
+        })
     }
 }
