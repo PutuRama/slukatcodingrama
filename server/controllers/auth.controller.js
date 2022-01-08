@@ -1,5 +1,6 @@
 
 const { response } = require("../response/response")
+const { generateToken, generateUserId } = require("../util/generator.util")
 const { inputLoginValidation, inputSignUpValidation } = require("../util/validator.util")
 const db = require("../db/db");
 const passwordHash = require("password-hash");
@@ -16,6 +17,7 @@ module.exports = {
         hashedPassword = passwordHash.generate(req.body.password);
 
         const newUser = {
+            userId: generateUserId(),
             username: req.body.username,
             email: req.body.email,
             password: hashedPassword
@@ -55,28 +57,29 @@ module.exports = {
             .toArray(function (err, result) {
 
                 if (err) {
-                    return res.json({
-                        ok: false,
-                        statusCode: "INTERNAL_SERVER_ERROR",
-                        message: err,
-                        data: null
-                    });
+                    return res.json(response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null));
                 }
 
                 if (!passwordHash.verify(req.body.password, result[0].password)) {
-                    return res.json({
-                        ok: false,
-                        statusCode: "WRONG_PASSWORD",
-                        message: "Your Password is wrong!",
-                        data: null
-                    })
+                    return res.json(response(false, "WRONG_PASSWORD", "Your Password is Wrong", null))
                 }
 
-                return res.json({
-                    ok: true,
-                    message: "You are logged in",
-                    data: ""
+                const newToken = {
+                    userId: result[0].userId,
+                    token: generateToken(20)
+                }
+
+
+                dbConnect.collection("authToken").insertOne(newToken, function (err, result) {
+                    if (err) {
+                        return res.json(
+                            response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null)
+                        );
+                    }
+
+                    return res.json(response(true, "LOGGED_IN", "Your Logged In Now", newToken))
                 })
+
             })
     }
 }
