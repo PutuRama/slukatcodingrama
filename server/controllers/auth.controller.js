@@ -1,7 +1,7 @@
 
 const { response } = require("../response/response")
 const { generateToken, generateUserId } = require("../util/generator.util")
-const { inputLoginValidation, inputSignUpValidation } = require("../util/validator.util")
+const { inputLoginValidation, inputSignUpValidation, inputLogOut } = require("../util/validator.util")
 const db = require("../db/db");
 const passwordHash = require("password-hash");
 
@@ -67,7 +67,7 @@ module.exports = {
                 }
 
                 //check result , if there is no user found , return error
-                if(result[0] == null){
+                if (result[0] == null) {
                     return res.json(response(false, "USER_NOT_FOUND", "Username not found", null));
                 }
 
@@ -97,6 +97,12 @@ module.exports = {
             })
     },
     logOut: async function (req, res) {
+
+        var resultValidator = inputLogOut(req.body.token);
+        if (!resultValidator.ok) {
+            return res.json(resultValidator);
+        }
+
         const dbConnect = db.getDb();
         dbConnect
             .collection("authToken")

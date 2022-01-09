@@ -47,6 +47,16 @@ module.exports = {
         }
 
         return response(true, "VALID_INPUT", "valid Input", null);
+    },
+    inputLogOut: function (inputToken) {
+
+        // check token is not null
+        if (inputToken == null) {
+            return response(false, "TOKEN_NULL", "Your token is empty", null);
+        }
+
+        return response(true, "VALID_INPUT", "valid input", null);
+
     }
 
 }
