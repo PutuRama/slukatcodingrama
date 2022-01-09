@@ -33,6 +33,7 @@ module.exports = {
             .collection("user")
             .insertOne(newUser, function (err, result) {
                 if (err) {
+                    console.error(err);
                     return res.json(
                         response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null)
                     );
@@ -61,7 +62,13 @@ module.exports = {
             .toArray(function (err, result) {
 
                 if (err) {
+                    console.error(err);
                     return res.json(response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null));
+                }
+
+                //check result , if there is no user found , return error
+                if(result[0] == null){
+                    return res.json(response(false, "USER_NOT_FOUND", "Username not found", null));
                 }
 
                 //check password , if ther are not same, return reponse error
@@ -69,7 +76,7 @@ module.exports = {
                     return res.json(response(false, "WRONG_PASSWORD", "Your Password is Wrong", null))
                 }
 
-                // new data auth Token that will be insert to db 
+                // the new data authToken that will be insert to db 
                 const newToken = {
                     userId: result[0].userId,
                     token: generateToken(20)
@@ -78,6 +85,7 @@ module.exports = {
                 // add new doc authToken
                 dbConnect.collection("authToken").insertOne(newToken, function (err, result) {
                     if (err) {
+                        console.error(err);
                         return res.json(
                             response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null)
                         );
@@ -88,10 +96,13 @@ module.exports = {
 
             })
     },
-    logOut : async function(req,res){
+    logOut: async function (req, res) {
         const dbConnect = db.getDb();
-        dbConnect.collection("authToken").deleteOne({token:req.body.token}).then(function(result){
-            return res.json(response(true, "LOGGED_OUT", "Your Logged Out Now", null))
-        })
+        dbConnect
+            .collection("authToken")
+            .deleteOne({ token: req.body.token })
+            .then(function (result) {
+                return res.json(response(true, "LOGGED_OUT", "Your Logged Out Now", null))
+            })
     }
 }
