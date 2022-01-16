@@ -1,6 +1,7 @@
 
 <template>
   <topnavbar/>
+  <div class="spacer-nav"></div>
   <router-view/>
 </template>
 
@@ -21,5 +22,8 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+.spacer-nav{
+  height: 93px;
 }
 </style>

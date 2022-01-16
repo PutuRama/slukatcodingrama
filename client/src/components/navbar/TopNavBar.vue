@@ -45,6 +45,7 @@
 </template>
 <style scoped>
   .navbar-brand img{
+    width: 35vw  ;
     max-width: 250px;
   }
   .navbar-nav > li{
