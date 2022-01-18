@@ -1,16 +1,18 @@
 
 <template>
-  <topnavbar/>
+  <Topnavbar/>
   <div class="spacer-nav"></div>
-  <router-view/>
+  <router-view></router-view>
+  <Footer/>
 </template>
 
 <script type="text/javascript">
-  import topnavbar from './components/navbar/TopNavBar.vue';
+  import Topnavbar from './components/navbar/TopNavBar.vue';
+  import Footer from "./components/footer/Footer.vue"
 
   export default{
     components:{
-      topnavbar : topnavbar // register component
+      Topnavbar,Footer
     }
   }
 
