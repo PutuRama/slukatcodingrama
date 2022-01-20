@@ -110,6 +110,7 @@
   border-radius: 25px;
   position: absolute;
   z-index: 10;
+  color: #070707;
   background-color: #A1EE9F;
   text-align: center;
   width: 10%;
@@ -117,11 +118,15 @@
   border: none;
   padding: 0.7em;
 }
+.input-mail:hover{
+  color: #FFFFFF;
+  transition: 0.3s;
+}
 
 .text{
   color: #FFFFFF;
   font-size: 1.5vw;
-  margin-bottom: 1vw;
+  margin-bottom: 1.5vw;
 }
 
 .media{
@@ -179,6 +184,6 @@
   color: #FFFFFF;
   font-weight: 700;
   font-size: 1.3vw;
-  margin-bottom: 15px;
+  margin-bottom: 1vw;
 }
 </style>
