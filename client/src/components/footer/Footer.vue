@@ -4,24 +4,26 @@
 
       <div class="footer-left">
         <h1>Stay Updated</h1>
-        <div class="input">
-          <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
-          <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+        <div class="click">
+          <div class="input">
+            <input type="text" class="form-control" placeholder="insert your email here" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-outline-secondary input-mail" type="button" id="button-addon2">Subscribe</button>
+          </div>
         </div>
         <h1>Or</h1>
         <p class="text">follow our social media below</p>
         <div class="media">
           <div class="social-media">
             <router-link class="contact-img" to="">p</router-link>
-            <router-link class="contact-text" to="">p</router-link>
+            <router-link class="contact-text" to="">@slukat_bali</router-link>
           </div>
           <div class="social-media">
             <router-link class="contact-img" to="">p</router-link>
-            <router-link class="contact-text" to="">p</router-link>
+            <router-link class="contact-text" to="">@slukat_bali</router-link>
           </div>
           <div class="social-media">
             <router-link class="contact-img" to="">p</router-link>
-            <router-link class="contact-text" to="">p</router-link>
+            <router-link class="contact-text" to="">@slukat_bali</router-link>
           </div>
         </div>
       </div>
@@ -33,7 +35,7 @@
         <h1>Slukat Learning Center</h1>
         <div class="feature-list">
           <div class="me-list">
-            <div class="footer-home">
+            <div class="footer-home footer-component">
               <router-link class="footer-home-click footer-component" to="">Home</router-link>
             </div>
           </div>
@@ -61,6 +63,8 @@
   </div>
 </template>
 
+
+
 <style scoped>
 .footer{
   background-color: #0B6D0E;
@@ -80,19 +84,44 @@
 
 .footer-left h1{
   text-align: center;
-  font-size: 36px;
+  font-size: 2.4vw;
   font-weight: 900;
   color: #FFFFFF;
-  margin: 18px 0;
+  margin: 2vw 0;
 }
 .input{
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
+  justify-content: right;
 }
+.form-control{
+  border-radius: 25px;
+  z-index: 1;
+  width: 100%;
+  position: relative;
+  font-size: 1vw;
+  border: none;
+  padding: 0.7em;
+  padding-left: 8%;
+  padding-right: 40%;
+}
+.input-mail{
+  border-radius: 25px;
+  position: absolute;
+  z-index: 10;
+  background-color: #A1EE9F;
+  text-align: center;
+  width: 10%;
+  font-size: 1vw;
+  border: none;
+  padding: 0.7em;
+}
+
 .text{
   color: #FFFFFF;
-  font-size: 18px;
-  margin: 18px 0;
+  font-size: 1.5vw;
+  margin-bottom: 1vw;
 }
 
 .media{
@@ -102,15 +131,20 @@
 .social-media{
   display: flex;
   flex-direction: column;
+  margin-bottom: 75px;
+}
+.contact-img{
+  font-size: 2vw;
 }
 .contact-text{
   color: #FFFFFF;
+  font-size: 1vw;
   text-decoration: none;
 }
 
 .line{
-  border-right: 1px solid #FFFFFF;
-  margin: 40px 50%;
+  border-right: 2px solid #FFFFFF;
+  margin: 6vw 50%;
 }
 
 .footer-right{
@@ -118,9 +152,9 @@
   flex-direction: column;
 }
 .footer-right h1{
-  font-size: 36px;
+  font-size: 2.4vw;
   font-weight: bold;
-  margin: 18px 0;
+  margin: 2vw 0;
   color: #10CE0C;
 }
 
@@ -136,7 +170,7 @@
 }
 .about-list-click{
   padding: 0;
-  font-size: 13px;
+  font-size: 0.9vw;
   color: #FFFFFF;
   text-align: center;
   font-weight: 400;
@@ -144,7 +178,7 @@
 .footer-component{
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 1.3vw;
   margin-bottom: 15px;
 }
 </style>
