@@ -35,22 +35,11 @@
           <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
         </div>
       </div>
-    </div>
-      <br><br>
-      <div class="founder">
+      <br>
       <div class="judul">
-        <p>THE FOUNDERS</p>
+        
       </div>
-       <div class="row">
-        <div class="column">
-          <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-        </div>
-         <div class="column">
-          <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-        </div>
-      </div>
-
-      </div>
+    </div>
 
   </div>
 </template>
@@ -58,7 +47,8 @@
 <script>
  
 </script>
-<style scoped> 
+<style scoped>
+
 /* on top */
 .img_navbar{
 /* position: relative; */
@@ -115,13 +105,6 @@ height: 600px;
   border-bottom-right-radius: 50px;
   vertical-align: middle;
   margin-left: 20px;
-}
-
-/* founder */
-.judul{
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
 }
 
 </style>
