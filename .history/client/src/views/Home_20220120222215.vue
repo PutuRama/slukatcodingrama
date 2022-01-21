@@ -72,7 +72,7 @@ height: 600px;
 }
 .container{
   text-align: left;
-  margin-left: 10%;
+  margin-left: 5%;
   width: 30%;
   color: #0B6D0E;
 }
@@ -80,26 +80,17 @@ height: 600px;
   font-weight: 700;
 }
 .row{
-  display: flex;
-  flex-wrap: wrap;
+  flex: 50%;
   padding: 0 4px;
-  margin-bottom: 20%;
-  top: 120%;
-  position: absolute;
 }
 .column {
-  flex: 100%;
-  padding: 0 4px;  
-  margin-bottom: 5%;
-  margin-left: 35%;
+    grid-template-columns: auto;
+  grid-template-rows: 200px;
+  grid-gap: 150px;
 }
 .column img {
   margin-top: 20px;
-  width: 30%;
-  height: 100%;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  vertical-align: middle;
+  width: 20%;
   margin-left: 20px;
 }
 

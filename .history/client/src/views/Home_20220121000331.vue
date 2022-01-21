@@ -89,8 +89,8 @@ height: 600px;
 }
 .column {
   flex: 100%;
-  padding: 0 4px;  
-  margin-bottom: 5%;
+  padding: 0 4px;  margin-bottom: 20%;
+
   margin-left: 35%;
 }
 .column img {

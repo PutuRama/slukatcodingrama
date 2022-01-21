@@ -30,7 +30,8 @@
           <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
           <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
         </div>
-         <div class="column">
+         
+          <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
           <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
           <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
         </div>
@@ -72,7 +73,7 @@ height: 600px;
 }
 .container{
   text-align: left;
-  margin-left: 10%;
+  margin-left: 5%;
   width: 30%;
   color: #0B6D0E;
 }
@@ -83,22 +84,14 @@ height: 600px;
   display: flex;
   flex-wrap: wrap;
   padding: 0 4px;
-  margin-bottom: 20%;
-  top: 120%;
-  position: absolute;
 }
 .column {
-  flex: 100%;
-  padding: 0 4px;  
-  margin-bottom: 5%;
-  margin-left: 35%;
+  flex: 50%;
+  padding: 0 4px;
 }
 .column img {
   margin-top: 20px;
-  width: 30%;
-  height: 100%;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  width: 40%;
   vertical-align: middle;
   margin-left: 20px;
 }

@@ -2,13 +2,13 @@
   <div class="home">
     <div class="carousel" >
 
-     <img class="img_navbar" src="https://png.pngtree.com/thumb_back/fh260/background/20210207/pngtree-gray-simple-gradient-background-image_557031.jpg" alt="" srcset="">
+     <img class="img_navbar" src="@/assets/homepage.jpeg" alt="" srcset="">
 
-     <div class="teks">
+     <!-- <div class="teks">
       <h2>Slukat Learning Center</h2>
       <p>An <span id="teks">alternative</span>  solution in educational needs of youth in Bali
       </p>
-     </div>
+     </div> -->
     
     </div>
 
@@ -49,7 +49,7 @@
 .img_navbar{
 /* position: relative; */
 width: 100%;
-height: 600px;
+height: 700px;
 }
 .teks{
   position: absolute;
@@ -89,16 +89,12 @@ height: 600px;
 }
 .column {
   flex: 100%;
-  padding: 0 4px;  
-  margin-bottom: 5%;
+  padding: 0 4px;
   margin-left: 35%;
 }
 .column img {
   margin-top: 20px;
-  width: 30%;
-  height: 100%;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
+  width: 20%;
   vertical-align: middle;
   margin-left: 20px;
 }

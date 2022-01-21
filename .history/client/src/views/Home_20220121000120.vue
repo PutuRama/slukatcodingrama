@@ -89,13 +89,12 @@ height: 600px;
 }
 .column {
   flex: 100%;
-  padding: 0 4px;  
-  margin-bottom: 5%;
+  padding: 0 4px;
   margin-left: 35%;
 }
 .column img {
   margin-top: 20px;
-  width: 30%;
+  width: 20%;
   height: 100%;
   border-top-left-radius: 50px;
   border-bottom-right-radius: 50px;

@@ -22,9 +22,10 @@
         <h2>Slukat Learning Center</h2>
         <p>Is a non-formal education that provides free <br> after-school learning.</p>
         </div>
-        
-      </div>
 
+        <div class="imagegrid">
+
+        </div>
       <div class="row">
         <div class="column">
           <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
@@ -35,8 +36,9 @@
           <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
         </div>
       </div>
-    </div>
 
+      </div>
+    </div>
   </div>
 </template>
 
@@ -72,7 +74,7 @@ height: 600px;
 }
 .container{
   text-align: left;
-  margin-left: 10%;
+  margin-left: 5%;
   width: 30%;
   color: #0B6D0E;
 }
@@ -80,26 +82,20 @@ height: 600px;
   font-weight: 700;
 }
 .row{
-  display: flex;
-  flex-wrap: wrap;
-  padding: 0 4px;
-  margin-bottom: 20%;
-  top: 120%;
-  position: absolute;
+  float: right;
+  display: grid;
+  grid-template-columns: auto;
+  /* grid-template-rows: 200px; */
+  /* grid-gap: 150px;; */
+  /* flex-wrap: wrap; */
+  margin-left: 20%;
 }
 .column {
   flex: 100%;
-  padding: 0 4px;  
-  margin-bottom: 5%;
-  margin-left: 35%;
 }
 .column img {
   margin-top: 20px;
-  width: 30%;
-  height: 100%;
-  border-top-left-radius: 50px;
-  border-bottom-right-radius: 50px;
-  vertical-align: middle;
+  width: 20%;
   margin-left: 20px;
 }
 
