@@ -67,10 +67,3 @@
 -moz-box-shadow: 0px 5px 29px -8px rgba(0,0,0,0.19);
   }
 </style>
-<script>
-$(window).scroll(function() {
-   if($(window).scrollTop() + $(window).height() == $(document).height()) {
-       alert("bottom!");
-   }
-});
-</script>
