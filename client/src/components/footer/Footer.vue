@@ -14,15 +14,15 @@
         <p class="text">follow our social media below</p>
         <div class="media">
           <div class="social-media">
-            <router-link class="contact-img" to="">p</router-link>
+            <router-link class="contact-img" to=""><i class='fab fa-instagram'></i></router-link>
             <router-link class="contact-text" to="">@slukat_bali</router-link>
           </div>
           <div class="social-media">
-            <router-link class="contact-img" to="">p</router-link>
+            <router-link class="contact-img" to=""><i class='fab fa-facebook'></i></router-link>
             <router-link class="contact-text" to="">@slukat_bali</router-link>
           </div>
           <div class="social-media">
-            <router-link class="contact-img" to="">p</router-link>
+            <router-link class="contact-img" to=""><i class='fab fa-twitter'></i></router-link>
             <router-link class="contact-text" to="">@slukat_bali</router-link>
           </div>
         </div>
@@ -139,7 +139,8 @@
   margin-bottom: 75px;
 }
 .contact-img{
-  font-size: 2vw;
+  font-size: 2.4vw;
+  color: #FFFFFF;
 }
 .contact-text{
   color: #FFFFFF;
