@@ -94,7 +94,8 @@
 
                </div>
                
-             </div>  
+             </div> 
+             <br><br><br>
             <button class="button-program"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
            </div>
 
@@ -245,7 +246,7 @@ height: 800px;
 } 
 .program{
   background-color: #0B6D0E;
-  padding: 2% 0 4% 0;
+  padding: 2% 0 10% 0;
 }
 .row3 {
   margin-top: 5%;
@@ -267,14 +268,14 @@ height: 800px;
  font-weight: 700;
  color: white;
 }
-.button-program {
+.button-founder {
    background: #047002;
-   border: white 2px solid;
+   border: white 3px solid;
    border-radius: 5px;
-   margin-top: 12%;
+   padding: 12px 20px;
    padding: 0.8% 2% 0.8% 2% ;
 }
-.button-program a {
+.button-founder a {
   text-decoration: none; 
   font-size: 18px;
   color: white;

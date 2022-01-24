@@ -245,7 +245,7 @@ height: 800px;
 } 
 .program{
   background-color: #0B6D0E;
-  padding: 2% 0 4% 0;
+  padding: 2% 0 10% 0;
 }
 .row3 {
   margin-top: 5%;

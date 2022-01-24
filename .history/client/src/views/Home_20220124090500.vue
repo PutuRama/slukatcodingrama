@@ -65,38 +65,11 @@
 
        <!-- our program -->
        <div class="our-program">
-         <img src="../assets/our-program.jpeg" alt="">
          <div class="content">
            <h2 class="h2">Our Program</h2>
            <p class="p">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem Ipsum <br> has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer <br> took a galley of type and scrambled it to make a <br> type specimen book.</p>
-           </div> 
-
+         </div>
        </div>
-           <div class="program">
-             <div class="row3">
-               <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>Coding <br> Program</p>
-               </div>
-                <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>English <br> Program</p>
-                 
-               </div>
-                <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>Enterpreneur <br> Program</p>
-                 
-               </div>
-                <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>Agriculture <br> Program</p>
-
-               </div>
-               
-             </div>  
-            <button class="button-program"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
-           </div>
 
   </div>
 </template>
@@ -145,8 +118,9 @@ height: 800px;
   padding: 0 4px;
   margin-top: auto; 
   margin-bottom: auto;
-  top: 55em;
+  top: 10rem;
   bottom: 0;
+  
   position: absolute;
 }
 .column {
@@ -182,9 +156,7 @@ height: 800px;
   margin-bottom: 4%;
   justify-content: center;
 }
-.column2{
-  flex: 50%;
-}
+
 .column2 img {
   width: 50%;
   height: 100%;  
@@ -215,69 +187,22 @@ height: 800px;
 
 /* our program */
 .our-program{
-  background-color: #F6FEF5; 
-  margin: 7% 0 0 0;
-  padding: 2% 0 3% 0;
-}
-.our-program img{
-  float: right;
-  width: 60%;
-  height: 17.5rem;
-   
+  background-color: #F6FEF5;
+  padding: 2% 0 2% 0;
 }
 .content{
   text-align: left;
   border-left: 80px solid #A1EE9F;
-   
 }
 .h2, .p {
-  margin-left: 5%;
-  color: #047002;
-
+  margin-left: 10%;
 }
 .content > h2 {
-  padding-top: 1em;
   font-weight: bold;
   color: #047002;
 }
 .content > p { 
-  font-weight: 400;
-} 
-.program{
-  background-color: #0B6D0E;
-  padding: 2% 0 4% 0;
+  color: #335B32;
 }
-.row3 {
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap; 
-  margin-bottom: 4%;
-  justify-content: center;
-}
-.cloumn3{
-  flex: 20%;
-}
-.cloumn3 img {
-  width: 90%;
-  height: 100%;  
-  vertical-align: middle; 
-}
-.cloumn3 p {
- padding-top: 5%;
- font-weight: 700;
- color: white;
-}
-.button-program {
-   background: #047002;
-   border: white 2px solid;
-   border-radius: 5px;
-   margin-top: 12%;
-   padding: 0.8% 2% 0.8% 2% ;
-}
-.button-program a {
-  text-decoration: none; 
-  font-size: 18px;
-  color: white;
-  font-weight: 700;
-}
+
 </style>

@@ -75,27 +75,18 @@
            <div class="program">
              <div class="row3">
                <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>Coding <br> Program</p>
-               </div>
-                <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>English <br> Program</p>
-                 
-               </div>
-                <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>Enterpreneur <br> Program</p>
-                 
-               </div>
-                <div class="cloumn3">
-                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-                <p>Agriculture <br> Program</p>
 
                </div>
-               
-             </div>  
-            <button class="button-program"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
+                <div class="cloumn3">
+                 
+               </div>
+                <div class="cloumn3">
+                 
+               </div>
+                <div class="cloumn3">
+                 
+               </div>
+             </div>
            </div>
 
   </div>
@@ -222,7 +213,7 @@ height: 800px;
 .our-program img{
   float: right;
   width: 60%;
-  height: 17.5rem;
+  height: 20rem;
    
 }
 .content{
@@ -245,39 +236,7 @@ height: 800px;
 } 
 .program{
   background-color: #0B6D0E;
-  padding: 2% 0 4% 0;
+  padding: 10% 0 10% 0;
 }
-.row3 {
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap; 
-  margin-bottom: 4%;
-  justify-content: center;
-}
-.cloumn3{
-  flex: 20%;
-}
-.cloumn3 img {
-  width: 90%;
-  height: 100%;  
-  vertical-align: middle; 
-}
-.cloumn3 p {
- padding-top: 5%;
- font-weight: 700;
- color: white;
-}
-.button-program {
-   background: #047002;
-   border: white 2px solid;
-   border-radius: 5px;
-   margin-top: 12%;
-   padding: 0.8% 2% 0.8% 2% ;
-}
-.button-program a {
-  text-decoration: none; 
-  font-size: 18px;
-  color: white;
-  font-weight: 700;
-}
+
 </style>

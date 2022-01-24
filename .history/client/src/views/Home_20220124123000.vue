@@ -245,7 +245,7 @@ height: 800px;
 } 
 .program{
   background-color: #0B6D0E;
-  padding: 2% 0 4% 0;
+  padding: 2% 0 10% 0;
 }
 .row3 {
   margin-top: 5%;
@@ -271,7 +271,7 @@ height: 800px;
    background: #047002;
    border: white 2px solid;
    border-radius: 5px;
-   margin-top: 12%;
+   margin-top: 10%;
    padding: 0.8% 2% 0.8% 2% ;
 }
 .button-program a {

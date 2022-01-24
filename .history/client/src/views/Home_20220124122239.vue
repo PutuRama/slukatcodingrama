@@ -93,9 +93,7 @@
                 <p>Agriculture <br> Program</p>
 
                </div>
-               
-             </div>  
-            <button class="button-program"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
+             </div>
            </div>
 
   </div>
@@ -245,7 +243,7 @@ height: 800px;
 } 
 .program{
   background-color: #0B6D0E;
-  padding: 2% 0 4% 0;
+  padding: 2% 0 10% 0;
 }
 .row3 {
   margin-top: 5%;
@@ -263,21 +261,7 @@ height: 800px;
   vertical-align: middle; 
 }
 .cloumn3 p {
- padding-top: 5%;
- font-weight: 700;
- color: white;
+ 
 }
-.button-program {
-   background: #047002;
-   border: white 2px solid;
-   border-radius: 5px;
-   margin-top: 12%;
-   padding: 0.8% 2% 0.8% 2% ;
-}
-.button-program a {
-  text-decoration: none; 
-  font-size: 18px;
-  color: white;
-  font-weight: 700;
-}
+
 </style>
