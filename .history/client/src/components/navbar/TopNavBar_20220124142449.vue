@@ -45,11 +45,10 @@
 </template>
 <style scoped>
   .navbar-brand img{
-    width: 35vw;
+    width: 35vw  ;
     max-width: 250px;
   }
   .navbar-nav > li{
-    margin-left: 30px;
     margin-right :30px;
     transition: 0.5;
   }

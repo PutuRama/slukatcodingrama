@@ -309,7 +309,6 @@ height: 800px;
 }
 .testi h5{
   text-align: left;
-  margin-left: 10%;
-  font-weight: 700;
+  margin
 }
 </style>

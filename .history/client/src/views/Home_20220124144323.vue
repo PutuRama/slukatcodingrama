@@ -106,8 +106,8 @@
               <p>Here are feedbacks of who enrolled our programs.</p>
             </div>
 
-            <div class="testi">
-              <h5>Students</h5>
+            <div class="card">
+              
             </div>
            </div>
 
@@ -225,7 +225,6 @@ height: 800px;
   text-decoration: none; 
   font-size: 18px;
   color: white;
-  padding-bottom: 2em;
   font-weight: 700;
 }
 
@@ -303,13 +302,5 @@ height: 800px;
   font-weight: 900;
   color: #C4C4C4;
   letter-spacing: 0.3em;
-}
-.top p {
-  line-height: 27px;
-}
-.testi h5{
-  text-align: left;
-  margin-left: 10%;
-  font-weight: 700;
 }
 </style>

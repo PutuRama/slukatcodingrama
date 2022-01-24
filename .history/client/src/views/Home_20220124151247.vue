@@ -307,9 +307,4 @@ height: 800px;
 .top p {
   line-height: 27px;
 }
-.testi h5{
-  text-align: left;
-  margin-left: 10%;
-  font-weight: 700;
-}
 </style>

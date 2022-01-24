@@ -45,12 +45,12 @@
 </template>
 <style scoped>
   .navbar-brand img{
-    width: 35vw;
+    width: 35vw  ;
     max-width: 250px;
   }
   .navbar-nav > li{
-    margin-left: 30px;
-    margin-right :30px;
+    margin-left:30px;
+    margin-right:30px;
     transition: 0.5;
   }
 
@@ -63,8 +63,8 @@
   }
   .navbar{
     box-shadow: 0px 5px 29px -8px rgba(0,0,0,0.19);
-    -webkit-box-shadow: 0px 5px 29px -8px rgba(0,0,0,0.19);
-    -moz-box-shadow: 0px 5px 29px -8px rgba(0,0,0,0.19);
+-webkit-box-shadow: 0px 5px 29px -8px rgba(0,0,0,0.19);
+-moz-box-shadow: 0px 5px 29px -8px rgba(0,0,0,0.19);
   }
 </style>
 <script>

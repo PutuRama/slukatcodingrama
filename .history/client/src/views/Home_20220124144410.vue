@@ -225,7 +225,6 @@ height: 800px;
   text-decoration: none; 
   font-size: 18px;
   color: white;
-  padding-bottom: 2em;
   font-weight: 700;
 }
 
@@ -305,11 +304,6 @@ height: 800px;
   letter-spacing: 0.3em;
 }
 .top p {
-  line-height: 27px;
-}
-.testi h5{
-  text-align: left;
-  margin-left: 10%;
-  font-weight: 700;
+  
 }
 </style>

@@ -98,19 +98,6 @@
             <button class="button-program"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
            </div>
 
-
-           <!-- testimonial -->
-           <div class="testimonial">
-            <div class="top">
-              <h4>TESTIMONIAL</h4>
-              <p>Here are feedbacks of who enrolled our programs.</p>
-            </div>
-
-            <div class="testi">
-              <h5>Students</h5>
-            </div>
-           </div>
-
   </div>
 </template>
 
@@ -118,8 +105,6 @@
  
 </script>
 <style scoped> 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap');
-
 /* on top */
 .img_navbar{
 /* position: relative; */
@@ -225,14 +210,13 @@ height: 800px;
   text-decoration: none; 
   font-size: 18px;
   color: white;
-  padding-bottom: 2em;
   font-weight: 700;
 }
 
 /* our program */
 .our-program{
   background-color: #F6FEF5; 
-  margin: 7% 0 0 0;
+  margin: 7% 0 5%  0;
   padding: 2% 0 3% 0;
 }
 .our-program img{
@@ -262,7 +246,6 @@ height: 800px;
 .program{
   background-color: #0B6D0E;
   padding: 2% 0 4% 0;
-  margin-bottom: 8%;
 }
 .row3 {
   margin-top: 5%;
@@ -295,21 +278,6 @@ height: 800px;
   text-decoration: none; 
   font-size: 18px;
   color: white;
-  font-weight: 700;
-}
-
-/* testimonial */
-.top h4{
-  font-weight: 900;
-  color: #C4C4C4;
-  letter-spacing: 0.3em;
-}
-.top p {
-  line-height: 27px;
-}
-.testi h5{
-  text-align: left;
-  margin-left: 10%;
   font-weight: 700;
 }
 </style>

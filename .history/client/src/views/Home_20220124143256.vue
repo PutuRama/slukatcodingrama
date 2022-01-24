@@ -102,12 +102,8 @@
            <!-- testimonial -->
            <div class="testimonial">
             <div class="top">
-              <h4>TESTIMONIAL</h4>
+              <h3>TESTIMONIAL</h3>
               <p>Here are feedbacks of who enrolled our programs.</p>
-            </div>
-
-            <div class="testi">
-              <h5>Students</h5>
             </div>
            </div>
 
@@ -118,8 +114,6 @@
  
 </script>
 <style scoped> 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap');
-
 /* on top */
 .img_navbar{
 /* position: relative; */
@@ -225,7 +219,6 @@ height: 800px;
   text-decoration: none; 
   font-size: 18px;
   color: white;
-  padding-bottom: 2em;
   font-weight: 700;
 }
 
@@ -299,17 +292,7 @@ height: 800px;
 }
 
 /* testimonial */
-.top h4{
-  font-weight: 900;
-  color: #C4C4C4;
-  letter-spacing: 0.3em;
-}
-.top p {
-  line-height: 27px;
-}
-.testi h5{
-  text-align: left;
-  margin-left: 10%;
-  font-weight: 700;
+.top{
+font-family: 'Poppins', sans-serif;
 }
 </style>
