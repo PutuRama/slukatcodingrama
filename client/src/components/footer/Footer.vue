@@ -10,7 +10,7 @@
             <button class="btn btn-outline-secondary input-mail" type="button" id="button-addon2">Subscribe</button>
           </div>
         </div>
-        <h1>Or</h1>
+        <h1 id="or">Or</h1>
         <p class="text">follow our social media below</p>
         <div class="media">
           <div class="social-media">
@@ -84,10 +84,13 @@
 
 .footer-left h1{
   text-align: center;
-  font-size: 2.4vw;
+  font-size: 1.8vw;
   font-weight: 900;
   color: #FFFFFF;
   margin: 2vw 0;
+}
+#or{
+  font-size: 1.5vw;
 }
 .input{
   display: flex;
@@ -102,7 +105,7 @@
   position: relative;
   font-size: 1vw;
   border: none;
-  padding: 0.7em;
+  padding: 0.5em;
   padding-left: 8%;
   padding-right: 40%;
 }
@@ -116,7 +119,7 @@
   width: 10%;
   font-size: 1vw;
   border: none;
-  padding: 0.7em;
+  padding: 0.5em;
 }
 .input-mail:hover{
   color: #FFFFFF;
@@ -125,8 +128,8 @@
 
 .text{
   color: #FFFFFF;
-  font-size: 1.5vw;
-  margin-bottom: 1.5vw;
+  font-size: 1.3vw;
+  margin-bottom: 1.4vw;
 }
 
 .media{
@@ -158,7 +161,7 @@
   flex-direction: column;
 }
 .footer-right h1{
-  font-size: 2.4vw;
+  font-size: 1.8vw;
   font-weight: bold;
   margin: 2vw 0;
   color: #10CE0C;
