@@ -197,6 +197,81 @@
           </div>
         </div>
       </div>
+
+      <div class="team-mobile">
+        <div class="founder">
+            <div class="row">
+              <div class="col-12">
+                <h3>FOUNDER</h3>
+              </div>
+              <div class="col-12">
+                <span>
+                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>I Gusti Agung Rai</h5>
+                </span>
+              </div>
+              <div class="col-12">
+                <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>I Gusti Ayu Darsini</h5>
+              </div>
+          </div>
+        </div>
+        <div class="director">
+            <div class="row">
+              <div class="col-12">
+                <span>
+                  <div><h3>DIRECTOR</h3></div>
+                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>I Gusti Agung Ayu Pramitasari</h5>
+                </span>
+              </div>
+              <div class="col-12">
+                <span>
+                  <div><h3>MANAGER</h3></div>
+                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>
+                    I Gusti Putu Bagus Krisna Putra 
+                  </h5>
+                </span>
+              </div>
+              <div class="col-12">
+                <span>
+                  <div><h3>TREASURE</h3></div>
+                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>Ni Wayan Nopiani</h5>
+                </span>
+              </div>
+          </div>
+        </div>
+
+        <div class="secretary">
+            <div class="row">
+              <div class="col-12">
+                <span>
+                  <div><h3>ENGLISH COORDINATOR</h3></div>
+                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>
+                    I Gusti Agung Ayu Dwi Anggraini 
+                  </h5>
+                </span>
+              </div>
+              <div class="col-12">
+                <span>
+                  <div><h3>SECRETARY</h3></div>
+                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>Luh Komang Anggi Waisnawati</h5>
+                </span>
+              </div>
+              <div class="col-12">
+                <span>
+                  <div><h3>DIGITAL DEVELOPMENT</h3></div>
+                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h5>I Komang Gede Yuliana</h5>
+                </span>
+              </div>
+          </div>
+        </div>
+      </div>
       
     </div>
 
@@ -377,6 +452,62 @@
   margin-bottom: 20px;
 }
 
+/* .team-dekstop{
+  display: none;
+} */
+
+
+.team-mobile{
+    display: none;
+}
+
+.team-mobile .col-12 {
+  margin-bottom: 40px;
+}
+.team-mobile .col-12 img{
+  margin-bottom: 20px;
+}
+.team{
+  margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 745px) {
+  .team-mobile{
+    display: block;
+  }
+  .team-dekstop{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 510px) {
+  .mission .card {
+        margin:50px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width: 300px;
+        position: relative;
+        height: 450px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .mission .card {
+        margin:50px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width: 250px;
+        position: relative;
+        height: 450px;
+  }
+  .mission .col:nth-child(2) .card{
+        margin:100px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width: 250px;
+        position: relative;
+        height: 450px;
+  }
+}
 
 
 
