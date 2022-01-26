@@ -35,7 +35,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-7 col-md-12 col-sm-12">
+      <div class="col-lg-7 col-md-12 col-sm-12 border-footer">
         <h2 class="slc-title">Slukat Learning Center</h2>
 
         <div class="row">
@@ -120,5 +120,9 @@ h5{
 
 .slc-title {
   color: #a1ee9f;
+}
+
+.border-footer{
+  border-left: white 2px solid;
 }
 </style>
