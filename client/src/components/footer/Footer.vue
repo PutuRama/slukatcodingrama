@@ -94,6 +94,7 @@ h5{
   padding-top: 60px;
   text-align: center;
   color: white;
+  overflow-x: hidden !important;
 }
 
 .footer h2 {
