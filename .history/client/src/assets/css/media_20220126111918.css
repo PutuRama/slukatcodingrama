@@ -1,0 +1,6 @@
+@media screen and (max-width: 800px)  {
+    /* carousel */
+    .teks > h2{
+        font-size: 20px;
+    }
+}

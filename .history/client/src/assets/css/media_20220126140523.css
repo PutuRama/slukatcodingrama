@@ -1,0 +1,41 @@
+@media screen and (max-width: 820px)  {
+    /* carousel */
+    .teks {
+        margin-top: 8%;
+    }
+    .teks > h2{
+        font-size: 50px;
+    }
+    .teks > p {
+        font-size: 25px;
+    }
+
+    /* about us */
+    .teksabout > p {
+        font-size: 20px;
+    }
+    .teksabout > h2 {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .column {
+     padding-bottom: 2%;
+     height: 15em;
+    }
+
+    /* our-program */
+    .our-program img {
+     margin-top: 5%;
+    }
+    .content > h2 {
+    padding-top: 1em;
+    font-weight: bold;
+    color: #047002;
+    }
+    .content > p {
+    font-weight: bold;
+    color: #047002;
+    font-size: 15px;
+    }
+
+}
