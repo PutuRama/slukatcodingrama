@@ -46,13 +46,17 @@
         <p>THE FOUNDERS</p>
       </div>
         <div class="row2">
+          <div class="col-sm-12 col-md-6 ">
           <div class="column2">
             <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
             <p>I Gusti Agung Rai</p>
           </div>
+          </div>
+          <div class="col-sm-12 col-md-6">
           <div class="column2">
             <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
             <p>I Gusti Ayu Darsini</p>
+          </div>
           </div>
         </div>
         <br>
@@ -204,7 +208,7 @@
 </script>
 <style scoped> 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap');
-@import url('../assets/css/media.css');
+/* @import url('../assets/css/media.css'); */
 
 /* on top */
 .img_navbar{

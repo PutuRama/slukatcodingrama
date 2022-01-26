@@ -83,6 +83,7 @@
     grid-template-rows: 20px;
     grid-gap: 80px;
     }
+    
     .row3{
     display: grid;
     grid-template-columns: auto;
