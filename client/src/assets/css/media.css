@@ -76,13 +76,14 @@
     }
 
     /* program */
-    .row3-1{
+    
+    .row3-program{
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 200px;
-    margin-right: 14%;
-    } 
-    .row3 {
+    grid-template-rows: 20px;
+    grid-gap: 80px;
+    }
+    .row3{
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 10px;

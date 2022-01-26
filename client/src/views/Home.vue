@@ -14,11 +14,11 @@
 
 
     <!-- about us -->
-    <div class="aboutus col">
-      <div class="about">
+    <div class="aboutus">
+      <div class="col about">
 
-      <div class="container col-sm-12">
-        <div class="teksabout">
+      <div class="col container">
+        <div class="col teksabout">
         <p>About Us</p>
         <h2>Slukat Learning Center</h2>
         <p>Is a non-formal education that provides free <br> after-school learning.</p>
@@ -42,7 +42,7 @@
 
       <!-- founder -->
       <div class="founder">
-      <div class="judul">
+      <div class="col judul">
         <p>THE FOUNDERS</p>
       </div>
         <div class="row2">
@@ -67,17 +67,17 @@
 
        <!-- our program -->
        <div class="our-program">
+       <div class="row3-program">
+         <div class="col content">
+           <span class="content-span">
+             <h1>Our Program</h1>
+             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quidem nesciunt, omnis molestiae nobis, soluta quod totam fuga possimus quasi voluptatem alias sed animi id facere dicta ratione nihil iusto.</p>
+           </span>
+         </div>
+         <div class="col program-img">
 
-         
-          <div class="row3-1">
-          <div class="content">
-            <h2 class="h2">Our Program</h2>
-           <p class="p">Lorem Ipsum is simply dummy text of the <br> printing and typesetting industry. Lorem Ipsum <br> has been the industry's standard dummy text <br> ever since the 1500s, when an unknown printer <br> took a galley of type and scrambled it to make a <br> type specimen book.</p>
-          </div>
-          <div class="cloumn3-1">
-            <img src="../assets/our-program.jpeg" alt="">
-          </div>
-          </div>
+         </div>
+       </div>
        </div>
            <div class="program">
              <div class="row3">
@@ -317,20 +317,15 @@ height: 100vh;
 .content{
   text-align: left;
   border-left: 80px solid #A1EE9F;
-   
+} 
+.content-span{
+  text-align: start;
+  display: inline-block;
+  max-width: 500px;
+  padding: 50px 50px;
 }
-.h2, .p {
-  margin-left: 12%;
-  color: #047002;
-
-}
-.content > h2 {
-  padding-top: 1em;
-  font-weight: bold;
-  color: #047002;
-}
-.content > p { 
-  font-weight: 400;
+.program-img{
+  background-image: url('../assets/our-program.jpeg');
 } 
 .program{
   background-color: #0B6D0E;
@@ -345,7 +340,7 @@ height: 100vh;
   margin-left: 20%;
   height: 100%;  
 }
-.row3-1{
+ .row3-program {
   margin-top: 5%;
   display: flex;
   flex-wrap: wrap; 
@@ -355,7 +350,6 @@ height: 100vh;
   margin-top: 5%;
   display: flex;
   flex-wrap: wrap; 
-  margin-bottom: 4%;
   justify-content: center;
 }
 .cloumn3{
