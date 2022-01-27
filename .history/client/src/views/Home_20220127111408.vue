@@ -66,8 +66,8 @@
 
        <!-- our program -->
        <div class="our-program">
-       <div class="row">
-         <div class="content">
+       <div class="row3-program">
+         <div class="col content">
            <span class="content-span">
              <h1>Our Program</h1>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quidem nesciunt, omnis molestiae nobis, soluta quod totam fuga possimus quasi voluptatem alias sed animi id facere dicta ratione nihil iusto.</p>
@@ -78,35 +78,32 @@
          </div>
        </div>
        </div>
-
-
           <div class="program">
               <div class="row">
                 <div class="col all-program">
-                  <div class="col column-program">
-                    <span class="col-md-3 col-sm-6 program-span">
+                  <div class="col-md-6 column-program">
+                    <span class="program-span">
                     <img src="../assets/kucing.png" alt="">
-                    <p>Coding <br> Program</p>
+                    <p>Coding Program</p>
                     </span>
-                     <span class="col-md-3 col-sm-6 program-span">
+                     <span class="program-span">
                     <img src="../assets/kucing.png" alt="">
-                    <p>English <br> Program</p>
+                    <p>Coding Program</p>
                     
                     </span>
-                     <span class=" col-md-3 col-sm-6 program-span">
+                     <span class="program-span">
                     <img src="../assets/kucing.png" alt="">
-                    <p>Enterpreneur <br> Program</p>
+                    <p>Coding Program</p>
                     
                     </span>
-                     <span class="col-md-3 col-sm-6 program-span">
+                     <span class="program-span">
                     <img src="../assets/kucing.png" alt="">
-                    <p>Agriculture <br> Program</p>
+                    <p>Coding Program</p>
                     
                     </span>
                   </div>
                 </div>
               </div>
-                  <button class="button-program"><a href="">Find Out More <i class="fas fa-arrow-circle-right" style="font-size:25px; color:white;"></i></a> </button>
             </div>
 
            <!-- testimonial -->
@@ -326,7 +323,6 @@ height: 100vh;
 }
 .program-img{
   background-image: url('../assets/our-program.jpeg');
-
 } 
 .program{
   background-color: #0B6D0E;
@@ -336,30 +332,27 @@ height: 100vh;
  .column-program{
   display: flex;
   flex-wrap: wrap; 
+  margin-bottom: 4%;
   justify-content: center;
 }
 .all-program{
-  flex: 20px;
+  flex: 100px;
 }
 .program-span{
-  width: 80%;
-  padding-bottom: 15%;
-  padding-top: 3%;
+  width: 20%;
   color: white;
   font-weight: 700;
 }
 .program-span img{
   width: 90%;
-  margin-bottom: 5%;
   height: 100%;
 }
 .button-program {
    background: #047002;
    border: white 2px solid;
    border-radius: 5px;
+   margin-top: 12%;
    padding: 0.8% 2% 0.8% 2% ;
-   margin-top: 5%;
- 
 }
 .button-program a {
   text-decoration: none; 
@@ -367,7 +360,7 @@ height: 100vh;
   vertical-align: top;
   color: white;
   font-weight: 700;
-} 
+}
 
 /* testimonial */
 .top h4{

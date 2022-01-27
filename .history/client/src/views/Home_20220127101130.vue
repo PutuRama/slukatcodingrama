@@ -14,21 +14,19 @@
 
 
     <!-- about us -->
-    <div class="col-sm-12 aboutus">
-      <div class="row">
-      <div class="col-md-6 col-sm-6 about-teks">
+    <div class="aboutus">
+      <div class="about-teks">
         <p>ABOUT US</p>
         <h1>Slukat Learning Center</h1>
-        <p>Is a non-formal education that provides free <br> after-school learning.</p>
+        <p>Is a non-formal education that provides free after-school learning.</p>
       </div>
-      <div class="col-md-12 col-sm-6 about-img">
+      <div class="about-img">
+        <div class="row">
           <div class="col column">
-            <img src="../assets/kucing.png" alt="">
             <img src="../assets/kucing.png" alt="">
           </div>
           <div class="col column">
-             <img src="../assets/kucing.png" alt="">
-             <img src="../assets/kucing.png" alt="">
+            <img src="../assets/kucing.png" alt="">
           </div>
         </div>
       </div>
@@ -66,8 +64,8 @@
 
        <!-- our program -->
        <div class="our-program">
-       <div class="row">
-         <div class="content">
+       <div class="row3-program">
+         <div class="col content">
            <span class="content-span">
              <h1>Our Program</h1>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quidem nesciunt, omnis molestiae nobis, soluta quod totam fuga possimus quasi voluptatem alias sed animi id facere dicta ratione nihil iusto.</p>
@@ -78,36 +76,32 @@
          </div>
        </div>
        </div>
+           <div class="program">
+             <div class="row3">
+               <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>Coding <br> Program</p>
+               </div>
+                <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>English <br> Program</p>
+                 
+               </div>
+                <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>Enterpreneur <br> Program</p>
+                 
+               </div>
+                <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>Agriculture <br> Program</p>
 
+               </div>
+               
+             </div>  
+            <button class="button-program"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
+           </div>
 
-          <div class="program">
-              <div class="row">
-                <div class="col all-program">
-                  <div class="col column-program">
-                    <span class="col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>Coding <br> Program</p>
-                    </span>
-                     <span class="col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>English <br> Program</p>
-                    
-                    </span>
-                     <span class=" col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>Enterpreneur <br> Program</p>
-                    
-                    </span>
-                     <span class="col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>Agriculture <br> Program</p>
-                    
-                    </span>
-                  </div>
-                </div>
-              </div>
-                  <button class="button-program"><a href="">Find Out More <i class="fas fa-arrow-circle-right" style="font-size:25px; color:white;"></i></a> </button>
-            </div>
 
            <!-- testimonial -->
 
@@ -236,28 +230,8 @@ height: 100vh;
 .about-teks{
   text-align: start;
   display: inline-block;
+  max-width: 500px;
   padding: 50px 50px;
-  color: #335B32;
-
-}
-.about-teks h1{
-  font-weight: bold;
-}
-.about-img{
-  flex: 50%;
-  }
-.column{
-  display: flex;
-  flex-wrap: wrap; 
-  margin-bottom: 4%;
-  justify-content: center;
-}
-.column img{
-  width: 40%;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
 }
 
 /* founder */
@@ -326,40 +300,43 @@ height: 100vh;
 }
 .program-img{
   background-image: url('../assets/our-program.jpeg');
-
 } 
 .program{
   background-color: #0B6D0E;
   padding: 2% 0 4% 0;
   margin-bottom: 8%;
 } 
- .column-program{
+ .row3-program {
+  margin-top: 5%;
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
 }
-.all-program{
-  flex: 20px;
+.row3 {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
 }
-.program-span{
-  width: 80%;
-  padding-bottom: 15%;
-  padding-top: 3%;
-  color: white;
-  font-weight: 700;
+.cloumn3{
+  flex: 20%;
 }
-.program-span img{
+.cloumn3 img {
   width: 90%;
-  margin-bottom: 5%;
-  height: 100%;
+  height: 100%;  
+  vertical-align: middle; 
+}
+.cloumn3 p {
+ padding-top: 5%;
+ font-weight: 700;
+ color: white;
 }
 .button-program {
    background: #047002;
    border: white 2px solid;
    border-radius: 5px;
+   margin-top: 12%;
    padding: 0.8% 2% 0.8% 2% ;
-   margin-top: 5%;
- 
 }
 .button-program a {
   text-decoration: none; 
@@ -367,7 +344,7 @@ height: 100vh;
   vertical-align: top;
   color: white;
   font-weight: 700;
-} 
+}
 
 /* testimonial */
 .top h4{

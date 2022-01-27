@@ -321,7 +321,7 @@ height: 100vh;
 .content-span{
   text-align: start;
   display: inline-block;
-  max-width: 500px;
+  max-width: 400px;
   padding: 50px 50px;
 }
 .program-img{

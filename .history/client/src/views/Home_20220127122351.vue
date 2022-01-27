@@ -78,8 +78,6 @@
          </div>
        </div>
        </div>
-
-
           <div class="program">
               <div class="row">
                 <div class="col all-program">
@@ -106,7 +104,7 @@
                   </div>
                 </div>
               </div>
-                  <button class="button-program"><a href="">Find Out More <i class="fas fa-arrow-circle-right" style="font-size:25px; color:white;"></i></a> </button>
+                    <button class="button-program"><a href="">Find Out More <i class="fas fa-arrow-circle-right" style="font-size:25px; color:white;"></i></a> </button>
             </div>
 
            <!-- testimonial -->
@@ -326,7 +324,6 @@ height: 100vh;
 }
 .program-img{
   background-image: url('../assets/our-program.jpeg');
-
 } 
 .program{
   background-color: #0B6D0E;

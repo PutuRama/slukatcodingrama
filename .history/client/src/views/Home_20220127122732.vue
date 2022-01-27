@@ -326,6 +326,7 @@ height: 100vh;
 }
 .program-img{
   background-image: url('../assets/our-program.jpeg');
+  max-width: 782px;
 
 } 
 .program{

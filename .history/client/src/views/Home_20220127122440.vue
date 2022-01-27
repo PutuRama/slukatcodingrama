@@ -79,7 +79,7 @@
        </div>
        </div>
 
-
+       
           <div class="program">
               <div class="row">
                 <div class="col all-program">
@@ -326,7 +326,6 @@ height: 100vh;
 }
 .program-img{
   background-image: url('../assets/our-program.jpeg');
-
 } 
 .program{
   background-color: #0B6D0E;

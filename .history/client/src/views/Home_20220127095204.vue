@@ -14,23 +14,28 @@
 
 
     <!-- about us -->
-    <div class="col-sm-12 aboutus">
-      <div class="row">
-      <div class="col-md-6 col-sm-6 about-teks">
-        <p>ABOUT US</p>
-        <h1>Slukat Learning Center</h1>
+    <div class="aboutus">
+      <div class="col about">
+
+      <div class="col container">
+        <div class="col teksabout">
+        <p>About Us</p>
+        <h2>Slukat Learning Center</h2>
         <p>Is a non-formal education that provides free <br> after-school learning.</p>
-      </div>
-      <div class="col-md-12 col-sm-6 about-img">
-          <div class="col column">
-            <img src="../assets/kucing.png" alt="">
-            <img src="../assets/kucing.png" alt="">
-          </div>
-          <div class="col column">
-             <img src="../assets/kucing.png" alt="">
-             <img src="../assets/kucing.png" alt="">
-          </div>
         </div>
+      </div>
+
+      <div class="row">
+        <div class="column">
+          <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+          <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+        </div>
+         <div class="column">
+          <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+          <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+        </div>
+
+      </div>
       </div>
     </div>
       <br><br>
@@ -40,20 +45,12 @@
       <div class="col judul">
         <p>THE FOUNDERS</p>
       </div>
-        <div class="row2 row">
-          <div class="col-sm-12 col-md-6 ">
-          <div class="column2">
-            <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-            <p>I Gusti Agung Rai</p>
-          </div>
-          </div>
-          <div class="col-sm-12 col-md-6">
-          <div class="column2">
-            <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-            <p>I Gusti Ayu Darsini</p>
-          </div>
-          </div>
+      <div class="row">
+        <div class="col">
+          div.
         </div>
+      </div>
+       
         <br>
         <p>The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini established SLC on <br> 24 October 2007 to provide a better education opportunity for the children and <br> youth in Keramas Village, in Gianyar, Bali.
       </p>
@@ -66,8 +63,8 @@
 
        <!-- our program -->
        <div class="our-program">
-       <div class="row">
-         <div class="content">
+       <div class="row3-program">
+         <div class="col content">
            <span class="content-span">
              <h1>Our Program</h1>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quidem nesciunt, omnis molestiae nobis, soluta quod totam fuga possimus quasi voluptatem alias sed animi id facere dicta ratione nihil iusto.</p>
@@ -78,36 +75,32 @@
          </div>
        </div>
        </div>
+           <div class="program">
+             <div class="row3">
+               <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>Coding <br> Program</p>
+               </div>
+                <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>English <br> Program</p>
+                 
+               </div>
+                <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>Enterpreneur <br> Program</p>
+                 
+               </div>
+                <div class="cloumn3">
+                <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
+                <p>Agriculture <br> Program</p>
 
+               </div>
+               
+             </div>  
+            <button class="button-program"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
+           </div>
 
-          <div class="program">
-              <div class="row">
-                <div class="col all-program">
-                  <div class="col column-program">
-                    <span class="col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>Coding <br> Program</p>
-                    </span>
-                     <span class="col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>English <br> Program</p>
-                    
-                    </span>
-                     <span class=" col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>Enterpreneur <br> Program</p>
-                    
-                    </span>
-                     <span class="col-md-3 col-sm-6 program-span">
-                    <img src="../assets/kucing.png" alt="">
-                    <p>Agriculture <br> Program</p>
-                    
-                    </span>
-                  </div>
-                </div>
-              </div>
-                  <button class="button-program"><a href="">Find Out More <i class="fas fa-arrow-circle-right" style="font-size:25px; color:white;"></i></a> </button>
-            </div>
 
            <!-- testimonial -->
 
@@ -233,31 +226,35 @@ height: 100vh;
   height: 500px;
   padding-top: 5%;
 }
-.about-teks{
-  text-align: start;
-  display: inline-block;
-  padding: 50px 50px;
-  color: #335B32;
-
+.container{
+  text-align: left;
+  margin-left: 10%;
+  width: 30%;
+  padding-top: 3%;
+  color: #0B6D0E;
 }
-.about-teks h1{
-  font-weight: bold;
+.container > h2{
+  font-weight: 700;
 }
-.about-img{
-  flex: 50%;
-  }
-.column{
+.row{
   display: flex;
-  flex-wrap: wrap; 
-  margin-bottom: 4%;
-  justify-content: center;
+  flex-wrap: wrap;
+  bottom: 0;
+  position: absolute;
 }
-.column img{
-  width: 40%;
-  margin-left: 10px;
-  margin-right: 10px;
-  border-bottom-left-radius: 20px;
-  border-top-right-radius: 20px;
+.column {
+  flex: 100%;
+  margin-bottom: 5%;
+  margin-left: 35%;
+}
+.column img {
+  /* margin-top: 20px;   */
+  width: 30%;
+  height: 100%;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  vertical-align: middle;
+  margin-left: 20px;
 }
 
 /* founder */
@@ -270,26 +267,7 @@ height: 100vh;
   letter-spacing: 0.3em;
   margin-top: 10%;
 }
-.row2 {
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap; 
-  margin-bottom: 4%;
-  justify-content: center;
-}
-.column2{
-  flex: 50%;
-}
-.column2 img {
-  width: 50%;
-  height: 100%;  
-  vertical-align: middle; 
-  border-radius: 100%;
-}
-.column2 > p {
-  margin-top: 5%;
- font-weight: 700
-}
+
 .founder > p { 
   margin-top: 20px;
   font-weight: 500;
@@ -326,40 +304,43 @@ height: 100vh;
 }
 .program-img{
   background-image: url('../assets/our-program.jpeg');
-
 } 
 .program{
   background-color: #0B6D0E;
   padding: 2% 0 4% 0;
   margin-bottom: 8%;
 } 
- .column-program{
+ .row3-program {
+  margin-top: 5%;
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
 }
-.all-program{
-  flex: 20px;
+.row3 {
+  margin-top: 5%;
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
 }
-.program-span{
-  width: 80%;
-  padding-bottom: 15%;
-  padding-top: 3%;
-  color: white;
-  font-weight: 700;
+.cloumn3{
+  flex: 20%;
 }
-.program-span img{
+.cloumn3 img {
   width: 90%;
-  margin-bottom: 5%;
-  height: 100%;
+  height: 100%;  
+  vertical-align: middle; 
+}
+.cloumn3 p {
+ padding-top: 5%;
+ font-weight: 700;
+ color: white;
 }
 .button-program {
    background: #047002;
    border: white 2px solid;
    border-radius: 5px;
+   margin-top: 12%;
    padding: 0.8% 2% 0.8% 2% ;
-   margin-top: 5%;
- 
 }
 .button-program a {
   text-decoration: none; 
@@ -367,7 +348,7 @@ height: 100vh;
   vertical-align: top;
   color: white;
   font-weight: 700;
-} 
+}
 
 /* testimonial */
 .top h4{
