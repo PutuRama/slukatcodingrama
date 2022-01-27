@@ -274,7 +274,6 @@ height: 100vh;
 }
 .column img{
   width: 40%;
-  margin-left: 10px;
   margin-right: 10px;
   border-bottom-left-radius: 20px;
   border-top-right-radius: 20px;
@@ -342,7 +341,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

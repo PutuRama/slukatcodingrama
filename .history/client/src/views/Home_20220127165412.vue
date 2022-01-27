@@ -342,7 +342,7 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
+  color: 0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

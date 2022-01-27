@@ -342,7 +342,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{
@@ -362,13 +361,7 @@ height: 100vh;
 .all-program{
   flex: 20px;
 }
-.program-span{
-  width: 80%;
-  padding-bottom: 15%;
-  padding-top: 3%;
-  color: white;
-  font-weight: 700;
-}
+ 
 .program-span img{
   width: 90%;
   margin-bottom: 5%;

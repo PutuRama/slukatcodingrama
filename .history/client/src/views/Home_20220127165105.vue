@@ -318,7 +318,6 @@ height: 100vh;
    background: #047002;
    border: white 3px solid;
    border-radius: 5px;
-   padding: 12px 20px;
 }
 .button-founder a {
   text-decoration: none; 
@@ -342,7 +341,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

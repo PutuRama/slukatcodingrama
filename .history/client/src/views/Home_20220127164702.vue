@@ -1,16 +1,6 @@
 <template>
   <div class="home">
-    <div class="carousel" >
-
-     <img class="img_navbar" src="https://png.pngtree.com/thumb_back/fh260/background/20210207/pngtree-gray-simple-gradient-background-image_557031.jpg" alt="" srcset="">
-
-     <div class="teks col">
-      <h2>Slukat Learning Center</h2>
-      <p>An <span id="teks">alternative</span>  solution in educational needs of youth in Bali
-      </p>
-     </div>
     
-    </div>
 
 
     <!-- about us -->
@@ -223,7 +213,6 @@
 /* on top */
 .img_navbar{
 width: 100%;
-height: 100vh;
 }
 .teks{
   position: absolute;
@@ -342,7 +331,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

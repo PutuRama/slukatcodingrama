@@ -83,9 +83,7 @@
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quidem nesciunt, omnis molestiae nobis, soluta quod totam fuga possimus quasi voluptatem alias sed animi id facere dicta ratione nihil iusto.</p>
            </span>
          </div>
-         <div class="col program-img">
-
-         </div>
+         
        </div>
        </div>
 
@@ -223,7 +221,6 @@
 /* on top */
 .img_navbar{
 width: 100%;
-height: 100vh;
 }
 .teks{
   position: absolute;
@@ -342,7 +339,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

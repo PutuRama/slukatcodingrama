@@ -339,10 +339,8 @@ height: 100vh;
   border-left: 80px solid #A1EE9F;
 } 
 .content-span{
-  text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

@@ -14,37 +14,7 @@
 
 
     <!-- about us -->
-    <div class="col-sm-12 aboutus">
-      <div class="row">
-        <div class="col-md-12 col-sm-6 about-img-mobile">
-          <div class="col column">
-            <img src="../assets/kucing.png" alt="">
-            <img src="../assets/kucing.png" alt="">
-          </div>
-          <div class="col column">
-             <img src="../assets/kucing.png" alt="">
-             <img src="../assets/kucing.png" alt="">
-          </div>
-        </div>
-      <div class="col-md-6 col-sm-6 about-teks">
-        <p>ABOUT US</p>
-        <h1>Slukat Learning Center</h1>
-        <p>Is a non-formal education that provides free <br> after-school learning.</p>
-      </div>
-      <div class="col-md-12 col-sm-6 about-img">
-          <div class="col column">
-            <img src="../assets/kucing.png" alt="">
-            <img src="../assets/kucing.png" alt="">
-          </div>
-          <div class="col column">
-             <img src="../assets/kucing.png" alt="">
-             <img src="../assets/kucing.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-      <br><br>
-
+     
       <!-- founder -->
       <div class="founder">
       <div class="col judul">
@@ -223,7 +193,6 @@
 /* on top */
 .img_navbar{
 width: 100%;
-height: 100vh;
 }
 .teks{
   position: absolute;
@@ -342,7 +311,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

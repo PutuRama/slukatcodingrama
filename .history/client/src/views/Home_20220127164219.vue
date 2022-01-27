@@ -223,7 +223,6 @@
 /* on top */
 .img_navbar{
 width: 100%;
-height: 100vh;
 }
 .teks{
   position: absolute;
@@ -342,7 +341,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{

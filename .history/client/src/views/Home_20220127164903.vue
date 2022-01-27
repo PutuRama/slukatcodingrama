@@ -46,31 +46,7 @@
       <br><br>
 
       <!-- founder -->
-      <div class="founder">
-      <div class="col judul">
-        <p>THE FOUNDERS</p>
-      </div>
-        <div class="row2 row">
-          <div class="col-sm-12 col-md-6 ">
-          <div class="column2">
-            <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-            <p>I Gusti Agung Rai</p>
-          </div>
-          </div>
-          <div class="col-sm-12 col-md-6">
-          <div class="column2">
-            <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
-            <p>I Gusti Ayu Darsini</p>
-          </div>
-          </div>
-        </div>
-        <br>
-        <p>The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini established SLC on <br> 24 October 2007 to provide a better education opportunity for the children and <br> youth in Keramas Village, in Gianyar, Bali.
-      </p>
-
-        <button class="button-founder"><a href="#">Find Out More</a><i class="fas fa-arrow-circle-right" style="font-size: 30px; color: white; margin-left: 30px;"></i></button>
-
-      </div>
+      
        
 
 
@@ -223,7 +199,6 @@
 /* on top */
 .img_navbar{
 width: 100%;
-height: 100vh;
 }
 .teks{
   position: absolute;
@@ -342,7 +317,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  color: #0B6D0E;
   padding: 50px 50px;
 }
 .program-img{
