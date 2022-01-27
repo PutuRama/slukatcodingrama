@@ -185,6 +185,11 @@
       width: 60%;
   }
 }
+@media screen and (max-width: 450px) {
+  .wrapper-activities img{
+      width: 40%;
+  }
+}
 @keyframes slide{
     0%{
         transform: translateX(0);
