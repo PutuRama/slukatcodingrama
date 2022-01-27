@@ -73,7 +73,7 @@
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim quidem nesciunt, omnis molestiae nobis, soluta quod totam fuga possimus quasi voluptatem alias sed animi id facere dicta ratione nihil iusto.</p>
            </span>
          </div>
-         <div class="col program-img">
+         <div class="col- program-img">
 
          </div>
        </div>
