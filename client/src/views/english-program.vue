@@ -45,7 +45,7 @@
         </div>
         <div class="leads-img">
             <div class="row">
-                <div class="col-sm-12 column-img">
+                <div class="col column-img">
                     <img src="../assets/dummyteam.png" alt="">
                 </div>
                 <div class="col column-img">
