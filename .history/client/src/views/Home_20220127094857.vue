@@ -277,7 +277,7 @@ height: 100vh;
 }
 .row2 {
   margin-top: 5%;
-  display: flex;
+  display: inline;
   flex-wrap: wrap; 
   margin-bottom: 4%;
   justify-content: center;

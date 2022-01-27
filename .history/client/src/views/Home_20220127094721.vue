@@ -45,7 +45,7 @@
       <div class="col judul">
         <p>THE FOUNDERS</p>
       </div>
-        <div class="row2 row">
+        <div class="row2">
           <div class="col-sm-12 col-md-6 ">
           <div class="column2">
             <img src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png" alt="">
@@ -336,7 +336,15 @@ height: 100vh;
   background-color: #0B6D0E;
   padding: 2% 0 4% 0;
   margin-bottom: 8%;
-} 
+}
+.cloumn3-1{
+  flex: 20%;
+}
+.cloumn3-1 img {
+  width: 80%;
+  margin-left: 20%;
+  height: 100%;  
+}
  .row3-program {
   margin-top: 5%;
   display: flex;

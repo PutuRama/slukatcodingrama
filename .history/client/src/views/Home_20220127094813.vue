@@ -274,14 +274,7 @@ height: 100vh;
   color: #878787;
   letter-spacing: 0.3em;
   margin-top: 10%;
-}
-.row2 {
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap; 
-  margin-bottom: 4%;
-  justify-content: center;
-}
+} 
 .column2{
   flex: 50%;
 }

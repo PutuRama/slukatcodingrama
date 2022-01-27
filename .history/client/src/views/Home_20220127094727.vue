@@ -336,7 +336,15 @@ height: 100vh;
   background-color: #0B6D0E;
   padding: 2% 0 4% 0;
   margin-bottom: 8%;
-} 
+}
+.cloumn3-1{
+  flex: 20%;
+}
+.cloumn3-1 img {
+  width: 80%;
+  margin-left: 20%;
+  height: 100%;  
+}
  .row3-program {
   margin-top: 5%;
   display: flex;
