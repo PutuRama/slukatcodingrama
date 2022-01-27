@@ -63,8 +63,20 @@
 
 
     <div class="activities">
-        <div class="row row-activities">
-            
+        <div class="activities-text">
+            <h2>Activities</h2>
+        </div>
+        <div class="row">
+        <div class="col slider-activities">
+            <div class="col-sm-12 wrapper-activities">
+             <img src="https://i.pinimg.com/originals/2b/de/de/2bdede0647e3cdf75b44ea33723201d9.jpg">
+             <img src="https://images6.alphacoders.com/462/thumb-1920-462371.jpg">
+            <img src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg">
+            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg">
+            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg">
+            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg">
+          </div>
+        </div>
         </div>
     </div>
     </div>
@@ -134,5 +146,48 @@
 }
 .column-img{
     margin-bottom: 20%;
+}
+
+
+.activities-text h2{
+    font-weight: bold;
+}
+.slider-activities{
+  overflow-x: auto; 
+  border: 10px solid #ffffff;
+}
+.slider-activities::-webkit-scrollbar{ 
+    width: 0;
+   
+}
+.wrapper-activities{
+  display: flex;
+  margin-bottom: 2%;
+  animation: slide 16s infinite;
+  width: 200%;
+ 
+} 
+.wrapper-activities img {
+  margin-left: 3%;
+  margin-right: 2%;
+  margin-top: 1%;
+  width: 28%;   
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    60%{
+        transform: translateX(0);
+    }
 }
 </style>
