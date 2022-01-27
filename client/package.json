@@ -10,10 +10,14 @@
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "hooper": "^0.3.4",
     "vue": "^3.0.0",
-    "vue-router": "^4.0.0-0"
+    "vue-owl-carousel": "^2.0.3",
+    "vue-router": "^4.0.0-0",
+    "vue-slick-carousel": "^1.0.6"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-router": "~4.5.0",
