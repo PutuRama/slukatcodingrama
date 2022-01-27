@@ -45,7 +45,7 @@
         </div>
         <div class="leads-img">
             <div class="row">
-                <div class="col-sm-12 col-md-8 column-img">
+                <div class="col-sm-12 column-img">
                     <img src="../assets/dummyteam.png" alt="">
                 </div>
                 <div class="col column-img">
@@ -179,6 +179,11 @@
   margin-right: 2%;
   margin-top: 1%;
   width: 28%;   
+}
+@media screen and (max-width: 820px) {
+  .wrapper-activities img{
+      width: 60%;
+  }
 }
 @keyframes slide{
     0%{
