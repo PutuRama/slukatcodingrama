@@ -239,6 +239,8 @@ height: 100vh;
 /* aboutus */
 .aboutus{
   background-color: #EFFDEF;
+  width: 100%;
+  height: 500px;
   padding-top: 5%;
 }
 .about-teks{
@@ -255,16 +257,7 @@ height: 100vh;
   flex: 50%;
   }
 .about-img-mobile{
- display: none;
-}
-
-@media screen and (max-width: 575px) {
-  .about-img-mobile{
-  display: block;
-}
-  .about-img{
-    display: none;
-  }
+  flex: 50%;
 }
 .column{
   display: flex;

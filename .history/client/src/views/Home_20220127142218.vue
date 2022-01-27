@@ -14,7 +14,7 @@
 
 
     <!-- about us -->
-    <div class="col-sm-12 aboutus">
+    <div class="col-sm-2 aboutus">
       <div class="row">
         <div class="col-md-12 col-sm-6 about-img-mobile">
           <div class="col column">
@@ -239,6 +239,8 @@ height: 100vh;
 /* aboutus */
 .aboutus{
   background-color: #EFFDEF;
+  width: 100%;
+  height: 500px;
   padding-top: 5%;
 }
 .about-teks{

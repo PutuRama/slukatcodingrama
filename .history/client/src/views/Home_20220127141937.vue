@@ -239,6 +239,8 @@ height: 100vh;
 /* aboutus */
 .aboutus{
   background-color: #EFFDEF;
+  width: 100%;
+  height: 500px;
   padding-top: 5%;
 }
 .about-teks{
@@ -342,7 +344,6 @@ height: 100vh;
   text-align: start;
   display: inline-block;
   max-width: 500px;
-  padding: 50px 50px;
 }
 .program-img{
   background-image: url('../assets/our-program.jpeg');

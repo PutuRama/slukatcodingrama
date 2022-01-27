@@ -16,16 +16,7 @@
     <!-- about us -->
     <div class="col-sm-12 aboutus">
       <div class="row">
-        <div class="col-md-12 col-sm-6 about-img-mobile">
-          <div class="col column">
-            <img src="../assets/kucing.png" alt="">
-            <img src="../assets/kucing.png" alt="">
-          </div>
-          <div class="col column">
-             <img src="../assets/kucing.png" alt="">
-             <img src="../assets/kucing.png" alt="">
-          </div>
-        </div>
+        
       <div class="col-md-6 col-sm-6 about-teks">
         <p>ABOUT US</p>
         <h1>Slukat Learning Center</h1>
@@ -239,6 +230,8 @@ height: 100vh;
 /* aboutus */
 .aboutus{
   background-color: #EFFDEF;
+  width: 100%;
+  height: 500px;
   padding-top: 5%;
 }
 .about-teks{
@@ -254,18 +247,6 @@ height: 100vh;
 .about-img{
   flex: 50%;
   }
-.about-img-mobile{
- display: none;
-}
-
-@media screen and (max-width: 575px) {
-  .about-img-mobile{
-  display: block;
-}
-  .about-img{
-    display: none;
-  }
-}
 .column{
   display: flex;
   flex-wrap: wrap; 

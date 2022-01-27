@@ -239,6 +239,8 @@ height: 100vh;
 /* aboutus */
 .aboutus{
   background-color: #EFFDEF;
+  max-width: 100%;
+  height: 500px;
   padding-top: 5%;
 }
 .about-teks{

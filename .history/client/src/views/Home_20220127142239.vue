@@ -14,14 +14,14 @@
 
 
     <!-- about us -->
-    <div class="col-sm-12 aboutus">
+    <div class="col-12 aboutus">
       <div class="row">
         <div class="col-md-12 col-sm-6 about-img-mobile">
           <div class="col column">
             <img src="../assets/kucing.png" alt="">
             <img src="../assets/kucing.png" alt="">
           </div>
-          <div class="col column">
+          <div class="col12 column">
              <img src="../assets/kucing.png" alt="">
              <img src="../assets/kucing.png" alt="">
           </div>
@@ -239,6 +239,8 @@ height: 100vh;
 /* aboutus */
 .aboutus{
   background-color: #EFFDEF;
+  width: 100%;
+  height: 500px;
   padding-top: 5%;
 }
 .about-teks{
