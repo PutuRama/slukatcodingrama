@@ -187,7 +187,7 @@
 }
 @media screen and (max-width: 450px) {
   .wrapper-activities img{
-      width: 40%;
+      width: 70%;
   }
 }
 @keyframes slide{
