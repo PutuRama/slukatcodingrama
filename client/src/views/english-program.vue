@@ -119,7 +119,14 @@
     height: 30px;
     margin: 4% 0 0 4%;
 }
-
+@media screen and (max-width: 750px) {
+    .carousel-control-next{
+    display: none;
+}
+.carousel-control-prev{
+   display: none;
+}
+}
 
 
 .how{
