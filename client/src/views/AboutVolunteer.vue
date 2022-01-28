@@ -107,7 +107,49 @@
                 <h1>Application Process</h1>
                 <p>To become a volunteer at Slukat Learning Center, the processes are as <br> follows</p>
             </div>
-            <div class="row row-process">
+           <div class="row row-process">
+                <div class="col-md-12 col-sm-12 column-process">
+                    <h1>1</h1>
+                    <div class="process">
+                    <p>Please fill in Slukat Learning Center <br> this Application Form and <br> email to <strong>slukatlearningcenter@gmail.com</strong> </p>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="row row-process">
+                <div class="col-md-12 col-sm-12 column-process">
+                    <h1>2</h1>
+                    <div class="process">
+                    <p>Upon receiving your application we will <br> contact you, provide the detail information <br> and confirm your placement.</p>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="row row-process">
+                <div class="col-md-12 col-sm-12 column-process">
+                    <h1>3</h1>
+                    <div class="process">
+                    <p>We will ask for your scanned cover of your <br> passport <strong>(passport number, name, etc)</strong>  to be <br> sent to us. We support you with provider visa <br> application process. </p>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="row row-process">
+                <div class="col-md-12 col-sm-12 column-process">
+                    <h1>4</h1>
+                    <div class="process">
+                    <p>The <strong>Program Fee can be</strong>  paid through bank <br> transfer or upon your arrival in Bali.</p>
+                    </div>
+                </div>
+                
+            </div>
+             <div class="row row-process">
+                <div class="col-md-12 col-sm-12 column-process">
+                    <h1>5</h1>
+                    <div class="process">
+                    <p>Please give us your arrival detail so that we <br>  can arrange your airport pick up.</p>
+                    </div>
+                </div>
                 
             </div>
         </div>
@@ -209,5 +251,25 @@
 }
 .desc {
   text-align: center;
+}
+.row-process{
+    flex: 100%;
+}
+.column-process{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    justify-content: left;
+}
+.column-process h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+    margin-right: 5%;
+    display: inline-block;
+    color: #DBDBDB;
+}
+.column-process p{
+  text-align: start;
 }
 </style>
