@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: '/program/english',
-    name: 'About',
+    name: 'EnglishProgram',
     component: () => import(/* webpackChunkName: "about" */ '../views/english-program.vue')
   },
   {
