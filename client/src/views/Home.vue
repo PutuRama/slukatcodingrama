@@ -370,7 +370,7 @@
   border-bottom: 2px solid #0b6d0e;
 }
 .teks > h2 {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 /* aboutus */
@@ -385,7 +385,8 @@
   color: #335b32;
 }
 .about-teks h1 {
-  font-weight: bold;
+  font-weight: bolder;
+  color: #057002;
 }
 .about-img {
   flex: 50%;
@@ -437,8 +438,8 @@
   flex: 50%;
 }
 .column2 img {
-  width: 50%;
-  height: 100%;
+  width: 300px;
+  height: 300px;
   vertical-align: middle;
   border-radius: 100%;
 }

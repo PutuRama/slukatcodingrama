@@ -1,9 +1,0 @@
-@font-face {
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-display: auto;
-    unicode-range: U+000-5FF;
-    src: local("Roboto"), url("/fonts/Roboto/Roboto-Regular.woff2") format("woff2"), url("/fonts/Roboto/Roboto-Regular.woff") format("woff");
-  }
