@@ -40,6 +40,78 @@
         </div>
 
 
+        <div class="testi">
+    </div>
+    <div class="volunter">
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>RUSSIA</h1>
+        <p>Client Photography</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>NETHERLANDS</h1>
+        <p>Client Designer</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>NETHERLANDS</h1>
+        <p>Client Videography</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>NETHERLANDS</h1>
+        <p>Client Web Developer</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+    </div>
+
+
+        <div class="aplication">
+            <div class="aplication-text">
+                <h1>Application Process</h1>
+                <p>To become a volunteer at Slukat Learning Center, the processes are as <br> follows</p>
+            </div>
+            <div class="row row-process">
+                
+            </div>
+        </div>
+
         
     </div>
 </template>
@@ -90,5 +162,52 @@
  .overview-end-text{
      margin: 10% 10% 10% 10%;
  }
+}
+.overview-end-text{
+     margin-bottom: 10%;
+ }
+
+
+
+ .volunter {
+  max-height: 100%;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 2%;
+  overflow-x: auto;
+}
+.volunter::-webkit-scrollbar {
+  width: 0;
+}
+.volunter .icon {
+  min-width: 345px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #047d02;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding: 0 20px 10px 20px;
+  justify-items: center;
+}
+.volunter .icon > img {
+  width: 40%;
+  height: 7em;
+  margin-top: 12%;
+  border-radius: 60%;
+  justify-content: center;
+}
+.volunter .icon p {
+  color: white;
+}
+.volunter .icon h1 {
+  color: #52b054;
+  font-size: 24px;
+  margin-top: 1%;
+  font-weight: 900;
+  line-height: 36px;
+}
+.desc {
+  text-align: center;
 }
 </style>
