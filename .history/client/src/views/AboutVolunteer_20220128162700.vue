@@ -32,15 +32,13 @@
                     <p>Almost</p>
                     <h1>1249</h1>
                     <p>Social <br> Contribution</p>
+                    
                 </div>
             </div>
             <div class="overview-end-text">
             <p>There were 565 international volunteers have participated the program in SLC. <br> They came from teachers professional and families. They originated from various <br> nations such as the Netherlands, France h Belgium, Germany, United States and <br> Australia.</p>
             </div>
         </div>
-
-
-        
     </div>
 </template>
 <style scoped>
@@ -87,8 +85,7 @@
     .column-overview p{
        margin: 50%;
     }
- .overview-end-text{
-     margin: 10% 10% 10% 10%;
- }
 }
+ .overview-end-text{
+ }
 </style>

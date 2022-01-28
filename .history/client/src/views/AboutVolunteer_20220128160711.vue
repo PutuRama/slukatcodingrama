@@ -20,13 +20,11 @@
                     <p>Around</p>
                     <h1>565</h1>
                     <p>International <br> Volunteers</p>
-                    <br><br>
                 </div>
                 <div class="col-sm-4 column-overview">
                     <p>From</p>
                     <h1>9</h1>
                     <p>Different <br> Nations</p>
-                    <br><br>
                 </div>
                 <div class="col-sm-4 column-overview">
                     <p>Almost</p>
@@ -38,9 +36,6 @@
             <p>There were 565 international volunteers have participated the program in SLC. <br> They came from teachers professional and families. They originated from various <br> nations such as the Netherlands, France h Belgium, Germany, United States and <br> Australia.</p>
             </div>
         </div>
-
-
-        
     </div>
 </template>
 <style scoped>
@@ -84,11 +79,11 @@
     font-family: 'Inter', sans-serif;
 }
 @media screen and(max-width: 575px) {
-    .column-overview p{
-       margin: 50%;
+    .column-overview{
+        margin-bottom: 50px;
     }
- .overview-end-text{
-     margin: 10% 10% 10% 10%;
- }
 }
+ .overview-end-text{
+     margin-top: 5%;
+ }
 </style>
