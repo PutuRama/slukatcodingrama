@@ -14,7 +14,7 @@ const routes = [
   },
   {
     path: '/program/coding',
-    name: 'coding-program',
+    name: 'CodingProgram',
     component: () => import(/* webpackChunkName: "about" */ '../views/coding-program.vue')
   },
   {
