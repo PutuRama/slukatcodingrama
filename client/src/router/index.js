@@ -25,6 +25,10 @@ const routes = [
     path: '/program/coding',
     name: 'CodingProgram',
     component: () => import(/* webpackChunkName: "about" */ '../views/coding-program.vue')
+  }, {
+    path: '/program/enterprenuer',
+    name: 'EnterprenuerProgram',
+    component: () => import(/* webpackChunkName: "about" */ '../views/enterprenuer-program.vue')
   },
   {
     path: '/:pathMatch(.*)*',
