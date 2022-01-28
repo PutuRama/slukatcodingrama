@@ -18,6 +18,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/english-program.vue')
   },
   {
+    path: '/program/agriculture',
+    name: 'AgricultureProgram',
+    component: () => import(/* webpackChunkName: "about" */ '../views/agriculture-program.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: '404',
     component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
