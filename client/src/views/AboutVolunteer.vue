@@ -154,6 +154,77 @@
             </div>
         </div>
 
+
+
+        <div class="program">
+          <div class="program-text">
+            <h1>Program Fee</h1>
+            <p>The details Program Fee are as follows </p>
+          </div>
+          <div class="row row-program">
+              <div class="col program-img1">
+              <img src="../assets/men.png" alt="">
+            </div>
+              <div class="col fee-table">
+            <div class="col-sm-12 column-fee">
+                <h1>Weeks</h1>
+                <h1>Fees</h1>
+              </div>
+              <table class="col">
+                <tr>
+                  <th class="th">US$</th>
+                  <th>US$</th>
+                  <th>EURO</th>
+                </tr>
+                <tr>
+                  <th>2</th>
+                  <th>500</th>
+                  <th>375</th>
+                </tr>
+                 <tr>
+                  <th>4</th>
+                  <th>750</th>
+                  <th>550</th>
+                </tr>
+                 <tr>
+                  <th>6</th>
+                  <th>950</th>
+                  <th>700</th>
+                </tr>
+                 <tr>
+                  <th>8</th>
+                  <th>1150</th>
+                  <th>850</th>
+                </tr>
+                 <tr>
+                  <th>10</th>
+                  <th>1350</th>
+                  <th>1000</th>
+                </tr>
+                 <tr>
+                  <th>12</th>
+                  <th>1500</th>
+                  <th>1100</th>
+                </tr>
+                 <tr>
+                  <th>14</th>
+                  <th>1700</th>
+                  <th>1250</th>
+                </tr>
+                 <tr>
+                  <th>16</th>
+                  <th>1875</th>
+                  <th>1385</th>
+                </tr>
+
+               
+              </table>
+            </div>
+            <div class="col program-img">
+              <img src="../assets/men.png" alt="">
+            </div>
+          </div>
+        </div>
         
     </div>
 </template>
@@ -261,6 +332,9 @@
     margin-left: 10%;
     justify-content: left;
 }
+.row-program{
+  margin-left: 10%;
+}
 .column-process h1{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -272,4 +346,64 @@
 .column-process p{
   text-align: start;
 }
+
+
+.program-text{
+  margin-bottom: 8%;
+}
+.column-fee h1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5em;
+  font-weight: bold;
+  color: #047d02;
+  
+}
+.column-fee{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.program-img1{
+  display: none;
+} 
+ 
+.program-img img{
+  width: 50%;
+} 
+@media only screen and (max-width: 1063px) {
+  .program-img{
+    display: none;
+  }
+  .program-img1{
+  display: block;
+}
+.program-img1 img{
+  width: 400px;
+  margin-bottom: 15%;
+}
+  
+}
+
+@media only screen and (max-width:  440px) {
+  .column-fee h1 {
+  font-size: 18px;   
+  margin-bottom: 10%;
+}
+  .fee-table{
+    margin-bottom: 10%;
+  }
+  .program-img1 img{
+  width: 300px;
+  margin-bottom: 15%;
+}
+}
+
+.th{
+  color: transparent;
+} 
+
+
+ 
 </style>
