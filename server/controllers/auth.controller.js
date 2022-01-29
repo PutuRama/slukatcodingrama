@@ -5,6 +5,7 @@ const { inputLoginValidation, inputSignUpValidation, inputLogOut } = require("..
 const db = require("../db/db");
 const passwordHash = require("password-hash");
 
+
 module.exports = {
     signup: async function (req, res) {
 
