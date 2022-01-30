@@ -226,6 +226,114 @@
           </div>
         </div>
         
+
+        <div class="include">
+          <div class="row row-include">
+            <div class="col list">
+              <div class="include-text">
+              <h2>What are included?</h2>
+              </div>
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Onsite accommodation at Slukat during your volunteering placement. <br> Note: depending on availability you might have your room or <br> sharing with other volunteer.</p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Pick-up from Bali's Denpasar airport and <br> dropoff at airport after placement completed. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Breakfast (western supplies, eggs, milk, cereal, <br> bread, butter etc) and dinner (local Indonesian <br> stye food) will be provided only during class <br> days at Slukat. Mondays thru to Thursdays. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Wi-Fi access onsite at Slukat. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Support from Slukat's staff. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Access to our driver for local shopping or <br> discovering Bali during your free time. (Note: <br> volunteer must pay for this service) </p>
+            </div>
+
+            </div>
+          </div>
+
+             <div class="row row-exclude">
+            <div class="col list">
+             <div class="exclude-text">
+              <h2>What are excluded?</h2>
+              </div>
+            <div class="col column-list-exclude">
+              <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Airfares and all transportation to Slukat <br> (except pick-up and drop-off from airport) </p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Travel and health insurance</p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Visa costs for Bali/Indonesia (and possible <br> visa extenstion)</p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Vaccinations </p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Personal expenses & meals (except breakfast <br> and dinner during class days at Slukat)</p>
+            </div>
+            
+            <div class="hidden-text">
+              
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Personal expenses & meals (except breakfast <br> and dinner during class days at Slukat)</p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Personal expenses & meals (except breakfast <br> and dinner during class days at Slukat)</p>
+            </div>
+
+            </div>
+
+            </div>
+          </div>
+        </div>
+
+
     </div>
 </template>
 <style scoped>
@@ -365,6 +473,9 @@
   justify-content: space-around;
   
 }
+.program{
+  margin-bottom: 10%;
+}
 .program-img1{
   display: none;
 } 
@@ -403,7 +514,37 @@
 .th{
   color: transparent;
 } 
+.include{
+  background-color: #F6FEF5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.row-include{
+  display: inline-block;
+}
+.row-exclude{
+  display: inline-block;
+}
 
-
- 
+.column-list-include{
+  display: flex;
+}
+.column-list-exclude{
+  display: flex;
+}
+.column-list-include p{
+  text-align: start;
+  margin-left: 20px;
+}
+.column-list-exclude p{
+  text-align: start;
+  margin-left: 20px;
+}
+.include-text h2 , .exclude-text h2{
+  font-weight: bold;
+  margin-bottom: 6%;
+}
+.hidden-text{
+  color: transparent;
+}
 </style>
