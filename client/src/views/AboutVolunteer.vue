@@ -333,7 +333,85 @@
           </div>
         </div>
 
+        <button class="button-include"><a href="">We Need You!</a></button>
 
+      
+      <div class="slukat">
+        <div class="slukat-text">
+        <h1><b>Slukat Learning Center</b></h1>
+        </div>
+        <div class="slukat-img">
+          <img src="../assets/vision_dummy.png" alt="">
+        </div>
+      </div>
+
+      <div class="class">
+        <div class="class-text">
+          <h1>Class Activity</h1>
+        </div>
+    <div class="class-img">
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+    </div>
+      </div>
+
+  <div class="class">
+        <div class="class-text">
+          <h1>Accommodation</h1>
+        </div>
+    <div class="accommodation-img">
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+    </div>
+      </div>
+
+      
     </div>
 </template>
 <style scoped>
@@ -544,7 +622,81 @@
   font-weight: bold;
   margin-bottom: 6%;
 }
+.exclude-text h2{
+  margin-bottom: 10%;
+}
 .hidden-text{
   color: transparent;
+}
+.button-include{
+  margin-top: 5%;
+  padding: 0.5% 2% 0.5% 2%;
+  background-color: #047d02;
+  border: white 2px solid;
+  margin-bottom: 15%;
+}
+.button-include a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.slukat-img{
+  margin-top: 3%;
+}
+.slukat-img img{
+  width: 80%;
+}
+.class-img {
+  max-height: 100%;
+  display: flex;
+  margin-left: 3%;
+  margin-right: 2%;
+  overflow-x: auto;
+}
+.class-img::-webkit-scrollbar {
+  width: 0;
+}
+.class-img .icon {
+  text-align: center;
+  min-width: 470px;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding: 0 20px 0 20px;
+  justify-items: center;
+}
+.class-img .icon > img {
+  margin-top: 12%;
+  height: 20em;
+  justify-content: center;
+}
+.accommodation-img {
+  max-height: 100%;
+  display: flex;
+  margin-left: 3%;
+  margin-right: 2%;
+  overflow-x: auto;
+}
+.accommodation-img::-webkit-scrollbar {
+  width: 0;
+}
+.accommodation-img .icon {
+  text-align: center;
+  min-width: 470px;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding: 0 20px 0 20px;
+  justify-items: center;
+}
+.accommodation-img .icon > img {
+  margin-top: 12%;
+  height: 20em;
+  justify-content: center;
+}
+.class-text{
+  margin-top: 5%;
+}
+.class h1{
+  font-weight: bold;
 }
 </style>
