@@ -31,6 +31,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/enterprenuer-program.vue')
   },
   {
+    path: '/activities',
+    name: 'Activities',
+    component: () => import(/* webpackChunkName: "about" */ '../views/activities.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: '404',
     component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
