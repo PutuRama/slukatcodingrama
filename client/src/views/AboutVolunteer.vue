@@ -128,7 +128,7 @@
              <div class="row row-process">
                 <div class="col-md-12 col-sm-12 column-process">
                     <h1>3</h1>
-                    <div class="process">
+                    <div class="">
                     <p>We will ask for your scanned cover of your <br> passport <strong>(passport number, name, etc)</strong>  to be <br> sent to us. We support you with provider visa <br> application process. </p>
                     </div>
                 </div>
@@ -152,6 +152,31 @@
                 </div>
                 
             </div>
+        </div>
+
+
+
+        <div class="program">
+          <div class="program-table">
+            <div class="row">
+            <table class="col table">
+              <thead>
+                <tr>
+                  <th>Weeks</th>
+                  <th>Fees</th>
+                </tr>
+              </thead>
+              <tbody>
+                 <tr>
+                  <td>2</td>        
+                </tr>
+                <tr>
+                  <td>4</td>
+                </tr>
+              </tbody>
+            </table>
+            </div>
+          </div>
         </div>
 
         
