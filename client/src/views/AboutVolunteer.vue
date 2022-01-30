@@ -157,29 +157,261 @@
 
 
         <div class="program">
-          <div class="program-table">
-            <div class="row">
-            <table class="col table">
-              <thead>
+          <div class="program-text">
+            <h1>Program Fee</h1>
+            <p>The details Program Fee are as follows </p>
+          </div>
+          <div class="row row-program">
+              <div class="col program-img1">
+              <img src="../assets/men.png" alt="">
+            </div>
+              <div class="col fee-table">
+            <div class="col-sm-12 column-fee">
+                <h1>Weeks</h1>
+                <h1>Fees</h1>
+              </div>
+              <table class="col">
                 <tr>
-                  <th>Weeks</th>
-                  <th>Fees</th>
+                  <th class="th">US$</th>
+                  <th>US$</th>
+                  <th>EURO</th>
                 </tr>
-              </thead>
-              <tbody>
+                <tr>
+                  <th>2</th>
+                  <th>500</th>
+                  <th>375</th>
+                </tr>
                  <tr>
-                  <td>2</td>        
+                  <th>4</th>
+                  <th>750</th>
+                  <th>550</th>
                 </tr>
-                <tr>
-                  <td>4</td>
+                 <tr>
+                  <th>6</th>
+                  <th>950</th>
+                  <th>700</th>
                 </tr>
-              </tbody>
-            </table>
+                 <tr>
+                  <th>8</th>
+                  <th>1150</th>
+                  <th>850</th>
+                </tr>
+                 <tr>
+                  <th>10</th>
+                  <th>1350</th>
+                  <th>1000</th>
+                </tr>
+                 <tr>
+                  <th>12</th>
+                  <th>1500</th>
+                  <th>1100</th>
+                </tr>
+                 <tr>
+                  <th>14</th>
+                  <th>1700</th>
+                  <th>1250</th>
+                </tr>
+                 <tr>
+                  <th>16</th>
+                  <th>1875</th>
+                  <th>1385</th>
+                </tr>
+
+               
+              </table>
+            </div>
+            <div class="col program-img">
+              <img src="../assets/men.png" alt="">
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="include">
+          <div class="row row-include">
+            <div class="col list">
+              <div class="include-text">
+              <h2>What are included?</h2>
+              </div>
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Onsite accommodation at Slukat during your volunteering placement. <br> Note: depending on availability you might have your room or <br> sharing with other volunteer.</p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Pick-up from Bali's Denpasar airport and <br> dropoff at airport after placement completed. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Breakfast (western supplies, eggs, milk, cereal, <br> bread, butter etc) and dinner (local Indonesian <br> stye food) will be provided only during class <br> days at Slukat. Mondays thru to Thursdays. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Wi-Fi access onsite at Slukat. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Support from Slukat's staff. </p>
+            </div>
+
+            <div class="col column-list-include">
+              <svg style="width:24px;height:24px; color:#047002" viewBox="0 0 24 24">
+             <path fill="currentColor" d="M17,13H13V17H11V13H7V11H11V7H13V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+            </svg>
+            <p>Access to our driver for local shopping or <br> discovering Bali during your free time. (Note: <br> volunteer must pay for this service) </p>
+            </div>
+
+            </div>
+          </div>
+
+             <div class="row row-exclude">
+            <div class="col list">
+             <div class="exclude-text">
+              <h2>What are excluded?</h2>
+              </div>
+            <div class="col column-list-exclude">
+              <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Airfares and all transportation to Slukat <br> (except pick-up and drop-off from airport) </p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Travel and health insurance</p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Visa costs for Bali/Indonesia (and possible <br> visa extenstion)</p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Vaccinations </p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px; color: red;" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Personal expenses & meals (except breakfast <br> and dinner during class days at Slukat)</p>
+            </div>
+            
+            <div class="hidden-text">
+              
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Personal expenses & meals (except breakfast <br> and dinner during class days at Slukat)</p>
+            </div>
+
+            <div class="col column-list-exclude">
+            <svg style="width:24px;height:24px" viewBox="0 0 24 24">
+            <path fill="currentColor" d="M17,13H7V11H17M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" /></svg>
+            <p>Personal expenses & meals (except breakfast <br> and dinner during class days at Slukat)</p>
+            </div>
+
+            </div>
+
             </div>
           </div>
         </div>
 
-        
+        <button class="button-include"><a href="">We Need You!</a></button>
+
+      
+      <div class="slukat">
+        <div class="slukat-text">
+        <h1><b>Slukat Learning Center</b></h1>
+        </div>
+        <div class="slukat-img">
+          <img src="../assets/vision_dummy.png" alt="">
+        </div>
+      </div>
+
+      <div class="class">
+        <div class="class-text">
+          <h1>Class Activity</h1>
+        </div>
+    <div class="class-img">
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+    </div>
+      </div>
+
+  <div class="class">
+        <div class="class-text">
+          <h1>Accommodation</h1>
+        </div>
+    <div class="accommodation-img">
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""/>
+      </div>
+    </div>
+      </div>
+
+      
     </div>
 </template>
 <style scoped>
@@ -286,6 +518,9 @@
     margin-left: 10%;
     justify-content: left;
 }
+.row-program{
+  margin-left: 10%;
+}
 .column-process h1{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
@@ -296,5 +531,172 @@
 }
 .column-process p{
   text-align: start;
+}
+
+
+.program-text{
+  margin-bottom: 8%;
+}
+.column-fee h1 {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5em;
+  font-weight: bold;
+  color: #047d02;
+  
+}
+.column-fee{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+.program{
+  margin-bottom: 10%;
+}
+.program-img1{
+  display: none;
+} 
+ 
+.program-img img{
+  width: 50%;
+} 
+@media only screen and (max-width: 1063px) {
+  .program-img{
+    display: none;
+  }
+  .program-img1{
+  display: block;
+}
+.program-img1 img{
+  width: 400px;
+  margin-bottom: 15%;
+}
+  
+}
+
+@media only screen and (max-width:  440px) {
+  .column-fee h1 {
+  font-size: 18px;   
+  margin-bottom: 10%;
+}
+  .fee-table{
+    margin-bottom: 10%;
+  }
+  .program-img1 img{
+  width: 300px;
+  margin-bottom: 15%;
+}
+}
+
+.th{
+  color: transparent;
+} 
+.include{
+  background-color: #F6FEF5;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.row-include{
+  display: inline-block;
+}
+.row-exclude{
+  display: inline-block;
+}
+
+.column-list-include{
+  display: flex;
+}
+.column-list-exclude{
+  display: flex;
+}
+.column-list-include p{
+  text-align: start;
+  margin-left: 20px;
+}
+.column-list-exclude p{
+  text-align: start;
+  margin-left: 20px;
+}
+.include-text h2 , .exclude-text h2{
+  font-weight: bold;
+  margin-bottom: 6%;
+}
+.exclude-text h2{
+  margin-bottom: 10%;
+}
+.hidden-text{
+  color: transparent;
+}
+.button-include{
+  margin-top: 5%;
+  padding: 0.5% 2% 0.5% 2%;
+  background-color: #047d02;
+  border: white 2px solid;
+  margin-bottom: 15%;
+}
+.button-include a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+}
+.slukat-img{
+  margin-top: 3%;
+}
+.slukat-img img{
+  width: 80%;
+}
+.class-img {
+  max-height: 100%;
+  display: flex;
+  margin-left: 3%;
+  margin-right: 2%;
+  overflow-x: auto;
+}
+.class-img::-webkit-scrollbar {
+  width: 0;
+}
+.class-img .icon {
+  text-align: center;
+  min-width: 470px;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding: 0 20px 0 20px;
+  justify-items: center;
+}
+.class-img .icon > img {
+  margin-top: 12%;
+  height: 20em;
+  justify-content: center;
+}
+.accommodation-img {
+  max-height: 100%;
+  display: flex;
+  margin-left: 3%;
+  margin-right: 2%;
+  overflow-x: auto;
+}
+.accommodation-img::-webkit-scrollbar {
+  width: 0;
+}
+.accommodation-img .icon {
+  text-align: center;
+  min-width: 470px;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding: 0 20px 0 20px;
+  justify-items: center;
+}
+.accommodation-img .icon > img {
+  margin-top: 12%;
+  height: 20em;
+  justify-content: center;
+}
+.class-text{
+  margin-top: 5%;
+}
+.class h1{
+  font-weight: bold;
 }
 </style>
