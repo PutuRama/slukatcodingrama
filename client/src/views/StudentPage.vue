@@ -1,17 +1,22 @@
 <template>
   <div class="body">
-    <div class="carousel">
+    <div class="row">
+        <div class="col carousel-img">
+       <div class="col carousel">
       <div class="carousel-image">
-        <img src="" alt="">
+        <img src="../assets/banner_about_us.png" alt="">
       </div>
       <div class="carousel-image">
-        <img src="" alt="">
+        <img src="../assets/banner_about_us.png" alt="">
       </div>
       <div class="carousel-image">
-        <img src="" alt="">
+        <img src="../assets/banner_about_us.png" alt="">
       </div>
       <div class="carousel-image">
-        <img src="" alt="">
+        <img src="../assets/banner_about_us.png" alt="">
+      </div>
+
+        </div>
       </div>
       
     </div>
@@ -21,63 +26,109 @@
       <p>Since its establishment in 2007, more than one thousand students had participated in SLC's programs.</p>
     </div>
 
-    <div class="content">
-      <div class="content-left">
-        <h3>Who are they?</h3>
-        <p>Most of them are from Gianyar and they are in the age between 9-18 years old.</p>
+    <div class="vision">
+      <div class="row">
+        <div class="col vision-text">
+          <span class="vision-text-span">
+            <h1>Our Vision</h1>
+            <p>
+              The creation of rural youth with character and environmental insight who are able to compete in the global job market and education and are trusted to become leaders.
+            </p>
+          </span>
+        </div>
+        <div class="col vision-img">
+          <span class="student-img">
+            <div class="col carousel-img">
+       <div class="col student">
+      <div class="student-image">
+        <img src="../assets/banner_about_us.png" alt="">
       </div>
-      <div class="content-right">
+      <div class="student-image">
+        <img src="../assets/banner_about_us.png" alt="">
+      </div>
+      <div class="student-image">
+        <img src="../assets/banner_about_us.png" alt="">
+      </div>
+      <div class="student-image">
+        <img src="../assets/banner_about_us.png" alt="">
+      </div>
 
+        </div>
+      </div>
+          </span>
+        </div>
       </div>
     </div>
 
-    <div class="main">
-      <h2>Why they join SLC?</h2>
-      <div class="main-content">
-        <div class="sub-content">
 
+      
+
+
+    <div class="join">
+      <h2><b>Why they join SLC?</b></h2>
+      <div class="test">
+        <div class="icon">
+          <img src="../assets/dummyteam.png" alt="">
+          <h1>Otong</h1>
+          <p>Client Photography</p>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
         </div>
-        <div class="sub-content">
-          
+        <div class="icon">
+          <img src="../assets/dummyteam.png" alt="">
+          <h1>Dino</h1>
+          <p>Client Designer</p>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
         </div>
-        <div class="sub-content">
-          
+        <div class="icon">
+          <img src="../assets/dummyteam.png" alt="">
+          <h1>Juan Nande</h1>
+          <p>Client Videography</p>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
         </div>
+        <div class="icon">
+          <img src="../assets/dummyteam.png" alt="">
+          <h1>Kayu A5</h1>
+          <p>Client Web Developer</p>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
+        </div>
+        
       </div>
     </div>
 
     <div class="achievement">
       <h2>Our Achievement</h2>
+        <div class="row">
       <div class="achievement-top">
-        <div class="achievement-content">
+        <div class="col-6 col-md-2 col-sm-6 achievement-content">
           <p class="achiv-icon"><i class='fas fa-award'></i></p>
           <p class="achiv-text">Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship</p>
         </div>
-        <div class="achievement-content align-achiv">
+        <div class="col-6 col-md-2 col-sm-6 achievement-content align-achiv">
           <p class="achiv-icon"><i class='fas fa-award'></i></p>
           <p class="achiv-text">Participated in International Exchange Program</p>
         </div>
-        <div class="achievement-content align-achiv">
+        <div class="col-6 col-md-2 col-sm-12 achievement-content align-achiv">
           <p class="achiv-icon"><i class='fas fa-award'></i></p>
           <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
         </div>
-        <div class="achievement-content">
+        <div class="col-6 col-md-2 col-sm-12  achievement-content">
           <p class="achiv-icon"><i class='fas fa-award'></i></p>
           <p class="achiv-text">Able to support themselves and their family</p>
         </div>
       </div>
 
-      <div class="achievement-bottom">
-        <div class="achievement-content">
+      <div class="col-md-12 achievement-bottom">
+        <div class="col-6 col-md-4 achievement-content">
           <p class="achiv-icon"><i class='fas fa-award'></i></p>
           <p class="achiv-text">Mentored and inspired other students</p>
         </div>
-        <div class="achievement-content">
+        <div class="col-6 col-md-4 achievement-content">
           <p class="achiv-icon"><i class='fas fa-award'></i></p>
           <p class="achiv-text">Became leaders in their school and communities</p>
         </div>
       </div>
     </div>
+  </div>
   </div>
 </template>
 
@@ -85,20 +136,60 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 .body{
-  margin: 0;
   font-family: Poppins;
+  overflow-x: hidden;
 }
+.vision{
+  margin-bottom: 5%;
+}
+.vision-img{
+  background-image: url("../assets/vision_dummy.png");
+}
+.vision-text{
+  padding: 30px 20px;
+  background-color: #F6FEF5;
+
+}
+.vision-text-span{
+  text-align: start;
+  display: inline-block;
+  max-width: 500px;
+  color:  #047002;
+}
+.vision-text-span h1{
+  font-weight: 700;
+}
+
+
+
 
 .carousel{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
   margin-top: 60px;
 }
 .carousel-image{
   margin: 0 1%;
+  margin-bottom: 5%;
 }
 .carousel img{
+  width: 170px;
+  height: 353px;
+}
+.student{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.student-image{
+  margin: 0 1%;
+}
+.student img{
   width: 170px;
   height: 353px;
 }
@@ -137,13 +228,48 @@
   font-size: 24px;
 }
 
+.test{
+    max-height: 100%;
+    display: flex;
+    overflow-x: auto; 
+}
+.test::-webkit-scrollbar{
+    width: 0;
+}
+.test .icon{
+    min-width: 25%;
+    height: 40%; 
+    text-align: center;
+    background-color: #C4C4C4;
+    margin-right: 7%;
+    margin-bottom: 5%;
+    justify-items: center;
+
+}
+.test .icon > img{
+    width: 40%;
+    height: 30%; 
+    margin-top:12%;
+    border-radius: 60%;
+    justify-content: center;
+}
+.test .icon h1, p{
+    color: #1B557F;
+}
+.desc{
+    padding: 30px;
+    text-align: left;
+}
+
+
 .achievement-top{
   display: flex;
-  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
   margin: 65px 0 60px 0;
 }
 .achievement-bottom{
+  flex-wrap: wrap;
   display: flex;
   flex-direction: row;
   justify-content: center;
