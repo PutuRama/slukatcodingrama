@@ -1,13 +1,7 @@
 <template>
   <div class="home">
     <div class="carousel">
-      <img
-        class="img_navbar"
-        src="https://png.pngtree.com/thumb_back/fh260/background/20210207/pngtree-gray-simple-gradient-background-image_557031.jpg"
-        alt=""
-        srcset=""
-      />
-
+      <div class="banner"></div>
       <div class="teks col">
         <h2>Slukat Learning Center</h2>
         <p>
@@ -22,12 +16,12 @@
       <div class="row">
         <div class="col-md-12 col-sm-6 about-img-mobile">
           <div class="col column">
-            <img src="../assets/kucing.png" alt="" />
-            <img src="../assets/kucing.png" alt="" />
+            <img src="../assets/img/children.jpg" alt="" />
+            <img src="../assets/img/child-bule.jpeg" alt="" />
           </div>
           <div class="col column">
-            <img src="../assets/kucing.png" alt="" />
-            <img src="../assets/kucing.png" alt="" />
+            <img src="../assets/img/all-seminar.jpeg" alt="" />
+            <img src="../assets/img/children-read.jpeg" alt="" />
           </div>
         </div>
         <div class="col-md-6 col-sm-6 about-teks">
@@ -40,12 +34,12 @@
         </div>
         <div class="col-md-12 col-sm-6 about-img">
           <div class="col column">
-            <img src="../assets/kucing.png" alt="" />
-            <img src="../assets/kucing.png" alt="" />
+            <img src="../assets/img/children.jpg" alt="" />
+            <img src="../assets/img/child-bule.jpeg" alt="" />
           </div>
           <div class="col column">
-            <img src="../assets/kucing.png" alt="" />
-            <img src="../assets/kucing.png" alt="" />
+            <img src="../assets/img/all-seminar.jpeg" alt="" />
+            <img src="../assets/img/children-read.jpeg" alt="" />
           </div>
         </div>
       </div>
@@ -61,14 +55,14 @@
         <div class="col-sm-12 col-md-6">
           <div class="column2">
             <img
-              src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+              src="../assets/img/founder.svg"
               alt=""
             />
             <p>I Gusti Agung Rai <span>&</span> I Gusti Ayu Darsini</p>
             
           </div>
           
-      <p>
+      <p class="founder-bio">
         The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini
         established SLC on <br />
         24 October 2007 to provide a better education opportunity for the
@@ -156,12 +150,12 @@
     <!-- student -->
     <div class="testimonial">
       <div class="top">
-        <h4>TESTIMONIAL</h4>
-        <p>Here are feedbacks of who enrolled our programs.</p>
+        <h4>Students & Volounteers</h4>
+        <p>Here are feedbacks from our students and volounteer.</p>
       </div>
 
       <div class="testi">
-        <h5>Students</h5>
+        <h3>Students</h3>
       </div>
       <div class="slider">
         <div class="wrapper">
@@ -183,7 +177,7 @@
 
     <!-- Volunteer -->
     <div class="testi">
-      <h5>Volunteer</h5>
+      <h3>Volunteer</h3>
     </div>
     <div class="volunteer">
       <div class="icon">
@@ -354,19 +348,27 @@
 }
 
 /* on top */
-.img_navbar {
+.banner {
   width: 100%;
-  height: 100vh;
+  background-image: url('../assets/img/banner1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  filter: brightness(40%);
+  min-height: 700px;
 }
 .teks {
   position: absolute;
   top: 35%;
+  color:rgb(190, 190, 190);
+  font-weight: 600;
 }
 #teks {
-  border-bottom: 2px solid #0b6d0e;
+  border-bottom: 2px solid #0f9614;
 }
 .teks > h2 {
   font-weight: 800;
+  color: white;
 }
 
 /* aboutus */
@@ -433,6 +435,10 @@
   margin-bottom: 4%;
   justify-content: center;
 }
+.founder-bio{
+
+  padding:0 10px;
+}
 .column2 {
   flex: 50%;
 }
@@ -447,9 +453,13 @@
 .column2 > p {
   margin-top: 5%;
   font-weight: 900;
+  
+  padding:0 10px;
   font-size: 20px;
 }
 .founder > p {
+  
+  padding:0 10px;
   margin-top: 20px;
   font-weight: 500;
 }
@@ -536,10 +546,9 @@
 .top p {
   line-height: 27px;
 }
-.testi h5 {
-  text-align: left;
-  margin-left: 10%;
-  font-weight: 700;
+.testi h3 {
+  margin: 50px 0 30px 0;
+  text-align: center;
 }
 
 /* student */

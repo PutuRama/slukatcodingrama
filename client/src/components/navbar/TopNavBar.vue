@@ -1,7 +1,7 @@
 <template>
   <div class="topnavbar">
     <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top ">
-  <router-link class="navbar-brand" to="/"><img src="../../assets/logo_slukat.png" alt="Slukat Learning Center"></router-link>
+  <router-link class="navbar-brand" to="/"><img src="../../assets/img/logo_slukat.png" alt="Slukat Learning Center"></router-link>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -46,7 +46,7 @@
 <style scoped>
   .navbar-brand img{
     width: 35vw;
-    max-width: 250px;
+    max-width: 200px;
     min-width: 200px;
   }
   .navbar-nav > li{

@@ -34,12 +34,23 @@ const routes = [
     path: '/:pathMatch(.*)*',
     name: '404',
     component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
-  }
+  },
 ]
 
 const router = createRouter({
   history: createWebHistory(process.env.BASE_URL),
-  routes
+  routes,
+  scrollBehavior: function (to, _from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    }
+    if (to.hash) {
+      return { el: to.hash, behavior: "smooth" };
+    } else {
+      console.log("moving to top of the page");
+      window.scrollTo(0, 0);
+    }
+ }
 })
 
 export default router
