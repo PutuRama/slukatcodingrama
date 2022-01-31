@@ -45,10 +45,45 @@
         </div>
       </div>
     </div>
+
+    <div class="achievement">
+      <h2>Our Achievement</h2>
+      <div class="achievement-top">
+        <div class="achievement-content">
+          <p class="achiv-icon"><i class='fas fa-award'></i></p>
+          <p class="achiv-text">Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship</p>
+        </div>
+        <div class="achievement-content align-achiv">
+          <p class="achiv-icon"><i class='fas fa-award'></i></p>
+          <p class="achiv-text">Participated in International Exchange Program</p>
+        </div>
+        <div class="achievement-content align-achiv">
+          <p class="achiv-icon"><i class='fas fa-award'></i></p>
+          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
+        </div>
+        <div class="achievement-content">
+          <p class="achiv-icon"><i class='fas fa-award'></i></p>
+          <p class="achiv-text">Able to support themselves and their family</p>
+        </div>
+      </div>
+
+      <div class="achievement-bottom">
+        <div class="achievement-content">
+          <p class="achiv-icon"><i class='fas fa-award'></i></p>
+          <p class="achiv-text">Mentored and inspired other students</p>
+        </div>
+        <div class="achievement-content">
+          <p class="achiv-icon"><i class='fas fa-award'></i></p>
+          <p class="achiv-text">Became leaders in their school and communities</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 .body{
   margin: 0;
   font-family: Poppins;
@@ -100,5 +135,25 @@
 }
 .content-left p{
   font-size: 24px;
+}
+
+.achievement-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 65px 0 60px 0;
+}
+.achievement-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 170px;
+}
+.achievement-content{
+  width: 19%;
+  margin: 0 0.8%;
+}
+.achiv-icon{
+  font-size: 40px;
 }
 </style>
