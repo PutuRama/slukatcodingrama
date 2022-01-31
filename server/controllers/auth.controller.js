@@ -4,10 +4,14 @@ const { generateToken, generateUserId } = require("../util/generator.util")
 const { inputLoginValidation, inputSignUpValidation, inputLogOut } = require("../util/validator.util")
 const db = require("../db/db");
 const passwordHash = require("password-hash");
+const User = require("../model/user.model")
+const Auth = require("../model/auth.model")
+
 
 module.exports = {
     signup: async function (req, res) {
 
+        //validation the input
         var resultValidator = inputSignUpValidation(req.body.username, req.body.password, req.body.email);
 
         // check the input signup
@@ -19,16 +23,10 @@ module.exports = {
         hashedPassword = passwordHash.generate(req.body.password);
 
         // new data user that will be insert to db
-        const newUser = {
-            userId: generateUserId(),
-            username: req.body.username,
-            email: req.body.email,
-            password: hashedPassword
-        }
-
-        const dbConnect = db.getDb();
+        const newUser = User(generateUserId(), req.body.username, hashedPassword, req.body.email);
 
         // try to adding the new data to db
+        const dbConnect = db.getDb();
         dbConnect
             .collection("user")
             .insertOne(newUser, function (err, result) {
@@ -46,6 +44,8 @@ module.exports = {
 
     },
     login: async function (req, res) {
+
+        //validtion the input
         var resultValidator = inputLoginValidation(req.body.username, req.body.password);
 
         if (!resultValidator.ok) {
@@ -77,10 +77,7 @@ module.exports = {
                 }
 
                 // the new data authToken that will be insert to db 
-                const newToken = {
-                    userId: result[0].userId,
-                    token: generateToken(20)
-                }
+                const newToken = Auth(result[0].userId, generateToken(20), new Date());
 
                 // add new doc authToken
                 dbConnect.collection("authToken").insertOne(newToken, function (err, result) {
@@ -97,12 +94,15 @@ module.exports = {
             })
     },
     logOut: async function (req, res) {
-
+        // validation the input
         var resultValidator = inputLogOut(req.body.token);
+
+        // if input not valid
         if (!resultValidator.ok) {
             return res.json(resultValidator);
         }
 
+        // remove token
         const dbConnect = db.getDb();
         dbConnect
             .collection("authToken")

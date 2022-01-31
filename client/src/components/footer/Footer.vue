@@ -1,193 +1,129 @@
 <template>
   <div class="footer">
-    <div class="inner-footer">
-
-      <div class="footer-left">
-        <h1>Stay Updated</h1>
-        <div class="click">
-          <div class="input">
-            <input type="text" class="form-control" placeholder="insert your email here" aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary input-mail" type="button" id="button-addon2">Subscribe</button>
+    <div class="row">
+      <div class="col-lg-5 col-md-12 col-sm-12">
+        <h2>Stay Update</h2>
+        <div class="input-group mb-3 form-email d-flex justify-content-center">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Insert Your Email"
+            aria-label="Recipient's username"
+            aria-describedby="basic-addon2"
+          />
+          <div class="input-group-append">
+            <span class="input-group-text button-form" id="basic-addon2"
+              >Subscribe</span
+            >
           </div>
         </div>
-        <h1 id="or">Or</h1>
-        <p class="text">follow our social media below</p>
-        <div class="media">
-          <div class="social-media">
-            <router-link class="contact-img" to=""><i class='fab fa-instagram'></i></router-link>
-            <router-link class="contact-text" to="">@slukat_bali</router-link>
+        <h2>or</h2>
+        <h5>Follow Our Social Media.</h5>
+
+        <div class="row social-media">
+          <div class="col nopadding">
+            <i class="fab fa-instagram"></i><br />
+            <p>Slukat</p>
           </div>
-          <div class="social-media">
-            <router-link class="contact-img" to=""><i class='fab fa-facebook'></i></router-link>
-            <router-link class="contact-text" to="">@slukat_bali</router-link>
+          <div class="col nopadding">
+            <i class="fab fa-facebook"></i><br />
+            <p>Slukat</p>
           </div>
-          <div class="social-media">
-            <router-link class="contact-img" to=""><i class='fab fa-twitter'></i></router-link>
-            <router-link class="contact-text" to="">@slukat_bali</router-link>
+          <div class="col nopadding">
+            <i class="fab fa-twitter"></i><br />
+            <p>Slukat</p>
           </div>
         </div>
       </div>
+      <div class="col-lg-7 col-md-12 col-sm-12 border-footer">
+        <h2 class="slc-title">Slukat Learning Center</h2>
 
-      <div class="line" style="">
-      </div>
-
-      <div class="footer-right">
-        <h1>Slukat Learning Center</h1>
-        <div class="feature-list">
-          <div class="me-list">
-            <div class="footer-home footer-component">
-              <router-link class="footer-home-click footer-component" to="">Home</router-link>
-            </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-3">
+            <h5>Home</h5>
+            <br /><br />
           </div>
-          <div class="me-list">
-            <div class="footer-about footer-component">
-              <router-link class="footer-about-click footer-component" to="">About Us</router-link>
-            </div>
-            <ul class="about-list">
-              <li><router-link class="about-list-click" to="">Vision & Mission</router-link></li>
-            </ul>
+          <div class="col-sm-12 col-md-3">
+            <h5>About Us</h5>
+            <router-link to="/about/slc"><span class="route-link">SLC</span></router-link><br />
+            <router-link to="/about/student"><span class="route-link">Student</span></router-link><br />
+            <router-link to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
+            ><br /><br />
           </div>
-          <div class="me-list">
-            <div class="footer-program footer-component">
-              <router-link class="footer-program-click footer-component" to="">Our Programs</router-link>
-            </div>
+          <div class="col-sm-12 col-md-3">
+            <h5>Our Programs</h5>
+            <router-link to="/program/english"
+              ><span class="route-link">English Program</span></router-link
+            ><br />
+            <router-link to="/about/coding"><span class="route-link">Coding Program</span></router-link><br />
+            <router-link to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
+            ><br /><br />
           </div>
-          <div class="me-list">
-            <div class="footer-blog footer-component">
-              <router-link class="footer-blog-click footer-component" to="">Blog</router-link>
-            </div>
+          <div class="col-sm-12 col-md-3">
+            <h5>Activities</h5>
+            <br /><br />
           </div>
         </div>
       </div>
     </div>
+    <div class="copyright">
+      <div class="container"><hr /></div>
+      <p>Copyright Serve to Slukat Learning Center</p>
+      <br />
+    </div>
   </div>
 </template>
 
-
-
 <style scoped>
-.footer{
-  background-color: #0B6D0E;
-  font-family: Poppins;
-  box-sizing: border-box;
-}
-.inner-footer{
-  margin: 0 12%;
-  display: grid;
-  grid-template-columns: 40% 9% 51%;
+@media screen and (max-width: 990px) {
+  .slc-title {
+    color: #a1ee9f;
+    margin-top: 50px;
+  }
 }
 
-.footer-left{
-  display: flex;
-  flex-direction: column;
+.route-link{
+  color: rgb(252, 252, 252);
 }
-
-.footer-left h1{
-  text-align: center;
-  font-size: 1.8vw;
+h5{
   font-weight: 900;
-  color: #FFFFFF;
-  margin: 2vw 0;
 }
-#or{
-  font-size: 1.5vw;
-}
-.input{
-  display: flex;
-  flex-direction: row;
-  box-sizing: border-box;
-  justify-content: right;
-}
-.form-control{
-  border-radius: 25px;
-  z-index: 1;
-  width: 100%;
-  position: relative;
-  font-size: 1vw;
-  border: none;
-  padding: 0.5em;
-  padding-left: 8%;
-  padding-right: 40%;
-}
-.input-mail{
-  border-radius: 25px;
-  position: absolute;
-  z-index: 10;
-  color: #070707;
-  background-color: #A1EE9F;
+
+.footer {
+  background-color: #047002;
+  padding-top: 60px;
   text-align: center;
-  width: 10%;
-  font-size: 1vw;
-  border: none;
-  padding: 0.5em;
-}
-.input-mail:hover{
-  color: #FFFFFF;
-  transition: 0.3s;
+  color: white;
+  overflow-x: hidden !important;
 }
 
-.text{
-  color: #FFFFFF;
-  font-size: 1.3vw;
-  margin-bottom: 1.4vw;
+.footer h2 {
+  font-weight: 900;
+  margin-bottom: 30px;
 }
 
-.media{
-  display: grid;
-  grid-template-columns: 33.3% 33.3% 33.3%;
+.form-email input {
+  max-width: 300px;
+  border-radius: 20px;
 }
-.social-media{
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 75px;
-}
-.contact-img{
-  font-size: 2.4vw;
-  color: #FFFFFF;
-}
-.contact-text{
-  color: #FFFFFF;
-  font-size: 1vw;
-  text-decoration: none;
+.button-form {
+  max-width: 150px;
+  border-radius: 20px;
 }
 
-.line{
-  border-right: 2px solid #FFFFFF;
-  margin: 6vw 50%;
+.social-media {
+  max-width: 350px;
+  margin: 30px auto;
+}
+.social-media i {
+  font-size: 35px;
 }
 
-.footer-right{
-  display: flex;
-  flex-direction: column;
-}
-.footer-right h1{
-  font-size: 1.8vw;
-  font-weight: bold;
-  margin: 2vw 0;
-  color: #10CE0C;
+.slc-title {
+  color: #a1ee9f;
 }
 
-.feature-list{
-  display: grid;
-  grid-template-columns: 25% 25% 25% 25%;
-}
-
-.about-list{
-  list-style: none;
-  margin-top: 10px;
-  padding: 0;
-}
-.about-list-click{
-  padding: 0;
-  font-size: 0.9vw;
-  color: #FFFFFF;
-  text-align: center;
-  font-weight: 400;
-}
-.footer-component{
-  color: #FFFFFF;
-  font-weight: 700;
-  font-size: 1.3vw;
-  margin-bottom: 1vw;
+.border-footer{
+  border-left: white 2px solid;
 }
 </style>

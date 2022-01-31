@@ -17,6 +17,24 @@ const routes = [
     name: 'OurProgram',
     component: () => import(/* webpackChunkName: "about" */ '../views/OurProgram.vue')
   },
+  { 
+    path: '/program/english',
+    name: 'EnglishProgram',
+    component: () => import(/* webpackChunkName: "about" */ '../views/english-program.vue')
+  },
+  {
+    path: '/program/agriculture',
+    name: 'AgricultureProgram',
+    component: () => import(/* webpackChunkName: "about" */ '../views/agriculture-program.vue')
+  }, {
+    path: '/program/coding',
+    name: 'CodingProgram',
+    component: () => import(/* webpackChunkName: "about" */ '../views/coding-program.vue')
+  }, {
+    path: '/program/enterprenuer',
+    name: 'EnterprenuerProgram',
+    component: () => import(/* webpackChunkName: "about" */ '../views/enterprenuer-program.vue')
+  },
   {
     path: '/:pathMatch(.*)*',
     name: '404',

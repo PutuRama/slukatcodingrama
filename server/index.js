@@ -2,6 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 const cors = require("cors");
 const authRouter = require("./route/api/auth.routes");
+const userRouter = require("./route/api/user.routes");
 var morgan = require("morgan")
 const app = express();
 const db = require("./db/db")
@@ -14,12 +15,13 @@ app.use(morgan('common'))
 
 //routes
 app.use("/api/auth", authRouter);
+app.use("/api/user", userRouter);
 
 //connect to database
 db.connectToServer(function (err) {
   if (err) {
     console.error(err);
-    pro
+
   }
 })
 
