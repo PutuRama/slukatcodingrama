@@ -52,36 +52,104 @@
 
     <div class="spacer-section"></div>
 
+
+<!-- activites section -->
     <div class="activites">
       <div class="row">
         <div class="col">
           <h3>Our Activites</h3>
           <div class="activites-item">
-            <a href="">Link Link</a>
-            <a href="">Link Link</a>
-            <a href="">Link Link</a>
-            <a href="">Link Link</a>
+            <li data-target="#carouselExampleIndicators" data-slide-to="0">
+              <a href="#carouselExampleControls" data-slide="next" >English class</a>
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1">
+              <a href="#carouselExampleControls" data-slide="next">Agriculture class</a>
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2">
+              <a href="#carouselExampleControls" data-slide="next">Coding class</a>
+            </li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3">
+              <a href="#carouselExampleControls" data-slide="next">Enterpreneurship class</a>
+            </li>
+ 
+
+            
           </div>
         </div>
 
         <div class="col-8">
           <div class="image-text text-center">
-            <img src="../assets/vision_dummy.png" alt="" />
-            <h3>English Class</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-              consectetur tempore hic quos provident nulla, quae magnam quidem
-              dignissimos amet at totam odio velit possimus obcaecati porro
-              magni tenetur nam?
-            </p>
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="50000">
+     <img src="../assets/vision_dummy.png" alt="">
+          <h2><span class="headline-hijau">English Class</span></h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+    </div>
+    <div class="carousel-item">
+     <img src="../assets/vision_dummy.png" alt="" data-bs-interval="50000">
+          <h2><span class="headline-hijau">Agriculture Class</span></h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/vision_dummy.png" alt="" data-bs-interval="50000">
+          <h2><span class="headline-hijau">Coding Class</span></h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+    </div>
+    <div class="carousel-item">
+      <img src="../assets/vision_dummy.png" alt="" data-bs-interval="50000">
+          <h2><span class="headline-hijau">Enterpreneurship Class</span></h2>
+          <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s, when an unknown printer took a galley of type
+            and scrambled it to make a type specimen book. It has survived not
+            only five centuries, but also the leap into electronic typesetting,
+            remaining essentially unchanged.
+          </p>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
           </div>
         </div>
       </div>
     </div>
 
+
     <div class="spacer-section"></div>
      <div class="spacer-section"></div>
 
+
+<!-- Student section -->
     <div class="student-program">
       <div class="row">
         <div class="col">
@@ -117,10 +185,15 @@
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
+
+
+
+
+
 .spacer-section {
   height: 50px;
 }
-
+/* program section css */
 .OurProgram {
   overflow-x: hidden;
   font-family: "Poppins", sans-serif;
@@ -146,7 +219,7 @@
 
 
 
-
+/* objectives section css */
 .our-objectives > h1 {
   margin-bottom: 70px;
   font-size: 24px;
@@ -173,7 +246,7 @@
 }
 
 
-
+/* activates section css */
 .activites {
   text-align: left;
 }
@@ -191,6 +264,9 @@
   width: 250px;
   margin: 10px auto;
 }
+.activites .row .col li {
+ list-style: none;
+}
 .activites .row .col a {
   display: block;
   text-decoration: none;
@@ -198,6 +274,10 @@
   line-height: 40px;
   font-size: 18px;
   margin: 0 5px;
+}
+.activites .row .col a:hover {
+  color: rgb(221, 221, 221);
+  transition: 0.3s;
 }
 .image-text {
   min-width: 200px;
@@ -214,26 +294,51 @@
   padding: 0 0 10px 0;
   position: relative;
 }
-.activites .row .col-8 h3 {
+
+.carousel {
+  margin: 10% 0 10% 0;
+}
+.carousel-item h2 {
   font-weight: 700;
-  font-size: 36px;
-}
-.activites .row .col-8 p {
-  font-size: 18px;
-}
-.activites .row .col-8 h3,
-.activites .row .col-8 p {
   text-align: left;
-  margin: 20px auto;
   color: white;
+  padding: 15px 0 10px 0;
+}
+.carousel-item p {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  
+}
+.carousel-control-next-icon {
+  background-color: #047002;
+  border-radius: 100px;
+  width: 25px;
+  padding: 10px 0 15px 0;
+  display: inline-block;
+}
+.carousel-control-next {
+  background-color: #047002;
+  border-radius: 100px;
+  height: 30px;
+  width: 30px;
+  margin: 15% 4% 0 0;
+}
+.carousel-control-prev {
+  background-color: #047002;
+  border-radius: 100px;
+  width: 30px;
+  height: 30px;
+  margin: 15% 0 0 4%;
 }
 
 
 
-
+/* std program css */
 
 .col-7 .std-program-text{
   text-align: left;
+
 }
 .col-7 .std-program-text h3{
   font-weight: 700;
@@ -266,16 +371,29 @@
 }
 
 
-@media only screen and (max-width: 677  px) {
-.col-7 .std-program-text h3{
-  font-weight: 700;
-  font-size: 36px;
-  color: black;
+@media only screen and (max-width: 678px) {
+
+.student-program .col-7{
+  margin: 0 auto;
 }
+.col-7 .std-program-text{
+  text-align: center;
+}.col-7 .std-program-text h3{
+  margin: 20px 0 0 0; 
+}
+.col-7 .std-program-text p{
+  margin: 20px 0 0 0;
+}
+.std-program-text .btn{
+  margin: 10px 0 0 0;
+}
+
+
+
 }
 </style>
 
 <!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 <script>
 </script>
