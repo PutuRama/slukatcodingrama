@@ -283,7 +283,7 @@
   position: absolute;
   bottom: 0;
   color: white;
-  padding: 20px 60px;
+  padding: 20px 20%;
 }
 .img-text h3{
   font-weight: bold;
