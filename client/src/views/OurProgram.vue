@@ -362,11 +362,11 @@
   .activites .row .col a {
     text-align: center;
 }
-.activites .row .col-8 img {
- width: 100%;
+  .activites .row .col-8 img {
+    width: 100%;
 }
-.activites .row .col-8 {
-  margin: 0 auto;
+  .activites .row .col-8 {
+    margin: 0 auto;
 }
 }
 
@@ -376,19 +376,24 @@
 .student-program .col-7{
   margin: 0 auto;
 }
-.col-7 .std-program-text{
+  .col-7 .std-program-text{
   text-align: center;
-}.col-7 .std-program-text h3{
+}
+  .col-7 .std-program-text h3{
   margin: 20px 0 0 0; 
 }
-.col-7 .std-program-text p{
+  .col-7 .std-program-text p{
   margin: 20px 0 0 0;
 }
-.std-program-text .btn{
+  .std-program-text .btn{
   margin: 10px 0 0 0;
 }
+}
 
-
+@media only screen and (max-width: 900px) {
+  .std-program-text .btn{
+    margin: 0;
+}
 
 }
 </style>
