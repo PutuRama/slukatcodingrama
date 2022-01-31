@@ -1,19 +1,31 @@
 <template>
     <div class="volunteer">
-        <div class="row volunteer-img">
-            <div class="col column-img">
-                <img src="../assets/dummy.jpeg" alt="">
-            </div>
+      <div class="row">
+        <div class="col carousel-img">
+       <div class="col carousel">
+      <div class="carousel-image">
+        <img src="../assets/kucing.png" alt="">
+      </div>
+      <div class="carousel-image">
+        <img src="../assets/kucing.png" alt="">
+      </div>
+      <div class="carousel-image">
+        <img src="../assets/kucing.png" alt="">
+      </div>
+      <div class="carousel-image">
+        <img src="../assets/kucing.png" alt="">
+      </div>
+
         </div>
-        <div class="volunteer-text">
-            <h1>Volunteering</h1>
-            <p>Interested to contribute in our cause? scroll down!</p>
-        </div>
+      </div>
+      
+    </div>
 
 
         <div class="overview">
             <div class="overview-text">
                 <h2>Volunteers Overview</h2>
+                <p>Interested to contribute in our cause? scroll down!</p>
             </div>
             <div class="row row-overview">
                 <div class="col-sm-4 column-overview">
@@ -422,21 +434,22 @@
     color: black;
 }
  
-.column-img{
+.carousel{
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 60px;
 }
-.column-img img{
-  height: 100%;
-  width: 60%;
+.carousel-image{
+  margin: 0 1%;
+  margin-bottom: 5%;
 }
-.volunteer-text h1{
-    font-weight: bold;
+.carousel img{
+  width: 170px;
+  height: 353px;
 }
-.volunteer-text{
-    margin-bottom: 10%;
-}
+
 
 
 
