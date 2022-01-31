@@ -54,21 +54,17 @@
       <div class="row2 row">
         <div class="col-sm-12 col-md-6">
           <div class="column2">
-            <img
-              src="../assets/img/founder.svg"
-              alt=""
-            />
+            <img src="../assets/img/founder.svg" alt="" />
             <p>I Gusti Agung Rai <span>&</span> I Gusti Ayu Darsini</p>
-            
           </div>
-          
-      <p class="founder-bio">
-        The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini
-        established SLC on <br />
-        24 October 2007 to provide a better education opportunity for the
-        children and <br />
-        youth in Keramas Village, in Gianyar, Bali.
-      </p>
+
+          <p class="founder-bio">
+            The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini
+            established SLC on <br />
+            24 October 2007 to provide a better education opportunity for the
+            children and <br />
+            youth in Keramas Village, in Gianyar, Bali.
+          </p>
         </div>
       </div>
 
@@ -105,44 +101,32 @@
           <div class="col column-program">
             <span class="col-md-3 col-sm-6 program-span">
               <img src="../assets/kucing.png" alt="" />
-              <p>
-                Coding <br />
-                Program
-              </p>
+              <h4>English Program</h4>
             </span>
             <span class="col-md-3 col-sm-6 program-span">
               <img src="../assets/kucing.png" alt="" />
-              <p>
-                English <br />
-                Program
-              </p>
+              <h4>Coding Program</h4>
             </span>
             <span class="col-md-3 col-sm-6 program-span">
               <img src="../assets/kucing.png" alt="" />
-              <p>
-                Enterpreneur <br />
-                Program
-              </p>
+              <h4>Enterprenuer  Program</h4>
             </span>
             <span class="col-md-3 col-sm-6 program-span">
               <img src="../assets/kucing.png" alt="" />
-              <p>
-                Agriculture <br />
-                Program
-              </p>
+              <h4>Agriculture Program</h4>
             </span>
           </div>
         </div>
       </div>
-      <button class="button-program">
-        <a href=""
+      <router-link class="button-program" to="/program">
+        <a href="#"
           >Find Out More
           <i
             class="fas fa-arrow-circle-right"
             style="font-size: 25px; color: white"
           ></i
         ></a>
-      </button>
+      </router-link>
     </div>
 
     <!-- testimonial -->
@@ -343,14 +327,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap");
 /* @import url('../assets/css/media.css'); */
 
-.home{
+.home {
   overflow-x: hidden;
 }
 
 /* on top */
 .banner {
   width: 100%;
-  background-image: url('../assets/img/banner1.jpg');
+  background-image: url("../assets/img/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -360,7 +344,7 @@
 .teks {
   position: absolute;
   top: 35%;
-  color:rgb(190, 190, 190);
+  color: rgb(190, 190, 190);
   font-weight: 600;
 }
 #teks {
@@ -400,6 +384,9 @@
   .about-img {
     display: none;
   }
+  .program-span {
+    margin: 10px 0;
+  }
 }
 .column {
   display: flex;
@@ -435,9 +422,8 @@
   margin-bottom: 4%;
   justify-content: center;
 }
-.founder-bio{
-
-  padding:0 10px;
+.founder-bio {
+  padding: 0 10px;
 }
 .column2 {
   flex: 50%;
@@ -449,17 +435,15 @@
   border-radius: 100%;
 }
 
-
 .column2 > p {
   margin-top: 5%;
   font-weight: 900;
-  
-  padding:0 10px;
+
+  padding: 0 10px;
   font-size: 20px;
 }
 .founder > p {
-  
-  padding:0 10px;
+  padding: 0 10px;
   margin-top: 20px;
   font-weight: 500;
 }
@@ -499,8 +483,8 @@
 }
 .program {
   background-color: #0b6d0e;
-  padding: 2% 0 4% 0;
-  margin-bottom: 8%;
+  padding: 2% 0 30px 0;
+  margin-bottom: 50px;
 }
 .column-program {
   display: flex;
@@ -512,7 +496,7 @@
 }
 .program-span {
   width: 80%;
-  padding-bottom: 15%;
+  padding-bottom: 80px;
   padding-top: 3%;
   color: white;
   font-weight: 700;
@@ -526,8 +510,8 @@
   background: #047002;
   border: white 2px solid;
   border-radius: 5px;
-  padding: 0.8% 2% 0.8% 2%;
-  margin-top: 5%;
+  padding: 15px 30px;
+  margin-top: 70px;
 }
 .button-program a {
   text-decoration: none;
@@ -545,6 +529,7 @@
 }
 .top p {
   line-height: 27px;
+  padding:0 10px;
 }
 .testi h3 {
   margin: 50px 0 30px 0;
