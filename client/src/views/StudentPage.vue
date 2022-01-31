@@ -66,33 +66,64 @@
 
     <div class="join">
       <h2><b>Why they join SLC?</b></h2>
-      <div class="test">
-        <div class="icon">
-          <img src="../assets/dummyteam.png" alt="">
-          <h1>Otong</h1>
-          <p>Client Photography</p>
-          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
-        </div>
-        <div class="icon">
-          <img src="../assets/dummyteam.png" alt="">
-          <h1>Dino</h1>
-          <p>Client Designer</p>
-          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
-        </div>
-        <div class="icon">
-          <img src="../assets/dummyteam.png" alt="">
-          <h1>Juan Nande</h1>
-          <p>Client Videography</p>
-          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
-        </div>
-        <div class="icon">
-          <img src="../assets/dummyteam.png" alt="">
-          <h1>Kayu A5</h1>
-          <p>Client Web Developer</p>
-          <p class="desc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, amet beatae quaerat id repellendus molestiae ea asperiores eius cum quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam dolor?</p>
-        </div>
-        
+      <div class="volunter">
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>RUSSIA</h1>
+        <p>Client Photography</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
       </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>NETHERLANDS</h1>
+        <p>Client Designer</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>NETHERLANDS</h1>
+        <p>Client Videography</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+      <div class="icon">
+        <img
+          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          alt=""
+        />
+        <h1>NETHERLANDS</h1>
+        <p>Client Web Developer</p>
+        <p class="desc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+    </div>
     </div>
 
     <div class="achievement">
@@ -228,37 +259,47 @@
   font-size: 24px;
 }
 
-.test{
-    max-height: 100%;
-    display: flex;
-    overflow-x: auto; 
+.volunter {
+  max-height: 100%;
+  display: flex;
+  margin-top: 2%;
+  margin-left: 3%;
+  margin-right: 2%;
+  overflow-x: auto;
 }
-.test::-webkit-scrollbar{
-    width: 0;
+.volunter::-webkit-scrollbar {
+  width: 0;
 }
-.test .icon{
-    min-width: 25%;
-    height: 40%; 
-    text-align: center;
-    background-color: #C4C4C4;
-    margin-right: 7%;
-    margin-bottom: 5%;
-    justify-items: center;
-
+.volunter .icon {
+  min-width: 345px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #047d02;
+  margin-right: 7%;
+  margin-bottom: 5%;
+  padding: 0 20px 10px 20px;
+  justify-items: center;
 }
-.test .icon > img{
-    width: 40%;
-    height: 30%; 
-    margin-top:12%;
-    border-radius: 60%;
-    justify-content: center;
+.volunter .icon > img {
+  width: 40%;
+  height: 7em;
+  margin-top: 12%;
+  border-radius: 60%;
+  position: absolute;
+  justify-content: center;
 }
-.test .icon h1, p{
-    color: #1B557F;
+.volunter .icon p {
+  color: white;
 }
-.desc{
-    padding: 30px;
-    text-align: left;
+.volunter .icon h1 {
+  color: #52b054;
+  font-size: 24px;
+  margin-top: 1%;
+  font-weight: 900;
+  line-height: 36px;
+}
+.desc {
+  text-align: center;
 }
 
 
