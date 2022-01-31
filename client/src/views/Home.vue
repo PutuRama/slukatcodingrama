@@ -64,20 +64,10 @@
               src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
               alt=""
             />
-            <p>I Gusti Agung Rai</p>
+            <p>I Gusti Agung Rai <span>&</span> I Gusti Ayu Darsini</p>
+            
           </div>
-        </div>
-        <div class="col-sm-12 col-md-6">
-          <div class="column2">
-            <img
-              src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-              alt=""
-            />
-            <p>I Gusti Ayu Darsini</p>
-          </div>
-        </div>
-      </div>
-      <br />
+          
       <p>
         The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini
         established SLC on <br />
@@ -85,6 +75,8 @@
         children and <br />
         youth in Keramas Village, in Gianyar, Bali.
       </p>
+        </div>
+      </div>
 
       <button class="button-founder">
         <a href="#">Find Out More</a
@@ -357,6 +349,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap");
 /* @import url('../assets/css/media.css'); */
 
+.home{
+  overflow-x: hidden;
+}
+
 /* on top */
 .img_navbar {
   width: 100%;
@@ -421,6 +417,9 @@
 .founder {
   margin-bottom: 5%;
 }
+.founder span {
+  font-weight: 100;
+}
 .judul {
   font-weight: bold;
   color: #878787;
@@ -443,9 +442,12 @@
   vertical-align: middle;
   border-radius: 100%;
 }
+
+
 .column2 > p {
   margin-top: 5%;
-  font-weight: 700;
+  font-weight: 900;
+  font-size: 20px;
 }
 .founder > p {
   margin-top: 20px;
