@@ -17,7 +17,7 @@ const routes = [
     name: 'OurProgram',
     component: () => import(/* webpackChunkName: "about" */ '../views/OurProgram.vue')
   },
-  { 
+  {
     path: '/program/english',
     name: 'EnglishProgram',
     component: () => import(/* webpackChunkName: "about" */ '../views/english-program.vue')
@@ -39,6 +39,10 @@ const routes = [
     path: '/about/student',
     name: 'AboutStudent',
     component: () => import(/* webpackChunkName: "about" */ '../views/StudentPage.vue')
+  }, {
+    path: '/activities',
+    name: 'Activities',
+    component: () => import(/* webpackChunkName: "about" */ '../views/activities.vue')
   },
   {
     path: '/:pathMatch(.*)*',
