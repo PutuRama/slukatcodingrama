@@ -390,7 +390,6 @@
 }
 .column {
   display: flex;
-  flex-wrap: wrap;
   margin-bottom: 4%;
   justify-content: center;
 }
