@@ -109,7 +109,7 @@
             </span>
             <span class="col-md-3 col-sm-6 program-span">
               <img src="../assets/kucing.png" alt="" />
-              <h4>Enterprenuer  Program</h4>
+              <h4>Enterprenuer Program</h4>
             </span>
             <span class="col-md-3 col-sm-6 program-span">
               <img src="../assets/kucing.png" alt="" />
@@ -530,7 +530,7 @@
 }
 .top p {
   line-height: 27px;
-  padding:0 10px;
+  padding: 0 10px;
 }
 .testi h3 {
   margin: 50px 0 30px 0;

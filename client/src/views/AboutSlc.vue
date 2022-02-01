@@ -1,8 +1,9 @@
 <template>
   <div class="aboutslc">
     <div class="banner">
+      <div class="banner-img"></div>
       <span class="banner-text">
-        <h1>About Us</h1>
+        <h1>About <span class="text-hijau">SLC</span></h1>
         <p>
           Slukat Learning Center Is a Non Formal Education that Provides free after-school learning. The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini  established SLC on 24 October 2007 to provide a better education opportunity for the children and youth in Keramas Village, in Gianyar, Bali.
         </p>
@@ -280,6 +281,9 @@
 
 <style scoped>
 
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap");
+
+
 .spacer-section{
   height: 50px;
 }
@@ -288,12 +292,22 @@
   overflow-x: hidden;
 }
 .banner{
-  background-image: url("../assets/banner_about_us.png");
-  min-height: 500px;
+  min-height: 700px;
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  position: relative;
+}
+.banner-img{
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  background-image: url("../assets/img/all-seminar.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 700px;
+  filter: brightness(40%);
 }
 .banner-text{
   text-align: center;
@@ -304,10 +318,25 @@
   padding:0 20px;
 }
 
+.banner-text p{
+  color: #c0c0c0;
+}
+.banner-text h1{
+  font-weight: 600;
+}
+
+.text-hijau{
+  font-weight: bolder !important;
+  color: #037c01;
+}
+
 
 
 .vision-img{
-  background-image: url("../assets/vision_dummy.png");
+  background-image: url("../assets/img/children-read.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
 }
 .vision-text{
   padding: 30px 20px;
