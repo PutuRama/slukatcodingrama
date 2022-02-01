@@ -229,7 +229,7 @@
     overflow-x: hidden;
 }
 .activities-carousel{
-    background-image: url("../assets/banner_about_us.png");
+    background-image: url("../assets/banner_about_us.jpg");
     min-height: 600px;
     display: flex;
     justify-content: center;
