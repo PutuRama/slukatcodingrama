@@ -512,6 +512,7 @@
   border-radius: 5px;
   padding: 15px 30px;
   margin-top: 70px;
+  margin-bottom: 50px;
 }
 .button-program a {
   text-decoration: none;
