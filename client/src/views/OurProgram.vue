@@ -199,7 +199,7 @@
   font-family: "Poppins", sans-serif;
 }
 .banner {
-  background-image: url("../assets/banner_about_us.png");
+  background-image: url("../assets/banner_about_us.jpg");
   min-height: 500px;
   display: flex;
   justify-content: center;
