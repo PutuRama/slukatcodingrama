@@ -4,16 +4,16 @@
         <div class="col carousel-img">
        <div class="col carousel">
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
 
         </div>
@@ -41,16 +41,16 @@
       <div class="col carousel-img">
        <div class="col student">
       <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
 
         </div>
@@ -60,16 +60,16 @@
        <div class="col carousel-img-mobile">
        <div class="col student-mobile">
       <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
       <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.png" alt="">
+        <img src="../assets/banner_about_us.jpg" alt="">
       </div>
 
         </div>
