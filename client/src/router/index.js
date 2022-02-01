@@ -9,7 +9,7 @@ const routes = [
   },
   {
     path: '/about/slc',
-    name: 'About',
+    name: 'AboutSlc',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutSlc.vue')
   },
   {
@@ -31,6 +31,11 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/enterprenuer-program.vue')
   },
   {
+    path: '/about/student',
+    name: 'AboutStudent',
+    component: () => import(/* webpackChunkName: "about" */ '../views/StudentPage.vue')
+  },
+  {
     path: '/:pathMatch(.*)*',
     name: '404',
     component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
@@ -50,7 +55,7 @@ const router = createRouter({
       console.log("moving to top of the page");
       window.scrollTo(0, 0);
     }
- }
+  }
 })
 
 export default router
