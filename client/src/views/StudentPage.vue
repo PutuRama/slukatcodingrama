@@ -144,35 +144,33 @@
     <div class="achievement">
       <h2>Our Achievement</h2>
         <div class="row">
-      <div class="achievement-top">
-        <div class="col-6 col-md-2 col-sm-6 achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship</p>
-        </div>
-        <div class="col-6 col-md-2 col-sm-6 achievement-content align-achiv">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Participated in International Exchange Program</p>
-        </div>
-        <div class="col-6 col-md-2 col-sm-12 achievement-content align-achiv">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
+      <div class="col achievement-top">
+        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
+          <img style="width: 200%" src="../assets/kucing.png" alt="">
           <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
         </div>
-        <div class="col-6 col-md-2 col-sm-12  achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Able to support themselves and their family</p>
+        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
+          <img style="width: 200%" src="../assets/kucing.png" alt="">
+          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
+        </div>
+        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
+          <img style="width: 200%" src="../assets/kucing.png" alt="">
+          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
+        </div>
+        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
+          <img style="width: 200%" src="../assets/kucing.png" alt="">
+          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
+        </div>
+        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
+          <img style="width: 200%" src="../assets/kucing.png" alt="">
+          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
+        </div>
+        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
+          <img style="width: 200%" src="../assets/kucing.png" alt="">
+          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
         </div>
       </div>
 
-      <div class="col-md-12 achievement-bottom">
-        <div class="col-6 col-md-4 achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Mentored and inspired other students</p>
-        </div>
-        <div class="col-6 col-md-4 achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Became leaders in their school and communities</p>
-        </div>
-      </div>
     </div>
   </div>
   </div>
@@ -350,18 +348,11 @@
   justify-content: center;
   margin: 65px 0 60px 0;
 }
-.achievement-bottom{
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 170px;
-}
 .achievement-content{
-  width: 19%;
-  margin: 0 0.8%;
+  flex: 10%;
+
 }
-.achiv-icon{
-  font-size: 40px;
+.achievement-top img{
 }
+
 </style>
