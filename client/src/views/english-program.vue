@@ -54,7 +54,7 @@
           </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 column-how">
-          <h2>How is it started?</h2>
+          <h2>How is it going?</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -65,51 +65,58 @@
       </div>
     </div>
 
-    <div class="leads">
-      <div class="leads-text">
-        <h2>Who leads this class?</h2>
+
+    <div class="status-overview">
+      <div class="overview-text">
+        <h1 style="color: black;"><b>Status Overview</b></h1>
+        <br><br><br>
       </div>
-      <div class="leads-img">
-        <div class="row">
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
+      <div class="row row-overview">
+        <div class="col col-md-4 col-sm-6 col-overview">
+        <h1><b>401</b> </h1><span>Students <br> Enrolled</span>
         </div>
+        <div class="col col-md-4 col-sm-6 col-overview">
+        <h1><b>572</b> </h1><span>Students <br> Graduated</span>
+        </div>
+        <div class="col col-md-4 col-sm-12 col-overview">
+        <h1><b>10</b> </h1><span>Volunteers <br> Contributed</span>
+        </div>
+      </div>
+      <div class="end-overview">
+      <p style="margin-bottom: 10%">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br> been the industry's standard dummy text ever since the 1500s, when an unknown printer took a <br> galley of type and scrambled it to make a type specimen book.</p>
       </div>
     </div>
 
     <div class="activities">
       <div class="activities-text">
-        <h2>Activities</h2>
+        <h1 style="color: black"><b>Activities</b></h1>
+        <br><br><br>
       </div>
-      <div class="row">
-        <div class="col slider-activities">
-          <div class="col-sm-12 wrapper-activities">
-            <img
-              src="https://i.pinimg.com/originals/2b/de/de/2bdede0647e3cdf75b44ea33723201d9.jpg"
-            />
-            <img
-              src="https://images6.alphacoders.com/462/thumb-1920-462371.jpg"
-            />
-            <img
-              src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg"
-            />
-            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-          </div>
+      
+      <div class="row row-img">
+        <div class="col-2 col-img">
+          <img src="../assets/kucing.png" alt="">
         </div>
       </div>
+
+      <div class="row row-img">
+        <div class="col-4 col-img">
+          <img src="../assets/kucing.png" alt="">
+        </div>
+        <div class="col-4 col-img">
+          <img src="../assets/kucing.png" alt="">
+        </div>
+      </div>
+
+       <div class="row row-img">
+        <div class="col-2 col-img">
+        <img src="../assets/kucing.png" alt="">
+        </div>
+      </div>
+
     </div>
+
+    
   </div>
 </template>
 
@@ -174,6 +181,7 @@
 .row-how {
   display: flex;
   justify-content: center;
+  text-align: left;
 }
 .column-how {
   padding-left: 10%;
@@ -183,57 +191,37 @@
   font-weight: bold;
 }
 
-.leads-text h2 {
-  font-weight: bold;
-}
-.leads-text {
-  margin-bottom: 5%;
-}
-.column-img {
-  margin-bottom: 20%;
-}
 
-.activities-text h2 {
-  font-weight: bold;
-}
-.slider-activities {
-  overflow-x: auto;
-  border: 10px solid #ffffff;
-}
-.slider-activities::-webkit-scrollbar {
-  width: 0;
-}
-.wrapper-activities {
+.col-overview{
   display: flex;
-  margin-bottom: 2%;
-  animation: slide 5s infinite;
-  animation-direction: alternate;
-  animation-fill-mode: both;
-  width: 200%;
+  justify-content: center;  
+  margin-bottom: 3%;
 }
-.wrapper-activities img {
-  margin-top: 1%;
-  width: 28%;
-  margin : 0 40px;
-  min-width: 300px;
+.col-overview span{
+  margin-left: 5%;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: start;
+  color: #747474;
 }
-/* @media screen and (max-width: 820px) {
-  .wrapper-activities img {
-    width: 60%;
-  }
+.col-overview h1{
+  font-size: 45px;
+  color: black;
 }
-@media screen and (max-width: 450px) {
-  .wrapper-activities img {
-    width: 70%;
-  }
-} */
 
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+
+.row-img{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+}
+.col-img img{
+  width: 70%;
+  
+}
+.col-img{
+  display: flex;
+  justify-content: center;  
 }
 </style>
