@@ -34,20 +34,20 @@
 
     <div class="img-activities">
       <div class="row row-img">
-        <div class="col-md-6 column-img">
+        <div class="col col-md-6 col-sm-12 column-img">
         <a href="">
-          <img src="../assets/post.jpg" alt="">
-          <div class="img-text">
+          <img src="../assets/program.jpg" alt="">
+          <div class="col-12 col-md-12 img-text">
             <p>OUR PROGRAM</p> <span> 02 June 2022</span>
             <h3>lorem ipsum dolor sit jamet</h3>
           </div>
         </a>
         </div>
 
-       <div class="col-md-6 column-img">
+       <div class="col col-md-6 col-sm-12 column-img">
         <a href="">
-          <img src="../assets/post.jpg" alt="">
-          <div class="img-text">
+          <img src="../assets/aboutus.jpeg" alt="">
+          <div class="col img-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
             <h3>lorem ipsum dolor sit jamet</h3>
           </div>
@@ -69,7 +69,7 @@
     
         <div class="col-md-4 column-daily">
         <a href="">  
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/english1.jpeg" alt="">
           </a> 
           <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -79,7 +79,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/english2.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -89,7 +89,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/english3.jpg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -108,7 +108,7 @@
     
         <div class="col-md-4 column-daily">
         <a href="">  
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/coding.jpeg" alt="">
           </a> 
           <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -118,7 +118,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/coding2.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -128,7 +128,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/coding3.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -148,7 +148,7 @@
     
         <div class="col-md-4 column-daily">
         <a href="">  
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/enter1.jpeg" alt="">
           </a> 
           <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -158,7 +158,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/enter2.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -168,7 +168,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/enter3.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -189,7 +189,7 @@
     
         <div class="col-md-4 column-daily">
         <a href="">  
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/agri1.jpeg" alt="">
           </a> 
           <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -199,7 +199,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/agri2.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -209,7 +209,7 @@
         <div class="col-md-4 column-daily">
          <a href="">
   
-         <img src="../assets/post.jpg" alt="">
+         <img src="../assets/agri3.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2022</span>
@@ -234,6 +234,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
 }
 .activities-text{
     font-weight: bold;
@@ -267,7 +270,7 @@
 }
 .column-img img{
   min-height: 400px;
-  width: 600px;
+  width: 550px;
   margin-top: 10%;
   justify-content: center;
   transition: .5s ease;
@@ -282,8 +285,9 @@
   text-align: start;
   position: absolute;
   bottom: 0;
+  margin-left: 15%;
+  margin-bottom: 20px;
   color: white;
-  padding: 20px 20%;
 }
 .img-text h3{
   font-weight: bold;
@@ -318,8 +322,10 @@
 }
 .column-daily img{
   width: 100%;
+  height: 250px;
   margin-bottom: 3%;
   transition: .5s ease;
+  
 }
 .column-daily img:hover{
   opacity: 0.8;
