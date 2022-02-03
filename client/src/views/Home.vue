@@ -1,19 +1,43 @@
 <template>
   <div class="home">
-    <div class="carousel">
-      <div class="banner"></div>
-      <div class="teks col">
-        <h2>Slukat Learning Center</h2>
-        <p>
-          An <span id="teks">alternative</span> solution in educational needs of
-          youth in Bali
-        </p>
+    <div class="carousel" style="position: relative; z-index: 1">
+      <div class="banner" style="z-index: -2"></div>
+      <div class="row teks">
+        <div class="col-lg-7 col-md-7 col-sm-12">
+          <span class="teks-inner">
+            <h2>Slukat Learning Center</h2>
+            <p>
+              An <span id="teks">alternative</span> solution in educational
+              needs of youth in Bali
+            </p>
+          </span>
+        </div>
+        <div class="col-lg-5 col-md-5 col-sm-12 banner-img-carousel">
+          <img
+            src="../assets/img/Rectangle66.png"
+            alt=""
+            class=""
+            style="z-index: 2"
+          />
+          <img
+            src="../assets/img/Rectangle68.png"
+            alt=""
+            class=""
+            style="z-index: 1"
+          />
+          <img
+            src="../assets/img/Rectangle70.png"
+            alt=""
+            class=""
+            style="z-index: 1"
+          />
+        </div>
       </div>
     </div>
 
     <!-- about us -->
     <div class="col-sm-12 aboutus">
-      <div class="row">
+      <div class="row" style="z-index: 5; position: relative">
         <div class="col-md-12 col-sm-6 about-img-mobile">
           <div class="col column">
             <img src="../assets/img/children.jpg" alt="" />
@@ -43,38 +67,54 @@
           </div>
         </div>
       </div>
+      <div class="bottom-svg">
+        <svg
+          width="1200"
+          height="510"
+          viewBox="0 0 1087 386"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M136.5 309.5C52.9 312.7 11 388.833 0.5 426.5L1174.5 525L1193 -40C1178.33 -50.5 1081.6 -65.2 812 -40C475 -8.50002 441 112 423 134C398.308 164.179 360 324 306 334.5C252 345 241 305.5 136.5 309.5Z"
+            fill="#A1EEA0"
+          />
+        </svg>
+      </div>
     </div>
     <br /><br />
 
     <!-- founder -->
     <div class="founder">
-      <div class="col judul">
-        <p>THE FOUNDERS</p>
-      </div>
-      <div class="row2 row">
-        <div class="col-sm-12 col-md-6">
-          <div class="column2">
-            <img src="../assets/img/founder.svg" alt="" />
-            <p>I Gusti Agung Rai <span>&</span> I Gusti Ayu Darsini</p>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-12 image">
+          <div>
+            <img src="../assets/img/Founderwithbg.png" alt="" /><br />
+            <h5>Mrs. I Gusti Ayu Darsini & Mr. I Gusti Agung Rai</h5>
           </div>
-
-          <p class="founder-bio">
-            The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini
-            established SLC on <br />
-            24 October 2007 to provide a better education opportunity for the
-            children and <br />
-            youth in Keramas Village, in Gianyar, Bali.
-          </p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <span>
+            <h1>The Founder</h1>
+            <p>
+              The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini
+              established SLC on 24 October 2007 to provide a better education
+              opportunity for the children and youth in Keramas Village, in
+              Gianyar, Bali.
+            </p>
+            <br>
+            <router-link class="button-program" to="/program">
+              <a href="#" id="founder-findout"
+                >Find Out More
+                <i
+                  class="fas fa-arrow-circle-right"
+                  style="font-size: 25px; color: white;"
+                ></i
+              ></a>
+            </router-link>
+          </span>
         </div>
       </div>
-
-      <button class="button-founder">
-        <a href="#">Find Out More</a
-        ><i
-          class="fas fa-arrow-circle-right"
-          style="font-size: 30px; color: white; margin-left: 30px"
-        ></i>
-      </button>
     </div>
 
     <!-- our program -->
@@ -341,24 +381,61 @@
   filter: brightness(40%);
   min-height: 700px;
 }
+.banner-img-carousel img:not(:first-child) {
+  position: absolute;
+}
+.banner-img-carousel img:nth-child(2) {
+  left: 0;
+  bottom: 20px;
+  z-index: 0;
+}
+.banner-img-carousel img:nth-child(3) {
+  right: 0;
+  bottom: 20px;
+  z-index: 0;
+}
+
 .teks {
   position: absolute;
-  top: 35%;
+  top: 15%;
   color: rgb(190, 190, 190);
   font-weight: 600;
+  width: 100%;
 }
+
+.teks .teks-inner {
+  right: 50%;
+  top: 50%;
+  transform: translate(50%, -50%);
+  position: absolute;
+  text-align: start;
+}
+
 #teks {
   border-bottom: 2px solid #0f9614;
 }
-.teks > h2 {
+
+.teks-inner > h2 {
   font-weight: 800;
   color: white;
+  font-size: 35px;
+}
+
+.teks-inner > p {
+  min-width: 500px;
+  color: rgb(202, 202, 202);
 }
 
 /* aboutus */
 .aboutus {
   background-color: #effdef;
   padding-top: 5%;
+}
+.bottom-svg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
 }
 .about-teks {
   text-align: start;
@@ -405,60 +482,44 @@
 .founder {
   margin-bottom: 5%;
 }
+
 .founder span {
-  font-weight: 100;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  margin: auto 0;
+  text-align: start;
 }
-.judul {
-  font-weight: bold;
+.founder span h1 {
   color: #878787;
-  letter-spacing: 0.3em;
-  margin-top: 10%;
-}
-.row2 {
-  margin-top: 5%;
-  display: flex;
-  flex-wrap: wrap;
-  margin-bottom: 4%;
-  justify-content: center;
-}
-.founder-bio {
-  padding: 0 10px;
-}
-.column2 {
-  flex: 50%;
-}
-.column2 img {
-  width: 300px;
-  height: 300px;
-  vertical-align: middle;
-  border-radius: 100%;
-}
-
-.column2 > p {
-  margin-top: 5%;
-  font-weight: 900;
-
-  padding: 0 10px;
-  font-size: 20px;
-}
-.founder > p {
-  padding: 0 10px;
-  margin-top: 20px;
-  font-weight: 500;
-}
-.button-founder {
-  background: #047002;
-  border: white 3px solid;
-  border-radius: 5px;
-  padding: 12px 20px;
-}
-.button-founder a {
-  text-decoration: none;
-  font-size: 18px;
-  color: white;
-  padding-bottom: 2em;
-  vertical-align: top;
   font-weight: 700;
+  letter-spacing: 0.3em;
+  margin-bottom: 20px;
+}
+.founder span p {
+  max-width: 600px;
+}
+.image img {
+  width: 50%;
+}
+.image {
+  position: relative;
+}
+
+.image div {
+  display: inline;
+  padding: 10px 0;
+  background-color: #a1ee9f;
+}
+.image div h5 {
+  display: inline;
+  margin: 0 5px;
+}
+
+#founder-findout{
+  position: relative;
+  top: 50% !important;
 }
 
 /* our program */
