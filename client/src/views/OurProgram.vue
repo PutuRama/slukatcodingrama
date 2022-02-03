@@ -81,7 +81,7 @@
  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active" data-bs-interval="50000">
-     <img src="../assets/img/Eng_class.png" alt="">
+     <img src="../assets/img/Eng_class.jpeg" alt="">
           <h2><span class="headline-hijau">English Class</span></h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -93,7 +93,7 @@
           </p>
     </div>
     <div class="carousel-item">
-     <img src="../assets/img/Agri_class.png" alt="" data-bs-interval="50000">
+     <img src="../assets/img/Agri_class.jpg" alt="" data-bs-interval="50000">
           <h2><span class="headline-hijau">Agriculture Class</span></h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -105,7 +105,7 @@
           </p>
     </div>
     <div class="carousel-item">
-      <img src="../assets/img/Coding_class.png" alt="" data-bs-interval="50000">
+      <img src="../assets/img/Coding_class.jpeg" alt="" data-bs-interval="50000">
           <h2><span class="headline-hijau">Coding Class</span></h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -304,6 +304,7 @@
 }
 .carousel-item img{
   width: 100%;
+  max-height: 365px;
 }
 .carousel-item h2 {
   font-weight: 700;
@@ -376,6 +377,7 @@
 }
   .activites .row .col-8 img {
     width: 100%;
+    height: 180px;
 }
   .activites .row .col-8 {
     margin: 0 auto;
