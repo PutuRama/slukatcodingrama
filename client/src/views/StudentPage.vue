@@ -142,36 +142,43 @@
     </div>
 
     <div class="achievement">
+      <div class="achivement-text">
       <h2>Our Achievement</h2>
-        <div class="row">
-      <div class="col achievement-top">
-        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
-          <img style="width: 200%" src="../assets/kucing.png" alt="">
-          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
+      <br><br><br>
+      </div>
+      <div class="row row-achievement">
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+          <img src="../assets/kucing.png" alt="">
+          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
         </div>
-        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
-          <img style="width: 200%" src="../assets/kucing.png" alt="">
-          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
-        </div>
-        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
-          <img style="width: 200%" src="../assets/kucing.png" alt="">
-          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
-        </div>
-        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
-          <img style="width: 200%" src="../assets/kucing.png" alt="">
-          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
-        </div>
-        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
-          <img style="width: 200%" src="../assets/kucing.png" alt="">
-          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
-        </div>
-        <div class="col col-md-12 col-sm-12 achievement-content align-achiv">
-          <img style="width: 200%" src="../assets/kucing.png" alt="">
-          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+          <img src="../assets/kucing.png" alt="">
+          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
         </div>
       </div>
 
-    </div>
+      <div class="row row-achievement">
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+          <img src="../assets/kucing.png" alt="">
+          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+        </div>
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+          <img src="../assets/kucing.png" alt="">
+          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+        </div>
+      </div>
+
+      <div class="row row-achievement">
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+          <img src="../assets/kucing.png" alt="">
+          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+        </div>
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+          <img src="../assets/kucing.png" alt="">
+          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+        </div>
+      </div>
+        
   </div>
   </div>
 </template>
@@ -340,19 +347,21 @@
 .desc {
   text-align: center;
 }
-
-
-.achievement-top{
+.row-achievement{
+  flex: 50%;
+  margin-top: 5%;
+}
+.column-achievement{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin: 65px 0 60px 0;
 }
-.achievement-content{
-  flex: 10%;
+.column-achievement img{
+  width: 50%;
+}
+.column-achievement p {
+  width: 350px;
+}
 
-}
-.achievement-top img{
-}
 
 </style>
