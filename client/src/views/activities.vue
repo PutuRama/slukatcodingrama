@@ -299,6 +299,7 @@
   text-decoration: none;
   text-align: start;
   position: absolute;
+  width: 80%;
   bottom: 0;
   margin-left: 8%;
   margin-bottom: 30px;
