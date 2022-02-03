@@ -283,7 +283,6 @@
 }
 .column-img img{
   width: 100%;
-  height: 500px;
   margin-top: 10%;
   padding-left: 5%;
   padding-right: 5%;
