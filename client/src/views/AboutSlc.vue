@@ -31,7 +31,7 @@
       <div class="row">
         <div class="col">
           <div class="card">
-            <img class="card-img-top" src="../assets/vision_dummy.png" alt="Card image cap">
+            <img class="card-img-top" src="../assets/Mission1Photo.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
                 <ul>
@@ -51,7 +51,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="card-img-top" src="../assets/vision_dummy.png" alt="Card image cap">
+            <img class="card-img-top" src="../assets/Mission2Photo.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
                 <ul>
@@ -68,7 +68,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="card-img-top" src="../assets/vision_dummy.png" alt="Card image cap">
+            <img class="card-img-top" src="../assets/Mission3Photo.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
                 <ul>
@@ -127,18 +127,12 @@
       <div class="team-dekstop">
         <div class="founder">
             <div class="row">
-              <div class="col-5">
+              <div class="col-12">
                 <span>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <h3>FOUNDER</h3>
+                  <img src="../assets/unsplash_GVheioPZdpk.png" alt=""><br>
                   <h5>I Gusti Agung Rai</h5>
                 </span>
-              </div>
-              <div class="col-2">
-                <h3>FOUNDER</h3>
-              </div>
-              <div class="col-5">
-                <img src="../assets/dummyteam.png" alt=""><br>
-                  <h5>I Gusti Ayu Darsini</h5>
               </div>
           </div>
         </div>
@@ -302,7 +296,7 @@
   width: 100%;
   height: 100%;
   position:absolute;
-  background-image: url("../assets/img/all-seminar.jpeg");
+  background-image: url("../assets/AboutUs-Background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -333,10 +327,11 @@
 
 
 .vision-img{
-  background-image: url("../assets/img/children-read.jpeg");
+  background-image: url("../assets/Our Vision - Photo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  height: 300px;
 }
 .vision-text{
   padding: 30px 20px;
