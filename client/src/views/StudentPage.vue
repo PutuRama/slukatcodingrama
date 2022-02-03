@@ -147,35 +147,53 @@
       <br><br><br>
       </div>
       <div class="row row-achievement">
-        <div class="col- col-sm-12 col-md-6 column-achievement">
+        <div class="col col-sm-12 col-md-6 column-achievement">
+          <div class="col img_text">
           <img src="../assets/kucing.png" alt="">
-          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
+            <div class="col img_text">
           <img src="../assets/kucing.png" alt="">
-          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
       </div>
 
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
+           <div class="col img_text">
           <img src="../assets/kucing.png" alt="">
-          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
+            <div class="col img_text">
           <img src="../assets/kucing.png" alt="">
-          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
       </div>
 
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
+           <div class="col img_text">
           <img src="../assets/kucing.png" alt="">
-          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
+           <div class="col img_text">
           <img src="../assets/kucing.png" alt="">
-          <p>Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship </p>
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
       </div>
         
@@ -359,8 +377,8 @@
 .column-achievement img{
   width: 50%;
 }
-.column-achievement p {
-  width: 350px;
+.img_text p {
+  justify-items: center;
 }
 
 
