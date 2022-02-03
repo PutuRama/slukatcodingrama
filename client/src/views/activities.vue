@@ -37,7 +37,7 @@
         <div class="col col-md-6 col-sm-12 column-img">
         <a href="">
           <img src="../assets/program.jpg" alt="">
-          <div class="col-12 col-md-12 img-text">
+          <div class="col img-text">
             <p>OUR PROGRAM</p> <span> 02 June 2022</span>
             <h3>lorem ipsum dolor sit jamet</h3>
           </div>
@@ -62,8 +62,8 @@
         <br><br><br><br>
         <h2 style="margin-bottom:5%">Our Daily Activities</h2>
       </div>
-        <div class="col daily-text">
-          <h4 style="text-align: left; padding-left: 10%"><b>English Class</b> </h4>
+        <div class="col daily-english">
+          <h4 style="text-align: left; padding-left: 10%"><b>English Class</b> </h4> <br>
         </div>
       <div class="row row-daily">
     
@@ -101,8 +101,8 @@
     <br><br><br>
 
     <div class="list-activities">
-        <div class="col daily-text">
-          <h4 style="text-align: left; padding-left: 10%"><b>Coding Program</b> </h4>
+        <div class="col daily-coding">
+          <h4 style="text-align: left; padding-left: 10%"><b>Coding Program</b> </h4> <br>
         </div>
       <div class="row row-daily">
     
@@ -141,8 +141,8 @@
 
 
         <div class="list-activities">
-        <div class="col daily-text">
-          <h4 style="text-align: left; padding-left: 10%"><b>Enterpreneur Program</b> </h4>
+        <div class="col daily-enterpreneur">
+          <h4 style="text-align: left; padding-left: 10%"><b>Enterpreneur Program</b> </h4> <br>
         </div>
       <div class="row row-daily">
     
@@ -182,8 +182,8 @@
 
 
     <div class="list-activities">
-        <div class="col daily-text">
-          <h4 style="text-align: left; padding-left: 10%"><b>Agriculture Program</b> </h4>
+        <div class="col daily-agri">
+          <h4 style="text-align: left; padding-left: 10%"><b>Agriculture Program</b> </h4> <br>
         </div>
       <div class="row row-daily">
     
@@ -268,10 +268,25 @@
 .column-how h2 {
   font-weight: bold;
 }
+.row-img{
+  flex: 50px;
+  display: inline-block;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+
+
+}
+.column-img{
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: center;
+}
 .column-img img{
-  min-height: 400px;
-  width: 550px;
+  width: 100%;
+  height: 500px;
   margin-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
   justify-content: center;
   transition: .5s ease;
 
@@ -285,8 +300,8 @@
   text-align: start;
   position: absolute;
   bottom: 0;
-  margin-left: 15%;
-  margin-bottom: 20px;
+  margin-left: 8%;
+  margin-bottom: 30px;
   color: white;
 }
 .img-text h3{
@@ -311,7 +326,7 @@
 
 
 .column-daily{
-  display: flex;
+  display: inline-block;
   flex-wrap: wrap;
   justify-content: center;
   
@@ -334,6 +349,8 @@
   text-decoration: none;
   text-align: left;
   margin-right: 10%;
+  margin-bottom: 15%;
+  
 
 }
 .daily-text p{
