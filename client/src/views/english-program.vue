@@ -208,10 +208,9 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  object-fit: cover;
   --gap: 16px;
   --num-cols: 6;
-  --row-height: 300px;
+  --row-height: 200px;
   box-sizing: border-box;
   padding: var(--gap);
   display: grid;grid-template-columns: repeat(var(--num-cols), 1fr);
@@ -219,7 +218,15 @@
   gap: var(--gap);
 }
 .col-img img{
+  object-fit: cover;
   width: 100%;
   height: 100%;
+}
+@media screen and (max-width: 1024px) {
+  .col-img{
+    --num-cols: 2;
+    --row-height: 200px;
+
+  }
 }
 </style>
