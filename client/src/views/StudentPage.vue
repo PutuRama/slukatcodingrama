@@ -162,14 +162,14 @@
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
            <div class="col img_text">
-          <img src="../assets/kucing.png" alt="">
+          <img src="../assets/bot1.jpg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
            <div class="col img_text">
-          <img src="../assets/kucing.png" alt="">
+          <img src="../assets/bot2.jpg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
@@ -326,6 +326,9 @@
 }
 .desc {
   text-align: center;
+}
+.achievement{
+  margin-bottom: 5%;
 }
 .row-achievement{
   flex: 50%;
