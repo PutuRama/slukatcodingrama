@@ -1,36 +1,15 @@
 <template>
   <div class="home">
-    <div class="carousel" style="position: relative; z-index: 1">
-      <div class="banner" style="z-index: -2"></div>
+    <div class="carousel" style="position: relative">
+      <div class="banner"></div>
       <div class="row teks">
-        <div class="col-lg-7 col-md-7 col-sm-12">
-          <span class="teks-inner">
-            <h2>Slukat Learning Center</h2>
-            <p>
-              An <span id="teks">alternative</span> solution in educational
-              needs of youth in Bali
-            </p>
-          </span>
+        <div class="col-lg-7 col-md-12 col-sm-12">
+          <h1><span class="garis-hijau">Slukat</span> Learning Center</h1>
         </div>
-        <div class="col-lg-5 col-md-5 col-sm-12 banner-img-carousel">
-          <img
-            src="../assets/img/Rectangle66.png"
-            alt=""
-            class=""
-            style="z-index: 2"
-          />
-          <img
-            src="../assets/img/Rectangle68.png"
-            alt=""
-            class=""
-            style="z-index: 1"
-          />
-          <img
-            src="../assets/img/Rectangle70.png"
-            alt=""
-            class=""
-            style="z-index: 1"
-          />
+        <div class="col-lg-5 col-md-12 col-sm-12">
+          <span class="image">
+            <img src="../assets/img/3-photo.png" alt="" />
+          </span>
         </div>
       </div>
     </div>
@@ -87,13 +66,16 @@
     <!-- founder -->
     <div class="founder">
       <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-12 image">
+        <div class="col-lg-6 col-md-12 col-sm-12 image">
           <div>
             <img src="../assets/img/Founderwithbg.png" alt="" /><br />
-            <h5>Mrs. I Gusti Ayu Darsini & Mr. I Gusti Agung Rai</h5>
+            <h5>
+              Mrs. I Gusti Ayu Darsini & <br class="break" />
+              Mr. I Gusti Agung Rai
+            </h5>
           </div>
         </div>
-        <div class="col-lg-6 col-md-6 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <span>
             <h1>The Founder</h1>
             <p>
@@ -102,13 +84,13 @@
               opportunity for the children and youth in Keramas Village, in
               Gianyar, Bali.
             </p>
-            <br>
+            <br />
             <router-link class="button-program" to="/program">
               <a href="#" id="founder-findout"
                 >Find Out More
                 <i
                   class="fas fa-arrow-circle-right"
-                  style="font-size: 25px; color: white;"
+                  style="font-size: 25px; color: white"
                 ></i
               ></a>
             </router-link>
@@ -371,6 +353,10 @@
   overflow-x: hidden;
 }
 
+span.garis-hijau{
+  padding: 1px;
+  border-bottom: #5cd45e 4px solid;
+}
 /* on top */
 .banner {
   width: 100%;
@@ -379,53 +365,42 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   filter: brightness(40%);
-  min-height: 700px;
-}
-.banner-img-carousel img:not(:first-child) {
+  z-index: 1;
+  min-height: 800px;
   position: absolute;
 }
-.banner-img-carousel img:nth-child(2) {
-  left: 0;
-  bottom: 20px;
-  z-index: 0;
-}
-.banner-img-carousel img:nth-child(3) {
-  right: 0;
-  bottom: 20px;
-  z-index: 0;
-}
 
+.carousel {
+  min-height: 800px;
+}
 .teks {
-  position: absolute;
-  top: 15%;
-  color: rgb(190, 190, 190);
-  font-weight: 600;
-  width: 100%;
+  z-index: 3;
+  position: relative;
+  top: 200px;
 }
 
-.teks .teks-inner {
-  right: 50%;
-  top: 50%;
-  transform: translate(50%, -50%);
-  position: absolute;
-  text-align: start;
+.teks > div {
+  margin-bottom: 50px;
+}
+.image img {
+  width: 500px !important;
 }
 
-#teks {
-  border-bottom: 2px solid #0f9614;
+@media screen and (max-width: 530px) {
+  .image img {
+    width: 300px !important;
+  }
+  .teks {
+    top: 100px;
+  }
 }
 
-.teks-inner > h2 {
-  font-weight: 800;
+.carousel h1 {
+  margin-top: 70px;
   color: white;
-  font-size: 35px;
+  font-size: 50px;
+  font-weight: 800;
 }
-
-.teks-inner > p {
-  min-width: 500px;
-  color: rgb(202, 202, 202);
-}
-
 /* aboutus */
 .aboutus {
   background-color: #effdef;
@@ -480,9 +455,11 @@
 
 /* founder */
 .founder {
-  margin-bottom: 5%;
+  margin-bottom: 10%;
 }
-
+.break {
+  display: none;
+}
 .founder span {
   position: absolute;
   top: 50%;
@@ -490,6 +467,26 @@
   transform: translateY(-50%);
   margin: auto 0;
   text-align: start;
+}
+@media screen and (max-width: 990px) {
+  .founder span {
+    position: relative;
+    top: 50px;
+    left: 0;
+    text-align: center;
+  }
+  .break {
+    display: block;
+  }
+  .founder span p {
+    max-width: unset !important;
+  }
+  .founder span h1 {
+    padding: 0 10px;
+  }
+  .founder {
+    margin-bottom: 100px;
+  }
 }
 .founder span h1 {
   color: #878787;
@@ -499,6 +496,7 @@
 }
 .founder span p {
   max-width: 600px;
+  padding: 0 10px;
 }
 .image img {
   width: 50%;
@@ -514,12 +512,8 @@
 }
 .image div h5 {
   display: inline;
+  line-height: 50px;
   margin: 0 5px;
-}
-
-#founder-findout{
-  position: relative;
-  top: 50% !important;
 }
 
 /* our program */
