@@ -94,23 +94,11 @@
       </div>
       
       <div class="row row-img">
-        <div class="col-2 col-img">
+        <div class="col col-img">
+          <img class="col-img-2 row-img-2" src="../assets/kucing.png" alt="">
           <img src="../assets/kucing.png" alt="">
-        </div>
-      </div>
-
-      <div class="row row-img">
-        <div class="col-4 col-img">
           <img src="../assets/kucing.png" alt="">
-        </div>
-        <div class="col-4 col-img">
-          <img src="../assets/kucing.png" alt="">
-        </div>
-      </div>
-
-       <div class="row row-img">
-        <div class="col-2 col-img">
-        <img src="../assets/kucing.png" alt="">
+          <img class="col-img-2 row-img-2" src="../assets/kucing.png" alt="">
         </div>
       </div>
 
@@ -210,18 +198,28 @@
 }
 
 
-.row-img{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  grid-template-columns: auto auto auto;
+.col-img-2{
+  grid-column: span 2;
 }
-.col-img img{
-  width: 70%;
-  
+.row-img-2{
+  grid-row: span 2;
 }
 .col-img{
   display: flex;
-  justify-content: center;  
+  flex-wrap: wrap;
+  justify-content: center;
+  object-fit: cover;
+  --gap: 16px;
+  --num-cols: 6;
+  --row-height: 300px;
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+}
+.col-img img{
+  width: 100%;
+  height: 100%;
 }
 </style>
