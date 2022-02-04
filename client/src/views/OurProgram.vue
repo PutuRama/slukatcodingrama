@@ -13,7 +13,7 @@
       <div class="row">
         <div class="col-sm-12 col-md-4 our-objectives-item">
           <div class="our-objectives-img">
-            <img src="../assets/light-bulb.png" alt="" />
+            <img src="../assets/img/To_Inspire_Photo.png" alt="" />
           </div>
           <div class="our-objectives-text">
             <h5>To Inspire</h5>
@@ -25,7 +25,7 @@
         </div>
         <div class="col-sm-12 col-md-4 our-objectives-item">
           <div class="our-objectives-img">
-            <img src="../assets/self-awareness.png" alt="" />
+            <img src="../assets/img/To_Encourage_Photo.png" alt="" />
           </div>
           <div class="our-objectives-text">
             <h5>To Encourage</h5>
@@ -37,7 +37,7 @@
         </div>
         <div class="col-sm-12 col-md-4 our-objectives-item">
           <div class="our-objectives-img">
-            <img src="../assets/working.png" alt="" />
+            <img src="../assets/img/To_Empower_Photo.png" alt="" />
           </div>
           <div class="our-objectives-text">
             <h5>To Empower</h5>
@@ -71,76 +71,76 @@
             <li data-target="#carouselExampleIndicators" data-slide-to="3">
               <a href="#carouselExampleControls" data-slide="next">Enterpreneurship class</a>
             </li>
- 
 
             
           </div>
         </div>
-
-        <div class="col-8">
-          <div class="image-text text-center">
- <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-bs-interval="50000">
-     <img src="../assets/vision_dummy.png" alt="">
-          <h2><span class="headline-hijau">English Class</span></h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-    </div>
-    <div class="carousel-item">
-     <img src="../assets/vision_dummy.png" alt="" data-bs-interval="50000">
-          <h2><span class="headline-hijau">Agriculture Class</span></h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/vision_dummy.png" alt="" data-bs-interval="50000">
-          <h2><span class="headline-hijau">Coding Class</span></h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-    </div>
-    <div class="carousel-item">
-      <img src="../assets/vision_dummy.png" alt="" data-bs-interval="50000">
-          <h2><span class="headline-hijau">Enterpreneurship Class</span></h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged.
-          </p>
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
+      
+          <div class="col-12 col-md-8">
+            <div class="image-text text-center">
+              <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="50000">
+                  <img src="../assets/img/Eng_class.jpeg" alt="">
+                        <h2><span class="headline-hijau">English Class</span></h2>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting
+                          industry. Lorem Ipsum has been the industry's standard dummy text
+                          ever since the 1500s, when an unknown printer took a galley of type
+                          and scrambled it to make a type specimen book. It has survived not
+                          only five centuries, but also the leap into electronic typesetting,
+                          remaining essentially unchanged.
+                        </p>
+                  </div>
+                  <div class="carousel-item">
+                  <img src="../assets/img/Agri_class.jpg" alt="" data-bs-interval="50000">
+                        <h2><span class="headline-hijau">Agriculture Class</span></h2>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting
+                          industry. Lorem Ipsum has been the industry's standard dummy text
+                          ever since the 1500s, when an unknown printer took a galley of type
+                          and scrambled it to make a type specimen book. It has survived not
+                          only five centuries, but also the leap into electronic typesetting,
+                          remaining essentially unchanged.
+                        </p>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/Coding_class.jpeg" alt="" data-bs-interval="50000">
+                        <h2><span class="headline-hijau">Coding Class</span></h2>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting
+                          industry. Lorem Ipsum has been the industry's standard dummy text
+                          ever since the 1500s, when an unknown printer took a galley of type
+                          and scrambled it to make a type specimen book. It has survived not
+                          only five centuries, but also the leap into electronic typesetting,
+                          remaining essentially unchanged.
+                        </p>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/Entre_class.png" alt="" data-bs-interval="50000">
+                        <h2><span class="headline-hijau">Enterpreneurship Class</span></h2>
+                        <p>
+                          Lorem Ipsum is simply dummy text of the printing and typesetting
+                          industry. Lorem Ipsum has been the industry's standard dummy text
+                          ever since the 1500s, when an unknown printer took a galley of type
+                          and scrambled it to make a type specimen book. It has survived not
+                          only five centuries, but also the leap into electronic typesetting,
+                          remaining essentially unchanged.
+                        </p>
+                  </div>
+      
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
           </div>
-        </div>
       </div>
     </div>
 
@@ -153,7 +153,10 @@
     <div class="student-program">
       <div class="row">
         <div class="col">
-          <img src="../assets/vision_dummy1.png" alt="" >
+          <img src="../assets/img/help_us_2.png" alt="" >
+        </div>
+        <div class="col" id="back-photo">
+          <img src="../assets/img/help_us_1.png" alt="" >
         </div>
         <div class="col-7">
           <div class="std-program-text">
@@ -191,7 +194,7 @@
 
 
 .spacer-section {
-  height: 50px;
+  height: 100px;
 }
 /* program section css */
 .OurProgram {
@@ -199,7 +202,8 @@
   font-family: "Poppins", sans-serif;
 }
 .banner {
-  background-image: url("../assets/banner_about_us.jpg");
+  background-image: url("../assets/img/Rectangle.png");
+  background-size: cover;
   min-height: 500px;
   display: flex;
   justify-content: center;
@@ -274,9 +278,10 @@
   line-height: 40px;
   font-size: 18px;
   margin: 0 5px;
+  font-weight: 600;
 }
 .activites .row .col a:hover {
-  color: rgb(221, 221, 221);
+  color: #035e01;
   transition: 0.3s;
 }
 .image-text {
@@ -289,7 +294,7 @@
   left: 50%;
   transform: translateX(-50%);
 }
-.activites .row .col-8 {
+.activites .row .col-12 {
   background-color: #047002;
   padding: 0 0 10px 0;
   position: relative;
@@ -297,6 +302,10 @@
 
 .carousel {
   margin: 10% 0 10% 0;
+}
+.carousel-item img{
+  width: 100%;
+  max-height: 365px;
 }
 .carousel-item h2 {
   font-weight: 700;
@@ -354,6 +363,11 @@
   border-width: 2px;
   margin: 50px 0 0 0;
 }
+#back-photo{
+  position: absolute !important; 
+  left: -23%;
+  margin-top: 90px;
+}
 
 
 
@@ -362,12 +376,16 @@
   .activites .row .col a {
     text-align: center;
 }
-  .activites .row .col-8 img {
+  .activites .row .col-12 img {
     width: 100%;
+    height: 170px;
 }
-  .activites .row .col-8 {
+  .activites .row .col-12 {
     margin: 0 auto;
 }
+  .image-text{
+    width: 75%;
+  }
 }
 
 
@@ -388,12 +406,19 @@
   .std-program-text .btn{
   margin: 10px 0 0 0;
 }
+
 }
 
 @media only screen and (max-width: 900px) {
   .std-program-text .btn{
     margin: 0;
 }
+
+}
+@media only screen and (max-width: 1040px) {
+  #back-photo {
+    display: none;
+  }
 
 }
 </style>
