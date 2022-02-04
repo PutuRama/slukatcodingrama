@@ -40,40 +40,19 @@
           <span class="student-img">
       <div class="col carousel-img">
        <div class="col student">
-      <div class="col col-md-2 student-image">
+      <div class="col student-image">
         <img src="../assets/banner_about_us.jpg" alt="">
       </div>
-      <div class="col col-md-2 student-image">
+      <div class="col student-image">
         <img src="../assets/banner_about_us.jpg" alt="">
       </div>
-      <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-      <div class="col col-md-2 student-image">
+      <div class="col student-image">
         <img src="../assets/banner_about_us.jpg" alt="">
       </div>
 
         </div>
       </div>
 
-
-       <div class="col carousel-img-mobile">
-       <div class="col student-mobile">
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-
-        </div>
-      </div>
           </span>
         </div>
       </div>
@@ -149,14 +128,14 @@
       <div class="row row-achievement">
         <div class="col col-sm-12 col-md-6 column-achievement">
           <div class="col img_text">
-          <img src="../assets/kucing.png" alt="">
+          <img src="../assets/top1.jpeg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
             <div class="col img_text">
-          <img src="../assets/kucing.png" alt="">
+          <img src="../assets/top2.jpeg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
@@ -166,14 +145,14 @@
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
            <div class="col img_text">
-          <img src="../assets/kucing.png" alt="">
+          <img src="../assets/mid1.jpg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
             <div class="col img_text">
-          <img src="../assets/kucing.png" alt="">
+          <img src="../assets/mid2.jpeg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
@@ -250,38 +229,21 @@
 .student{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
   margin-top: 3%;
   margin-bottom: 3%;
 }
 .student-image{
-  margin: 0 3%;
-}
-.student img{
-  width: 170px;
   height: 353px;
 }
-.student-mobile img{
-  display: none;
-}
-.student-image-mobile{
-  display: none;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-.student-mobile{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
+.student img{
+  display: inline-block;
+  width: 110%;
+  height: 353px;
 }
 
-@media screen and (max-width: 1135px) {
+
+@media screen and (max-width: 850px) {
   .vision-img , .student-image{
     display: none;
   }
@@ -375,9 +337,10 @@
   justify-content: center;
 }
 .column-achievement img{
-  width: 50%;
+  width: 80%;
 }
 .img_text p {
+  margin-top: 3%;
   justify-items: center;
 }
 
