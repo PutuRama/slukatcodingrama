@@ -353,7 +353,7 @@
   overflow-x: hidden;
 }
 
-span.garis-hijau{
+span.garis-hijau {
   padding: 1px;
   border-bottom: #5cd45e 4px solid;
 }
