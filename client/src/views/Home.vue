@@ -85,7 +85,7 @@
               Gianyar, Bali.
             </p>
             <br />
-            <router-link class="button-program" to="/program">
+            <router-link class="button-program" to="/about/slc">
               <a href="#" id="founder-findout"
                 >Find Out More
                 <i
@@ -119,36 +119,46 @@
 
     <div class="program">
       <div class="row">
-        <div class="col all-program">
-          <div class="col column-program">
-            <span class="col-md-3 col-sm-6 program-span">
-              <img src="../assets/kucing.png" alt="" />
-              <h4>English Program</h4>
-            </span>
-            <span class="col-md-3 col-sm-6 program-span">
-              <img src="../assets/kucing.png" alt="" />
+        <div class="col-lg-8 col-md-12 col-sm-12">
+          <div class="row programs-list">
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+              <img src="../assets/img/Rectangle74.png" alt="" class="dekstop" />
+              <img src="../assets/img/coding.png" alt="" class="mobile" />
               <h4>Coding Program</h4>
-            </span>
-            <span class="col-md-3 col-sm-6 program-span">
-              <img src="../assets/kucing.png" alt="" />
-              <h4>Enterprenuer Program</h4>
-            </span>
-            <span class="col-md-3 col-sm-6 program-span">
-              <img src="../assets/kucing.png" alt="" />
-              <h4>Agriculture Program</h4>
-            </span>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+              <img src="../assets/img/Rectangle75.png" alt="" class="dekstop" />
+              <img src="../assets/img/agri.png" alt="" class="mobile" />
+              <h4>Agricultre Program</h4>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+              <img src="../assets/img/Rectangle76.png" alt="" class="dekstop" />
+              <img src="../assets/img/english.png" alt="" class="mobile" />
+              <h4>English Program</h4>
+            </div>
           </div>
         </div>
+        <div class="col-lg-4 col-md-12 col-sm-12">
+          <span class="program-list-test">
+            <h2>And More!</h2>
+            <h5>
+              Check out every profile of these and other programs by clicking
+              the button below. They may get your interest!
+            </h5>
+          </span>
+
+          <router-link class="button-program button-program-list" to="/program">
+            <a href="#" id="founder-findout"
+              >Find Out More
+              <i
+                class="fas fa-arrow-circle-right"
+                style="font-size: 25px; color: white"
+              ></i
+            ></a>
+          </router-link>
+
+        </div>
       </div>
-      <router-link class="button-program" to="/program">
-        <a href="#"
-          >Find Out More
-          <i
-            class="fas fa-arrow-circle-right"
-            style="font-size: 25px; color: white"
-          ></i
-        ></a>
-      </router-link>
     </div>
 
     <!-- testimonial -->
@@ -433,11 +443,17 @@ span.garis-hijau {
   .about-img-mobile {
     display: block;
   }
+
   .about-img {
     display: none;
   }
+
   .program-span {
     margin: 10px 0;
+  }
+
+  body .program {
+    padding: 0 0 100px 0;
   }
 }
 .column {
@@ -533,32 +549,16 @@ span.garis-hijau {
   padding: 50px 50px;
 }
 .program-img {
-  background-image: url("../assets/our-program.jpeg");
+  background-image: url("../assets/img/our_program_img.png");
 }
-.program {
-  background-color: #0b6d0e;
-  padding: 2% 0 30px 0;
-  margin-bottom: 50px;
-}
-.column-program {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.all-program {
-  flex: 20px;
-}
-.program-span {
-  width: 80%;
-  padding-bottom: 80px;
-  padding-top: 3%;
+
+.program-list-test {
+  text-align: start;
   color: white;
-  font-weight: 700;
 }
-.program-span img {
-  width: 90%;
-  margin-bottom: 5%;
-  height: 100%;
+
+.program-list-test h2 {
+  font-weight: 900;
 }
 .button-program {
   background: #047002;
@@ -574,6 +574,42 @@ span.garis-hijau {
   vertical-align: top;
   color: white;
   font-weight: 700;
+}
+
+.program {
+  background-color: #0b6d0e;
+  margin-bottom: 50px;
+  padding: 100px;
+}
+.program .mobile {
+  width: 100%;
+  display: none;
+}
+.program .mobile,
+.program .dekstop {
+  filter: brightness(50%);
+}
+
+.program h4 {
+  color: white;
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+}
+
+@media screen and (max-width: 920px) {
+  .program .mobile {
+    display: inline-block;
+  }
+  .program .dekstop {
+    display: none;
+  }
+}
+
+.button-program-list{
+  position: relative;
+  top:50%;
+  background-color: #047002 !important;
 }
 
 /* testimonial */
