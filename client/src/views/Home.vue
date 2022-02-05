@@ -121,8 +121,8 @@
       <div class="row">
         <div class="col-lg-8 col-md-12 col-sm-12">
           <div class="row programs-list">
-            <router-link to="/program/coding">
               <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+                <router-link to="/program/coding">
                 <img
                   src="../assets/img/Rectangle74.png"
                   alt=""
@@ -130,10 +130,10 @@
                 />
                 <img src="../assets/img/coding.png" alt="" class="mobile" />
                 <h4>Coding Program</h4>
+                </router-link>
               </div>
-            </router-link>
-            <router-link to="/program/agriculture">
               <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+                <router-link to="/program/coding">
                 <img
                   src="../assets/img/Rectangle76.png"
                   alt=""
@@ -141,10 +141,10 @@
                 />
                 <img src="../assets/img/agri.png" alt="" class="mobile" />
                 <h4>Agricultre Program</h4>
+                </router-link>
               </div>
-            </router-link>
-            <router-link to="/program/english">
               <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+                <router-link to="/program/coding">
                 <img
                   src="../assets/img/Rectangle75.png"
                   alt=""
@@ -152,8 +152,8 @@
                 />
                 <img src="../assets/img/english.png" alt="" class="mobile" />
                 <h4>English Program</h4>
+                </router-link>
               </div>
-            </router-link>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
@@ -180,106 +180,93 @@
 
     <!-- testimonial -->
     <div class="testimonial">
-
-      <div class="student"></div>
-      <div class="volounter"></div>
+      <h1>Student & Valounteer</h1>
+      <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+      <div class="student">
+        <h4>Student</h4>
+        <div class="row">
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="row card-student">
+              <div class="col-4">
+                <img src="../assets/img/p.png" alt="" />
+              </div>
+              <div class="col-8">
+                <h3>Made Sanjaya</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                  iure architecto dolor ..
+                  <router-link to="/about/student"
+                    ><a>Learn More</a></router-link
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6 col-sm-12">
+            <div class="row card-student">
+              <div class="col-4">
+                <img src="../assets/img/p.png" alt="" />
+              </div>
+              <div class="col-8">
+                <h3>I Putu Nanda Amanta</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                  iure architecto dolor ..
+                  <router-link to="/about/student"
+                    ><a>Learn More</a></router-link
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="valounter">
+        <h4>Volounter</h4>
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="volounteer-card">
+              <img src="../assets/img/t.png" alt="" />
+              <h4>Brazil</h4>
+              <h3>Sanchez</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                nihil aliquam impedit hic quae velit quos voluptate dignissimos
+                placeat facere.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="volounteer-card">
+              <img src="../assets/img/t.png" alt="" />
+              <h4>Brazil</h4>
+              <h3>Sanchez</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                nihil aliquam impedit hic quae velit quos voluptate dignissimos
+                placeat facere.
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="volounteer-card">
+              <img src="../assets/img/t.png" alt="" />
+              <h4>Brazil</h4>
+              <h3>Sanchez</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
+                nihil aliquam impedit hic quae velit quos voluptate dignissimos
+                placeat facere.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!-- Blog -->
-    <div class="blog">
-      <div class="blog-text">
-        <h5>BLOG</h5>
-      </div>
-      <div class="blog-picture">
-        <div class="blog-icon">
-          <img
-            src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-            alt=""
-          />
-          <h5>
-            Slukat Learning Center | <span class="blog-span">18/01/2022</span>
-          </h5>
-          <p class="desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <button class="button-blog">
-            <a href="#">Read More</a
-            ><i
-              class="fas fa-arrow-circle-right"
-              style="font-size: 30px; color: white; margin-left: 30px"
-            ></i>
-          </button>
-        </div>
-        <div class="blog-icon">
-          <img
-            src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-            alt=""
-          />
-          <h5>
-            Slukat Learning Center | <span class="blog-span">18/01/2022</span>
-          </h5>
-          <p class="desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <button class="button-blog">
-            <a href="#">Read More</a
-            ><i
-              class="fas fa-arrow-circle-right"
-              style="font-size: 30px; color: white; margin-left: 30px"
-            ></i>
-          </button>
-        </div>
-        <div class="blog-icon">
-          <img
-            src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-            alt=""
-          />
-          <h5>
-            Slukat Learning Center | <span class="blog-span">18/01/2022</span>
-          </h5>
-          <p class="desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <button class="button-blog">
-            <a href="#">Read More</a
-            ><i
-              class="fas fa-arrow-circle-right"
-              style="font-size: 30px; color: white; margin-left: 30px"
-            ></i>
-          </button>
-        </div>
-        <div class="blog-icon">
-          <img
-            src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-            alt=""
-          />
-          <h5>
-            Slukat Learning Center | <span class="blog-span">18/01/2022</span>
-          </h5>
-          <p class="desc">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
-          </p>
-          <button class="button-blog">
-            <a href="#">Read More</a
-            ><i
-              class="fas fa-arrow-circle-right"
-              style="font-size: 30px; color: white; margin-left: 30px"
-            ></i>
-          </button>
-        </div>
-      </div>
+    <div class="vid-article">
+      
     </div>
   </div>
 </template>
@@ -406,6 +393,46 @@ span.garis-hijau {
   border-top-right-radius: 20px;
 }
 
+.volounteer-card {
+  color: white;
+  padding: 20px 30px;
+  background-color: #0b6d0e;
+  width: 90%;
+  max-width: 400px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5px;
+ margin-bottom: 20px;
+}
+
+.volounteer-card h4 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.11em;
+
+  color: #52b054;
+}
+
+.volounteer-card h3 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 36px;
+  /* identical to box height */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+}
+.volounteer-card img {
+  margin-bottom: 10px;
+}
+
 /* founder */
 .founder {
   margin-bottom: 10%;
@@ -493,7 +520,40 @@ span.garis-hijau {
   text-align: start;
   color: white;
 }
+.card-student {
+ color: white;
+  padding: 20px 30px;
+  background-color: #0b6d0e;
+  width: 90%;
+  max-width: 400px;
+  left: 50%;
+  transform: translateX(-45%);
+  position: relative;
+  border-radius: 5px;
+ margin-bottom: 20px;
+}
+.card-student a {
+  color: rgb(70, 249, 255);
+}
+.card-student h3,
+.card-student p {
+  text-align: start;
+}
+.testimonial > h1 {
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  /* identical to box height */
+  color: #c4c4c4;
 
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
+.student,
+.valounter {
+  margin-top: 50px;
+}
 .program-list-test h2 {
   font-weight: 900;
 }
@@ -550,6 +610,12 @@ span.garis-hijau {
   background-color: #047002 !important;
 }
 
+.card-student img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
 
 .blog {
   background-color: #f6fef5;
