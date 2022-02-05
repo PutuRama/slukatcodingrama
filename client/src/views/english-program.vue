@@ -1,45 +1,17 @@
 <template>
   <div class="english-program">
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2><span class="headline-hijau">English Class</span></h2>
-          <p>Lorem Ipsum is simply dummy text of the</p>
+
+
+    <div class="banner">
+      <div class="row">
+        <div class="img-banner">
         </div>
-        <div class="carousel-item">
-          <h2><span class="headline-hijau">English Class</span></h2>
-          <p>Lorem Ipsum is simply dummy text of</p>
-        </div>
-        <div class="carousel-item">
-          <h2><span class="headline-hijau">English Class</span></h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the
-          </p>
+        <div class="col banner-text">
+          <span class="banner-text-span">
+            
+          </span>
         </div>
       </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
 
     <div class="how">
@@ -87,22 +59,42 @@
       </div>
     </div>
 
-    <div class="activities">
-      <div class="activities-text">
-        <h1 style="color: black"><b>Activities</b></h1>
-        <br><br><br>
-      </div>
-      
-      <div class="row row-img">
-        <div class="col col-img">
-          <img class="col-img-2 row-img-2" src="../assets/kucing.png" alt="">
-          <img src="../assets/kucing.png" alt="">
-          <img src="../assets/kucing.png" alt="">
-          <img class="col-img-2 row-img-2" src="../assets/kucing.png" alt="">
-        </div>
-      </div>
 
-    </div>
+    <div class="gallery">
+    <div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <br>
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+
+    <img
+      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+      class="w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+</div>
 
     
   </div>
@@ -114,53 +106,15 @@
 .english-program {
   overflow-x: hidden;
 }
-.carousel {
-  margin: 10% 0 10% 0;
+.banner{
+  margin-bottom: 10%;
 }
-.carousel-item h2 {
-  font-weight: bold;
-}
-.carousel-item p {
-  display: inline-block;
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-.headline-hijau {
-  color: #047002;
-}
-
-.carousel-control-next-icon {
-  background-color: #047002;
-  border-radius: 100px;
-  width: 25px;
-  padding: 10px 0 15px 0;
-  display: inline-block;
-}
-.carousel-control-next {
-  background-color: #047002;
-  border-radius: 100px;
-  height: 30px;
-  width: 30px;
-  margin: 4% 4% 0 0;
-}
-.carousel-control-prev {
-  background-color: #047002;
-  border-radius: 100px;
-  width: 30px;
-  height: 30px;
-  margin: 4% 0 0 4%;
-}
-@media screen and (max-width: 750px) {
-  .carousel-control-next {
-    display: none;
-  }
-  .carousel-control-prev {
-    display: none;
-  }
-  .column-how {
-    margin: 30px 0;
-  }
+.img-banner{
+  background-image: url("../assets/ec.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  min-height: 500px;
 }
 
 .how {
@@ -198,35 +152,7 @@
 }
 
 
-.col-img-2{
-  grid-column: span 2;
-}
-.row-img-2{
-  grid-row: span 2;
-}
-.col-img{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  --gap: 16px;
-  --num-cols: 6;
-  --row-height: 200px;
-  box-sizing: border-box;
-  padding: var(--gap);
-  display: grid;grid-template-columns: repeat(var(--num-cols), 1fr);
-  grid-auto-rows: var(--row-height);
-  gap: var(--gap);
-}
-.col-img img{
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-@media screen and (max-width: 1024px) {
-  .col-img{
-    --num-cols: 2;
-    --row-height: 200px;
-
-  }
+.gallery{
+  margin: 5%;
 }
 </style>
