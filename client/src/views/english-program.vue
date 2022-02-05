@@ -4,13 +4,12 @@
 
     <div class="banner">
       <div class="row">
-        <div class="img-banner">
+        <div class="col img-banner">
         </div>
-        <div class="col banner-text">
-          <span class="banner-text-span">
-            
+          <span class="col banner-text-span">
+            <h1>English Class</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
           </span>
-        </div>
       </div>
     </div>
 
@@ -65,8 +64,8 @@
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
 
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
+      src="../assets/english1.jpg"
+      class="last-img shadow-1-strong rounded mb-4"
       alt="Wintry Mountain Landscape"
     />
   </div>
@@ -74,13 +73,13 @@
   <div class="col-lg-4 mb-4 mb-lg-0">
     <br>
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
+      src="../assets/english3.jpeg"
+      class=" w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-      class="w-100 shadow-1-strong rounded mb-4"
+      src="../assets/english4.jpeg"
+      class=" w-100 shadow-1-strong rounded mb-4"
       alt="Boat on Calm Water"
     />
   </div>
@@ -88,8 +87,8 @@
   <div class="col-lg-4 mb-4 mb-lg-0">
 
     <img
-      src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
-      class="w-100 shadow-1-strong rounded mb-4"
+      src="../assets/english2.jpg"
+      class="last-img w-100 shadow-1-strong rounded mb-4"
       alt="Yosemite National Park"
     />
   </div>
@@ -108,13 +107,27 @@
 }
 .banner{
   margin-bottom: 10%;
+  min-height: 500px;
+
 }
 .img-banner{
-  background-image: url("../assets/ec.png");
   width: 100%;
-  background-repeat: no-repeat;
+  height: 80%;
+  position:absolute;
+  background-image: url("../assets/ec.png");
+  background-size: cover;
+  background-repeat:no-repeat;
   background-position: 50% 50%;
   min-height: 500px;
+}
+.banner-text-span{
+  text-align: start;
+  position:absolute;
+  color:  #FFFFFF;
+  display: inline-block;
+  max-width: 750px;
+  padding: 100px;
+  margin: 5% auto;
 }
 
 .how {
@@ -154,5 +167,10 @@
 
 .gallery{
   margin: 5%;
+}
+.last-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 </style>
