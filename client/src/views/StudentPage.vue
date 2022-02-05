@@ -1,24 +1,27 @@
 <template>
   <div class="body">
+    <div class="banner">
+
     <div class="row">
         <div class="col carousel-img">
        <div class="col carousel">
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img1.jpeg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img2.jpg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img3.jpeg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img4.jpeg" alt="">
       </div>
 
         </div>
       </div>
       
+    </div>
     </div>
 
     <div class="title">
@@ -41,13 +44,13 @@
       <div class="col carousel-img">
        <div class="col student">
       <div class="col student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/grid1.jpg" alt="">
       </div>
       <div class="col student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/grid2.jpeg" alt="">
       </div>
       <div class="col student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img3.jpeg" alt="">
       </div>
 
         </div>
@@ -223,8 +226,13 @@
   margin-bottom: 5%;
 }
 .carousel img{
-  width: 170px;
+  width: 250px;
   height: 353px;
+  object-fit: cover;
+  max-width: 100%
+}
+.banner .carousel-image:first-child,.banner .carousel-image:nth-child(3){
+  margin-top: 5%;
 }
 .student{
   display: flex;
@@ -238,6 +246,7 @@
 }
 .student img{
   display: inline-block;
+  object-fit: cover;
   width: 110%;
   height: 353px;
 }
