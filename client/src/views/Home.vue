@@ -121,21 +121,39 @@
       <div class="row">
         <div class="col-lg-8 col-md-12 col-sm-12">
           <div class="row programs-list">
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <img src="../assets/img/Rectangle74.png" alt="" class="dekstop" />
-              <img src="../assets/img/coding.png" alt="" class="mobile" />
-              <h4>Coding Program</h4>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <img src="../assets/img/Rectangle75.png" alt="" class="dekstop" />
-              <img src="../assets/img/agri.png" alt="" class="mobile" />
-              <h4>Agricultre Program</h4>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <img src="../assets/img/Rectangle76.png" alt="" class="dekstop" />
-              <img src="../assets/img/english.png" alt="" class="mobile" />
-              <h4>English Program</h4>
-            </div>
+            <router-link to="/program/coding">
+              <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+                <img
+                  src="../assets/img/Rectangle74.png"
+                  alt=""
+                  class="dekstop"
+                />
+                <img src="../assets/img/coding.png" alt="" class="mobile" />
+                <h4>Coding Program</h4>
+              </div>
+            </router-link>
+            <router-link to="/program/agriculture">
+              <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+                <img
+                  src="../assets/img/Rectangle76.png"
+                  alt=""
+                  class="dekstop"
+                />
+                <img src="../assets/img/agri.png" alt="" class="mobile" />
+                <h4>Agricultre Program</h4>
+              </div>
+            </router-link>
+            <router-link to="/program/english">
+              <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+                <img
+                  src="../assets/img/Rectangle75.png"
+                  alt=""
+                  class="dekstop"
+                />
+                <img src="../assets/img/english.png" alt="" class="mobile" />
+                <h4>English Program</h4>
+              </div>
+            </router-link>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
@@ -156,102 +174,15 @@
               ></i
             ></a>
           </router-link>
-
         </div>
       </div>
     </div>
 
     <!-- testimonial -->
-
-    <!-- student -->
     <div class="testimonial">
-      <div class="top">
-        <h4>Students & Volounteers</h4>
-        <p>Here are feedbacks from our students and volounteer.</p>
-      </div>
 
-      <div class="testi">
-        <h3>Students</h3>
-      </div>
-      <div class="slider">
-        <div class="wrapper">
-          <img
-            src="https://i.pinimg.com/originals/2b/de/de/2bdede0647e3cdf75b44ea33723201d9.jpg"
-          />
-          <img
-            src="https://images6.alphacoders.com/462/thumb-1920-462371.jpg"
-          />
-          <img
-            src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg"
-          />
-          <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-          <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-          <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-        </div>
-      </div>
-    </div>
-
-    <!-- Volunteer -->
-    <div class="testi">
-      <h3>Volunteer</h3>
-    </div>
-    <div class="volunteer">
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""
-        />
-        <h1>Otong</h1>
-        <p>Client Photography</p>
-        <p class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
-        </p>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""
-        />
-        <h1>Dino</h1>
-        <p>Client Designer</p>
-        <p class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
-        </p>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""
-        />
-        <h1>Juan Nande</h1>
-        <p>Client Videography</p>
-        <p class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
-        </p>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""
-        />
-        <h1>Kayu A5</h1>
-        <p>Client Web Developer</p>
-        <p class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
-        </p>
-      </div>
+      <div class="student"></div>
+      <div class="volounter"></div>
     </div>
 
     <!-- Blog -->
@@ -453,7 +384,13 @@ span.garis-hijau {
   }
 
   body .program {
-    padding: 0 0 100px 0;
+    padding: 0 0 130px 0;
+  }
+  .program-list-test h2 {
+    padding: 20px 5px 0 5px !important;
+  }
+  .program-list-test h5 {
+    padding: 0 5px !important;
   }
 }
 .column {
@@ -560,6 +497,7 @@ span.garis-hijau {
 .program-list-test h2 {
   font-weight: 900;
 }
+
 .button-program {
   background: #047002;
   border: white 2px solid;
@@ -606,121 +544,13 @@ span.garis-hijau {
   }
 }
 
-.button-program-list{
+.button-program-list {
   position: relative;
-  top:50%;
+  top: 50%;
   background-color: #047002 !important;
 }
 
-/* testimonial */
-.top h4 {
-  font-weight: 900;
-  color: #c4c4c4;
-  letter-spacing: 0.3em;
-}
-.top p {
-  line-height: 27px;
-  padding: 0 10px;
-}
-.testi h3 {
-  margin: 50px 0 30px 0;
-  text-align: center;
-}
 
-/* student */
-
-.slider {
-  overflow-x: auto;
-  border: 10px solid #ffffff;
-}
-.slider::-webkit-scrollbar {
-  width: 0;
-}
-.wrapper {
-  display: flex;
-  margin-bottom: 2%;
-  animation: slide 16s infinite;
-  width: 100%;
-}
-.wrapper img {
-  margin-left: 3%;
-  margin-right: 2%;
-  margin-top: 1%;
-  width: 45%;
-  border-radius: 5%;
-}
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  25% {
-    transform: translateX(0);
-  }
-  30% {
-    transform: translateX(-100%);
-  }
-  50% {
-    transform: translateX(-100%);
-  }
-  55% {
-    transform: translateX(-200%);
-  }
-  75% {
-    transform: translateX(-200%);
-  }
-  80% {
-    transform: translateX(-200%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-
-/* Volunteer */
-.volunteer {
-  max-height: 100%;
-  display: flex;
-  margin-top: 2%;
-  margin-left: 3%;
-  margin-right: 2%;
-  overflow-x: auto;
-}
-.volunteer::-webkit-scrollbar {
-  width: 0;
-}
-.volunteer .icon {
-  min-width: 345px;
-  border-radius: 10px;
-  height: 403px;
-  text-align: center;
-  background-color: #047d02;
-  margin-right: 7%;
-  margin-bottom: 5%;
-  padding: 0 20px 0 20px;
-  justify-items: center;
-}
-.volunteer .icon > img {
-  width: 40%;
-  height: 7em;
-  margin-top: 12%;
-  border-radius: 60%;
-  justify-content: center;
-}
-.volunteer .icon p {
-  color: white;
-}
-.volunteer .icon h1 {
-  color: #52b054;
-  font-size: 24px;
-  margin-top: 1%;
-  font-weight: 900;
-  line-height: 36px;
-}
-.desc {
-  text-align: center;
-}
-
-/* Volunteer */
 .blog {
   background-color: #f6fef5;
   padding: 3% 0 3% 0;
