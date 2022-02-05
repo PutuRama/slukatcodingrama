@@ -1,12 +1,10 @@
 <template>
   <div class="english-program">
-    <div class="background">
-    <div id="carouselExampleControls"
+    <div
+      id="carouselExampleControls"
       class="carousel slide"
       data-ride="carousel"
-    > <div class="row">
-
-   
+    >
       <div class="carousel-inner">
         <div class="carousel-item active">
           <h2><span class="headline-hijau">English Class</span></h2>
@@ -23,7 +21,6 @@
             industry. Lorem Ipsum has been the
           </p>
         </div>
-      </div> 
       </div>
       <a
         class="carousel-control-prev"
@@ -44,9 +41,6 @@
         <span class="sr-only">Next</span>
       </a>
     </div>
-    </div>
-
-
 
     <div class="how">
       <div class="row row-how">
@@ -102,7 +96,7 @@
       <div class="row row-img">
         <div class="col col-img">
           <img class="col-img-2 row-img-2" src="../assets/kucing.png" alt="">
-          <img style="float: top" src="../assets/kucing.png" alt="">
+          <img src="../assets/kucing.png" alt="">
           <img src="../assets/kucing.png" alt="">
           <img class="col-img-2 row-img-2" src="../assets/kucing.png" alt="">
         </div>
@@ -121,27 +115,19 @@
   overflow-x: hidden;
 }
 .carousel {
-  padding: 20% 0 20% 0;
-  margin-bottom: 10%;
-  width: 100%;
-  background-image: url('../assets/bg_ijo.png');  
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: 50% 50%;
-} 
+  margin: 10% 0 10% 0;
+}
 .carousel-item h2 {
   font-weight: bold;
 }
-
 .carousel-item p {
   display: inline-block;
-  color: white;
   max-width: 500px;
   margin: 0 auto;
 }
 
 .headline-hijau {
-  color: white;
+  color: #047002;
 }
 
 .carousel-control-next-icon {
@@ -156,14 +142,14 @@
   border-radius: 100px;
   height: 30px;
   width: 30px;
-  margin: 20% 4% 0 0;
+  margin: 4% 4% 0 0;
 }
 .carousel-control-prev {
   background-color: #047002;
   border-radius: 100px;
   width: 30px;
   height: 30px;
-  margin: 20% 0 0 4%;
+  margin: 4% 0 0 4%;
 }
 @media screen and (max-width: 750px) {
   .carousel-control-next {
@@ -219,14 +205,15 @@
   grid-row: span 2;
 }
 .col-img{
+  display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  --gap: 40px;
+  --gap: 16px;
   --num-cols: 6;
   --row-height: 200px;
   box-sizing: border-box;
   padding: var(--gap);
-  display: grid;
-  grid-template-columns: repeat(var(--num-cols), 1fr);
+  display: grid;grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
 }
