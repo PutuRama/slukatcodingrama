@@ -223,7 +223,7 @@
               <div class="col-12">
                 <span>
                   <div><h3>MANAGER</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/kaagus.jpg" alt=""><br>
                   <h5>
                     I Gusti Putu Bagus Krisna Putra 
                   </h5>
@@ -232,7 +232,7 @@
               <div class="col-12">
                 <span>
                   <div><h3>TREASURE</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/MbokNopi.jpeg" alt=""><br>
                   <h5>Ni Wayan Nopiani</h5>
                 </span>
               </div>
@@ -261,7 +261,7 @@
                 <span>
                   <div><h3>DIGITAL DEVELOPMENT</h3></div>
                   <img src="../assets/dummyteam.png" alt=""><br>
-                  <h5>I Komang Gede Yuliana</h5>
+                  <h5>I Komang Gede </h5>
                 </span>
               </div>
           </div>
