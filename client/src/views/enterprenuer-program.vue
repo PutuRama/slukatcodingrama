@@ -133,11 +133,7 @@
 .how {
   margin-bottom: 10%;
 }
-.row-how {
-  display: flex;
-  justify-content: center;
-  text-align: left;
-}
+ 
 .column-how {
   padding-left: 10%;
   padding-right: 10%;
