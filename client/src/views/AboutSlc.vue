@@ -31,7 +31,7 @@
       <div class="row">
         <div class="col">
           <div class="card">
-            <img class="card-img-top" src="../assets/vision_dummy.png" alt="Card image cap">
+            <img class="card-img-top" src="../assets/Mission1Photo.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
                 <ul>
@@ -51,7 +51,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="card-img-top" src="../assets/vision_dummy.png" alt="Card image cap">
+            <img class="card-img-top" src="../assets/Mission2Photo.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
                 <ul>
@@ -68,7 +68,7 @@
         </div>
         <div class="col">
           <div class="card">
-            <img class="card-img-top" src="../assets/vision_dummy.png" alt="Card image cap">
+            <img class="card-img-top" src="../assets/Mission3Photo.png" alt="Card image cap">
             <div class="card-body">
               <p class="card-text">
                 <ul>
@@ -127,18 +127,12 @@
       <div class="team-dekstop">
         <div class="founder">
             <div class="row">
-              <div class="col-5">
+              <div class="col-12">
                 <span>
-                  <img src="../assets/dummyteam.png" alt=""><br>
-                  <h5>I Gusti Agung Rai</h5>
+                  <h3>FOUNDER</h3>
+                  <img src="../assets/unsplash_GVheioPZdpk.png" alt=""><br>
+                  <h5>I Gusti Agung Rai & Mrs. I Gusti Ayu Darsini</h5>
                 </span>
-              </div>
-              <div class="col-2">
-                <h3>FOUNDER</h3>
-              </div>
-              <div class="col-5">
-                <img src="../assets/dummyteam.png" alt=""><br>
-                  <h5>I Gusti Ayu Darsini</h5>
               </div>
           </div>
         </div>
@@ -147,7 +141,7 @@
               <div class="col-3">
                 <span>
                   <h3>MANAGER</h3>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/kaaguskris.jpg" alt=""><br>
                   <h5>
                     I Gusti Putu Bagus Krisna Putra 
                   </h5>
@@ -156,14 +150,14 @@
               <div class="col-6">
                 <span>
                   <h3>DIRECTOR</h3>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/BuAyu.jpeg" alt=""><br>
                   <h5>I Gusti Agung Ayu Pramitasari</h5>
                 </span>
               </div>
               <div class="col-3">
                 <span>
                   <h3>TREASURE</h3>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/MbokNopi.jpeg" alt=""><br>
                   <h5>Ni Wayan Nopiani</h5>
                 </span>
               </div>
@@ -175,7 +169,7 @@
               <div class="col-4">
                 <span>
                   <h3>ENGLISH COORDINATOR</h3>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/MbokGung.jpeg" alt=""><br>
                   <h5>
                     I Gusti Agung Ayu Dwi Anggraini 
                   </h5>
@@ -184,14 +178,14 @@
               <div class="col-4">
                 <span>
                   <h3>SECRETARY</h3>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/mbokCantik.jpg" alt=""><br>
                   <h5>Luh Komang Anggi Waisnawati</h5>
                 </span>
               </div>
               <div class="col-4">
                 <span>
                   <h3>DIGITAL DEVELOPMENT</h3>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/BliMang.jpeg" alt=""><br>
                   <h5>I Komang Gede Yuliana</h5>
                 </span>
               </div>
@@ -207,14 +201,11 @@
               </div>
               <div class="col-12">
                 <span>
-                  <img src="../assets/dummyteam.png" alt=""><br>
-                  <h5>I Gusti Agung Rai</h5>
+                 <img src="../assets/unsplash_GVheioPZdpk.png" alt=""><br>
+                  <h5>I Gusti Agung Rai & Mrs. I Gusti Ayu Darsini</h5>
                 </span>
               </div>
-              <div class="col-12">
-                <img src="../assets/dummyteam.png" alt=""><br>
-                  <h5>I Gusti Ayu Darsini</h5>
-              </div>
+
           </div>
         </div>
         <div class="director">
@@ -222,14 +213,14 @@
               <div class="col-12">
                 <span>
                   <div><h3>DIRECTOR</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/BuAyu.jpeg" alt=""><br>
                   <h5>I Gusti Agung Ayu Pramitasari</h5>
                 </span>
               </div>
               <div class="col-12">
                 <span>
                   <div><h3>MANAGER</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/kaaguskris.jpg" alt=""><br>
                   <h5>
                     I Gusti Putu Bagus Krisna Putra 
                   </h5>
@@ -238,7 +229,7 @@
               <div class="col-12">
                 <span>
                   <div><h3>TREASURE</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/MbokNopi.jpeg" alt=""><br>
                   <h5>Ni Wayan Nopiani</h5>
                 </span>
               </div>
@@ -250,7 +241,7 @@
               <div class="col-12">
                 <span>
                   <div><h3>ENGLISH COORDINATOR</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/MbokGung.jpeg" alt=""><br>
                   <h5>
                     I Gusti Agung Ayu Dwi Anggraini 
                   </h5>
@@ -259,14 +250,14 @@
               <div class="col-12">
                 <span>
                   <div><h3>SECRETARY</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/mbokCantik.jpg" alt=""><br>
                   <h5>Luh Komang Anggi Waisnawati</h5>
                 </span>
               </div>
               <div class="col-12">
                 <span>
                   <div><h3>DIGITAL DEVELOPMENT</h3></div>
-                  <img src="../assets/dummyteam.png" alt=""><br>
+                  <img src="../assets/BliMang.jpeg" alt=""><br>
                   <h5>I Komang Gede Yuliana</h5>
                 </span>
               </div>
@@ -302,7 +293,7 @@
   width: 100%;
   height: 100%;
   position:absolute;
-  background-image: url("../assets/img/all-seminar.jpeg");
+  background-image: url("../assets/AboutUs-Background.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -333,10 +324,11 @@
 
 
 .vision-img{
-  background-image: url("../assets/img/children-read.jpeg");
+  background-image: url("../assets/Our Vision - Photo.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
+  height: 300px;
 }
 .vision-text{
   padding: 30px 20px;
@@ -464,6 +456,13 @@
   border-radius: 100%;
   margin-bottom: 20px;
 }
+.team-dekstop .director .col-6 img{
+  width:180px;
+  height:180px;
+  border-radius: 100%;
+  margin-bottom: 20px;
+
+}
 
 
 .team-dekstop .secretary .col-4:first-child{
@@ -498,6 +497,11 @@
 }
 .team{
   margin-bottom: 100px;
+}
+.team-mobile  img{
+  width:140px;
+  height:140px;
+  border-radius: 100%;
 }
 
 @media only screen and (max-width: 745px) {
