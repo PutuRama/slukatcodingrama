@@ -296,7 +296,7 @@
       
       <div class="slukat">
         <div class="slukat-text">
-        <h1><b>Slukat Learning Center</b></h1>
+        <h1>Slukat Learning Center</h1>
         </div>
         <div class="slukat-img">
           <img src="../assets/IMG_1711.jpeg" alt="">
@@ -320,38 +320,54 @@
   <button type="button" class="btn btn-success btn-lg activity-button">Find Out</button>
     </div> 
 
-  <div class="class">
-        <div class="class-text">
-          <h1>Accommodation</h1>
+  <div class="vid-article">
+    <h1>Accommodation</h1>
+      <div class="vid-article-content">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="../assets/DSCF0394.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+
+            <img
+              src="../assets/DSCF0373.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Wintry Mountain Landscape"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="../assets/DSCF0379.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mountains in the Clouds"
+            />
+
+            <img
+              src="../assets/DSCF0383.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="../assets/DSCF0362.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Waves at Sea"
+            />
+
+            <img
+              src="../assets/DSCF0377.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+            />
+          </div>
         </div>
-    <div class="accommodation-img">
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
       </div>
     </div>
-      </div>
 
       
     </div>
@@ -415,7 +431,7 @@
       .banner{
         padding: 0 0 40px 0;
       }
-        .carousel img{
+        .carousel-banner img{
         width: 160px;
         height: 240px;
       }
@@ -428,10 +444,29 @@
       }
 
 }
-@media only screen and (max-width: 320px) {
-        .carousel img{
+@media only screen and (max-width: 321px) { 
+    
+        .carousel-banner img{
         width: 140px;
-        height: 200px;
+        height: 220px;
+      }
+     
+
+}
+
+
+
+@media only screen and (max-width: 426px) {
+      .banner h1{
+        font-size: 28px;
+        font-weight: 700;
+      }
+        .banner p{
+        font-size: 14px;
+        margin: 0 10px;
+      }
+      .banner{
+        padding: 0;
       }
 }
 
@@ -467,6 +502,20 @@
 .overview-end-text{
      margin-bottom: 10%;
  }
+
+ @media only screen and (max-width: 426px) {
+    .overview-text h2{
+      font-size: 24px;
+  }
+     .overview-text p{
+    font-size: 14px;
+    margin: 0 10px;
+  } 
+   .overview-end-text p{
+     font-size: 14px;
+     margin: 0 10px;
+    }
+}
 
 
 
@@ -519,7 +568,7 @@
 @media screen and (max-width: 426px) {
   .volunteers-card .icon{
      width: 350px;
-    padding: 0 0 400px 0;
+    padding: 30px 0 400px 0;
   }
   .volunteers-card .icon p{
     font-size: 14px;
@@ -583,6 +632,14 @@
     }
 }
 @media screen and (max-width: 426px) {
+  .aplication >h1{
+    font-size: 24px;
+  }
+  .aplication >p{
+    font-size: 14px;
+    margin: 0 10px;
+    margin-bottom: 40px;
+  }
     .aplication .col-3 h1{
       font-size: 60px;
     }
@@ -668,22 +725,28 @@
 
 }
 
-@media only screen and (max-width:  440px) {
-  .column-fee h1 {
-  font-size: 18px;   
-  margin-bottom: 10%;
-}
-  .fee-table{
-    margin-bottom: 10%;
-  }
-  .program-img1 img{
-  width: 300px;
-  margin-bottom: 15%;
-}
-}
+
 .th{
   color: transparent;
 } 
+@media only screen and (max-width: 426px) {
+      .program-text >h1{
+      font-size: 28px;
+      
+    }
+    .program-text >p{
+      font-size: 14px;
+      margin: 0 10px;
+    }
+  .program .row h1{
+  font-size: 28px;
+  
+}
+.program .row th{
+  font-size: 14px;
+  padding-bottom:15px ;
+}
+}
 
 
 .include{
@@ -694,7 +757,7 @@
 .include .row{
   margin: 0 50px;
 }
-.include .col-6 h1{
+.include .col-lg-6 h1{
   font-size: 28px;
   font-weight: 700;
   padding-bottom: 50px;
@@ -748,19 +811,48 @@
 
 }
 }
+@media only screen and (max-width:  426px) {
+    .include .col-lg-6 h1{
+  font-size: 24px;
+ padding: 10px 0;
+}
+.column-list-include p,.column-list-exclude p{
+  font-size: 14px;
+}
+.include-button{
+  padding: 15px 20px;
+  margin: 20px 0;
+  font-size: 16px;
 
+}
+}
 
 
 
 .slukat{
   margin-top: 100px;
 }
-.slukat-img{
-  margin-top: 3%;
-}
+
 .slukat-img img{
   width: 80%;
 }
+.slukat-text > h1 {
+  font-size: 40px;
+  margin: 40px 0;
+  font-weight: 700;
+}
+@media only screen and (max-width:  426px) {
+    .slukat{
+  margin-top: 50px;
+}
+.slukat-text h1 {
+  font-size: 28px;
+  margin: 20px 0;
+}
+}
+
+
+
 
 
 .class-activity{
@@ -768,10 +860,10 @@
   margin: 30px 0;
   background-color: #F6FEF5;
 }
-.class-activity > h1 {
+.class-activity  h1 {
   font-weight: 700;
   margin-bottom: 20px;
-  
+  font-size: 40px;
 }
 .class-activity img {
         margin:50px auto; /* Added */
@@ -796,37 +888,53 @@
   background-color: #F6FEF5;
   
 }
+@media only screen and (max-width:  600px) {
+
+.class-activity img {
+        margin:10px auto; /* Added */
+        width: 400px;
+        position: relative;
+}
+.class-activity{
+  padding:0;
+  margin: 10px 0;
+}
+}
+@media only screen and (max-width:  426px) {
+
+.class-activity > h1 {
+  font-size: 28px;
+  margin: 40px 0 0 0;
+}
+.class-activity img {
+        margin:20px auto; /* Added */
+        width: 300px;
+        position: relative;
+        
+}
+.class-activity{
+  padding:0;
+  margin: 10px 0;
+  
+}
+}
 
 
 
 
-.accommodation-img {
-  max-height: 100%;
-  display: flex;
-  margin-left: 3%;
-  margin-right: 2%;
-  overflow-x: auto;
+.vid-article .row{
+  margin: 0 50px;
 }
-.accommodation-img::-webkit-scrollbar {
-  width: 0;
+.vid-article h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin: 40px 10px;
 }
-.accommodation-img .icon {
-  text-align: center;
-  min-width: 470px;
-  margin-right: 7%;
-  margin-bottom: 5%;
-  padding: 0 20px 0 20px;
-  justify-items: center;
+@media only screen and (max-width:  426px) {
+  .vid-article h1{
+  font-size: 28px;
+  font-weight: 700;
+  margin: 20px 10px;
 }
-.accommodation-img .icon > img {
-  margin-top: 12%;
-  height: 20em;
-  justify-content: center;
-}
-.class-text{
-  margin-top: 5%;
-}
-.class h1{
-  font-weight: bold;
 }
 </style>
