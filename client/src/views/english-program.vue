@@ -106,7 +106,7 @@
   overflow-x: hidden;
 }
 .banner{
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   min-height: 500px;
 
 }
@@ -118,7 +118,7 @@
   background-size: cover;
   background-repeat:no-repeat;
   background-position: 50% 50%;
-  min-height: 500px;
+  min-height: 700px;
 }
 .banner-text-span{
   text-align: start;

@@ -106,7 +106,7 @@
   overflow-x: hidden;
 }
 .banner{
-  margin-bottom: 10%;
+  margin-bottom: 20%;
   min-height: 500px;
 
 }
