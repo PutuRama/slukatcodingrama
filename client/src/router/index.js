@@ -53,7 +53,7 @@ const routes = [
   },
   {
     path: '/marketplace',
-    name: 'AboutVolunteer',
+    name: 'marketplace',
     component: () => import(/* webpackChunkName: "about" */ '../views/UnderContruct.vue')
   },
   {
