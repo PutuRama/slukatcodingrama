@@ -62,13 +62,14 @@
     </div>
 
 
-      
+      <br><br><br><br>
 
 
     <div class="join">
       <h2><b>Why they join SLC?</b></h2>
       <div class="volunter">
-      <div class="icon">
+        <div class="row">
+      <div class="col icon">
         <img
           src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
           alt=""
@@ -81,7 +82,7 @@
           dolor?
         </p>
       </div>
-     <div class="icon">
+     <div class="col icon">
         <img
           src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
           alt=""
@@ -94,7 +95,7 @@
           dolor?
         </p>
       </div>
-      <div class="icon">
+      <div class="col icon">
         <img
           src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
           alt=""
@@ -107,19 +108,7 @@
           dolor?
         </p>
       </div>
-     <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""
-        />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
-        </p>
-      </div>
+    </div>
     </div>
     </div>
 
