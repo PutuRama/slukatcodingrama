@@ -121,8 +121,8 @@
       <div class="row">
         <div class="col-lg-8 col-md-12 col-sm-12">
           <div class="row programs-list">
-              <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-                <router-link to="/program/coding">
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+              <router-link to="/program/coding">
                 <img
                   src="../assets/img/Rectangle74.png"
                   alt=""
@@ -130,10 +130,10 @@
                 />
                 <img src="../assets/img/coding.png" alt="" class="mobile" />
                 <h4>Coding Program</h4>
-                </router-link>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-                <router-link to="/program/coding">
+              </router-link>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+              <router-link to="/program/coding">
                 <img
                   src="../assets/img/Rectangle76.png"
                   alt=""
@@ -141,10 +141,10 @@
                 />
                 <img src="../assets/img/agri.png" alt="" class="mobile" />
                 <h4>Agricultre Program</h4>
-                </router-link>
-              </div>
-              <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-                <router-link to="/program/coding">
+              </router-link>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+              <router-link to="/program/coding">
                 <img
                   src="../assets/img/Rectangle75.png"
                   alt=""
@@ -152,8 +152,8 @@
                 />
                 <img src="../assets/img/english.png" alt="" class="mobile" />
                 <h4>English Program</h4>
-                </router-link>
-              </div>
+              </router-link>
+            </div>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12">
@@ -185,12 +185,12 @@
       <div class="student">
         <h4>Student</h4>
         <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
-              <div class="col-4">
+              <div class="col-12">
                 <img src="../assets/img/p.png" alt="" />
               </div>
-              <div class="col-8">
+              <div class="col-12">
                 <h3>Made Sanjaya</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
@@ -202,12 +202,29 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-sm-12">
+          <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
-              <div class="col-4">
+              <div class="col-12">
                 <img src="../assets/img/p.png" alt="" />
               </div>
-              <div class="col-8">
+              <div class="col-12">
+                <h3>I Putu Nanda Amanta</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                  iure architecto dolor ..
+                  <router-link to="/about/student"
+                    ><a>Learn More</a></router-link
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <div class="row card-student">
+              <div class="col-12">
+                <img src="../assets/img/p.png" alt="" />
+              </div>
+              <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
                 <p>
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
@@ -230,9 +247,11 @@
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                nihil aliquam impedit hic quae velit quos voluptate dignissimos
-                placeat facere.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                iure architecto dolor ..
+                <router-link to="/about/volounteer"
+                  ><a>Learn More</a></router-link
+                >
               </p>
             </div>
           </div>
@@ -242,9 +261,11 @@
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                nihil aliquam impedit hic quae velit quos voluptate dignissimos
-                placeat facere.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                iure architecto dolor ..
+                <router-link to="/about/volounteer"
+                  ><a>Learn More</a></router-link
+                >
               </p>
             </div>
           </div>
@@ -254,9 +275,11 @@
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis
-                nihil aliquam impedit hic quae velit quos voluptate dignissimos
-                placeat facere.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
+                iure architecto dolor ..
+                <router-link to="/about/volounteer"
+                  ><a>Learn More</a></router-link
+                >
               </p>
             </div>
           </div>
@@ -266,8 +289,53 @@
 
     <!-- Blog -->
     <div class="vid-article">
-      
+      <div class="vid-article-content">
+        <div class="row">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Wintry Mountain Landscape"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Mountains in the Clouds"
+            />
+
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Boat on Calm Water"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Waves at Sea"
+            />
+
+            <img
+              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Yosemite National Park"
+            />
+          </div>
+        </div>
+      </div>
     </div>
+    <br><br>
   </div>
 </template>
 
@@ -380,6 +448,7 @@ span.garis-hijau {
     padding: 0 5px !important;
   }
 }
+
 .column {
   display: flex;
   margin-bottom: 4%;
@@ -403,7 +472,7 @@ span.garis-hijau {
   left: 50%;
   transform: translateX(-50%);
   border-radius: 5px;
- margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .volounteer-card h4 {
@@ -521,7 +590,7 @@ span.garis-hijau {
   color: white;
 }
 .card-student {
- color: white;
+  color: white;
   padding: 20px 30px;
   background-color: #0b6d0e;
   width: 90%;
@@ -530,7 +599,7 @@ span.garis-hijau {
   transform: translateX(-45%);
   position: relative;
   border-radius: 5px;
- margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 .card-student a {
   color: rgb(70, 249, 255);
@@ -552,7 +621,14 @@ span.garis-hijau {
 
 .student,
 .valounter {
-  margin-top: 50px;
+  margin-top: 60px;
+}
+
+.student > h4,
+.valounter > h4 {
+  font-weight: bolder;
+  font-size: 30px;
+  margin-bottom: 30px;
 }
 .program-list-test h2 {
   font-weight: 900;
@@ -611,80 +687,14 @@ span.garis-hijau {
 }
 
 .card-student img {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  position: relative;
+  margin-bottom: 20px;
 }
-
-.blog {
-  background-color: #f6fef5;
-  padding: 3% 0 3% 0;
-  margin-bottom: 5%;
+.vid-article {
+  margin-top: 100px;
 }
-.blog-text h5 {
-  font-weight: 900;
-  letter-spacing: 0.3em;
-  color: #0f700d;
-}
-.blog-picture {
-  max-height: 100%;
-  display: flex;
-  margin-top: 2%;
-  margin-left: 3%;
-  margin-right: 2%;
-  overflow-x: auto;
-}
-.blog-picture::-webkit-scrollbar {
-  width: 0;
-}
-.blog-picture .blog-icon {
-  min-width: 468px;
-  border-radius: 10px;
-  height: 485px;
-  text-align: center;
-  background-color: #047d02;
-  margin-right: 7%;
-  padding: 0 20px 0 20px;
-  justify-items: center;
-}
-.blog-picture .blog-icon > img {
-  width: 100%;
-  height: 10em;
-  margin-top: 5%;
-  justify-content: center;
-}
-.blog-picture .blog-icon p {
-  color: white;
-  text-align: left;
-}
-.blog-picture .blog-icon h5 {
-  color: white;
-  text-align: left;
-  font-size: 16px;
-  margin-top: 10%;
-  font-weight: 900;
-}
-.blog-picture .blog-icon .blog-span {
-  font-size: 13px;
-  color: #52b054;
-}
-.desc {
-  text-align: center;
-}
-
-.button-blog {
-  background: #047002;
-  border: white 1px solid;
-  padding: 12px 20px;
-  padding: 0.8% 2% 0.8% 2%;
-}
-.button-blog a {
-  text-decoration: none;
-  font-size: 18px;
-  color: white;
-  vertical-align: top;
-  padding: 2em 0 0 1em;
-  font-weight: 700;
+.vid-article-content {
+  max-width: 1000px;
+  margin: 0 auto;
 }
 </style>
