@@ -335,7 +335,7 @@
         </div>
       </div>
     </div>
-    <br><br>
+    <br /><br />
   </div>
 </template>
 
@@ -347,6 +347,8 @@
 
 .home {
   overflow-x: hidden;
+
+  font-family: "Poppins", sans-serif;
 }
 
 span.garis-hijau {
