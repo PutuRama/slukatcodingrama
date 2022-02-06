@@ -2,8 +2,7 @@
     <div class="volunteer">
 <div class="banner">
         <div class="row">
-        <div class="col carousel-img">
-       <div class="col carousel">
+       <div class="col carousel-banner">
       <div class="carousel-image">
         <img src="../assets/unsplash_PdcNOb4iYFs.png" alt="">
       </div>
@@ -16,7 +15,6 @@
       <div class="carousel-image">
         <img src="../assets/unsplash_j3lf-Jn6deo.png" alt="">
       </div>
-        </div>
       </div>
     </div>
     <h1>Volunteering</h1>
@@ -155,7 +153,7 @@
           </div>
           <div class="row row-program">
              
-                <table class="col">
+                <table class="col-lg-6 col-md-12 col-sm-12">
                  <tr>
                   <th><h1>Weeks</h1></th>
                   <th colspan="2"><h1>Fees</h1></th>
@@ -219,7 +217,7 @@
 
 <div class="include">
   <div class="row">
-    <div class="col-6">
+    <div class="col-lg-6 col-md-12 col-sm-12">
       <h1>What are included?</h1>
          <div class="column-list-include">
               <svg viewBox="0 0 24 24">
@@ -260,7 +258,7 @@
             </div>
         </div>
 
-        <div class="col-6">
+        <div class="col-lg-6 col-md-12 col-sm-12">
           <h1>What are excluded?</h1>
            <div class="column-list-exclude">
               <svg viewBox="0 0 24 24">
@@ -301,42 +299,26 @@
         <h1><b>Slukat Learning Center</b></h1>
         </div>
         <div class="slukat-img">
-          <img src="../assets/vision_dummy.png" alt="">
+          <img src="../assets/IMG_1711.jpeg" alt="">
         </div>
       </div>
 
-      <div class="class">
-        <div class="class-text">
-          <h1>Class Activity</h1>
+     <div class="class-activity">
+      <h1>Class Activity</h1>
+
+      <div class="row">
+        <div class="col">
+            <img class="card-img-top" src="../assets/1581417314189.jpg" alt="Card image cap">
         </div>
-    <div class="class-img">
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
+        <div class="col">
+            <img class="card-img-top" src="../assets/1576453466332.jpg" alt="Card image cap">
+        </div>
+        <div class="col">
+            <img class="card-img-top" src="../assets/1583746625348.jpg" alt="Card image cap">
+        </div>
       </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""/>
-      </div>
-    </div>
-      </div>
+  <button type="button" class="btn btn-success btn-lg activity-button">Find Out</button>
+    </div> 
 
   <div class="class">
         <div class="class-text">
@@ -396,7 +378,7 @@
   margin: 20px 20px 20px 0;
 
 }
-.carousel{
+.carousel-banner{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -407,7 +389,7 @@
   margin: 0 1%;
   margin-bottom: 5%;
 }
-.carousel img{
+.carousel-banner img{
   width: 250px;
   height: 353px;
 }
@@ -415,13 +397,13 @@
   margin-top: 100px;
 }
 @media only screen and (max-width: 1117px) {
-        .carousel img{
+        .carousel-banner img{
         width: 200px;
         height: 300px;
       }
 }
 @media only screen and (max-width: 961px) {
-        .carousel img{
+        .carousel-banner img{
         width:160px;
         height: 240px;
       }
@@ -779,29 +761,45 @@
 .slukat-img img{
   width: 80%;
 }
-.class-img {
-  max-height: 100%;
-  display: flex;
-  margin-left: 3%;
-  margin-right: 2%;
-  overflow-x: auto;
+
+
+.class-activity{
+  padding:60px;
+  margin: 30px 0;
+  background-color: #F6FEF5;
 }
-.class-img::-webkit-scrollbar {
-  width: 0;
+.class-activity > h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  
 }
-.class-img .icon {
-  text-align: center;
-  min-width: 470px;
-  margin-right: 7%;
-  margin-bottom: 5%;
-  padding: 0 20px 0 20px;
-  justify-items: center;
+.class-activity img {
+        margin:50px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        width: 500px;
+        position: relative;
+        
 }
-.class-img .icon > img {
-  margin-top: 12%;
-  height: 20em;
-  justify-content: center;
+
+.activity-button{
+  padding: 10px 30px;
+  background-color: #047002;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid ;
+  margin: 50px 0;
+
 }
+.activity-button:hover{
+  color: #047002;
+  background-color: #F6FEF5;
+  
+}
+
+
+
+
 .accommodation-img {
   max-height: 100%;
   display: flex;
