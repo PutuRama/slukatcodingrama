@@ -106,7 +106,7 @@
   overflow-x: hidden;
 }
 .banner{
-  margin-bottom: 20%;
+  margin-bottom: 12%;
   min-height: 500px;
 
 }
@@ -118,16 +118,16 @@
   background-size: cover;
   background-repeat:no-repeat;
   background-position: 50% 50%;
-  min-height: 500px;
+  min-height: 100px;
 }
 .banner-text-span{
   text-align: start;
-  position:absolute;
   color:  #FFFFFF;
   display: inline-block;
+  right: 0;
   max-width: 750px;
-  padding: 100px;
-  margin: 5% auto;
+  padding-top: 8%;
+  margin: 5%;
 }
 
 .how {

@@ -43,13 +43,13 @@
         <br><br><br>
       </div>
       <div class="row row-overview">
-        <div class="col col-md-4 col-sm-6 col-overview">
+        <div class="col col-md-4 col-overview">
         <h1><b>401</b> </h1><span>Students <br> Enrolled</span>
         </div>
-        <div class="col col-md-4 col-sm-6 col-overview">
+        <div class="col col-md-4 col-overview">
         <h1><b>572</b> </h1><span>Students <br> Graduated</span>
         </div>
-        <div class="col col-md-4 col-sm-12 col-overview">
+        <div class="col col-md-4 col-overview">
         <h1><b>10</b> </h1><span>Volunteers <br> Contributed</span>
         </div>
       </div>
@@ -106,7 +106,7 @@
   overflow-x: hidden;
 }
 .banner{
-  margin-bottom: 20%;
+  margin-bottom: 12%;
   min-height: 500px;
 
 }
@@ -118,16 +118,16 @@
   background-size: cover;
   background-repeat:no-repeat;
   background-position: 50% 50%;
-  min-height: 700px;
+  min-height: 100px;
 }
 .banner-text-span{
   text-align: start;
-  position:absolute;
   color:  #FFFFFF;
   display: inline-block;
+  right: 0;
   max-width: 750px;
-  padding: 100px;
-  margin: 5% auto;
+  padding-top: 8%;
+  margin: 5%;
 }
 
 .how {
