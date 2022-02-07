@@ -188,7 +188,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/img/p.png" alt="" />
+                <img src="../assets/home-student-1.jpg" alt="" />
               </div>
               <div class="col-12">
                 <h3>Made Sanjaya</h3>
@@ -205,7 +205,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/img/p.png" alt="" />
+                <img src="../assets/home-student-2.jpg" alt="" />
               </div>
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
@@ -222,7 +222,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/img/p.png" alt="" />
+                <img src="../assets/home-student-3.jpg" alt="" />
               </div>
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
@@ -243,7 +243,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="volounteer-card">
-              <img src="../assets/img/t.png" alt="" />
+              <img src="../assets/home-volounter-1.jpg" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -257,7 +257,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="volounteer-card">
-              <img src="../assets/img/t.png" alt="" />
+              <img src="../assets/home-volounter-2.jpg" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -271,7 +271,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="volounteer-card">
-              <img src="../assets/img/t.png" alt="" />
+              <img src="../assets/home-volounter-3.jpg" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -293,43 +293,43 @@
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              src="../assets/home-activities-1-2x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Boat on Calm Water"
+              alt="Yoga dilapangan SLC"
             />
 
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+              src="../assets/home-activities-1-4x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Wintry Mountain Landscape"
-            />
-          </div>
-
-          <div class="col-lg-4 mb-4 mb-lg-0">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-              class="w-100 shadow-1-strong rounded mb-4"
-              alt="Mountains in the Clouds"
-            />
-
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-              class="w-100 shadow-1-strong rounded mb-4"
-              alt="Boat on Calm Water"
+              alt="Beach clean"
             />
           </div>
 
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+              src="../assets/home-activities-2-4x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Waves at Sea"
+              alt="Balinese Dance"
             />
 
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+              src="../assets/home-activities-2-2x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Yosemite National Park"
+              alt="Angklung"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="../assets/home-activities-3-2x3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Playing Games 1"
+            />
+
+            <img
+              src="../assets/home-activities-3-4x3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Playing Games 2"
             />
           </div>
         </div>
@@ -390,6 +390,9 @@ span.garis-hijau {
   }
   .teks {
     top: 100px;
+  }
+  .program h4 {
+    left: 80px;
   }
 }
 
@@ -587,6 +590,7 @@ span.garis-hijau {
   background-image: url("../assets/img/our_program_img.png");
 }
 
+
 .program-list-test {
   text-align: start;
   color: white;
@@ -620,6 +624,11 @@ span.garis-hijau {
   text-align: center;
   letter-spacing: 0.3em;
 }
+.card-student img {
+  width: auto;
+  height: 108px;
+  border-radius: 50%;
+}
 
 .student,
 .valounter {
@@ -632,6 +641,12 @@ span.garis-hijau {
   font-size: 30px;
   margin-bottom: 30px;
 }
+.volounteer-card img{
+  width: auto;
+  height: 108px;
+  border-radius: 50%;
+}
+
 .program-list-test h2 {
   font-weight: 900;
 }
@@ -668,9 +683,8 @@ span.garis-hijau {
 
 .program h4 {
   color: white;
-  position: absolute;
-  bottom: 20px;
-  left: 25px;
+  position: relative;
+  bottom: 50px;
 }
 
 @media screen and (max-width: 920px) {
