@@ -44,13 +44,16 @@
       <div class="col carousel-img">
        <div class="col student">
       <div class="col student-image">
-        <img src="../assets/grid1.jpg" alt="">
+        <img src="../assets/student1.jpeg" alt="">
       </div>
       <div class="col student-image">
-        <img src="../assets/grid2.jpeg" alt="">
+        <img src="../assets/student2.png" alt="">
       </div>
       <div class="col student-image">
-        <img src="../assets/img3.jpeg" alt="">
+        <img src="../assets/student3.jpeg" alt="">
+      </div>
+      <div class="col student-image">
+        <img src="../assets/student4.jpeg" alt="">
       </div>
 
         </div>
@@ -65,52 +68,52 @@
       <br><br><br><br>
 
 
-    <div class="join">
-      <h2><b>Why they join SLC?</b></h2>
-      <div class="volunter">
-        <div class="row">
-      <div class="col col-md-3 icon">
-        <img
-          src="../assets/san.jpeg"
-          alt=""
-        />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
+    <div class="volunteers-card">
+      <div class="row">
+        <div class="col">
+        <div class="icon">
+        <img src="../assets/san.jpeg" alt=""/>
+        <h1>Alexsandra</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
           amet beatae quaerat id repellendus molestiae ea asperiores eius cum
           quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
           dolor?
         </p>
       </div>
-     <div class="col col-md-3 icon">
-        <img
-          src="../assets/gung.jpeg"
-          alt=""
-        />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
-        </p>
-      </div>
-      <div class="col col-md-3 icon">
-        <img
+        </div>
+      <div class="col">
+           <div class="icon">
+       <img
           src="../assets/will.jpg"
           alt=""
         />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
+        <h1>William Saputra</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
           amet beatae quaerat id repellendus molestiae ea asperiores eius cum
           quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
           dolor?
         </p>
       </div>
-    </div>
-    </div>
-    </div>
+        </div>
+           <div class="col">
+           <div class="icon">
+       <img
+          src="../assets/gung.jpeg"
+          alt=""
+        />
+        <h1>Gung Ade</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
+          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
+          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
+          dolor?
+        </p>
+      </div>
+        </div>
+      </div>
+    </div> 
 
     <div class="achievement">
       <div class="achivement-text">
@@ -183,7 +186,7 @@
   margin-bottom: 5%;
 }
 .vision-img{
-  background-image: url("../assets/vision_dummy.png");
+  background-color: #047002;
 }
 .vision-text{
   padding: 30px 20px;
@@ -223,32 +226,65 @@
 .banner .carousel-image:first-child,.banner .carousel-image:nth-child(3){
   margin-top: 5%;
 }
+@media screen and (max-width: 550px) {
+  .banner .carousel-image:first-child,.banner .carousel-image:nth-child(4){
+    display: none;
+  }
+  .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+  }
+}
+
+
+
+
 .student{
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: -3%;
+  margin-top: -3%;
+  max-width: 800px;
 }
 .student-image{
   height: 353px;
 }
 .student img{
-  display: inline-block;
   object-fit: cover;
-  width: 110%;
+  width: 120%;
+  padding-left: 8%;
   height: 353px;
 }
-
-
-@media screen and (max-width: 850px) {
-  .vision-img , .student-image{
+.vision-img .student-image:nth-child(2), .vision-img .student-image:nth-child(4){
+  margin-top: 5%;
+}
+@media screen and (max-width: 1100px) {
+  .vision-img .student-image:nth-child(1), .vision-img .student-image:nth-child(2) {
     display: none;
   }
-  .vision-img, .student-image-mobile{
-    display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .vision-img .student-image:nth-child(3) {
+    display: none;
+  }
+ .student img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 240px;
+ }
+ .banner .carousel-image:first-child,.banner .carousel-image:nth-child(4){
+    display: none;
+  }
+  .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
   }
 }
+
 
 .title{
   margin: 100px 0 180px 0;
@@ -284,47 +320,82 @@
   font-size: 24px;
 }
 
-.volunter {
-  max-height: 100%;
-  margin-top: 5%;
-  overflow-x: auto;
-}
-.volunter .row {
-  justify-content: center;
-}
-.volunter::-webkit-scrollbar {
-  width: 0;
-}
-.volunter .icon {
-  min-width: 345px;
-  border-radius: 10px;
-  text-align: center;
-  background-color: #047d02;
-  margin: 0 20px 0 20px;
-  margin-bottom: 5%;
-  padding: 0 20px 10px 20px;
-  align-content: center;
-}
-.volunter .icon > img {
-  width: 50%;
-  max-height: 30%;
-  margin-top: 10%;
-  border-radius: 60%;
-   
-}
-.volunter .icon p {
+.volunteers-card{
+  padding:0 60px 60px 60px;
   color: white;
 }
-.volunter .icon h1 {
-  color: white;
-  font-size: 24px;
-  margin-top: 1%;
+.volunteers-card h1 {
   font-weight: 900;
-  line-height: 36px;
+  margin: 20px 0;
+  font-size: 24px;
+  letter-spacing: 0.11em;
+  color: #52B054;
+;
+  
 }
-.desc {
-  text-align: center;
+.volunteers-card h4 {
+  font-weight: 900;
+  margin: 20px 0 10px  0;
+  font-size: 24px;
+  letter-spacing: 0.05em;
 }
+.volunteers-card .icon{
+  background-color: #047002;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  padding: 30px 0 500px 0;
+  margin:50px auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  width: 400px;
+  position: relative;
+  height: 450px;
+
+}
+.volunteers-card .icon img{
+  width: 50%;
+  height: 180px;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+.volunteers-card .icon p{
+  margin: 0 30px 0 30px;
+
+}
+@media screen and (max-width: 521px) {
+  .volunteers-card{
+  padding:0 20px 20px 20px;
+    }
+  .volunteers-card .col{
+  padding:0;
+
+      }
+}
+@media screen and (max-width: 426px) {
+  .volunteers-card .icon{
+     width: 350px;
+    padding: 30px 0 400px 0;
+  }
+  .volunteers-card .icon p{
+    font-size: 14px;
+  } 
+  .volunteers-card h1 {
+  font-size: 18px;
+  }
+.volunteers-card h4 {
+  font-size: 18px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .volunteers-card .icon{
+     width: 300px;
+  }
+}
+
+
+
 .achievement{
   margin-bottom: 5%;
 }
