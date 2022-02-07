@@ -107,7 +107,7 @@
 }
 .banner{
   margin-bottom: 12%;
-  min-height: 500px;
+  min-height: 700px;
 
 }
 .img-banner{
