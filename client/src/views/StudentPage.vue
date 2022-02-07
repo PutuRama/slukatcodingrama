@@ -69,9 +69,9 @@
       <h2><b>Why they join SLC?</b></h2>
       <div class="volunter">
         <div class="row">
-      <div class="col icon">
+      <div class="col col-md-3 icon">
         <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          src="../assets/san.jpeg"
           alt=""
         />
         <h1>Johnson El Delomelo</h1>
@@ -82,9 +82,9 @@
           dolor?
         </p>
       </div>
-     <div class="col icon">
+     <div class="col col-md-3 icon">
         <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          src="../assets/gung.jpeg"
           alt=""
         />
         <h1>Johnson El Delomelo</h1>
@@ -95,9 +95,9 @@
           dolor?
         </p>
       </div>
-      <div class="col icon">
+      <div class="col col-md-3 icon">
         <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+          src="../assets/will.jpg"
           alt=""
         />
         <h1>Johnson El Delomelo</h1>
@@ -286,11 +286,11 @@
 
 .volunter {
   max-height: 100%;
-  display: flex;
   margin-top: 5%;
-  margin-left: 3%;
-  margin-right: 2%;
   overflow-x: auto;
+}
+.volunter .row {
+  justify-content: center;
 }
 .volunter::-webkit-scrollbar {
   width: 0;
@@ -300,17 +300,17 @@
   border-radius: 10px;
   text-align: center;
   background-color: #047d02;
-  margin-right: 7%;
+  margin: 0 20px 0 20px;
   margin-bottom: 5%;
   padding: 0 20px 10px 20px;
-  justify-items: center;
+  align-content: center;
 }
 .volunter .icon > img {
   width: 50%;
-  height: 8em;
+  max-height: 30%;
   margin-top: 10%;
   border-radius: 60%;
-  justify-content: center;
+   
 }
 .volunter .icon p {
   color: white;
