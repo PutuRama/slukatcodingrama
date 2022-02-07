@@ -122,7 +122,7 @@
         <div class="col-lg-8 col-md-12 col-sm-12">
           <div class="row programs-list">
             <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <router-link to="/program/coding">
+              <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle74.png"
                   alt=""
@@ -133,7 +133,7 @@
               </router-link>
             </div>
             <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <router-link to="/program/coding">
+              <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle76.png"
                   alt=""
@@ -143,8 +143,8 @@
                 <h4>Agricultre Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <router-link to="/program/coding">
+            <div class="col-12 col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+              <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle75.png"
                   alt=""
@@ -156,7 +156,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-lg-4 col-md-12 col-sm-12 program-list">
           <span class="program-list-test">
             <h2>And More!</h2>
             <h5>
@@ -230,8 +230,7 @@
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
                   iure architecto dolor ..
                   <router-link to="/about/student"
-                    ><a>Learn More</a></router-link
-                  >
+                    ><a>Learn More</a></router-link>
                 </p>
               </div>
             </div>
@@ -391,9 +390,6 @@ span.garis-hijau {
   .teks {
     top: 100px;
   }
-  .program h4 {
-    left: 80px;
-  }
 }
 
 .carousel h1 {
@@ -446,8 +442,12 @@ span.garis-hijau {
   body .program {
     padding: 0 0 130px 0;
   }
+  .program-list {
+    margin: 0 8%;
+  }
   .program-list-test h2 {
     padding: 20px 5px 0 5px !important;
+    font-size: 36px;
   }
   .program-list-test h5 {
     padding: 0 5px !important;
@@ -470,7 +470,9 @@ span.garis-hijau {
 .volounteer-card {
   color: white;
   padding: 20px 30px;
-  background-color: #0b6d0e;
+  background-image: url("../assets/unsplash_xljtGZ2-P3Y.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 90%;
   max-width: 400px;
   position: relative;
@@ -588,6 +590,8 @@ span.garis-hijau {
 }
 .program-img {
   background-image: url("../assets/img/our_program_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
@@ -598,7 +602,9 @@ span.garis-hijau {
 .card-student {
   color: white;
   padding: 20px 30px;
-  background-color: #0b6d0e;
+  background-image: url("../assets/unsplash_xljtGZ2-P3Y.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 90%;
   max-width: 400px;
   left: 50%;
@@ -668,7 +674,7 @@ span.garis-hijau {
 }
 
 .program {
-  background-color: #0b6d0e;
+  background-color: #057002;
   margin-bottom: 50px;
   padding: 100px;
 }
@@ -681,15 +687,21 @@ span.garis-hijau {
   filter: brightness(50%);
 }
 
+.program-link {
+  text-decoration: none;
+}
+
 .program h4 {
   color: white;
+  font-size: 24px;
+  font-weight: 700;
   position: relative;
   bottom: 50px;
 }
 
 @media screen and (max-width: 920px) {
   .program .mobile {
-    display: inline-block;
+    display: flex;
   }
   .program .dekstop {
     display: none;
