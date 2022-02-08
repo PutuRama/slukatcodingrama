@@ -1,45 +1,16 @@
 <template>
   <div class="english-program">
-    <div
-      id="carouselExampleControls"
-      class="carousel slide"
-      data-ride="carousel"
-    >
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <h2><span class="headline-hijau">English Class</span></h2>
-          <p>Lorem Ipsum is simply dummy text of the</p>
+
+
+    <div class="banner">
+      <div class="row">
+        <div class="col img-banner">
         </div>
-        <div class="carousel-item">
-          <h2><span class="headline-hijau">English Class</span></h2>
-          <p>Lorem Ipsum is simply dummy text of</p>
-        </div>
-        <div class="carousel-item">
-          <h2><span class="headline-hijau">English Class</span></h2>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the
-          </p>
-        </div>
+          <span class="col banner-text-span">
+            <h1>English Class</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p>
+          </span>
       </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleControls"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
     </div>
 
     <div class="how">
@@ -54,7 +25,7 @@
           </p>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 column-how">
-          <h2>How is it started?</h2>
+          <h2>How is it going?</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -65,51 +36,66 @@
       </div>
     </div>
 
-    <div class="leads">
-      <div class="leads-text">
-        <h2>Who leads this class?</h2>
+
+    <div class="status-overview">
+      <div class="overview-text">
+        <h1 style="color: black;"><b>Status Overview</b></h1>
+        <br><br><br>
       </div>
-      <div class="leads-img">
-        <div class="row">
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
-          <div class="col column-img">
-            <img src="../assets/dummyteam.png" alt="" />
-          </div>
+      <div class="row row-overview">
+        <div class="col col-md-4 col-overview">
+        <h1><b>401</b> </h1><span>Students <br> Enrolled</span>
         </div>
+        <div class="col col-md-4 col-overview">
+        <h1><b>572</b> </h1><span>Students <br> Graduated</span>
+        </div>
+        <div class="col col-md-4 col-overview">
+        <h1><b>10</b> </h1><span>Volunteers <br> Contributed</span>
+        </div>
+      </div>
+      <div class="end-overview">
+      <p style="margin-bottom: 10%">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has <br> been the industry's standard dummy text ever since the 1500s, when an unknown printer took a <br> galley of type and scrambled it to make a type specimen book.</p>
       </div>
     </div>
 
-    <div class="activities">
-      <div class="activities-text">
-        <h2>Activities</h2>
-      </div>
-      <div class="row">
-        <div class="col slider-activities">
-          <div class="col-sm-12 wrapper-activities">
-            <img
-              src="https://i.pinimg.com/originals/2b/de/de/2bdede0647e3cdf75b44ea33723201d9.jpg"
-            />
-            <img
-              src="https://images6.alphacoders.com/462/thumb-1920-462371.jpg"
-            />
-            <img
-              src="https://images5.alphacoders.com/343/thumb-1920-343645.jpg"
-            />
-            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-            <img src="https://cdn.wallpapersafari.com/24/98/dwMtqD.jpg" />
-          </div>
-        </div>
-      </div>
-    </div>
+
+    <div class="gallery">
+    <div class="row">
+  <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+
+    <img
+      src="../assets/english1.jpg"
+      class="last-img shadow-1-strong rounded mb-4"
+      alt="Wintry Mountain Landscape"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+    <br>
+    <img
+      src="../assets/english3.jpeg"
+      class=" w-100 shadow-1-strong rounded mb-4"
+      alt="Waves at Sea"
+    />
+    <img
+      src="../assets/english4.jpeg"
+      class=" w-100 shadow-1-strong rounded mb-4"
+      alt="Boat on Calm Water"
+    />
+  </div>
+
+  <div class="col-lg-4 mb-4 mb-lg-0">
+
+    <img
+      src="../assets/english2.jpg"
+      class="last-img w-100 shadow-1-strong rounded mb-4"
+      alt="Yosemite National Park"
+    />
+  </div>
+</div>
+</div>
+
+    
   </div>
 </template>
 
@@ -119,53 +105,29 @@
 .english-program {
   overflow-x: hidden;
 }
-.carousel {
-  margin: 10% 0 10% 0;
-}
-.carousel-item h2 {
-  font-weight: bold;
-}
-.carousel-item p {
-  display: inline-block;
-  max-width: 500px;
-  margin: 0 auto;
-}
+.banner{
+  margin-bottom: 12%;
+  min-height: 700px;
 
-.headline-hijau {
-  color: #047002;
 }
-
-.carousel-control-next-icon {
-  background-color: #047002;
-  border-radius: 100px;
-  width: 25px;
-  padding: 10px 0 15px 0;
+.img-banner{
+  width: 100%;
+  height: 80%;
+  position:absolute;
+  background-image: url("../assets/ec.png");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+  min-height: 100px;
+}
+.banner-text-span{
+  text-align: start;
+  color:  #FFFFFF;
   display: inline-block;
-}
-.carousel-control-next {
-  background-color: #047002;
-  border-radius: 100px;
-  height: 30px;
-  width: 30px;
-  margin: 4% 4% 0 0;
-}
-.carousel-control-prev {
-  background-color: #047002;
-  border-radius: 100px;
-  width: 30px;
-  height: 30px;
-  margin: 4% 0 0 4%;
-}
-@media screen and (max-width: 750px) {
-  .carousel-control-next {
-    display: none;
-  }
-  .carousel-control-prev {
-    display: none;
-  }
-  .column-how {
-    margin: 30px 0;
-  }
+  right: 0;
+  max-width: 750px;
+  padding-top: 8%;
+  margin: 5%;
 }
 
 .how {
@@ -174,6 +136,7 @@
 .row-how {
   display: flex;
   justify-content: center;
+  text-align: left;
 }
 .column-how {
   padding-left: 10%;
@@ -183,57 +146,31 @@
   font-weight: bold;
 }
 
-.leads-text h2 {
-  font-weight: bold;
-}
-.leads-text {
-  margin-bottom: 5%;
-}
-.column-img {
-  margin-bottom: 20%;
-}
 
-.activities-text h2 {
-  font-weight: bold;
-}
-.slider-activities {
-  overflow-x: auto;
-  border: 10px solid #ffffff;
-}
-.slider-activities::-webkit-scrollbar {
-  width: 0;
-}
-.wrapper-activities {
+.col-overview{
   display: flex;
-  margin-bottom: 2%;
-  animation: slide 5s infinite;
-  animation-direction: alternate;
-  animation-fill-mode: both;
-  width: 200%;
+  justify-content: center;  
+  margin-bottom: 3%;
 }
-.wrapper-activities img {
-  margin-top: 1%;
-  width: 28%;
-  margin : 0 40px;
-  min-width: 300px;
+.col-overview span{
+  margin-left: 5%;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: start;
+  color: #747474;
 }
-/* @media screen and (max-width: 820px) {
-  .wrapper-activities img {
-    width: 60%;
-  }
+.col-overview h1{
+  font-size: 45px;
+  color: black;
 }
-@media screen and (max-width: 450px) {
-  .wrapper-activities img {
-    width: 70%;
-  }
-} */
 
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
+
+.gallery{
+  margin: 5%;
+}
+.last-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 </style>
