@@ -85,15 +85,12 @@
               Gianyar, Bali.
             </p>
             <br />
-            <router-link class="button-program" to="/about/slc">
-              <a href="#" id="founder-findout"
-                >Find Out More
-                <i
-                  class="fas fa-arrow-circle-right"
-                  style="font-size: 25px; color: white"
-                ></i
-              ></a>
+
+                 <router-link class="button-founder " to="/about/slc">
+              <a href="#" id="founder-findout">Find Out More
+            </a>
             </router-link>
+
           </span>
         </div>
       </div>
@@ -166,14 +163,10 @@
           </span>
 
           <router-link class="button-program button-program-list" to="/program">
-            <a href="#" id="founder-findout"
-              >Find Out More
-              <i
-                class="fas fa-arrow-circle-right"
-                style="font-size: 25px; color: white"
-              ></i
-            ></a>
+            <a href="#" id="founder-findout">Find Out More
+            </a>
           </router-link>
+          
         </div>
       </div>
     </div>
@@ -278,8 +271,8 @@
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
                 iure architecto dolor ..
                 <router-link to="/about/volounteer"
-                  ><a>Learn More</a></router-link
-                >
+                  ><a>Learn More</a>
+                  </router-link>
               </p>
             </div>
           </div>
@@ -342,12 +335,11 @@
 <script>
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 /* @import url('../assets/css/media.css'); */
 
 .home {
   overflow-x: hidden;
-
   font-family: "Poppins", sans-serif;
 }
 
@@ -397,7 +389,7 @@ span.garis-hijau {
   margin-top: 70px;
   color: white;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 700;
 }
 /* aboutus */
 .aboutus {
@@ -410,14 +402,24 @@ span.garis-hijau {
   right: 0;
   z-index: 0;
 }
+.about-teks  p:first-child{
+  font-weight: 700;
+  font-size: 14px;
+  color: #678267;
+  letter-spacing: 5px;
+}
 .about-teks {
   text-align: start;
   display: inline-block;
-  padding: 50px 50px;
+  padding: 50px 80px;
   color: #335b32;
 }
+.about-teks  p:last-child{
+  font-size: 18px;  
+  line-height: 30px;
+}
 .about-teks h1 {
-  font-weight: bolder;
+  font-weight: 700;
   color: #057002;
 }
 .about-img {
@@ -497,7 +499,6 @@ span.garis-hijau {
 
   text-align: center;
   letter-spacing: 0.05em;
-
   color: #ffffff;
 }
 .volounteer-card img {
@@ -518,6 +519,24 @@ span.garis-hijau {
   transform: translateY(-50%);
   margin: auto 0;
   text-align: start;
+}
+.button-founder a{
+  background-color: #047002;
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: 800;
+  border: 2px solid;
+  border-radius: 5px;
+
+}
+.button-founder a:hover{
+  background-color: white;
+  color: #047002;
 }
 @media screen and (max-width: 990px) {
   .founder span {
@@ -547,7 +566,10 @@ span.garis-hijau {
 }
 .founder span p {
   max-width: 600px;
-  padding: 0 10px;
+  padding: 0 ;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 50px;
 }
 .image img {
   width: 50%;
@@ -582,6 +604,15 @@ span.garis-hijau {
   max-width: 500px;
   color: #0b6d0e;
   padding: 50px 50px;
+}
+.content-span h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+.content-span p{
+  font-size: 18px;
+  line-height: 30px;
+  margin: 10px 0 0 0;
 }
 .program-img {
   background-image: url("../assets/img/our_program_img.png");
@@ -636,20 +667,25 @@ span.garis-hijau {
   font-weight: 900;
 }
 
-.button-program {
-  background: #047002;
-  border: white 2px solid;
-  border-radius: 5px;
-  padding: 15px 30px;
-  margin-top: 70px;
-  margin-bottom: 50px;
-}
-.button-program a {
-  text-decoration: none;
-  font-size: 18px;
-  vertical-align: top;
+
+
+.button-program a{
+  background-color: #047002;
   color: white;
-  font-weight: 700;
+  font-size: 18px;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: 800;
+  border: 2px solid;
+  border-radius: 5px;
+
+}
+.button-program a:hover{
+  background-color: white;
+  color: #047002;
 }
 
 .program {
