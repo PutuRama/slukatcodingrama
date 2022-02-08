@@ -344,8 +344,14 @@
 .vision-text-span h1{
   font-weight: 700;
 }
-@media screen and (max-width: ) {
-  
+@media screen and (max-width: 450px) {
+  .vision .row{
+    display: grid;
+  }
+  .vision-text-span{
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
 }
 
 
