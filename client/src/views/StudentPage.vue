@@ -75,10 +75,7 @@
         <img src="../assets/san.jpeg" alt=""/>
         <h1>Alexsandra</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
+          The first time I joined here in 2015, I had a lot of experience, from student exchanges to Japan to being able to take part in the program activities that are here and of course it was very fun so I consider Slukat to be my second home.
         </p>
       </div>
         </div>
@@ -90,10 +87,7 @@
         />
         <h1>William Saputra</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
+          Since joining the Slukat Learning Center, I have gained a lot of knowledge and experience. And following the organization that is here has trained my leadership style.
         </p>
       </div>
         </div>
@@ -105,10 +99,7 @@
         />
         <h1>Gung Ade</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
+          I knew slukat from my sister, then I decided to join slukat. I joined slukat when I was 9 years old. From slukat I met a lot of volunteers from different countries and also learnt about their culture. And I made a lot of friends too, it was very fun!
         </p>
       </div>
         </div>
@@ -124,14 +115,14 @@
         <div class="col col-sm-12 col-md-6 column-achievement">
           <div class="col img_text">
           <img src="../assets/top1.jpeg" alt="">
-          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+          <p>Slukat Learning Center teaches free English courses and managed to get one of our students to get a scholarship to go abroad.</p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
             <div class="col img_text">
           <img src="../assets/top2.jpeg" alt="">
-          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+          <p>Slukat Learning Center as a place to play as well as have fun learning with friendly volunteers will certainly make the way children learn much easier to understand </p>
 
           </div>
         </div>
@@ -141,14 +132,14 @@
         <div class="col- col-sm-12 col-md-6 column-achievement">
            <div class="col img_text">
           <img src="../assets/mid1.jpg" alt="">
-          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+          <p>We clean the beach from plastic waste pollution that destroys natural ecosystems</p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
             <div class="col img_text">
           <img src="../assets/mid2.jpeg" alt="">
-          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+          <p>Every Sunday, we routinely do a Yoga program which keeps the body fit and healthy</p>
 
           </div>
         </div>
@@ -158,14 +149,14 @@
         <div class="col- col-sm-12 col-md-6 column-achievement">
            <div class="col img_text">
           <img src="../assets/bot1.jpg" alt="">
-          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+          <p>We regularly hold talent and interest programs for children at the Slukat Learning Center Foundation</p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
            <div class="col img_text">
           <img src="../assets/bot2.jpg" alt="">
-          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+          <p>Slukat Learning Center at the end of every year holds an annual Youth Festival event that showcases the talents of our students</p>
 
           </div>
         </div>
@@ -446,8 +437,10 @@
 }
 .img_text p {
   margin-top: 3%;
-  justify-items: center;
+  max-width: 800px;
+  padding: 0 80px 0 80px;
+  align-content: center;
+  display: inline-block; 
 }
-
 
 </style>

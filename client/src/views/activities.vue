@@ -15,10 +15,7 @@
           <div class="col-lg-6 col-md-12 col-sm-12 what-we-do-text " data-aos="fade-right" data-aos-duration="2000">
            <h2>What We Do?</h2>
              <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of type
-              and scrambled it to make a type specimen book.
+              We carry out programs that have a positive impact on our Slukat Learning Center <br> students
               </p>
               <button type="button" class="btn btn-success btn-lg activity-button">Find More</button>
            </div>
@@ -26,8 +23,8 @@
         <a href="">
           <img src="../assets/program.jpg" alt="">
           <div class="col img-text">
-            <p>OUR PROGRAM</p> <span> 02 June 2022</span>
-            <h3>lorem ipsum dolor sit jamet</h3>
+            <p>OUR PROGRAM</p> <span> 14 December 2019</span>
+            <h3>We have an annual Youth Festival</h3>
           </div>
         </a>
         </div> 
@@ -42,18 +39,15 @@
         <a href="">
           <img src="../assets/aboutus.jpeg" alt="">
           <div class="col img-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h3>lorem ipsum dolor sit jamet</h3>
+            <p>ABOUT STUDENT</p><span> 17 August 2017</span>
+            <h3>We have an event on August 17th</h3>
           </div>
         </a>
         </div>
          <div class="col-lg-6 col-md-12 col-sm-12 " data-aos="fade-left" data-aos-duration="2000">
           <h2>What is our impact?</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            There will be many impacts from the program of activities that we provide for Slukat Learning Center students, which will play an important role for them in the future.
           </p>
            <button type="button" class="btn btn-success btn-lg activity-button" >Find More</button>
         </div> 
@@ -81,8 +75,8 @@
          <img src="../assets/english1.jpeg" alt="">
           </a> 
           <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 02 June 2017</span>
+            <h5><a href="">Reading English books in the library of Slukat Learning Center</a></h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
@@ -91,8 +85,8 @@
          <img src="../assets/english2.jpeg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 3 March 2018</span>
+            <h5><a href="">Take memorable photos with Volunteers who teach English</a></h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
@@ -101,8 +95,8 @@
          <img src="../assets/english3.jpg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-           <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 02 July 2016</span>
+           <h5><a href="">English learning activities taught directly by Slukat Learning Center Volunteers</a></h5>
           </div>
         </div>
       </div>
@@ -120,8 +114,8 @@
          <img src="../assets/coding.jpeg" alt="">
           </a> 
           <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 10 July 2018</span>
+            <h5><a href="">Coding seminar activities for novice Young Programmers</a></h5>
             </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
@@ -130,8 +124,8 @@
          <img src="../assets/coding2.jpeg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 16 September 2018</span>
+            <h5><a href="">Programmer Bootcamp Activities to improve Young Programmer's skills</a></h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
@@ -140,8 +134,8 @@
          <img src="../assets/coding3.jpeg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 12 January 2022</span>
+            <h5><a href="">Teaching and learning activities about coding for new Programmers</a></h5>
           </div>
         </div>
       </div>
@@ -160,8 +154,8 @@
          <img src="../assets/enter1.jpeg" alt="">
           </a> 
           <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 11 January 2022</span>
+            <h5><a href="">Introductory activities about the world of Entrepreneur</a></h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
@@ -170,8 +164,8 @@
          <img src="../assets/enter2.jpeg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 20 January 2022</span>
+            <h5><a href="">Business discussions that are needed in the future</a></h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
@@ -180,8 +174,8 @@
          <img src="../assets/enter3.jpeg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 2 February 2022</span>
+            <h5><a href="">Discussion of business products that people are looking for</a></h5>
           </div>
         </div>
       </div>
@@ -201,8 +195,8 @@
          <img src="../assets/agri1.jpeg" alt="">
           </a> 
           <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 02 November 2021</span>
+            <h5><a href="">Seed planting activities</a></h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2000">
@@ -211,8 +205,8 @@
          <img src="../assets/agri2.jpeg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-            <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span> 20 November 2021</span>
+            <h5><a href="">The previously planted seeds have grown big</a></h5>
           </div>
         </div>
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
@@ -221,8 +215,8 @@
          <img src="../assets/agri3.jpeg" alt="">
            </a> 
            <div class="daily-text">
-            <p>ABOUT STUDENT</p><span> 02 June 2022</span>
-           <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
+            <p>ABOUT STUDENT</p><span>20 December 2021</span>
+           <h5><a href="">The process of fertilizing plants for faster plant growth</a></h5>
           </div>
         </div>
       </div>

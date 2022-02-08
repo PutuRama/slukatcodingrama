@@ -65,10 +65,7 @@
         <h1>RUSSIA</h1>
         <h4>Vitaly</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
+          The first time I got to know the Slukat Learning Center Foundation, it was amazing, it made me feel comfortable, the surrounding environment was cool, and the people made me want to stay at this Foundation even more.
         </p>
       </div>
         </div>
@@ -81,10 +78,7 @@
         <h1>NETHERLANDS</h1>
         <h4>Roy</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
+          The Slukat Learning Center Foundation is the best forum for children who seek knowledge with the program here which of course makes the children here more cheerful in participating in the programs held.
         </p>
       </div>
         </div>
@@ -97,10 +91,7 @@
         <h1>NETHERLANDS</h1>
         <h4>Sophie</h4>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
+         Extraordinary! A foundation like I've never found anywhere, with friendly, smiling people, makes me feel valued here with its programs that really hone the skills of the students here.
         </p>
       </div>
         </div>

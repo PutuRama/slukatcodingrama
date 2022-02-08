@@ -95,7 +95,7 @@
             <img src="../assets/light-bulb.png" alt="">
           </div>
           <div class="aim-text">
-            <p>Develop the student’s capabilities to change their mindset, perspectives and behaviors.</p>
+            <p>Develop the thinking power of our students who are creative, innovative, varied, in the current era.</p>
           </div>
         </div>
         <div class=" col-sm-12 col-md-4 aim-item" data-aos="fade-up" data-aos-duration="2000">
@@ -103,7 +103,7 @@
             <img src="../assets/self-awareness.png" alt="">
           </div>
           <div class="aim-text">
-            <p>Develop the student’s capabilities to change their mindset, perspectives and behaviors.</p>
+            <p>Open the eyes of our students for a better future equipped with knowledge about the outside world.</p>
           </div>
         </div>
         <div class=" col-sm-12 col-md-4 aim-item" data-aos="fade-up-left" data-aos-duration="2000">
