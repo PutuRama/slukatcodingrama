@@ -1,5 +1,6 @@
 const { response } = require("../../response/response")
 const db = require("../../db/db");
+const { generateUserId } = require("../../util/generator.util")
 
 module.exports = {
     getVolounteerTesti: async function (req, res) {
@@ -25,15 +26,17 @@ module.exports = {
     },
 
     addVolounteerTesti: async function (req, res) {
+
         var newTesti = {
             "name": req.body.name,
             "country": req.body.country,
             "category": "TESTI-VOLOUNTEER",
             "text": req.body.text,
-            "createdAt": new Date()
+            "createdAt": new Date(),
+            "id": "TESTI-" + generateUserId()
         }
-        const dbConnect = db.getDb();
 
+        const dbConnect = db.getDb();
         dbConnect
             .collection("slukatOrId")
             .insertOne(newTesti, function (err, result) {
