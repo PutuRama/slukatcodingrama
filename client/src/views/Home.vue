@@ -157,11 +157,11 @@
             <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
               <router-link class="program-link" to="/program/coding">
                 <img
-                  src="../assets/img/Rectangle74.png"
+                  src="../assets/img/Rectangle77.jpg"
                   alt=""
                   class="dekstop"
                 />
-                <img src="../assets/img/coding.png" alt="" class="mobile" />
+                <img src="../assets/img/NT.jpg" alt="" class="mobile" />
                 <h4>Entreprenuer Program</h4>
               </router-link>
             </div>
