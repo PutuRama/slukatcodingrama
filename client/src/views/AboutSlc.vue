@@ -549,6 +549,26 @@
         height: 450px;
   }
 }
+@media only screen and (max-width: 350px) {
+  .mission .card {
+        margin:50px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 85px; /* Added */
+        margin-left: -20px;
+        max-width: 240px;
+        position: relative;
+        height: 450px;
+  }
+  .mission .col:nth-child(2) .card{
+        margin:100px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        margin-left: -20px;
+        width: 250px;
+        position: relative;
+        height: 450px;
+  }
+}
 
 
 
