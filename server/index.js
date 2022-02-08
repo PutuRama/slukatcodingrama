@@ -4,6 +4,8 @@ const cors = require("cors");
 const authRouter = require("./route/api/auth.routes");
 const userRouter = require("./route/api/user.routes");
 const adminAuthRouter = require("./route/admin/auth.route");
+const slukatRoute = require("./route/api/slukat.route");
+const adminSlukatRoute = require("./route/admin/slukat.route");
 var morgan = require("morgan")
 const app = express();
 const db = require("./db/db")
@@ -17,10 +19,12 @@ app.use(morgan('common'))
 //routes
 app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
+app.use("/api/slukat", slukatRoute);
 
 
 // admin route
 app.use("/admin/auth",adminAuthRouter);
+app.use("/admin/slukat",adminSlukatRoute);
 
 //connect to database
 db.connectToServer(function (err) {
