@@ -1,12 +1,10 @@
-
-const { response } = require("../response/response")
-const { generateToken, generateUserId } = require("../util/generator.util")
-const { inputLoginValidation, inputSignUpValidation, inputLogOut } = require("../util/validator.util")
-const db = require("../db/db");
+const { response } = require("../../response/response")
+const { generateToken, generateUserId } = require("../../util/generator.util")
+const { inputLoginValidation, inputSignUpValidation, inputLogOut } = require("../../util/validator.util")
+const Auth = require("../../model/auth.model")
+const db = require("../../db/db");
 const passwordHash = require("password-hash");
-const User = require("../model/user.model")
-const Auth = require("../model/auth.model")
-
+const AdminUser = require("../../model/admin.user");
 
 module.exports = {
     signup: async function (req, res) {
@@ -23,12 +21,12 @@ module.exports = {
         hashedPassword = passwordHash.generate(req.body.password);
 
         // new data user that will be insert to db
-        const newUser = User(generateUserId(), req.body.username, hashedPassword, req.body.email);
+        const newUser = AdminUser(generateUserId(), req.body.username, hashedPassword, req.body.email);
 
         // try to adding the new data to db
         const dbConnect = db.getDb();
         dbConnect
-            .collection("user")
+            .collection("admin")
             .insertOne(newUser, function (err, result) {
                 if (err) {
                     console.error(err);
@@ -57,7 +55,7 @@ module.exports = {
 
         // find user by username
         dbConnect
-            .collection("user")
+            .collection("admin")
             .find({ username: req.body.username })
             .toArray(function (err, result) {
 
@@ -80,7 +78,7 @@ module.exports = {
                 const newToken = Auth(result[0].userId, generateToken(20), new Date());
 
                 // add new doc authToken
-                dbConnect.collection("authToken").insertOne(newToken, function (err, result) {
+                dbConnect.collection("adminAuth").insertOne(newToken, function (err, result) {
                     if (err) {
                         console.error(err);
                         return res.json(
@@ -105,7 +103,7 @@ module.exports = {
         // remove token
         const dbConnect = db.getDb();
         dbConnect
-            .collection("authToken")
+            .collection("adminAuth")
             .deleteOne({ token: req.body.token })
             .then(function (result) {
                 return res.json(response(true, "LOGGED_OUT", "Your Logged Out Now", null))

@@ -1,7 +1,7 @@
 const { request } = require("express");
 const express = require("express");
 const { route } = require("express/lib/application");
-const userController = require("../../controllers/user.controller");
+const userController = require("../../controllers/api/user.controller");
 const router = express.Router();
 
 router.get("/", (req,res) => userController.getAllUser(req,res));
