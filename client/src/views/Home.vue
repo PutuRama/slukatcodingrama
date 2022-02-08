@@ -119,9 +119,9 @@
 
     <div class="program">
       <div class="row">
-        <div class="col-lg-8 col-md-12 col-sm-12">
+        <div class="col-lg-9 col-md-12 col-sm-12">
           <div class="row programs-list">
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle74.png"
@@ -132,7 +132,7 @@
                 <h4>Coding Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle76.png"
@@ -143,7 +143,7 @@
                 <h4>Agricultre Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle75.png"
@@ -154,9 +154,20 @@
                 <h4>English Program</h4>
               </router-link>
             </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+              <router-link class="program-link" to="/program/coding">
+                <img
+                  src="../assets/img/Rectangle74.png"
+                  alt=""
+                  class="dekstop"
+                />
+                <img src="../assets/img/coding.png" alt="" class="mobile" />
+                <h4>Entreprenuer Program</h4>
+              </router-link>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 program-list">
+        <div class="col-lg-3 col-md-12 col-sm-12 program-list">
           <span class="program-list-test">
             <h2>And More!</h2>
             <h5>
@@ -452,7 +463,12 @@ span.garis-hijau {
   .program-list-test h5 {
     padding: 0 5px !important;
   }
-
+  .programs-list img{
+    margin: 0 auto;
+  }
+  .program-link h4 {
+    margin-left: 30px;
+  }
 }
 
 .column {
@@ -677,7 +693,7 @@ span.garis-hijau {
 .program {
   background-color: #057002;
   margin-bottom: 50px;
-  padding: 100px;
+  padding: 100px 50px;
 }
 .program .mobile {
   width: 100%;
@@ -694,19 +710,26 @@ span.garis-hijau {
 
 .program h4 {
   color: white;
-  font-size: 24px;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 800;
   position: absolute;
-  bottom: 25px;
-  left: 35px;
+  bottom: 40px;
+  left: 27px;
+  text-align: center;
+}
+
+.program-link img {
+  width: 100%;
 }
 
 @media screen and (max-width: 920px) {
   .program .mobile {
     display: flex;
+    width: inherit;
   }
   .program .dekstop {
     display: none;
+    width: inherit;
   }
 }
 
