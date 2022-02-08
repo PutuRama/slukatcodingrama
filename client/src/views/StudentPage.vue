@@ -118,7 +118,7 @@
     <div class="achievement">
       <div class="achivement-text">
       <h2>Our Achievement</h2>
-      <br><br><br>
+      <br>
       </div>
       <div class="row row-achievement">
         <div class="col col-sm-12 col-md-6 column-achievement">
@@ -226,6 +226,8 @@
 .banner .carousel-image:first-child,.banner .carousel-image:nth-child(3){
   margin-top: 5%;
 }
+
+
 @media screen and (max-width: 550px) {
   .banner .carousel-image:first-child,.banner .carousel-image:nth-child(4){
     display: none;
@@ -260,6 +262,8 @@
 .vision-img .student-image:nth-child(2), .vision-img .student-image:nth-child(4){
   margin-top: 5%;
 }
+
+
 @media screen and (max-width: 1100px) {
   .vision-img .student-image:nth-child(1), .vision-img .student-image:nth-child(2) {
     display: none;
@@ -267,13 +271,19 @@
 }
 
 @media screen and (max-width: 850px) {
-  .vision-img .student-image:nth-child(3) {
+  .vision-img .student-image:nth-child(3), .vision-img .student-image:nth-child(4) {
     display: none;
   }
- .student img{
-    display: flex;
-    flex-wrap: wrap;
-    width: 240px;
+
+ .vision-img{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../assets/student4.jpeg');
+  background-size: cover;
+  max-width: 300px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
  }
  .banner .carousel-image:first-child,.banner .carousel-image:nth-child(4){
     display: none;
@@ -285,6 +295,27 @@
   }
 }
 
+@media screen and (max-width: 350px){
+   .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+  }
+  .vision .row{
+    display: grid;
+  }
+
+  .vision-img{
+  background-size: cover;
+  background-image: url('../assets/student4.jpeg');
+  background-repeat: no-repeat;
+  height: 250px;
+  max-width: 380px;
+  object-fit: cover;
+
+  }
+ 
+}
 
 .title{
   margin: 100px 0 180px 0;
@@ -322,6 +353,7 @@
 
 .volunteers-card{
   padding:0 60px 60px 60px;
+  margin-bottom: 10%;
   color: white;
 }
 .volunteers-card h1 {
@@ -401,11 +433,12 @@
 }
 .row-achievement{
   flex: 50%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 .column-achievement{
   display: flex;
   flex-wrap: wrap;
+  padding: 3% 0 3% 0;
   justify-content: center;
 }
 .column-achievement img{
