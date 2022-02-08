@@ -12,7 +12,7 @@
 
         <div class="what-we-do">
           <div class="row">
-          <div class="col-lg-6 col-md-6 col-sm-12 " data-aos="fade-right" data-aos-duration="2000">
+          <div class="col-lg-6 col-md-12 col-sm-12 what-we-do-text " data-aos="fade-right" data-aos-duration="2000">
            <h2>What We Do?</h2>
              <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -22,7 +22,7 @@
               </p>
               <button type="button" class="btn btn-success btn-lg activity-button">Find More</button>
            </div>
-      <div class="col col-md-6 col-sm-12 what-we-do-img"  id="what-we-do-set" data-aos="fade-left" data-aos-duration="2000"> 
+      <div class="col what-we-do-img"  id="what-we-do-set" data-aos="fade-left" data-aos-duration="2000"> 
         <a href="">
           <img src="../assets/program.jpg" alt="">
           <div class="col img-text">
@@ -38,7 +38,7 @@
 
         <div class="our-impact">
           <div class="row">
-    <div class="col col-md-6 col-sm-12 our-impact-img" data-aos="fade-right" data-aos-duration="2000">
+    <div class="col our-impact-img" data-aos="fade-right" data-aos-duration="2000">
         <a href="">
           <img src="../assets/aboutus.jpeg" alt="">
           <div class="col img-text">
@@ -47,7 +47,7 @@
           </div>
         </a>
         </div>
-         <div class="col-lg-6 col-md-6 col-sm-12 " data-aos="fade-left" data-aos-duration="2000">
+         <div class="col-lg-6 col-md-12 col-sm-12 " data-aos="fade-left" data-aos-duration="2000">
           <h2>What is our impact?</h2>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -76,7 +76,7 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/english1.jpeg" alt="">
           </a> 
@@ -85,7 +85,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
           </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
          <a href="">
   
          <img src="../assets/english2.jpeg" alt="">
@@ -95,7 +95,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
           </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/english3.jpg" alt="">
@@ -115,7 +115,7 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/coding.jpeg" alt="">
           </a> 
@@ -124,7 +124,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
             </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
          <a href="">
   
          <img src="../assets/coding2.jpeg" alt="">
@@ -134,7 +134,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
           </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/coding3.jpeg" alt="">
@@ -155,7 +155,7 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/enter1.jpeg" alt="">
           </a> 
@@ -164,7 +164,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
           </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
          <a href="">
   
          <img src="../assets/enter2.jpeg" alt="">
@@ -174,7 +174,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
           </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/enter3.jpeg" alt="">
@@ -196,7 +196,7 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/agri1.jpeg" alt="">
           </a> 
@@ -205,7 +205,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
           </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2000">
          <a href="">
   
          <img src="../assets/agri2.jpeg" alt="">
@@ -215,7 +215,7 @@
             <h5><a href="">lorem ipsum dolor sit jame lorem ipsum dolor sit jamett</a></h5>
           </div>
         </div>
-        <div class="col-md-4 column-daily">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/agri3.jpeg" alt="">
@@ -275,12 +275,12 @@
    text-align: start;
    margin: 150px 0 150px 0;
 }
-.what-we-do .col-lg-6 h2{
+.what-we-do-text h2{
   font-size: 40px;
   font-weight: 700;
    margin: 30px  0 0 80px;
 }
-.what-we-do .col-lg-6 p{
+.what-we-do-text p{
   font-size: 18px;
   margin: 20px 30px 0 80px;
   line-height: 30px;
@@ -445,10 +445,12 @@
 
 
 
-@media only screen and (max-width: 426px) {
+
+
+@media only screen and (max-width: 770px) {
   /* banner */
   .banner-text h1{
-  font-size: 28px;
+  font-size: 34px;
   }
   
   /* firs section */ 
@@ -463,35 +465,35 @@
     text-align: center;
   }
   .what-we-do .col-lg-6 h2{
-    font-size: 28px;
+    font-size: 34px;
     margin: 30px  0 0 0;
     }
   .what-we-do .col-lg-6 p{
-    font-size: 14px;
+    font-size: 16px;
     margin: 20px 30px 0 30px;
-    line-height: 20px;
+    line-height: 30px;
   }
   .what-we-do button{
-    margin: 50px 0 0 0;
-    padding: 10px 20px;
-    font-size: 16px;
+    margin: 60px 0 0 0;
+    padding: 10px 25px;
+    font-size: 18px;
   }
     .img-text{
-    margin-left: 10%;
+    margin-left: 12%;
     margin-bottom: 40px;
   }
   .img-text h3{
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     margin: 5px 0 0 0;
   }
   .img-text p{
     padding: 5px 10px 5px 10px;
-    font-size: 14px;
+    font-size: 16px;
   }
   .img-text span{
     margin-left: 2%;
-    font-size: 13px;
+    font-size: 15px;
   }
 
 
@@ -500,12 +502,91 @@
    text-align: center;
   }
   .our-impact .col-lg-6 h2{
+    font-size: 34px;
+  }
+  .our-impact .col-lg-6 p{
+    font-size: 16px;
+    margin: 20px 30px 0 30px;
+    line-height: 30px;
+  }
+  .our-impact button{
+    margin: 60px 0 0 0;
+    padding: 10px 25px;
+    font-size: 18px;
+  }
+
+
+  /* third section */
+  .list-activities h2{
+  font-size: 28px;
+    }
+  .column-daily img{
+  height: auto;
+    }
+  .daily-text p{
+  font-size: 16px;
+  }
+  .daily-text h5 a{
+    color: black;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .daily-text h5{
+    margin-top: 1%;
+  }
+  .daily-text span{
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 1%;
+  }
+}
+
+
+
+@media only screen and (max-width: 426px) {
+  /* banner */
+  .banner-text h1{
+  font-size: 28px;
+  }
+  
+  /* firs section */ 
+  .what-we-do-img{
+    order: 1;
+  }
+  .what-we-do .col-lg-6{
+    order: 2;
+
+  }
+  .what-we-do .col-lg-6 h2{
+    font-size: 28px;
+
+    }
+  .what-we-do .col-lg-6 p{
+    font-size: 14x;
+  }
+  .what-we-do button{
+    margin: 50px 0 0 0;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .img-text h3{
+    font-size: 14px;
+  }
+  .img-text p{
+    font-size: 14px;
+  }
+  .img-text span{
+    margin-left: 2%;
+    font-size: 12px;
+  }
+
+  /* second section */
+
+  .our-impact .col-lg-6 h2{
     font-size: 28px;
   }
   .our-impact .col-lg-6 p{
     font-size: 14px;
-    margin: 20px 30px 0 30px;
-    line-height: 20px;
   }
   .our-impact button{
     margin: 50px 0 0 0;
@@ -518,22 +599,25 @@
   .list-activities h2{
   font-size: 24px;
     }
-  .column-daily img{
-  height: auto;
-    }
   .daily-text p{
-  font-size: 13px;
+  font-size: 14px;
   }
   .daily-text h5 a{
-    color: black;
-    font-size: 16px;
-    font-weight: 500;
-  }
-  .daily-text h5{
-    margin-top: 1%;
+
+    font-size: 14px;
+
   }
   .daily-text span{
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 1%;
+  }
+}
+
+@media only screen and (max-width: 321px) {
+  /* third section */
+  .daily-text span{
+    font-size: 10px;
     font-weight: 500;
     margin-left: 1%;
   }
