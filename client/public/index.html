@@ -1,142 +1,161 @@
 <!DOCTYPE html>
 <html lang="">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-    <script src="https://kit.fontawesome.com/4f83f0713b.js" crossorigin="anonymous"></script>  
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="icon" href="<%= BASE_URL %>faviconSlukat.ico" >
+    <title>Slukat Learning Center</title>
     
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4f83f0713b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.17/vue.js"></script>
-    <style>#loading {
-      position: fixed;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 100%;
-      height: 100%;
-      top: 0;
-      left: 0;
-      opacity: 1;
-      background-color: #fff;
-      z-index: 99;
-      transition: 1s;
-    }
-    
-    #loading-image {
-      z-index: 100;
-    }
-    
-    
-    
-.pre-loader {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /*   background-color: lime; */
-  width: 100%;
-  height: 100vh;
-  flex-direction: column;
-  position: fixed;
-  top: 0;
-  left: 0;
-}
+    <style>
+      #loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        opacity: 1;
+        background-color: #fff;
+        z-index: 99;
+        transition: 1s;
+      }
 
-.pre-loader .shape {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateY(-5em);
-}
+      #loading-image {
+        z-index: 100;
+      }
 
-.pre-loader .shape .circle {
-  width: 60px;
-  height: 60px;
-  background-color: #34ca5a;
-  border-radius: 50%;
-  margin: 0 1rem;
-  animation: bounce 0.6s linear infinite;
-  color: white;
-  text-align: center;
-}
-.pre-loader .shape .circle:nth-child(2) {
-  background-color: #006aca;
-  animation-delay: 0.1s;
-}
-.pre-loader .shape .circle:nth-child(3) {
-  animation-delay: 0.2s;
-}
+      .pre-loader {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /*   background-color: lime; */
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        position: fixed;
+        top: 0;
+        left: 0;
+      }
 
-.pre-loader .shadow {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: translateY(-5em);
-}
+      .pre-loader .shape {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-5em);
+      }
 
-.pre-loader .shadow .shape-shadow {
-  width: 50px;
-  height: 18px;
-  background-color: rgba(0, 0, 0, 0.1);
-  border-radius: 50%;
-  margin: 0 1rem;
-  animation: bounceShadow 0.6s linear infinite;
-  transform: translateY(5em) scale(0.5);
-}
-.pre-loader .shadow .shape-shadow:nth-child(2) {
-  animation-delay: 0.1s;
-}
-.pre-loader .shadow .shape-shadow:nth-child(3) {
-  animation-delay: 0.2s;
-}
-@keyframes bounce {
-  from,
-  to {
-    transform: translateY(0) scale(1, 1);
-    animation-timing-function: ease-in;
-  }
-  45% {
-    transform: translateY(5em) scale(1, 1);
-    animation-timing-function: linear;
-  }
-  50% {
-    transform: translateY(5em) scale(1.5, 0.5);
-    animation-timing-function: linear;
-  }
-  100% {
-    transform: translateY(5em) scale(1, 1);
-    animation-timing-function: ease-out;
-  }
-}
-@keyframes bounceShadow {
-  from,
-  to {
-    transform: translateY(5em) scale(0.5);
-    filter: blur(5px);
-  }
-  45% {
-    transform: translateY(5em) scale(0.5);
-    /*     transform: translateY(5em) scale(1); */
-    /*     filter: blur(5px); */
-  }
-  50% {
-    box-shadow: 20px 0 5px rgba(0, 0, 0, 0.1), -20px 0 5px rgba(0, 0, 0, 0.1);
-  }
-  100% {
-    transform: translateY(5em) scale(0.5);
-    box-shadow: unset;
-  }
-}
+      .pre-loader .shape .circle {
+        width: 60px;
+        height: 60px;
+        background-color: #34ca5a;
+        border-radius: 50%;
+        margin: 0 1rem;
+        animation: bounce 0.6s linear infinite;
+        color: white;
+        text-align: center;
+      }
+      .pre-loader .shape .circle:nth-child(2) {
+        background-color: #006aca;
+        animation-delay: 0.1s;
+      }
+      .pre-loader .shape .circle:nth-child(3) {
+        animation-delay: 0.2s;
+      }
 
+      .pre-loader .shadow {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform: translateY(-5em);
+      }
+
+      .pre-loader .shadow .shape-shadow {
+        width: 50px;
+        height: 18px;
+        background-color: rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        margin: 0 1rem;
+        animation: bounceShadow 0.6s linear infinite;
+        transform: translateY(5em) scale(0.5);
+      }
+      .pre-loader .shadow .shape-shadow:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+      .pre-loader .shadow .shape-shadow:nth-child(3) {
+        animation-delay: 0.2s;
+      }
+      @keyframes bounce {
+        from,
+        to {
+          transform: translateY(0) scale(1, 1);
+          animation-timing-function: ease-in;
+        }
+        45% {
+          transform: translateY(5em) scale(1, 1);
+          animation-timing-function: linear;
+        }
+        50% {
+          transform: translateY(5em) scale(1.5, 0.5);
+          animation-timing-function: linear;
+        }
+        100% {
+          transform: translateY(5em) scale(1, 1);
+          animation-timing-function: ease-out;
+        }
+      }
+      @keyframes bounceShadow {
+        from,
+        to {
+          transform: translateY(5em) scale(0.5);
+          filter: blur(5px);
+        }
+        45% {
+          transform: translateY(5em) scale(0.5);
+          /*     transform: translateY(5em) scale(1); */
+          /*     filter: blur(5px); */
+        }
+        50% {
+          box-shadow: 20px 0 5px rgba(0, 0, 0, 0.1),
+            -20px 0 5px rgba(0, 0, 0, 0.1);
+        }
+        100% {
+          transform: translateY(5em) scale(0.5);
+          box-shadow: unset;
+        }
+      }
     </style>
   </head>
   <body>
-    
     <div id="loading">
       <div class="pre-loader">
         <div class="shape">
@@ -153,24 +172,39 @@
       </div>
     </div>
     <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+      <strong
+        >We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work
+        properly without JavaScript enabled. Please enable it to
+        continue.</strong
+      >
     </noscript>
-    <div id="app">
-    </div>
+    <div id="app"></div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
     <!-- built files will be auto injected -->
     <script>
-      $('#app').hide();
-      $('#tunggu').hide();
-      setTimeout(function(){
-        $('#tunggu').show();
+      $("#app").hide();
+      $("#tunggu").hide();
+      setTimeout(function () {
+        $("#tunggu").show();
       }, 3000);
-      $(window).on('load', function () {
-        setTimeout(function(){
-
-          $('#loading').hide();
-          $('#app').show();
+      $(window).on("load", function () {
+        setTimeout(function () {
+          $("#loading").hide();
+          $("#app").show();
+          AOS.refreshHard();
         }, 2000);
-      }) 
+      });
+
+      $(window).scroll(function (event) {
+        var scroll = $(window).scrollTop();
+        if(scroll > 10){
+          
+          AOS.refreshHard();
+        }
+      });
     </script>
   </body>
 </html>

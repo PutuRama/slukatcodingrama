@@ -8,10 +8,10 @@
 
     <div class="spacer-section"></div>
 
-    <div class="our-objectives">
-      <h1>Our objectives are</h1>
+    <div class="our-objectives" >
+      <h1 >Our objectives are</h1>
       <div class="row">
-        <div class="col-sm-12 col-md-4 our-objectives-item">
+        <div class="col-sm-12 col-md-4 our-objectives-item" data-aos="zoom-in-up" data-aos-duration="2000">
           <div class="our-objectives-img">
             <img src="../assets/img/To_Inspire_Photo.png" alt="" />
           </div>
@@ -23,7 +23,7 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 our-objectives-item">
+        <div class="col-sm-12 col-md-4 our-objectives-item" data-aos="zoom-in-up" data-aos-duration="2000">
           <div class="our-objectives-img">
             <img src="../assets/img/To_Encourage_Photo.png" alt="" />
           </div>
@@ -35,7 +35,7 @@
             </p>
           </div>
         </div>
-        <div class="col-sm-12 col-md-4 our-objectives-item">
+        <div class="col-sm-12 col-md-4 our-objectives-item" data-aos="zoom-in-up" data-aos-duration="2000">
           <div class="our-objectives-img">
             <img src="../assets/img/To_Empower_Photo.png" alt="" />
           </div>
@@ -152,20 +152,20 @@
 <!-- Student section -->
     <div class="student-program">
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="fade-right" data-aos-duration="2000">
           <img src="../assets/img/help_us_2.png" alt="" >
         </div>
-        <div class="col" id="back-photo">
+        <div class="col" id="back-photo" data-aos="fade-left" data-aos-duration="2000">
           <img src="../assets/img/help_us_1.png" alt="" >
         </div>
-        <div class="col-7">
+        <div class="col-7" data-aos="fade-up" data-aos-duration="2000">
           <div class="std-program-text">
             <h3>What do the student says?</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis, ipsum.
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, obcaecati?
             </p>
             <div class="spacer-section"></div>
-            <button type="button" class="btn btn-outline-success btn-lg">
+            <button type="button" class="btn btn-success btn-lg button-std-program">
               Find Out More
             </button>
           </div>
@@ -184,7 +184,6 @@
 
   
 </template>
-
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
@@ -358,18 +357,76 @@
  font-size:18px;
  margin: 20px 100px 0 0;
 }
-.std-program-text .btn{
-  font-weight: 500;
-  border-width: 2px;
-  margin: 50px 0 0 0;
-}
 #back-photo{
   position: absolute !important; 
   left: -23%;
   margin-top: 90px;
 }
+.button-std-program{
+  padding: 10px 30px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #047002;
+  border: 2px solid;
+  margin: 50px 0 0 0;
+}
+.button-std-program:hover{
+  color: #035e01;
+  background-color: white;
+
+}
+
+@media only screen and (max-width: 426px) {
+  .spacer-section{
+    height: 70px;
+  }
+  .our-objectives > h1 {
+    margin-bottom: 40px;
+    font-size: 20px; 
+  }
+  .our-objectives-text h5 {
+    font-size: 18px;
+    padding: 0;
+  }
+  .our-objectives-text p {
+    font-size: 14px;
+  }
 
 
+  .activites .row .col {
+    padding: 10px 0;
+  }
+  .activites .row .col h3 {
+    font-size: 24px;
+  }
+  .activites .row .col a {
+    line-height: 35px;
+    font-size: 14px; 
+  }
+  .carousel-item h2 {
+    font-size: 24px;
+    padding: 15px 0 10px 0;
+  }
+  .carousel-item p {
+    font-size: 14px;
+  }
+
+
+  .col-7 .std-program-text h3{
+   font-size: 24px;
+  }
+  .col-7 .std-program-text p{
+    font-size:14px;
+    margin: 0 0 0 0;
+  }
+  .button-std-program{
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 0;
+  }
+
+
+}
 
 
 @media only screen and (max-width: 720px) {
