@@ -3,16 +3,16 @@
 <div class="banner">
         <div class="row">
        <div class="col carousel-banner">
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/unsplash_PdcNOb4iYFs.png" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/unsplash_LP3PabHuyiE.png" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/unsplash_AO21yM7oGDA.png" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/unsplash_j3lf-Jn6deo.png" alt="">
       </div>
       </div>
@@ -28,19 +28,19 @@
                 <p>Interested to contribute in our cause? scroll down!</p>
             </div>
             <div class="row row-overview">
-                <div class="col-sm-4 column-overview">
+                <div class="col-sm-4 column-overview" data-aos="zoom-in-up" data-aos-duration="1500">
                     <p>Around</p>
                     <h1>565</h1>
                     <p>International <br> Volunteers</p>
                     <br><br>
                 </div>
-                <div class="col-sm-4 column-overview">
+                <div class="col-sm-4 column-overview" data-aos="zoom-in-up" data-aos-duration="1500">
                     <p>From</p>
                     <h1>9</h1>
                     <p>Different <br> Nations</p>
                     <br><br>
                 </div>
-                <div class="col-sm-4 column-overview">
+                <div class="col-sm-4 column-overview" data-aos="zoom-in-up" data-aos-duration="1500">
                     <p>Almost</p>
                     <h1>1249</h1>
                     <p>Social <br> Contribution</p>
@@ -59,7 +59,7 @@
 
    <div class="volunteers-card">
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up" data-aos-duration="2000">
         <div class="icon">
         <img src="../assets/unsplash_k9XZPpPHDho.png" alt=""/>
         <h1>RUSSIA</h1>
@@ -72,7 +72,7 @@
         </p>
       </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up" data-aos-duration="2500">
            <div class="icon">
        <img
           src="../assets/unsplash_n4KewLKFOZw.png"
@@ -88,7 +88,7 @@
         </p>
       </div>
         </div>
-          <div class="col">
+          <div class="col" data-aos="zoom-in-up" data-aos-duration="3000">
        <div class="icon">
         <img
           src="../assets/unsplash_bqe0J0b26RQ.png"
@@ -116,27 +116,27 @@
               <h1>Application Process</h1>
                 <p>To become a volunteer at Slukat Learning Center, the processes are as <br> follows</p>
               
-              <div class="row">
+              <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <div class="col-3"><h1>1</h1></div>
                 <div class="col-6"><p>Please fill in Slukat Learning Center this <br> Application Form and email to <br> <span class="aplication-bold">slukatlearningcenter@gmail.com</span></p></div>
               </div>
-              <div class="row">
+              <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <div class="col-3"><h1>2</h1></div>
                 <div class="col-6"><p>Upon receiving your application we will <br> contact you,
                   provide the detail information 
                   <br> and confirm your placement.</p></div>
               </div>
-              <div class="row">
+              <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <div class="col-3"><h1>3</h1></div>
                 <div class="col-6"><p>We will ask for your scanned cover of your <br> passport <span class="aplication-bold">(passport number, name, etc)</span> to be <br> sent to us. We support you with provider visa <br> application process. 
                 </p></div>
               </div>
-              <div class="row">
+              <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <div class="col-3"><h1>4</h1></div>
                 <div class="col-6"><p>The <span class="aplication-bold">Program Fee</span> can be paid through bank <br> transfer or br upon your arrival in Bali.
               </p></div>
               </div>
-              <div class="row">
+              <div class="row" data-aos="fade-right" data-aos-duration="2000">
                 <div class="col-3"><h1>5</h1></div>
                 <div class="col-6"><p>Please give us your arrival detail so that <br> we can arrange your airport pick up.
                 </p></div>
@@ -153,7 +153,7 @@
           </div>
           <div class="row row-program">
              
-                <table class="col-lg-6 col-md-12 col-sm-12">
+                <table class="col-lg-6 col-md-12 col-sm-12" data-aos="zoom-in-up" data-aos-duration="2000"> 
                  <tr>
                   <th><h1>Weeks</h1></th>
                   <th colspan="2"><h1>Fees</h1></th>
@@ -204,11 +204,11 @@
                   <th>1385</th>
                 </tr>
               </table>
-            <div class="col-6 program-img">
+            <div class="col-6 program-img" data-aos="fade-down-left" data-aos-duration="2500">
               <img src="../assets/ProgramFeePic.png" alt="">
             </div>
           </div>
-          <div class="program-img2">
+          <div class="program-img2" data-aos="fade-down-left" data-aos-duration="2500">
             <img src="../assets/ProgramFeePic.png" alt="">
           </div>
         </div>
@@ -217,7 +217,7 @@
 
 <div class="include">
   <div class="row">
-    <div class="col-lg-6 col-md-12 col-sm-12">
+    <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-right" data-aos-duration="2000">
       <h1>What are included?</h1>
          <div class="column-list-include">
               <svg viewBox="0 0 24 24">
@@ -258,7 +258,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-left" data-aos-duration="2000">
           <h1>What are excluded?</h1>
            <div class="column-list-exclude">
               <svg viewBox="0 0 24 24">
@@ -291,14 +291,14 @@
 </div>
       
 
-       <button type="button" class="btn btn-success btn-lg include-button">Click here to register</button>
+       <button type="button" class="btn btn-success btn-lg include-button" data-aos="fade-up" data-aos-duration="2000">Click here to register</button>
 
       
       <div class="slukat">
         <div class="slukat-text">
         <h1>Slukat Learning Center</h1>
         </div>
-        <div class="slukat-img">
+        <div class="slukat-img" data-aos="zoom-in-up" data-aos-duration="2000">
           <img src="../assets/IMG_1711.jpeg" alt="">
         </div>
       </div>
@@ -307,24 +307,24 @@
       <h1>Class Activity</h1>
 
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="fade-up-right" data-aos-duration="2000">
             <img class="card-img-top" src="../assets/1581417314189.jpg" alt="Card image cap">
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-up" data-aos-duration="2000">
             <img class="card-img-top" src="../assets/1576453466332.jpg" alt="Card image cap">
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-up-left" data-aos-duration="2000">
             <img class="card-img-top" src="../assets/1583746625348.jpg" alt="Card image cap">
         </div>
       </div>
-  <button type="button" class="btn btn-success btn-lg activity-button">Find Out</button>
+  <button type="button" class="btn btn-success btn-lg activity-button" data-aos="fade-up" data-aos-duration="2000">Find Out</button>
     </div> 
 
-  <div class="vid-article">
+  <div class="vid-article" >
     <h1>Accommodation</h1>
       <div class="vid-article-content">
         <div class="row">
-          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+          <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" >
             <img
               src="../assets/DSCF0394.jpg"
               class="w-100 shadow-1-strong rounded mb-4"

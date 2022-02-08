@@ -2,7 +2,7 @@
   <div class="aboutslc">
     <div class="banner">
       <div class="banner-img"></div>
-      <span class="banner-text">
+      <span class="banner-text" data-aos="fade-up" data-aos-duration="3000">
         <h1>About <span class="text-hijau">SLC</span></h1>
         <p>
           Slukat Learning Center Is a Non Formal Education that Provides free after-school learning. The family of Mr. I Gusti Agung Rai and Mrs. I Gusti Ayu Darsini  established SLC on 24 October 2007 to provide a better education opportunity for the children and youth in Keramas Village, in Gianyar, Bali.
@@ -12,7 +12,7 @@
 
     <div class="vision">
       <div class="row">
-        <div class="col vision-text">
+        <div class="col vision-text" data-aos="fade-right" data-aos-duration="2000">
           <span class="vision-text-span">
             <h1>Our Vision</h1>
             <p>
@@ -20,7 +20,7 @@
             </p>
           </span>
         </div>
-        <div class="col vision-img">
+        <div class="col vision-img" data-aos="fade-left" data-aos-duration="2000">
         </div>
       </div>
     </div>
@@ -29,7 +29,7 @@
       <h1>Our Mission</h1>
 
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up" data-aos-duration="2000">
           <div class="card">
             <img class="card-img-top" src="../assets/Mission1Photo.png" alt="Card image cap">
             <div class="card-body">
@@ -49,7 +49,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up" data-aos-duration="2000">
           <div class="card">
             <img class="card-img-top" src="../assets/Mission2Photo.png" alt="Card image cap">
             <div class="card-body">
@@ -66,7 +66,7 @@
             </div>
           </div>
         </div>
-        <div class="col">
+        <div class="col" data-aos="zoom-in-up" data-aos-duration="2000">
           <div class="card">
             <img class="card-img-top" src="../assets/Mission3Photo.png" alt="Card image cap">
             <div class="card-body">
@@ -90,7 +90,7 @@
     <div class="aim">
       <h1>Our Aims</h1>
       <div class="row">
-        <div class=" col-sm-12 col-md-4 aim-item">
+        <div class=" col-sm-12 col-md-4 aim-item" data-aos="fade-up-right" data-aos-duration="2000">
           <div class="aim-img">
             <img src="../assets/light-bulb.png" alt="">
           </div>
@@ -98,7 +98,7 @@
             <p>Develop the student’s capabilities to change their mindset, perspectives and behaviors.</p>
           </div>
         </div>
-        <div class=" col-sm-12 col-md-4 aim-item">
+        <div class=" col-sm-12 col-md-4 aim-item" data-aos="fade-up" data-aos-duration="2000">
           <div class="aim-img">
             <img src="../assets/self-awareness.png" alt="">
           </div>
@@ -106,7 +106,7 @@
             <p>Develop the student’s capabilities to change their mindset, perspectives and behaviors.</p>
           </div>
         </div>
-        <div class=" col-sm-12 col-md-4 aim-item">
+        <div class=" col-sm-12 col-md-4 aim-item" data-aos="fade-up-left" data-aos-duration="2000">
           <div class="aim-img">
             <img src="../assets/working.png" alt="">
           </div>
@@ -127,7 +127,7 @@
       <div class="team-dekstop">
         <div class="founder">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12" data-aos="zoom-in-up" data-aos-duration="2000">
                 <span>
                   <h3>FOUNDER</h3>
                   <img src="../assets/unsplash_GVheioPZdpk.png" alt=""><br>
@@ -138,7 +138,7 @@
         </div>
         <div class="director">
             <div class="row">
-              <div class="col-3">
+              <div class="col-3" data-aos="fade-up-right" data-aos-duration="2000">
                 <span>
                   <h3>MANAGER</h3>
                   <img src="../assets/kaaguskris.jpg" alt=""><br>
@@ -147,14 +147,14 @@
                   </h5>
                 </span>
               </div>
-              <div class="col-6">
+              <div class="col-6" data-aos="fade-up" data-aos-duration="2000">
                 <span>
                   <h3>DIRECTOR</h3>
                   <img src="../assets/BuAyu.jpeg" alt=""><br>
                   <h5>I Gusti Agung Ayu Pramitasari</h5>
                 </span>
               </div>
-              <div class="col-3">
+              <div class="col-3" data-aos="fade-up-left" data-aos-duration="2000">
                 <span>
                   <h3>TREASURE</h3>
                   <img src="../assets/MbokNopi.jpeg" alt=""><br>
@@ -166,7 +166,7 @@
 
         <div class="secretary">
             <div class="row">
-              <div class="col-4">
+              <div class="col-4" data-aos="fade-up-right" data-aos-duration="2000">
                 <span>
                   <h3>ENGLISH COORDINATOR</h3>
                   <img src="../assets/MbokGung.jpeg" alt=""><br>
@@ -175,14 +175,14 @@
                   </h5>
                 </span>
               </div>
-              <div class="col-4">
+              <div class="col-4" data-aos="fade-up" data-aos-duration="2000">
                 <span>
                   <h3>SECRETARY</h3>
                   <img src="../assets/mbokCantik.jpg" alt=""><br>
                   <h5>Luh Komang Anggi Waisnawati</h5>
                 </span>
               </div>
-              <div class="col-4">
+              <div class="col-4" data-aos="fade-up-left" data-aos-duration="2000">
                 <span>
                   <h3>DIGITAL DEVELOPMENT</h3>
                   <img src="../assets/BliMang.jpeg" alt=""><br>
