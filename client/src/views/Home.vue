@@ -116,10 +116,10 @@
 
     <div class="program">
       <div class="row">
-        <div class="col-lg-8 col-md-12 col-sm-12">
+        <div class="col-lg-9 col-md-12 col-sm-12">
           <div class="row programs-list">
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <router-link to="/program/coding">
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+              <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle74.png"
                   alt=""
@@ -129,8 +129,8 @@
                 <h4>Coding Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <router-link to="/program/coding">
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+              <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle76.png"
                   alt=""
@@ -140,8 +140,8 @@
                 <h4>Agricultre Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
-              <router-link to="/program/coding">
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+              <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle75.png"
                   alt=""
@@ -151,9 +151,20 @@
                 <h4>English Program</h4>
               </router-link>
             </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+              <router-link class="program-link" to="/program/coding">
+                <img
+                  src="../assets/img/Rectangle77.jpg"
+                  alt=""
+                  class="dekstop"
+                />
+                <img src="../assets/img/NT.jpg" alt="" class="mobile" />
+                <h4>Entreprenuer Program</h4>
+              </router-link>
+            </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12">
+        <div class="col-lg-3 col-md-12 col-sm-12 program-list">
           <span class="program-list-test">
             <h2>And More!</h2>
             <h5>
@@ -181,7 +192,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/img/p.png" alt="" />
+                <img src="../assets/home-student-1.jpg" alt="" />
               </div>
               <div class="col-12">
                 <h3>Made Sanjaya</h3>
@@ -198,7 +209,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/img/p.png" alt="" />
+                <img src="../assets/home-student-2.jpg" alt="" />
               </div>
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
@@ -215,7 +226,7 @@
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/img/p.png" alt="" />
+                <img src="../assets/home-student-3.jpg" alt="" />
               </div>
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
@@ -223,8 +234,7 @@
                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
                   iure architecto dolor ..
                   <router-link to="/about/student"
-                    ><a>Learn More</a></router-link
-                  >
+                    ><a>Learn More</a></router-link>
                 </p>
               </div>
             </div>
@@ -236,7 +246,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="volounteer-card">
-              <img src="../assets/img/t.png" alt="" />
+              <img src="../assets/home-volounter-1.jpg" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -250,7 +260,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="volounteer-card">
-              <img src="../assets/img/t.png" alt="" />
+              <img src="../assets/home-volounter-2.jpg" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -264,7 +274,7 @@
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="volounteer-card">
-              <img src="../assets/img/t.png" alt="" />
+              <img src="../assets/home-volounter-3.jpg" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -286,43 +296,43 @@
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+              src="../assets/home-activities-1-2x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Boat on Calm Water"
+              alt="Yoga dilapangan SLC"
             />
 
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+              src="../assets/home-activities-1-4x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Wintry Mountain Landscape"
-            />
-          </div>
-
-          <div class="col-lg-4 mb-4 mb-lg-0">
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
-              class="w-100 shadow-1-strong rounded mb-4"
-              alt="Mountains in the Clouds"
-            />
-
-            <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
-              class="w-100 shadow-1-strong rounded mb-4"
-              alt="Boat on Calm Water"
+              alt="Beach clean"
             />
           </div>
 
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+              src="../assets/home-activities-2-4x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Waves at Sea"
+              alt="Balinese Dance"
             />
 
             <img
-              src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+              src="../assets/home-activities-2-2x3.jpg"
               class="w-100 shadow-1-strong rounded mb-4"
-              alt="Yosemite National Park"
+              alt="Angklung"
+            />
+          </div>
+
+          <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+              src="../assets/home-activities-3-2x3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Playing Games 1"
+            />
+
+            <img
+              src="../assets/home-activities-3-4x3.jpg"
+              class="w-100 shadow-1-strong rounded mb-4"
+              alt="Playing Games 2"
             />
           </div>
         </div>
@@ -445,11 +455,21 @@ span.garis-hijau {
   body .program {
     padding: 0 0 130px 0;
   }
+  .program-list {
+    margin: 0 8%;
+  }
   .program-list-test h2 {
     padding: 20px 5px 0 5px !important;
+    font-size: 32px;
   }
   .program-list-test h5 {
     padding: 0 5px !important;
+  }
+  .programs-list img{
+    margin: 0 auto;
+  }
+  .program-link h4 {
+    margin-left: 30px;
   }
 }
 
@@ -469,7 +489,9 @@ span.garis-hijau {
 .volounteer-card {
   color: white;
   padding: 20px 30px;
-  background-color: #0b6d0e;
+  background-image: url("../assets/unsplash_xljtGZ2-P3Y.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 90%;
   max-width: 400px;
   position: relative;
@@ -616,7 +638,10 @@ span.garis-hijau {
 }
 .program-img {
   background-image: url("../assets/img/our_program_img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
 
 .program-list-test {
   text-align: start;
@@ -625,7 +650,9 @@ span.garis-hijau {
 .card-student {
   color: white;
   padding: 20px 30px;
-  background-color: #0b6d0e;
+  background-image: url("../assets/unsplash_xljtGZ2-P3Y.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 90%;
   max-width: 400px;
   left: 50%;
@@ -651,6 +678,11 @@ span.garis-hijau {
   text-align: center;
   letter-spacing: 0.3em;
 }
+.card-student img {
+  width: auto;
+  height: 108px;
+  border-radius: 50%;
+}
 
 .student,
 .valounter {
@@ -663,6 +695,12 @@ span.garis-hijau {
   font-size: 30px;
   margin-bottom: 30px;
 }
+.volounteer-card img{
+  width: auto;
+  height: 108px;
+  border-radius: 50%;
+}
+
 .program-list-test h2 {
   font-weight: 900;
 }
@@ -689,9 +727,9 @@ span.garis-hijau {
 }
 
 .program {
-  background-color: #0b6d0e;
+  background-color: #057002;
   margin-bottom: 50px;
-  padding: 100px;
+  padding: 100px 50px;
 }
 .program .mobile {
   width: 100%;
@@ -702,19 +740,32 @@ span.garis-hijau {
   filter: brightness(50%);
 }
 
+.program-link {
+  text-decoration: none;
+}
+
 .program h4 {
   color: white;
+  font-size: 20px;
+  font-weight: 800;
   position: absolute;
-  bottom: 20px;
-  left: 25px;
+  bottom: 40px;
+  left: 27px;
+  text-align: center;
+}
+
+.program-link img {
+  width: 100%;
 }
 
 @media screen and (max-width: 920px) {
   .program .mobile {
-    display: inline-block;
+    display: flex;
+    width: inherit;
   }
   .program .dekstop {
     display: none;
+    width: inherit;
   }
 }
 
