@@ -1,24 +1,27 @@
 <template>
   <div class="body">
+    <div class="banner">
+
     <div class="row">
         <div class="col carousel-img">
        <div class="col carousel">
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img1.jpeg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img2.jpg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img3.jpeg" alt="">
       </div>
       <div class="carousel-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+        <img src="../assets/img4.jpeg" alt="">
       </div>
 
         </div>
       </div>
       
+    </div>
     </div>
 
     <div class="title">
@@ -40,140 +43,134 @@
           <span class="student-img">
       <div class="col carousel-img">
        <div class="col student">
-      <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+      <div class="col student-image">
+        <img src="../assets/student1.jpeg" alt="">
       </div>
-      <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+      <div class="col student-image">
+        <img src="../assets/student2.png" alt="">
       </div>
-      <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
+      <div class="col student-image">
+        <img src="../assets/student3.jpeg" alt="">
       </div>
-      <div class="col col-md-2 student-image">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-
-        </div>
-      </div>
-
-
-       <div class="col carousel-img-mobile">
-       <div class="col student-mobile">
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
-      </div>
-      <div class="col-md-3 student-image-mobile">
-        <img src="../assets/banner_about_us.jpg" alt="">
+      <div class="col student-image">
+        <img src="../assets/student4.jpeg" alt="">
       </div>
 
         </div>
       </div>
+
           </span>
         </div>
       </div>
     </div>
 
 
-      
+      <br><br><br><br>
 
 
-    <div class="join">
-      <h2><b>Why they join SLC?</b></h2>
-      <div class="volunter">
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""
-        />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
+    <div class="volunteers-card">
+      <div class="row">
+        <div class="col">
+        <div class="icon">
+        <img src="../assets/san.jpeg" alt=""/>
+        <h1>Alexsandra</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
           amet beatae quaerat id repellendus molestiae ea asperiores eius cum
           quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
           dolor?
         </p>
       </div>
-     <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+        </div>
+      <div class="col">
+           <div class="icon">
+       <img
+          src="../assets/will.jpg"
           alt=""
         />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
+        <h1>William Saputra</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
           amet beatae quaerat id repellendus molestiae ea asperiores eius cum
           quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
           dolor?
         </p>
       </div>
-      <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
+        </div>
+           <div class="col">
+           <div class="icon">
+       <img
+          src="../assets/gung.jpeg"
           alt=""
         />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
+        <h1>Gung Ade</h1>
+        <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
           amet beatae quaerat id repellendus molestiae ea asperiores eius cum
           quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
           dolor?
         </p>
       </div>
-     <div class="icon">
-        <img
-          src="https://asset.kompas.com/crops/skk_fzrMQFRN7DRjYRdyUzTGxDA=/0x14:733x503/750x500/data/photo/2020/09/22/5f69de4196b5e.png"
-          alt=""
-        />
-        <h1>Johnson El Delomelo</h1>
-        <p class="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas,
-          amet beatae quaerat id repellendus molestiae ea asperiores eius cum
-          quia culpa, voluptatibus optio voluptatem quis sed error nesciunt nam
-          dolor?
-        </p>
+        </div>
       </div>
-    </div>
-    </div>
+    </div> 
 
     <div class="achievement">
+      <div class="achivement-text">
       <h2>Our Achievement</h2>
-        <div class="row">
-      <div class="achievement-top">
-        <div class="col-6 col-md-2 col-sm-6 achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Been awarded Overseas and Domestic Bachelor and Master Degree Scholarship</p>
+      <br>
+      </div>
+      <div class="row row-achievement">
+        <div class="col col-sm-12 col-md-6 column-achievement">
+          <div class="col img_text">
+          <img src="../assets/top1.jpeg" alt="">
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
-        <div class="col-6 col-md-2 col-sm-6 achievement-content align-achiv">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Participated in International Exchange Program</p>
-        </div>
-        <div class="col-6 col-md-2 col-sm-12 achievement-content align-achiv">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Pursued their dream job or became an entrepreneur in creative industry</p>
-        </div>
-        <div class="col-6 col-md-2 col-sm-12  achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Able to support themselves and their family</p>
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+            <div class="col img_text">
+          <img src="../assets/top2.jpeg" alt="">
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
       </div>
 
-      <div class="col-md-12 achievement-bottom">
-        <div class="col-6 col-md-4 achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Mentored and inspired other students</p>
+      <div class="row row-achievement">
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+           <div class="col img_text">
+          <img src="../assets/mid1.jpg" alt="">
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
-        <div class="col-6 col-md-4 achievement-content">
-          <p class="achiv-icon"><i class='fas fa-award'></i></p>
-          <p class="achiv-text">Became leaders in their school and communities</p>
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+            <div class="col img_text">
+          <img src="../assets/mid2.jpeg" alt="">
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
         </div>
       </div>
-    </div>
+
+      <div class="row row-achievement">
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+           <div class="col img_text">
+          <img src="../assets/bot1.jpg" alt="">
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
+        </div>
+        <div class="col- col-sm-12 col-md-6 column-achievement">
+           <div class="col img_text">
+          <img src="../assets/bot2.jpg" alt="">
+          <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
+
+          </div>
+        </div>
+      </div>
+        
   </div>
   </div>
 </template>
@@ -189,7 +186,7 @@
   margin-bottom: 5%;
 }
 .vision-img{
-  background-image: url("../assets/vision_dummy.png");
+  background-color: #047002;
 }
 .vision-text{
   padding: 30px 20px;
@@ -221,50 +218,103 @@
   margin-bottom: 5%;
 }
 .carousel img{
-  width: 170px;
+  width: 250px;
   height: 353px;
+  object-fit: cover;
+  max-width: 100%
 }
+.banner .carousel-image:first-child,.banner .carousel-image:nth-child(3){
+  margin-top: 5%;
+}
+
+
+@media screen and (max-width: 550px) {
+  .banner .carousel-image:first-child,.banner .carousel-image:nth-child(4){
+    display: none;
+  }
+  .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+  }
+}
+
+
+
+
 .student{
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
   justify-content: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
+  margin-bottom: -3%;
+  margin-top: -3%;
+  max-width: 800px;
 }
 .student-image{
-  margin: 0 3%;
-}
-.student img{
-  width: 170px;
   height: 353px;
 }
-.student-mobile img{
-  display: none;
+.student img{
+  object-fit: cover;
+  width: 120%;
+  padding-left: 8%;
+  height: 353px;
 }
-.student-image-mobile{
-  display: none;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-.student-mobile{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  margin-top: 3%;
-  margin-bottom: 3%;
+.vision-img .student-image:nth-child(2), .vision-img .student-image:nth-child(4){
+  margin-top: 5%;
 }
 
-@media screen and (max-width: 1135px) {
-  .vision-img , .student-image{
+
+@media screen and (max-width: 1100px) {
+  .vision-img .student-image:nth-child(1), .vision-img .student-image:nth-child(2) {
     display: none;
   }
-  .vision-img, .student-image-mobile{
-    display: block;
+}
+
+@media screen and (max-width: 850px) {
+  .vision-img .student-image:nth-child(3), .vision-img .student-image:nth-child(4) {
+    display: none;
   }
+
+ .vision-img{
+  display: flex;
+  flex-wrap: wrap;
+  background-image: url('../assets/student4.jpeg');
+  background-size: cover;
+  max-width: 300px;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+ }
+ .banner .carousel-image:first-child,.banner .carousel-image:nth-child(4){
+    display: none;
+  }
+  .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 350px){
+   .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+  }
+  .vision .row{
+    display: grid;
+  }
+
+  .vision-img{
+  background-size: cover;
+  background-image: url('../assets/student4.jpeg');
+  background-repeat: no-repeat;
+  height: 250px;
+  max-width: 380px;
+  object-fit: cover;
+
+  }
+ 
 }
 
 .title{
@@ -301,67 +351,103 @@
   font-size: 24px;
 }
 
-.volunter {
-  max-height: 100%;
-  display: flex;
-  margin-top: 5%;
-  margin-left: 3%;
-  margin-right: 2%;
-  overflow-x: auto;
+.volunteers-card{
+  padding:0 60px 60px 60px;
+  margin-bottom: 10%;
+  color: white;
 }
-.volunter::-webkit-scrollbar {
-  width: 0;
+.volunteers-card h1 {
+  font-weight: 900;
+  margin: 20px 0;
+  font-size: 24px;
+  letter-spacing: 0.11em;
+  color: #52B054;
+;
+  
 }
-.volunter .icon {
-  min-width: 345px;
+.volunteers-card h4 {
+  font-weight: 900;
+  margin: 20px 0 10px  0;
+  font-size: 24px;
+  letter-spacing: 0.05em;
+}
+.volunteers-card .icon{
+  background-image: url('../assets/splash.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
   border-radius: 10px;
-  text-align: center;
-  background-color: #047d02;
-  margin-right: 7%;
+  padding: 30px 0 500px 0;
+  margin:50px auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+  width: 400px;
+  position: relative;
+  height: 450px;
+
+}
+.volunteers-card .icon img{
+  width: 50%;
+  height: 180px;
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+.volunteers-card .icon p{
+  margin: 0 30px 0 30px;
+
+}
+@media screen and (max-width: 521px) {
+  .volunteers-card{
+  padding:0 20px 20px 20px;
+    }
+  .volunteers-card .col{
+  padding:0;
+
+      }
+}
+@media screen and (max-width: 426px) {
+  .volunteers-card .icon{
+     width: 350px;
+    padding: 30px 0 400px 0;
+  }
+  .volunteers-card .icon p{
+    font-size: 14px;
+  } 
+  .volunteers-card h1 {
+  font-size: 18px;
+  }
+.volunteers-card h4 {
+  font-size: 18px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .volunteers-card .icon{
+     width: 300px;
+  }
+}
+
+
+
+.achievement{
   margin-bottom: 5%;
-  padding: 0 20px 10px 20px;
+}
+.row-achievement{
+  flex: 50%;
+  margin-top: 3%;
+}
+.column-achievement{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 3% 0 3% 0;
+  justify-content: center;
+}
+.column-achievement img{
+  width: 80%;
+}
+.img_text p {
+  margin-top: 3%;
   justify-items: center;
 }
-.volunter .icon > img {
-  width: 50%;
-  height: 8em;
-  margin-top: 10%;
-  border-radius: 60%;
-  justify-content: center;
-}
-.volunter .icon p {
-  color: white;
-}
-.volunter .icon h1 {
-  color: white;
-  font-size: 24px;
-  margin-top: 1%;
-  font-weight: 900;
-  line-height: 36px;
-}
-.desc {
-  text-align: center;
-}
 
 
-.achievement-top{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 65px 0 60px 0;
-}
-.achievement-bottom{
-  flex-wrap: wrap;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 170px;
-}
-.achievement-content{
-  width: 19%;
-  margin: 0 0.8%;
-}
-.achiv-icon{
-  font-size: 40px;
-}
 </style>
