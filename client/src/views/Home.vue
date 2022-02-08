@@ -143,7 +143,7 @@
                 <h4>Agricultre Program</h4>
               </router-link>
             </div>
-            <div class="col-12 col-lg-4 col-md-4 col-sm-12 mb-sm-5">
+            <div class="col-lg-4 col-md-4 col-sm-12 mb-sm-5">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle75.png"
@@ -447,11 +447,12 @@ span.garis-hijau {
   }
   .program-list-test h2 {
     padding: 20px 5px 0 5px !important;
-    font-size: 36px;
+    font-size: 32px;
   }
   .program-list-test h5 {
     padding: 0 5px !important;
   }
+
 }
 
 .column {
@@ -695,8 +696,9 @@ span.garis-hijau {
   color: white;
   font-size: 24px;
   font-weight: 700;
-  position: relative;
-  bottom: 50px;
+  position: absolute;
+  bottom: 25px;
+  left: 35px;
 }
 
 @media screen and (max-width: 920px) {
