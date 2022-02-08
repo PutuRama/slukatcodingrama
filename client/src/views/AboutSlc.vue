@@ -344,7 +344,9 @@
 .vision-text-span h1{
   font-weight: 700;
 }
-
+@media screen and (max-width: ) {
+  
+}
 
 
 .mission{
