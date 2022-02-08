@@ -372,7 +372,7 @@
   letter-spacing: 0.05em;
 }
 .volunteers-card .icon{
-  background-color: #047002;
+  background-image: url('../assets/splash.jpeg');
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
