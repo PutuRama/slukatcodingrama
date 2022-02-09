@@ -367,13 +367,13 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  padding: 30px 0 600px 0;
+  padding: 30px 0 50px 0;
   margin:50px auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
   width: 400px;
   position: relative;
-  height: 450px;
+  height: auto;
 
 }
 .volunteers-card .icon img{
