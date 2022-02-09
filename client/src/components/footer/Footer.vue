@@ -109,6 +109,8 @@ h5{
 .button-form {
   max-width: 150px;
   border-radius: 20px;
+  background-color: #A1EE9F;
+  border: 2px solid #A1EE9F;
 }
 
 .social-media {
