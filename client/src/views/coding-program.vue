@@ -21,19 +21,13 @@
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
           <h1>How is it started?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Starting from an awareness of the importance of the modern world, Slukat Learning Center built a Coding Class program that teaches our students about the world of the Website from basic to advanced.
           </p>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-left" data-aos-duration="2000">
           <h1>How is it going?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            This program is regularly held every week which also provides knowledge about the Website and trains the skills of our students which will be very useful in their future.
           </p>
         </div>
       </div>

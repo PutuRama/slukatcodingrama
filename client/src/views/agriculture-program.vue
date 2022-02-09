@@ -21,19 +21,13 @@
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
           <h1>How is it started?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            When the pandemic came, the course program and other activities at the Slukat Learning Center were closed. With the creativity of the Slukat Learning Center students, they take advantage of the current situation to grow crops where.
           </p>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-left" data-aos-duration="2000">
           <h1>How is it going?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Initially, the students from the Slukat Learning Center agreed to create their own garden, and started growing vegetables which would later be harvested and distributed for their own needs.
           </p>
         </div>
       </div>

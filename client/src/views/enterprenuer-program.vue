@@ -21,19 +21,13 @@
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
           <h1>How is it started?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            Entrepreneurs themselves are an important factor of production and an important aspect of the usefulness of a free market economy and of great benefit to our students. Therefore, the Slukat Learning Center has built the Entrepreneurial Class program, which is expected to be able to create its own business products.
           </p>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-left" data-aos-duration="2000">
           <h1>How is it going?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            By inviting young entrepreneurs to form their own business paths that will be very beneficial for themselves and provide important strategies when starting a business.
           </p>
         </div>
       </div>

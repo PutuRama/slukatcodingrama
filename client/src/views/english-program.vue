@@ -21,19 +21,13 @@
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
           <h1>How is it started?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+            English is an international language that at least some people should understand. Slukat Learning Center is enthusiastic about building an English course that is open to the public with students from 9 to 18 years old.
           </p>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-left" data-aos-duration="2000">
           <h1>How is it going?</h1>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book.
+          By inviting foreign children, especially village children who really need English language skills which will bring positive roles later for themselves.
           </p>
         </div>
       </div>
