@@ -341,6 +341,13 @@
 </template>
 
 <script>
+export default {
+  metaInfo: {
+    title: 'Default App Title',
+    titleTemplate: '%s | vue-meta Example App'
+  },
+  // ...
+}
 </script>
 <style scoped>
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap");

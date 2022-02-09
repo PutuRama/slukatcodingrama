@@ -13,6 +13,7 @@
     "hooper": "^0.3.4",
     "nprogress": "^0.2.0",
     "vue": "^3.0.0",
+    "vue-meta": "^2.4.0",
     "vue-owl-carousel": "^2.0.3",
     "vue-router": "^4.0.0-0",
     "vue-slick-carousel": "^1.0.6"
