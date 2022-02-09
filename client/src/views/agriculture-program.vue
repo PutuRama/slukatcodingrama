@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
             <h1><span class="bg-hijau">Agriculture</span>Class</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatibus voluptates, alias illum quis unde tempore quaerat dolor eveniet necessitatibus aliquam temporibus odit, sunt aut! Cupiditate corporis aperiam dolores asperiores?</p>
+            <p>This Agricultural Program provides knowledge for children who like farming and makes the talents of children who initially like farming become able to process their crops by selling them to the market or becoming their needs.</p>
              <button type="button" class="btn btn-success btn-lg activity-button" >Enroll now!  </button>
         </div>
         <div class="col " data-aos="zoom-in-up" data-aos-duration="2000">
