@@ -19,12 +19,12 @@
       <div class="row" style="z-index: 5; position: relative">
         <div class="col-md-12 col-sm-6 about-img-mobile" >
           <div class="col column">
-            <img src="../assets/img/children.jpg" alt="" />
-            <img src="../assets/img/child-bule.jpeg" alt="" />
+            <img data-aos="fade-down-right" data-aos-duration="2000" src="../assets/img/children.jpg" alt="" />
+            <img data-aos="fade-down-left" data-aos-duration="2000" src="../assets/img/child-bule.jpeg" alt="" />
           </div>
           <div class="col column">
-            <img src="../assets/img/all-seminar.jpeg" alt="" />
-            <img src="../assets/img/children-read.jpeg" alt="" />
+            <img data-aos="fade-up-right" data-aos-duration="2000" src="../assets/img/all-seminar.jpeg" alt="" />
+            <img  data-aos="fade-up-left" data-aos-duration="2000" src="../assets/img/children-read.jpeg" alt="" />
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 about-teks" data-aos="fade-right" data-aos-duration="2000">

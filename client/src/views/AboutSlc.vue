@@ -293,7 +293,7 @@
   width: 100%;
   height: 100%;
   position:absolute;
-  background-image: url("../assets/AboutUs-Background.png");
+  background-image: url("../assets/img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -318,7 +318,7 @@
 
 .text-hijau{
   font-weight: bolder !important;
-  color: #037c01;
+  color: #5CD45E;
 }
 
 
@@ -329,6 +329,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   height: 300px;
+    filter: brightness(60%);
 }
 .vision-text{
   padding: 30px 20px;

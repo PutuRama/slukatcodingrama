@@ -248,7 +248,7 @@
   width: 100%;
   height: 100%;
   position:absolute;
-  background-image: url("../assets/banner_about_us.jpg");
+  background-image: url("../assets/home-activities-2-2x3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
