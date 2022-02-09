@@ -6,5 +6,6 @@ const router = express.Router();
 
 
 router.get("/testi/volounteer", (req,res) => slukatController.getVolounteerTesti(req,res));
+router.get("/testi/student", (req,res) => slukatController.getStudentTesti(req,res));
 
 module.exports = router;
