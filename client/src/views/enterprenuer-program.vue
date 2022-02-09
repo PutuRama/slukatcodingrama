@@ -60,12 +60,12 @@
     </div>
 
 
-    <div class="gallery">
+<div class="gallery">
     <div class="row">
   <div class="col-lg-4 col-md-12 mb-4 mb-lg-0" data-aos="fade-right" data-aos-duration="2000">
 
     <img
-      src="../assets/coding1.jpeg"
+      src="../assets/enter3.jpeg"
       class="last-img shadow-1-strong rounded mb-4"
       alt="Wintry Mountain Landscape"
     />
@@ -74,12 +74,12 @@
   <div class="col-lg-4 mb-4 mb-lg-0" data-aos="zoom-in" data-aos-duration="2000">
     <br>
     <img
-      src="../assets/coding3.jpeg"
+      src="../assets/enter.jpeg"
       class=" w-100 shadow-1-strong rounded mb-4"
       alt="Waves at Sea"
     />
     <img
-      src="../assets/coding4.jpeg"
+      src="../assets/enter2.jpeg"
       class=" w-100 shadow-1-strong rounded mb-4"
       alt="Boat on Calm Water"
     />
@@ -88,7 +88,7 @@
   <div class="col-lg-4 mb-4 mb-lg-0" data-aos="fade-left" data-aos-duration="2000">
 
     <img
-      src="../assets/coding2.jpg"
+      src="../assets/enter3.jpeg"
       class="last-img w-100 shadow-1-strong rounded mb-4"
       alt="Yosemite National Park"
     />
@@ -208,6 +208,7 @@
 
 @media screen and (max-width: 992px) {
   .banner .col{
+    margin-top: 10%;
     order: 1;
   }
     .banner .col-lg-6{
@@ -313,6 +314,14 @@
   color: black;
 }
 
+
+}
+
+@media screen and (max-width: 361px) {
+.bg-hijau{
+  display: block;
+  padding: 0  ;
+}
 
 }
 

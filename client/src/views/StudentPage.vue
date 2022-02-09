@@ -5,16 +5,16 @@
     <div class="row">
         <div class="col carousel-img">
        <div class="col carousel">
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/img1.jpeg" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image " data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/img2.jpg" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/img3.jpeg" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/img4.jpeg" alt="">
       </div>
 
@@ -31,7 +31,7 @@
 
     <div class="vision">
       <div class="row">
-        <div class="col vision-text">
+        <div class="col vision-text" data-aos="fade-right" data-aos-duration="2000">
           <span class="vision-text-span">
             <h1>Who are they?</h1>
             <p>
@@ -41,18 +41,18 @@
         </div>
         <div class="col vision-img">
           <span class="student-img">
-      <div class="col carousel-img">
+      <div class="col carousel-img" >
        <div class="col student">
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/student1.jpeg" alt="">
       </div>
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/student2.png" alt="">
       </div>
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/student3.jpeg" alt="">
       </div>
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/student4.jpeg" alt="">
       </div>
 
@@ -70,7 +70,7 @@
 
     <div class="volunteers-card">
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="fade-up-right" data-aos-duration="2000">
         <div class="icon">
         <img src="../assets/san.jpeg" alt=""/>
         <h1>Alexsandra</h1>
@@ -82,7 +82,7 @@
         </p>
       </div>
         </div>
-      <div class="col">
+      <div class="col" data-aos="fade-up" data-aos-duration="2000">
            <div class="icon">
        <img
           src="../assets/will.jpg"
@@ -97,7 +97,7 @@
         </p>
       </div>
         </div>
-           <div class="col">
+           <div class="col" data-aos="fade-up-left" data-aos-duration="2000">
            <div class="icon">
        <img
           src="../assets/gung.jpeg"
@@ -122,14 +122,14 @@
       </div>
       <div class="row row-achievement">
         <div class="col col-sm-12 col-md-6 column-achievement">
-          <div class="col img_text">
+          <div class="col img_text" data-aos="fade-right" data-aos-duration="2000">
           <img src="../assets/top1.jpeg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
-            <div class="col img_text">
+            <div class="col img_text" data-aos="fade-left" data-aos-duration="2000">
           <img src="../assets/top2.jpeg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
@@ -139,14 +139,14 @@
 
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
-           <div class="col img_text">
+           <div class="col img_text" data-aos="fade-right" data-aos-duration="2000">
           <img src="../assets/mid1.jpg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
-            <div class="col img_text">
+            <div class="col img_text" data-aos="fade-left" data-aos-duration="2000">
           <img src="../assets/mid2.jpeg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
@@ -156,14 +156,14 @@
 
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
-           <div class="col img_text">
+           <div class="col img_text" data-aos="fade-right" data-aos-duration="2000">
           <img src="../assets/bot1.jpg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
-           <div class="col img_text">
+           <div class="col img_text" data-aos="fade-left" data-aos-duration="2000">
           <img src="../assets/bot2.jpg" alt="">
           <p>Been awarded Overseas <br> and Domestic Bachelor <br> and Master Degree  Scholarship </p>
 
