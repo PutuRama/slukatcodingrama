@@ -289,7 +289,7 @@
         <div class="slukat-text">
         <h1>Slukat Learning Center</h1>
         </div>
-        <div class="slukat-img" data-aos="zoom-in-up" data-aos-duration="2000">
+        <div class="slukat-img" data-aos="zoom-in" data-aos-duration="2000">
           <img src="../assets/IMG_1711.jpeg" alt="">
         </div>
       </div>
@@ -311,7 +311,7 @@
   <button type="button" class="btn btn-success btn-lg activity-button" data-aos="fade-up" data-aos-duration="2000">Find Out</button>
     </div> 
 
-  <div class="vid-article" >
+  <div class="vid-article" data-aos="fade-right" data-aos-duration="2000">
     <h1>Accommodation</h1>
       <div class="vid-article-content">
         <div class="row">
