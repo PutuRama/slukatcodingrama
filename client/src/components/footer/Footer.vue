@@ -118,6 +118,16 @@ h5{
 .social-media i {
   font-size: 35px;
 }
+@media screen and (max-width:750px) {
+  .social-media{
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .input-group{
+    padding: 0 15px 0 15px;
+  }
+}
 
 .slc-title {
   color: #a1ee9f;
