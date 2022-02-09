@@ -198,9 +198,9 @@
         }, 2000);
       });
 
-      $(window).scroll(function (event) {
+      $(window).click(function (event) {
         var scroll = $(window).scrollTop();
-        if(scroll > 10){
+        if(scroll >= 0){
           
           AOS.refreshHard();
         }
