@@ -5,16 +5,16 @@
     <div class="row">
         <div class="col carousel-img">
        <div class="col carousel">
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/img1.jpeg" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image " data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/img2.jpg" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/img3.jpeg" alt="">
       </div>
-      <div class="carousel-image">
+      <div class="carousel-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/img4.jpeg" alt="">
       </div>
 
@@ -31,7 +31,7 @@
 
     <div class="vision">
       <div class="row">
-        <div class="col vision-text">
+        <div class="col vision-text" data-aos="fade-right" data-aos-duration="2000">
           <span class="vision-text-span">
             <h1>Who are they?</h1>
             <p>
@@ -41,18 +41,18 @@
         </div>
         <div class="col vision-img">
           <span class="student-img">
-      <div class="col carousel-img">
+      <div class="col carousel-img" >
        <div class="col student">
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/student1.jpeg" alt="">
       </div>
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/student2.png" alt="">
       </div>
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-up" data-aos-duration="2000">
         <img src="../assets/student3.jpeg" alt="">
       </div>
-      <div class="col student-image">
+      <div class="col student-image" data-aos="fade-down" data-aos-duration="2000">
         <img src="../assets/student4.jpeg" alt="">
       </div>
 
@@ -70,7 +70,7 @@
 
     <div class="volunteers-card">
       <div class="row">
-        <div class="col">
+        <div class="col" data-aos="fade-up-right" data-aos-duration="2000">
         <div class="icon">
         <img src="../assets/san.jpeg" alt=""/>
         <h1>Alexsandra</h1>
@@ -79,7 +79,7 @@
         </p>
       </div>
         </div>
-      <div class="col">
+      <div class="col" data-aos="fade-up" data-aos-duration="2000">
            <div class="icon">
        <img
           src="../assets/will.jpg"
@@ -91,7 +91,7 @@
         </p>
       </div>
         </div>
-           <div class="col">
+           <div class="col" data-aos="fade-up-left" data-aos-duration="2000">
            <div class="icon">
        <img
           src="../assets/gung.jpeg"
@@ -113,14 +113,14 @@
       </div>
       <div class="row row-achievement">
         <div class="col col-sm-12 col-md-6 column-achievement">
-          <div class="col img_text">
+          <div class="col img_text" data-aos="fade-right" data-aos-duration="2000">
           <img src="../assets/top1.jpeg" alt="">
           <p>Slukat Learning Center teaches free English courses and managed to get one of our students to get a scholarship to go abroad.</p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
-            <div class="col img_text">
+            <div class="col img_text" data-aos="fade-left" data-aos-duration="2000">
           <img src="../assets/top2.jpeg" alt="">
           <p>Slukat Learning Center as a place to play as well as have fun learning with friendly volunteers will certainly make the way children learn much easier to understand </p>
 
@@ -130,14 +130,14 @@
 
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
-           <div class="col img_text">
+           <div class="col img_text" data-aos="fade-right" data-aos-duration="2000">
           <img src="../assets/mid1.jpg" alt="">
           <p>We clean the beach from plastic waste pollution that destroys natural ecosystems</p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
-            <div class="col img_text">
+            <div class="col img_text" data-aos="fade-left" data-aos-duration="2000">
           <img src="../assets/mid2.jpeg" alt="">
           <p>Every Sunday, we routinely do a Yoga program which keeps the body fit and healthy</p>
 
@@ -147,14 +147,14 @@
 
       <div class="row row-achievement">
         <div class="col- col-sm-12 col-md-6 column-achievement">
-           <div class="col img_text">
+           <div class="col img_text" data-aos="fade-right" data-aos-duration="2000">
           <img src="../assets/bot1.jpg" alt="">
           <p>We regularly hold talent and interest programs for children at the Slukat Learning Center Foundation</p>
 
           </div>
         </div>
         <div class="col- col-sm-12 col-md-6 column-achievement">
-           <div class="col img_text">
+           <div class="col img_text" data-aos="fade-left" data-aos-duration="2000">
           <img src="../assets/bot2.jpg" alt="">
           <p>Slukat Learning Center at the end of every year holds an annual Youth Festival event that showcases the talents of our students</p>
 

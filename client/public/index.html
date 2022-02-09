@@ -4,9 +4,9 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-    <link rel="icon" href="<%= BASE_URL %>faviconSlukat.ico" >
+    <link rel="icon" href="<%= BASE_URL %>faviconSlukat.ico" />
     <title>Slukat Learning Center</title>
-    
+
     <script
       src="https://kit.fontawesome.com/4f83f0713b.js"
       crossorigin="anonymous"
@@ -200,10 +200,13 @@
 
       $(window).scroll(function (event) {
         var scroll = $(window).scrollTop();
-        if(scroll > 10){
-          
+        if (scroll >= 0) {
           AOS.refreshHard();
         }
+      });
+
+      $(window).click(function (event) {
+        AOS.refreshHard();
       });
     </script>
   </body>

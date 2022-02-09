@@ -293,7 +293,7 @@
   width: 100%;
   height: 100%;
   position:absolute;
-  background-image: url("../assets/AboutUs-Background.png");
+  background-image: url("../assets/img/banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -318,7 +318,7 @@
 
 .text-hijau{
   font-weight: bolder !important;
-  color: #037c01;
+  color: #5CD45E;
 }
 
 
@@ -329,6 +329,7 @@
   background-repeat: no-repeat;
   background-position: 50% 50%;
   height: 300px;
+    filter: brightness(60%);
 }
 .vision-text{
   padding: 30px 20px;
@@ -344,7 +345,15 @@
 .vision-text-span h1{
   font-weight: 700;
 }
-
+@media screen and (max-width: 450px) {
+  .vision .row{
+    display: grid;
+  }
+  .vision-text-span{
+    text-align: center;
+    padding: 0 20px 0 20px;
+  }
+}
 
 
 .mission{
@@ -536,6 +545,26 @@
         margin:100px auto; /* Added */
         float: none; /* Added */
         margin-bottom: 10px; /* Added */
+        width: 250px;
+        position: relative;
+        height: 450px;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .mission .card {
+        margin:50px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 85px; /* Added */
+        margin-left: -20px;
+        max-width: 240px;
+        position: relative;
+        height: 450px;
+  }
+  .mission .col:nth-child(2) .card{
+        margin:100px auto; /* Added */
+        float: none; /* Added */
+        margin-bottom: 10px; /* Added */
+        margin-left: -20px;
         width: 250px;
         position: relative;
         height: 450px;
