@@ -18,8 +18,7 @@
           <div class="our-objectives-text">
             <h5>To Inspire</h5>
             <p>
-              Develop the student’s capabilities to change their mindset,
-              perspectives and behaviors.
+              Develop the thinking power of our students who are creative, innovative, varied, in the current era.
             </p>
           </div>
         </div>
@@ -30,8 +29,7 @@
           <div class="our-objectives-text">
             <h5>To Encourage</h5>
             <p>
-              Develop the student’s capabilities to change their mindset,
-              perspectives and behaviors.
+              Open the eyes of our students for a better future equipped with knowledge about the outside world.
             </p>
           </div>
         </div>
@@ -84,48 +82,28 @@
                   <img src="../assets/img/Eng_class.jpeg" alt="">
                         <h2><span class="headline-hijau">English Class</span></h2>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting
-                          industry. Lorem Ipsum has been the industry's standard dummy text
-                          ever since the 1500s, when an unknown printer took a galley of type
-                          and scrambled it to make a type specimen book. It has survived not
-                          only five centuries, but also the leap into electronic typesetting,
-                          remaining essentially unchanged.
+                         An English class that trains English speaking skills, public speaking, and trains them in the rules of good English usage so as to provide provisions for those who want to work abroad. In addition, we also recognized them with traditions that exist abroad which became new knowledge for them and became provisions for them in the future.
                         </p>
                   </div>
                   <div class="carousel-item">
                   <img src="../assets/img/Agri_class.jpg" alt="" data-bs-interval="50000">
                         <h2><span class="headline-hijau">Agriculture Class</span></h2>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting
-                          industry. Lorem Ipsum has been the industry's standard dummy text
-                          ever since the 1500s, when an unknown printer took a galley of type
-                          and scrambled it to make a type specimen book. It has survived not
-                          only five centuries, but also the leap into electronic typesetting,
-                          remaining essentially unchanged.
+                          This Agricultural Program provides knowledge for children who like farming and makes the talents of children who initially like farming become able to process their crops by selling them to the market or becoming their needs.
                         </p>
                   </div>
                   <div class="carousel-item">
                     <img src="../assets/img/Coding_class.jpeg" alt="" data-bs-interval="50000">
                         <h2><span class="headline-hijau">Coding Class</span></h2>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting
-                          industry. Lorem Ipsum has been the industry's standard dummy text
-                          ever since the 1500s, when an unknown printer took a galley of type
-                          and scrambled it to make a type specimen book. It has survived not
-                          only five centuries, but also the leap into electronic typesetting,
-                          remaining essentially unchanged.
+                         We know that in this modern era, programmers are indispensable. Even big companies are looking for programmers to work in their companies, with the Coding Program at Slukat Learning Center, we hope our students can create very useful products for the future.
                         </p>
                   </div>
                   <div class="carousel-item">
                     <img src="../assets/img/Entre_class.png" alt="" data-bs-interval="50000">
                         <h2><span class="headline-hijau">Enterpreneurship Class</span></h2>
                         <p>
-                          Lorem Ipsum is simply dummy text of the printing and typesetting
-                          industry. Lorem Ipsum has been the industry's standard dummy text
-                          ever since the 1500s, when an unknown printer took a galley of type
-                          and scrambled it to make a type specimen book. It has survived not
-                          only five centuries, but also the leap into electronic typesetting,
-                          remaining essentially unchanged.
+                          This Enterpreneurship class we provide them with knowledge about how profitable the business that was built to become their source of income will be. By being taught from scratch, we provide direction for those who later we hope our students can build their own business and be known to go international.
                         </p>
                   </div>
       

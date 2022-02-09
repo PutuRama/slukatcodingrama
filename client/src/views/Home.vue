@@ -106,10 +106,7 @@
           <span class="content-span">
             <h1>Our Program</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim
-              quidem nesciunt, omnis molestiae nobis, soluta quod totam fuga
-              possimus quasi voluptatem alias sed animi id facere dicta ratione
-              nihil iusto.
+              We have the best programs to train our students' interests and talents which will be very useful in their future.
             </p>
           </span>
         </div>
@@ -204,8 +201,7 @@
               <div class="col-12">
                 <h3>Made Sanjaya</h3>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-                  iure architecto dolor ..
+                  Slukat Learning Center is my best place to seek experience and knowledge, a comfortable place that makes me feel at home ..
                   <router-link to="/about/student"
                     ><a>Learn More</a></router-link
                   >
@@ -221,8 +217,7 @@
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-                  iure architecto dolor ..
+                  The first time I joined the Slukat Learning Center, I felt the cool and beautiful air that made me feel..
                   <router-link to="/about/student"
                     ><a>Learn More</a></router-link
                   >
@@ -238,8 +233,7 @@
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
                 <p>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-                  iure architecto dolor ..
+                  My best place to be surrounded by friendly and smiling people makes my comfortable place to study..
                   <router-link to="/about/student"
                     ><a>Learn More</a></router-link>
                 </p>
@@ -257,8 +251,7 @@
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-                iure architecto dolor ..
+                I thought the Slukat Learning Center was just a place for learning English courses but this is a place that trains..
                 <router-link to="/about/volounteer"
                   ><a>Learn More</a></router-link
                 >
@@ -271,8 +264,7 @@
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-                iure architecto dolor ..
+                Children who are friendly, and love to play make me enthusiastic about teaching the children to be tall so that they have..
                 <router-link to="/about/volounteer"
                   ><a>Learn More</a></router-link
                 >
@@ -285,8 +277,7 @@
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga
-                iure architecto dolor ..
+                Apart from teaching English, it turns out that there are many other programs that I know of here that are not available at..
                 <router-link to="/about/volounteer"
                   ><a>Learn More</a></router-link
                 >
