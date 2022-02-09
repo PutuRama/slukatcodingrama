@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
             <h1><span class="bg-hijau">Enterpreneur</span>Class</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatibus voluptates, alias illum quis unde tempore quaerat dolor eveniet necessitatibus aliquam temporibus odit, sunt aut! Cupiditate corporis aperiam dolores asperiores?</p>
+            <p>This Enterpreneurship class we provide them with knowledge about how profitable the business that was built to become their source of income will be. By being taught from scratch, we provide direction for those who later we hope our students can build their own business and be known to go international.</p>
              <button type="button" class="btn btn-success btn-lg activity-button" >Enroll now!  </button>
         </div>
         <div class="col " data-aos="zoom-in-up" data-aos-duration="2000">

@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
             <h1><span class="bg-hijau">English</span>Class</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatibus voluptates, alias illum quis unde tempore quaerat dolor eveniet necessitatibus aliquam temporibus odit, sunt aut! Cupiditate corporis aperiam dolores asperiores?</p>
+            <p>An English class that trains English speaking skills, public speaking, and trains them in the rules of good English usage so as to provide provisions for those who want to work abroad. In addition, we also recognized them with traditions that exist abroad which became new knowledge for them and became provisions for them in the future.</p>
              <button type="button" class="btn btn-success btn-lg activity-button" >Enroll now!  </button>
         </div>
         <div class="col " data-aos="zoom-in-up" data-aos-duration="2000">
