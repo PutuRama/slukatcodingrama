@@ -139,8 +139,7 @@
         <div class="col-7" data-aos="fade-up" data-aos-duration="2000">
           <div class="std-program-text">
             <h3>What do the student says?</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Perferendis, ipsum.
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla, obcaecati?
+            <p>With Slukat Learning Center they get a lot of new experiences and knowledge. See what they have to say from the experience they have here!
             </p>
             <div class="spacer-section"></div>
             <button type="button" class="btn btn-success btn-lg button-std-program">
