@@ -3,10 +3,10 @@
     <div class="carousel" style="position: relative">
       <div class="banner"></div>
       <div class="row teks">
-        <div class="col-lg-7 col-md-12 col-sm-12">
+        <div class="col-lg-7 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
           <h1><span class="garis-hijau">Slukat</span> Learning Center</h1>
         </div>
-        <div class="col-lg-5 col-md-12 col-sm-12">
+        <div class="col-lg-5 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
           <span class="image">
             <img src="../assets/img/3-photo.png" alt="" />
           </span>
@@ -15,9 +15,9 @@
     </div>
 
     <!-- about us -->
-    <div class="col-sm-12 aboutus">
+    <div class="col-sm-12 aboutus" >
       <div class="row" style="z-index: 5; position: relative">
-        <div class="col-md-12 col-sm-6 about-img-mobile">
+        <div class="col-md-12 col-sm-6 about-img-mobile" >
           <div class="col column">
             <img src="../assets/img/children.jpg" alt="" />
             <img src="../assets/img/child-bule.jpeg" alt="" />
@@ -27,7 +27,7 @@
             <img src="../assets/img/children-read.jpeg" alt="" />
           </div>
         </div>
-        <div class="col-md-6 col-sm-6 about-teks">
+        <div class="col-lg-6 col-md-12 col-sm-12 about-teks" data-aos="fade-right" data-aos-duration="2000">
           <p>ABOUT US</p>
           <h1>Slukat Learning Center</h1>
           <p>
@@ -35,14 +35,14 @@
             after-school learning.
           </p>
         </div>
-        <div class="col-md-12 col-sm-6 about-img">
-          <div class="col column">
-            <img src="../assets/img/children.jpg" alt="" />
-            <img src="../assets/img/child-bule.jpeg" alt="" />
+        <div class="col-lg-6 col-md-12 col-sm-12 about-img" >
+          <div class="col column" >
+            <img data-aos="fade-down-right" data-aos-duration="2000" src="../assets/img/children.jpg" alt="" />
+            <img data-aos="fade-down-left" data-aos-duration="2000" src="../assets/img/child-bule.jpeg" alt="" />
           </div>
           <div class="col column">
-            <img src="../assets/img/all-seminar.jpeg" alt="" />
-            <img src="../assets/img/children-read.jpeg" alt="" />
+            <img data-aos="fade-up-right" data-aos-duration="2000" src="../assets/img/all-seminar.jpeg" alt="" />
+            <img data-aos="fade-up-left" data-aos-duration="2000" src="../assets/img/children-read.jpeg" alt="" />
           </div>
         </div>
       </div>
@@ -66,7 +66,7 @@
     <!-- founder -->
     <div class="founder">
       <div class="row">
-        <div class="col-lg-6 col-md-12 col-sm-12 image">
+        <div class="col-lg-6 col-md-12 col-sm-12 image" data-aos="zoom-in-up" data-aos-duration="2000">
           <div>
             <img src="../assets/img/Founderwithbg.png" alt="" /><br />
             <h5>
@@ -75,7 +75,7 @@
             </h5>
           </div>
         </div>
-        <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-up-left" data-aos-duration="2000">
           <span>
             <h1>The Founder</h1>
             <p>
@@ -85,15 +85,12 @@
               Gianyar, Bali.
             </p>
             <br />
-            <router-link class="button-program" to="/about/slc">
-              <a href="#" id="founder-findout"
-                >Find Out More
-                <i
-                  class="fas fa-arrow-circle-right"
-                  style="font-size: 25px; color: white"
-                ></i
-              ></a>
+
+                 <router-link class="button-founder " to="/about/slc">
+              <a href="#" id="founder-findout">Find Out More
+            </a>
             </router-link>
+
           </span>
         </div>
       </div>
@@ -102,7 +99,7 @@
     <!-- our program -->
     <div class="our-program">
       <div class="row">
-        <div class="col content">
+        <div class="col content" data-aos="fade-right" data-aos-duration="2000">
           <span class="content-span">
             <h1>Our Program</h1>
             <p>
@@ -110,15 +107,15 @@
             </p>
           </span>
         </div>
-        <div class="col program-img"></div>
+        <div class="col program-img" data-aos="fade-left" data-aos-duration="2000"></div>
       </div>
     </div>
 
     <div class="program">
       <div class="row">
         <div class="col-lg-9 col-md-12 col-sm-12">
-          <div class="row programs-list">
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+          <div class="row programs-list" >
+            <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5 text-center" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle74.png"
@@ -129,7 +126,7 @@
                 <h4>Coding Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+            <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle76.png"
@@ -140,7 +137,7 @@
                 <h4>Agricultre Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+            <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle75.png"
@@ -151,21 +148,22 @@
                 <h4>English Program</h4>
               </router-link>
             </div>
-            <div class="col-lg-3 col-md-3 col-sm-12 mb-sm-5">
+                   <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/coding">
                 <img
                   src="../assets/img/Rectangle77.jpg"
                   alt=""
                   class="dekstop"
                 />
-                <img src="../assets/img/NT.jpg" alt="" class="mobile" />
-                <h4>Entreprenuer Program</h4>
+                <img src="../assets/img/Entre_class.png" alt="" class="mobile" />
+                <h4>Entrepeneur Program</h4>
               </router-link>
             </div>
+
           </div>
         </div>
-        <div class="col-lg-3 col-md-12 col-sm-12 program-list">
-          <span class="program-list-test">
+        <div class="col-lg-3 col-md-12 col-sm-12 program-list" data-aos="fade-left" data-aos-duration="2000">
+          <span class="program-list-test" >
             <h2>And More!</h2>
             <h5>
               Check out every profile of these and other programs by clicking
@@ -174,14 +172,10 @@
           </span>
 
           <router-link class="button-program button-program-list" to="/program">
-            <a href="#" id="founder-findout"
-              >Find Out More
-              <i
-                class="fas fa-arrow-circle-right"
-                style="font-size: 25px; color: white"
-              ></i
-            ></a>
+            <a href="#" id="founder-findout">Find Out More
+            </a>
           </router-link>
+          
         </div>
       </div>
     </div>
@@ -193,7 +187,7 @@
       <div class="student">
         <h4>Student</h4>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-right" data-aos-duration="2000">
             <div class="row card-student">
               <div class="col-12">
                 <img src="../assets/home-student-1.jpg" alt="" />
@@ -209,7 +203,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
             <div class="row card-student">
               <div class="col-12">
                 <img src="../assets/home-student-2.jpg" alt="" />
@@ -225,7 +219,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-left" data-aos-duration="2000">
             <div class="row card-student">
               <div class="col-12">
                 <img src="../assets/home-student-3.jpg" alt="" />
@@ -245,7 +239,7 @@
       <div class="valounter">
         <h4>Volounter</h4>
         <div class="row">
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-right" data-aos-duration="2000">
             <div class="volounteer-card">
               <img src="../assets/home-volounter-1.jpg" alt="" />
               <h4>Brazil</h4>
@@ -258,7 +252,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
             <div class="volounteer-card">
               <img src="../assets/home-volounter-2.jpg" alt="" />
               <h4>Brazil</h4>
@@ -271,7 +265,7 @@
               </p>
             </div>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-left" data-aos-duration="2000">
             <div class="volounteer-card">
               <img src="../assets/home-volounter-3.jpg" alt="" />
               <h4>Brazil</h4>
@@ -279,8 +273,8 @@
               <p>
                 Apart from teaching English, it turns out that there are many other programs that I know of here that are not available at..
                 <router-link to="/about/volounteer"
-                  ><a>Learn More</a></router-link
-                >
+                  ><a>Learn More</a>
+                  </router-link>
               </p>
             </div>
           </div>
@@ -289,7 +283,7 @@
     </div>
 
     <!-- Blog -->
-    <div class="vid-article">
+    <div class="vid-article" data-aos="zoom-in" data-aos-duration="2000">
       <div class="vid-article-content">
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
@@ -350,12 +344,11 @@ export default {
 }
 </script>
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
 /* @import url('../assets/css/media.css'); */
 
 .home {
   overflow-x: hidden;
-
   font-family: "Poppins", sans-serif;
 }
 
@@ -405,7 +398,7 @@ span.garis-hijau {
   margin-top: 70px;
   color: white;
   font-size: 50px;
-  font-weight: 800;
+  font-weight: 700;
 }
 /* aboutus */
 .aboutus {
@@ -418,14 +411,24 @@ span.garis-hijau {
   right: 0;
   z-index: 0;
 }
+.about-teks  p:first-child{
+  font-weight: 700;
+  font-size: 14px;
+  color: #678267;
+  letter-spacing: 5px;
+}
 .about-teks {
   text-align: start;
   display: inline-block;
-  padding: 50px 50px;
+  padding: 50px 80px;
   color: #335b32;
 }
+.about-teks  p:last-child{
+  font-size: 18px;  
+  line-height: 30px;
+}
 .about-teks h1 {
-  font-weight: bolder;
+  font-weight: 700;
   color: #057002;
 }
 .about-img {
@@ -517,7 +520,6 @@ span.garis-hijau {
 
   text-align: center;
   letter-spacing: 0.05em;
-
   color: #ffffff;
 }
 .volounteer-card img {
@@ -538,6 +540,23 @@ span.garis-hijau {
   transform: translateY(-50%);
   margin: auto 0;
   text-align: start;
+}
+.button-founder a{
+  background-color: #047002;
+  color: white;
+  font-size: 18px;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: 800;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.button-founder a:hover{
+  background-color: white;
+  color: #047002;
 }
 @media screen and (max-width: 990px) {
   .founder span {
@@ -567,7 +586,10 @@ span.garis-hijau {
 }
 .founder span p {
   max-width: 600px;
-  padding: 0 10px;
+  padding: 0 ;
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 50px;
 }
 .image img {
   width: 50%;
@@ -602,6 +624,15 @@ span.garis-hijau {
   max-width: 500px;
   color: #0b6d0e;
   padding: 50px 50px;
+}
+.content-span h1{
+  font-size: 48px;
+  font-weight: 700;
+}
+.content-span p{
+  font-size: 18px;
+  line-height: 30px;
+  margin: 10px 0 0 0;
 }
 .program-img {
   background-image: url("../assets/img/our_program_img.png");
@@ -672,20 +703,25 @@ span.garis-hijau {
   font-weight: 900;
 }
 
-.button-program {
-  background: #047002;
-  border: white 2px solid;
-  border-radius: 5px;
-  padding: 15px 30px;
-  margin-top: 70px;
-  margin-bottom: 50px;
-}
-.button-program a {
-  text-decoration: none;
-  font-size: 18px;
-  vertical-align: top;
+
+
+.button-program a{
+  background-color: #047002;
   color: white;
-  font-weight: 700;
+  font-size: 18px;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition: 0.5s;
+  font-weight: 800;
+  border: 2px solid;
+  border-radius: 5px;
+
+}
+.button-program a:hover{
+  background-color: white;
+  color: #047002;
 }
 
 .program {
@@ -720,7 +756,7 @@ span.garis-hijau {
   width: 100%;
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 993px) {
   .program .mobile {
     display: flex;
     width: inherit;
@@ -747,5 +783,145 @@ span.garis-hijau {
 .vid-article-content {
   max-width: 1000px;
   margin: 0 auto;
+}
+
+@media only screen and (max-width: 769px) {
+  
+    .about-teks  p:last-child{
+  font-size: 16px;  
+  }
+  .about-teks h1 {
+   font-size: 34px;
+  }
+
+    .founder span h1 {
+  font-size: 34px;
+  }
+  .founder span p {
+  font-size: 16px;
+
+  margin: 0 30px 30px 30px;
+  }
+  .button-founder a{
+  font-size: 16px;
+  padding: 10px 25px;
+ }
+
+
+   .content-span h1{
+  font-size: 34px;
+}
+.content-span p{
+  font-size: 16px;
+
+}
+
+.program-list h2{
+  font-size: 32px;
+}
+.program-list h5{
+  font-size: 18px;
+}
+.button-program a{
+  font-size: 16px;
+  padding: 10px 25px;
+}
+
+ .testimonial > h1 {
+  font-size: 26px;
+}
+.testimonial > h5 {
+  font-size: 16px;
+}
+
+
+}
+
+@media only screen and (max-width: 426px) {
+  .carousel h1 {
+  font-size: 50px;
+  line-height: 70px;
+  }
+  span.garis-hijau {
+    padding: 0;
+
+  }
+
+    /* about us */
+    .about-teks {
+    text-align: center  ;
+    padding: 50px 30px;
+  }
+  .about-teks  p:last-child{
+  font-size: 14px;  
+  line-height: 25px;
+  }
+  .about-teks h1 {
+   font-size: 28px;
+  }
+
+  /* founder */
+  .founder span h1 {
+  font-size: 28px;
+  }
+  .founder span p {
+  font-size: 14px;
+  line-height: 25px;
+  margin: 0 30px 30px 30px;
+  }
+  .button-founder a{
+  font-size: 14px;
+  padding: 10px 20px;
+ }
+ 
+ 
+ /* our program */
+  .content-span h1{
+  font-size: 28px;
+  font-weight: 700;
+}
+.content-span p{
+  font-size: 14px;
+  line-height: 25px;
+}
+.program-img {
+  display: none;
+ } 
+
+
+.program-list h2{
+  font-size: 26px;
+}
+.program-list h5{
+  font-size: 16px;
+}
+.button-program a{
+  font-size: 14px;
+  padding: 10px 20px;
+}
+
+ .testimonial > h1 {
+  font-size: 22px;
+}
+.testimonial > h5 {
+  font-size: 14px;
+}
+
+
+/* card student */
+.card-student h3{
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.card-student p{
+  font-size: 14px;
+}
+
+
+/* volenter card */
+  .volounteer-card p{
+    font-size: 14px;
+  }
 }
 </style>
