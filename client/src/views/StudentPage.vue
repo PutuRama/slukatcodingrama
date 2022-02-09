@@ -87,7 +87,7 @@
         />
         <h1>William Saputra</h1>
         <p>
-          Since joining the Slukat Learning Center, I have gained a lot of knowledge and experience. And following the organization that is here has trained my leadership style.
+          The first time I came in and got accepted at slukat learning center was a great opportunity for me. I loved when I was in the Slukat learning center's .This place taught me a lot of things, from my improved English skills, and then I learned the right attitude to other people, and so I learned to customize here slukat gives me a lot of motivation, starting with how I communicate in front of people, and then get along with other people. I hope that a slukat learning center can be a growing learning place in the future.
         </p>
       </div>
         </div>
@@ -367,7 +367,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 10px;
-  padding: 30px 0 500px 0;
+  padding: 30px 0 600px 0;
   margin:50px auto; /* Added */
   float: none; /* Added */
   margin-bottom: 10px; /* Added */
