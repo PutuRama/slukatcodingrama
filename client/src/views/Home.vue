@@ -127,7 +127,7 @@
               </router-link>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
-              <router-link class="program-link" to="/program/coding">
+              <router-link class="program-link" to="/program/agriculture">
                 <img
                   src="../assets/img/Rectangle76.png"
                   alt=""
@@ -138,7 +138,7 @@
               </router-link>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
-              <router-link class="program-link" to="/program/coding">
+              <router-link class="program-link" to="/program/english">
                 <img
                   src="../assets/img/Rectangle75.png"
                   alt=""
@@ -149,7 +149,7 @@
               </router-link>
             </div>
                    <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
-              <router-link class="program-link" to="/program/coding">
+              <router-link class="program-link" to="/program/enterprenuer">
                 <img
                   src="../assets/img/Rectangle77.jpg"
                   alt=""
