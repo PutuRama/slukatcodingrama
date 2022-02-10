@@ -13,18 +13,22 @@
             </aside>
         </div>
 
+
+
         <div class="text-top">
             <div class="row">
             <div class="col-12 top-text">
             <h1>Reading English books in the library of Slukat Learning Center</h1>
             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque, eligendi voluptates eos quibusdam vero! Maxime, quae. Suscipit dolores rem doloribus reiciendis nostrum harum ea dolore sequi quasi, labore molestiae!</h5>
             </div>
+
             <div class="col img-top">
-                <img src="../assets/english1.jpeg" alt=""> <br><br>
-                <figcaption style="color: grey">Photo by: Slukat Learning Center</figcaption>
+            <img src="../assets/english1.jpeg" alt=""> <br><br>
+            <figcaption style="color: grey">Photo by: Slukat Learning Center</figcaption>
             </div>
             <div class="col-12 mobile-text">
             <h1>Reading English books in the library of Slukat Learning Center</h1>
+            <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque, eligendi voluptates eos quibusdam vero! Maxime, quae. Suscipit dolores rem doloribus reiciendis nostrum harum ea dolore sequi quasi, labore molestiae!</h5>
             </div>
 
         <div class="text-opening">
@@ -79,6 +83,15 @@
     color: grey;
 }
 .mobile-text{
+    text-align: left;
+    display: inline;
+    margin-left: 10%;
+    margin-bottom: 2%;
+}
+.mobile-text h5{
+    color: grey;
+}
+.mobile-text{
     display: none;
 }
 .img-top{
@@ -88,6 +101,15 @@
 .img-top img{
     width: 80%;
     height: auto;
+}
+
+@media screen and (max-width: 575px) {
+    .top-text{
+        display: none;
+    }
+    .mobile-text{
+        display: block;
+    }
 }
 
 .text-opening p{
