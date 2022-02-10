@@ -70,18 +70,21 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
-        <a href="">  
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
+        <router-link style="text-decoration: none; color: black;" to="/detail-activities">
+         <a href="">
          <img src="../assets/english1.jpeg" alt="">
-          </a> 
-          <div class="daily-text">
+           </a> 
+           <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 June 2017</span>
             <h5><a href="">Reading English books in the library of Slukat Learning Center</a></h5>
           </div>
+           </router-link>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
+         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
          <img src="../assets/english2.jpeg" alt="">
            </a> 
            <div class="daily-text">
@@ -89,10 +92,10 @@
             <h5><a href="">Take memorable photos with Volunteers who teach English</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
+         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
-         <img src="../assets/english3.jpg" alt="">
+         <img src="../assets/english3.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 July 2016</span>
@@ -109,18 +112,19 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
-        <a href="">  
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
+         <a href="">
          <img src="../assets/coding.jpeg" alt="">
-          </a> 
+           </a> 
           <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 10 July 2018</span>
             <h5><a href="">Coding seminar activities for novice Young Programmers</a></h5>
             </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
+         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
          <img src="../assets/coding2.jpeg" alt="">
            </a> 
            <div class="daily-text">
@@ -128,12 +132,12 @@
             <h5><a href="">Programmer Bootcamp Activities to improve Young Programmer's skills</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
          <img src="../assets/coding3.jpeg" alt="">
            </a> 
-           <div class="daily-text">
+          <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 12 January 2022</span>
             <h5><a href="">Teaching and learning activities about coding for new Programmers</a></h5>
           </div>
@@ -149,18 +153,19 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
-        <a href="">  
+         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
+         <a href="">
          <img src="../assets/enter1.jpeg" alt="">
-          </a> 
-          <div class="daily-text">
+           </a> 
+           <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 11 January 2022</span>
             <h5><a href="">Introductory activities about the world of Entrepreneur</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
          <img src="../assets/enter2.jpeg" alt="">
            </a> 
            <div class="daily-text">
@@ -168,9 +173,9 @@
             <h5><a href="">Business discussions that are needed in the future</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
+         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
          <img src="../assets/enter3.jpeg" alt="">
            </a> 
            <div class="daily-text">
@@ -190,28 +195,30 @@
         </div>
       <div class="row row-daily">
     
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="1500">
-        <a href="">  
-         <img src="../assets/agri1.jpeg" alt="">
-          </a> 
-          <div class="daily-text">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         <a href="">
+         <img src="../assets/agri3.jpeg" alt="">
+           </a> 
+            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 02 November 2021</span>
             <h5><a href="">Seed planting activities</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2000">
+
+         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
-         <img src="../assets/agri2.jpeg" alt="">
+         <img src="../assets/agri3.jpeg" alt="">
            </a> 
            <div class="daily-text">
             <p>ABOUT STUDENT</p><span> 20 November 2021</span>
             <h5><a href="">The previously planted seeds have grown big</a></h5>
           </div>
         </div>
+
         <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+         
          <a href="">
-  
          <img src="../assets/agri3.jpeg" alt="">
            </a> 
            <div class="daily-text">
@@ -220,6 +227,7 @@
           </div>
         </div>
       </div>
+
     </div>
     <br><br><br>
 
