@@ -44,6 +44,11 @@ const routes = [
     component: () => import('@/views/pages/account-settings/AccountSettings.vue'),
   },
   {
+    path: "/slukatweb/settings",
+    name: 'slukat-web-settings',
+    component: () => import('@/views/pages/slukat-web-settings/AccountSettings.vue'),
+  },
+  {
     path: '/pages/login',
     name: 'pages-login',
     component: () => import('@/views/pages/Login.vue'),
