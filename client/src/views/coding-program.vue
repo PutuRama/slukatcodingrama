@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12" data-aos="fade-right" data-aos-duration="2000">
             <h1><span class="bg-hijau">Coding</span>Class</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed voluptatibus voluptates, alias illum quis unde tempore quaerat dolor eveniet necessitatibus aliquam temporibus odit, sunt aut! Cupiditate corporis aperiam dolores asperiores?</p>
+            <p>We know that in this modern era, programmers are indispensable. Even big companies are looking for programmers to work in their companies, with the Coding Program at Slukat Learning Center, we hope our students can create very useful products for the future.</p>
              <button type="button" class="btn btn-success btn-lg activity-button" >Enroll now!  </button>
         </div>
         <div class="col " data-aos="zoom-in-up" data-aos-duration="2000">
