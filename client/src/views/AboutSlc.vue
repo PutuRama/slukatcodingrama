@@ -195,7 +195,7 @@
 
       <div class="team-mobile">
         <div class="founder">
-            <div class="row">
+            <div class="row" data-aos="zoom-in-up" data-aos-duration="2000" >
               <div class="col-12">
                 <h3>FOUNDER</h3>
               </div>
@@ -209,15 +209,15 @@
           </div>
         </div>
         <div class="director">
-            <div class="row">
-              <div class="col-12">
+            <div class="row" >
+              <div class="col-12" data-aos="zoom-in-up" data-aos-duration="2000">
                 <span>
                   <div><h3>DIRECTOR</h3></div>
                   <img src="../assets/BuAyu.jpeg" alt=""><br>
                   <h5>I Gusti Agung Ayu Pramitasari</h5>
                 </span>
               </div>
-              <div class="col-12">
+              <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
                 <span>
                   <div><h3>MANAGER</h3></div>
                   <img src="../assets/kaaguskris.jpg" alt=""><br>
@@ -226,7 +226,7 @@
                   </h5>
                 </span>
               </div>
-              <div class="col-12">
+              <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
                 <span>
                   <div><h3>TREASURE</h3></div>
                   <img src="../assets/MbokNopi.jpeg" alt=""><br>
@@ -238,7 +238,7 @@
 
         <div class="secretary">
             <div class="row">
-              <div class="col-12">
+              <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
                 <span>
                   <div><h3>ENGLISH COORDINATOR</h3></div>
                   <img src="../assets/MbokGung.jpeg" alt=""><br>
@@ -247,14 +247,14 @@
                   </h5>
                 </span>
               </div>
-              <div class="col-12">
+              <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
                 <span>
                   <div><h3>SECRETARY</h3></div>
                   <img src="../assets/mbokCantik.jpg" alt=""><br>
                   <h5>Luh Komang Anggi Waisnawati</h5>
                 </span>
               </div>
-              <div class="col-12">
+              <div class="col-12" data-aos="fade-up" data-aos-duration="2000">
                 <span>
                   <div><h3>DIGITAL DEVELOPMENT</h3></div>
                   <img src="../assets/BliMang.jpeg" alt=""><br>
