@@ -22,15 +22,21 @@
 
         <div class="row social-media">
           <div class="col nopadding">
-            <i class="fab fa-instagram"></i><br />
+            <div class="icon-text">
+              <i class="fab fa-instagram"></i><br />
+            </div>
             <p>Slukat</p>
           </div>
           <div class="col nopadding">
-            <i class="fab fa-facebook"></i><br />
+            <div class="icon-text">
+              <i class="fab fa-facebook"></i><br />
+            </div>
             <p>Slukat</p>
           </div>
           <div class="col nopadding">
-            <i class="fab fa-twitter"></i><br />
+            <div class="icon-text">
+              <i class="fab fa-twitter"></i><br />
+            </div>
             <p>Slukat</p>
           </div>
         </div>
@@ -45,18 +51,18 @@
           </div>
           <div class="col-sm-12 col-md-3">
             <h5>About Us</h5>
-            <router-link to="/about/slc"><span class="route-link">SLC</span></router-link><br />
-            <router-link to="/about/student"><span class="route-link">Student</span></router-link><br />
-            <router-link to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
+            <router-link class="router" to="/about/slc"><span class="route-link">SLC</span></router-link><br />
+            <router-link class="router" to="/about/student"><span class="route-link">Student</span></router-link><br />
+            <router-link class="router" to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
             ><br /><br />
           </div>
           <div class="col-sm-12 col-md-3">
             <h5>Our Programs</h5>
-            <router-link to="/program/english"
+            <router-link class="router" to="/program/english"
               ><span class="route-link">English Program</span></router-link
             ><br />
-            <router-link to="/about/coding"><span class="route-link">Coding Program</span></router-link><br />
-            <router-link to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
+            <router-link class="router" to="/about/coding"><span class="route-link">Coding Program</span></router-link><br />
+            <router-link class="router" to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
             ><br /><br />
           </div>
           <div class="col-sm-12 col-md-3">
@@ -82,8 +88,13 @@
   }
 }
 
-.route-link{
+.route-link {
   color: rgb(252, 252, 252);
+  
+}
+
+.router:hover {
+  text-decoration: white solid underline;
 }
 h5{
   font-weight: 900;
@@ -117,17 +128,23 @@ h5{
   max-width: 350px;
   margin: 30px auto;
 }
-.social-media i {
-  font-size: 35px;
+.icon-text {
+  font-size: 30px;
 }
 @media screen and (max-width:750px) {
   .social-media{
-    font-size: 24px;
+    font-size: 20px;
+  }
+  .icon-text {
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 400px) {
   .input-group{
     padding: 0 15px 0 15px;
+  }
+  .icon-text {
+    font-size: 26px;
   }
 }
 
