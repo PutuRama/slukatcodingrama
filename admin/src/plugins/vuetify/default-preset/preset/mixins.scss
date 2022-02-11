@@ -6,12 +6,12 @@
   }
 
   &:hover::before {
-    background-color: rgba(94, 86, 105, map-deep-get($material, 'states', 'hover'));
+    background-color: rgb(88, 105, 86, map-deep-get($material, 'states', 'hover'));
     // opacity: 1 !important;
   }
 
   &:focus::before {
-    background-color: rgba(94, 86, 105, map-deep-get($material, 'states', 'focus'));
+    background-color: rgba(88, 105, 86, map-deep-get($material, 'states', 'focus'));
     // opacity: 1 !important;
   }
 
@@ -24,12 +24,12 @@
 @mixin app-active-states($material) {
   &:hover::before,
   &::before {
-    background-color: rgba(94, 86, 105, map-deep-get($material, 'states', 'activated'));
+    background-color: rgb(86, 105, 91, map-deep-get($material, 'states', 'activated'));
     // opacity: 1 !important;
   }
 
   &:focus::before {
-    background-color: rgba(94, 86, 105, map-deep-get($material, 'states', 'pressed'));
+    background-color: rgba(86, 105, 91, map-deep-get($material, 'states', 'pressed'));
     // opacity: 1 !important;
   }
 }

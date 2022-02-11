@@ -6,7 +6,7 @@ $shades: (
   'transparent': transparent,
 );
 
-$primary-shade--light: #5e5669;
+$primary-shade--light: #566958;
 $primary-shade--dark: #e7e3fc;
 $shadow-color--light: $primary-shade--light;
 $shadow-color--dark: #131120;
@@ -124,7 +124,7 @@ $material-light: map-deep-merge(
     'app-bar': map-get($shades, 'white'),
     'background': #f4f5fa,
     'calendar': (
-      'line-color': rgba(93, 89, 98, 0.1),
+      'line-color': rgba(89, 98, 89, 0.1),
       // ! Value of `map-deep-get($material-dark, 'cards')`
         'outside-background-color': transparent,
     ),
@@ -265,12 +265,12 @@ $material-dark: map-deep-merge(
   $material-dark,
   (
     // ! Value of `map-deep-get($material-dark, 'cards')`
-      'app-bar': #312d4b,
-    'background': #28243d,
+      'app-bar': #2d4b32,
+    'background': #243d2b,
     'cards': #312d4b,
     'calendar': (
       // ! Value of `map-deep-get($material-dark, 'cards')`
-        'background-color': #312d4b,
+        'background-color': #2d4b39,
       'line-color': rgba(247, 244, 254, 0.14),
       // ! Value of `map-deep-get($material-dark, 'cards')`
         'outside-background-color': transparent
@@ -432,7 +432,7 @@ $dialog-card-actions-padding: 0 $card-spacer $card-spacer;
 //* ——— Tooltip ——————————————————
 //
 
-$tooltip-background-color: rgba(59, 55, 68, 0.9);
+$tooltip-background-color: rgba(56, 68, 55, 0.9);
 $tooltip-text-color: #fff;
 $tooltip-font-size: 0.75rem;
 
@@ -454,7 +454,7 @@ $date-picker-header-button-font-weight: 500;
 //* ——— Snackbar ——————————————————
 //
 
-$snackbar-background-color: rgba(59, 55, 68, 0.9);
+$snackbar-background-color: rgba(55, 68, 57, 0.9);
 $snackbar-color: #fff;
 
 //
