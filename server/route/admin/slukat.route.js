@@ -7,5 +7,6 @@ const router = express.Router();
 
 router.post("/testi/volounteer", (req, res) => slukatController.addVolounteerTesti(req, res));
 router.post("/testi/student", (req, res) => slukatController.addStudentTesti(req, res));
+router.post("/activity", (req, res) => slukatController.addActivity(req, res));
 
 module.exports = router;

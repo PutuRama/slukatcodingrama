@@ -21,7 +21,6 @@ app.use("/api/auth", authRouter);
 app.use("/api/user", userRouter);
 app.use("/api/slukat", slukatRoute);
 
-
 // admin route
 app.use("/admin/auth",adminAuthRouter);
 app.use("/admin/slukat",adminSlukatRoute);

@@ -48,8 +48,8 @@ module.exports = {
 
         return response(true, "VALID_INPUT", "valid Input", null);
     },
-    inputLogOut: function (inputToken) {
 
+    inputLogOut: function (inputToken) {
         // check token is not null
         if (inputToken == null) {
             return response(false, "TOKEN_NULL", "Your token is empty", null);
@@ -57,6 +57,27 @@ module.exports = {
 
         return response(true, "VALID_INPUT", "valid input", null);
 
+    },
+
+    inputAddVolounteerTesi: function (name, country, text) {
+        if (name == null || country == null || text == null) {
+            return response(false, "NULL_FIELD", "All Field not allowed to be empty", null);
+        }
+        return response(true, "VALID", "valid input", null);
+    },
+
+    inputAddActivity: function (title, desc) {
+        if (title == null || desc == null) {
+            return response(false, "NULL_FIELD", "All Field not allowed to be empty", null);
+        }
+        return response(true, "VALID", "valid input", null);
+    },
+
+    inputAddStudent: function (name, address, text) {
+        if (name == null || address == null || text == null) {
+            return response(false, "NULL_FIELD", "All Field not allowed to be empty", null);
+        }
+        return response(true, "VALID", "valid input", null);
     }
 
 }
