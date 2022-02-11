@@ -258,7 +258,7 @@
 }
 .social .button-overlay:hover .text-button{
     transform: translateY(40px);
-    transition-delay: 0.9s;
+    transition-delay: 0.4s;
     opacity: 1;
 }
  
