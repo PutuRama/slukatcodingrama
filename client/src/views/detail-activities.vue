@@ -4,36 +4,82 @@
         <div class="side">
             <aside id="sidebar">
                 <ul class="list-group list-group-flush">
-                <li class="list-group-item"><img src="../assets/unsplash_GVheioPZdpk.png" alt=""></li>
-                <li class="list-group-item">Mrs. I Gusti Ayu Darsini & Mr. I Gusti Agung Rai</li>
-                <li class="list-group-item">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad obcaecati quasi suscipit! Nobis asperiores quidem iure nesciunt qui, voluptatem doloremque consequuntur rerum, cumque dicta mollitia voluptates quo? Totam, magni id?</li>
+                <li class="list-group-item"><img src="../assets/img/logo_slukat.png" alt=""></li>
+                <br>
+                <li class="list-group-item">Follow Our Media Social</li> <br>
+                <div class="media-social">
+                    <div class="row no.gutters">
+                        <div class="col-sm-3 social">
+                            <div class="icon">
+                                <img style="width: 34px; height: 34px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/2048px-Instagram_icon.png" alt="">
+                            </div>
+                              <div class="button-overlay">
+                                  <a href="">
+                                  <button class="text-button">
+                                     Follow
+                                  </button>
+                                  </a> 
+                              </div>
+                        </div>
+                        <div class="col-sm-3 social">
+                            <div class="icon">
+                              <i style="font-size: 34px;  color: #3b5998 " class="fab fa-facebook"></i><br />
+                            </div>
+                              <div class="button-overlay">
+                                  <a href="">
+                                  <button class="text-button">
+                                     Follow
+                                  </button>
+                                  </a> 
+                              </div>
+                        </div>
+                        <div class="col-sm-3 social">
+                            <div class="icon">
+                              <i style="font-size: 34px; color: #c4302b " class="fab fa-youtube"></i><br />
+                            </div>
+                              <div class="button-overlay">
+                                  <a href="">
+                                  <button style="margin-left: -30%; " class="text-button">
+                                     Subscribe
+                                  </button>
+                                  </a> 
+                              </div>
+                        </div>
+                    </div>
+                    
+                </div>
                 <br>
                 <br>
                 <br>
-                <li class="list-group-item">Related</li>
+                <li class="list-group-item"><span style="border-bottom: 2px solid #5cd45e ">Recent Post</span></li>
                 <div class="row">
                     <div class="col col-md-12 related">
                         <img src="../assets/home-volounter-1.jpg" alt="">
                         <div class="col text-img">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum fugiat assumenda, deleniti ratione sit, nemo asperiores sed voluptate voluptas explicabo accusantium odit. Id, ducimus obcaecati. Explicabo ab tempore reiciendis asperiores.</p>
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
                         </div>
                     </div>
                     <div class="col col-md-12 related">
                         <img src="../assets/home-volounter-1.jpg" alt="">
                         <div class="col text-img">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum fugiat assumenda, deleniti ratione sit, nemo asperiores sed voluptate voluptas explicabo accusantium odit. Id, ducimus obcaecati. Explicabo ab tempore reiciendis asperiores.</p>
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
                         </div>
                     </div>
                     <div class="col col-md-12 related">
                         <img src="../assets/home-volounter-1.jpg" alt="">
                         <div class="col text-img">
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum fugiat assumenda, deleniti ratione sit, nemo asperiores sed voluptate voluptas explicabo accusantium odit. Id, ducimus obcaecati. Explicabo ab tempore reiciendis asperiores.</p>
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
                         </div>
                     </div>
                 </div>
                 </ul>
             </aside>
         </div>
+
+
 
 
 
@@ -52,7 +98,6 @@
             <h1>Reading English books in the library of Slukat Learning Center</h1>
             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque, eligendi voluptates eos quibusdam vero! Maxime, quae. Suscipit dolores rem doloribus reiciendis nostrum harum ea dolore sequi quasi, labore molestiae!</h5>
             </div>
-
         <div class="text-opening">
             <div class="row">
             <div class="col first-text">
@@ -78,7 +123,24 @@
         </div>
             </div>
         </div>
+        
 
+
+        <div class="end-content">
+            <div class="row">
+                <div class="col content">
+                    <div class="content-text">
+                    <h5>More Recent Post</h5>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, tempore corporis iste veritatis quibusdam, ea rerum sequi dolor dignissimos obcaecati quo optio. Nesciunt libero id repellat similique dolorum asperiores iure.</p>
+                    </div>
+                </div>
+                <div class="col button-more">
+                    <button class="more">
+                        More
+                    </button>
+                </div>
+            </div>
+        </div>
 
     </div>
 </template>
@@ -116,7 +178,7 @@
     max-width: 100%;
 }
 .related img{
-    width: 20%;
+    width: auto;
     height: 100px;
     object-fit: cover;
     padding-left: 6%;
@@ -128,24 +190,79 @@
     font-size: 13px;
 }
 
+
+
+
 .list-group .list-group-item{
     border: none;
 }
-.side .list-group-item:nth-child(2) {
-     background-color: #52b054;
-     margin: 0 12% 0 12%;
-     font-weight: bold;
-     color: white;
-}
+ 
 .side .list-group-item img:nth-child(1){
-    width: 30%;
+    width: 60%;
 }
-.side .list-group-item:nth-child(7) {
+.side .list-group-item:nth-child(9) {
     text-align: left;
+    margin-top: 5%;
     font-weight: bold;
 }
 
-
+.row .no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row .no-gutters > [class^="col-"],
+.row .no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.social .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-left: 50%;
+}
+.social .icon i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.social .button-overlay{
+    position: absolute;
+    top: 0;
+    left: 68%;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: flex-end;
+}
+ 
+.social .button-overlay .text-button{
+    color: white;
+    transition: 0.5s;
+    margin-bottom: 5px;
+    transform: translateY(0);
+    border: none;
+    opacity: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    padding: 2px 10px 2px 10px;
+    font-weight: bold;
+    background-color: #a1ee9f;
+}
+.social .button-overlay:hover .text-button{
+    transform: translateY(40px);
+    transition-delay: 0.9s;
+    opacity: 1;
+}
+ 
+ 
 
 
 
@@ -203,5 +320,18 @@
     text-align: left;
     display: inline;
     margin-left: 11%;
+}
+
+
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left; 
+    margin: 10px auto;
+    max-width: 100%;
+}
+.content-text p{
+    display: inline-block;
 }
 </style>
