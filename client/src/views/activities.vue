@@ -65,9 +65,7 @@
         <br><br><br><br>
         <h2>Our Daily Activities</h2>
       </div>
-        <div class="col daily-english">
-          <h4 style="text-align: left; padding-left: 10%"><b>English Class</b> </h4> <br>
-        </div>
+       
       <div class="row row-daily">
         
         <!-- english -->
