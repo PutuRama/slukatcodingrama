@@ -359,7 +359,7 @@ span.garis-hijau {
 /* on top */
 .banner {
   width: 100%;
-  background-image: url("../assets/img/banner1.jpg");
+  background-image: url("../assets/img/banner1-webp.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;

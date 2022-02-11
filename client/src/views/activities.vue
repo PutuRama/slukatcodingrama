@@ -242,7 +242,7 @@
   width: 100%;
   height: 100%;
   position:absolute;
-  background-image: url("../assets/home-activities-2-2x3.jpg");
+  background-image: url("../assets/img/home-activities-2-2x3-webp.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
