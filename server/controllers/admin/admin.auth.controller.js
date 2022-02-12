@@ -75,7 +75,7 @@ module.exports = {
                 }
 
                 // the new data authToken that will be insert to db 
-                const newToken = Auth(result[0].userId, generateToken(20), new Date());
+                const newToken = Auth(result[0].userId, generateToken(), new Date());
 
                 // add new doc authToken
                 dbConnect.collection("adminAuth").insertOne(newToken, function (err, result) {

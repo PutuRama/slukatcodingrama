@@ -1,6 +1,6 @@
 const { response } = require("../../response/response")
 const db = require("../../db/db");
-const { generateUserId } = require("../../util/generator.util")
+const { generateItemId } = require("../../util/generator.util")
 const { inputAddVolounteerTesi, inputAddActivity, inputAddStudent } = require('../../util/validator.util')
 
 module.exports = {
@@ -20,7 +20,7 @@ module.exports = {
             "category": "TESTI-VOLOUNTEER",
             "text": req.body.text,
             "createdAt": new Date(),
-            "id": "TESTI-" + generateUserId(),
+            "id": "TESTI-" + generateItemId(),
             "imgUrl": filePath
         }
 
@@ -55,7 +55,7 @@ module.exports = {
             "category": "TESTI-STUDENT",
             "text": req.body.text,
             "createdAt": new Date(),
-            "id": "TESTI-" + generateUserId(),
+            "id": "TESTI-" + generateItemId(),
             "imgUrl": filePath
         }
 
@@ -86,7 +86,7 @@ module.exports = {
             "title": req.body.title,
             "description": req.body.description,
             "createdAt": new Date(),
-            "id": "ACTIVITY-" + generateUserId(),
+            "id": "ACTIVITY-" + generateItemId(),
             "imgUrl": filePath
         }
 

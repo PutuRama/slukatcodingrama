@@ -1,6 +1,5 @@
 const { response } = require("../../response/response")
 const db = require("../../db/db");
-const { generateUserId } = require("../../util/generator.util")
 
 module.exports = {
     getVolounteerTesti: async function (req, res) {
@@ -41,7 +40,7 @@ module.exports = {
                 if (result[0] == null) {
                     return res.json(response(true, "SUCCESS_GET_DATA", "Data is Empty", result));
                 }
-                
+
                 return res.json(response(true, "SUCCESS_GET_DATA", "Success Get Data From Database", result));
             })
     },
@@ -60,6 +59,23 @@ module.exports = {
                     return res.json(response(true, "SUCCESS_GET_DATA", "Data is Empty", result));
                 }
                 return res.json(response(true, "SUCCESS_GET_DATA", "Success Get Data From Database", result));
+            })
+    },
+    getActivityById: async function (req, res) {
+        const dbConnect = db.getDb();
+        dbConnect
+            .collection("activities")
+            .find({ "id": req.params.id })
+            .toArray(function (err, result) {
+                if (err) {
+                    console.error(err);
+                    return res.json(response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null));
+                }
+                //check result if null
+                if (result[0] == null) {
+                    return res.json(response(true, "SUCCESS_GET_DATA", "Data is Empty", result));
+                }
+                return res.json(response(true, "SUCCESS_GET_DATA", "Success Get Data From Database", result[0]));
             })
     }
 }
