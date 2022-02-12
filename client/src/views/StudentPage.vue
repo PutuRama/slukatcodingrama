@@ -390,7 +390,7 @@
   margin-bottom: 10px; /* Added */
   width: 400px;
   position: relative;
-  height: 450px;
+  height: 600px;
 
 }
 .volunteers-card .icon img{
