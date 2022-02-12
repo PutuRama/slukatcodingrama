@@ -284,14 +284,14 @@
     flex-wrap: wrap;
     width: 150px;
   }
-}
-
-@media screen and (max-width: 350px){
-   .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
-    display: flex;
-    flex-wrap: wrap;
-    width: 140px;
+  .title h1{
+    font-size: 34px;
   }
+   .title p{
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 550px) {
   .vision .row{
     display: grid;
   }
@@ -300,10 +300,29 @@
   background-size: cover;
   background-image: url('../assets/student4.jpeg');
   background-repeat: no-repeat;
-  height: 250px;
-  max-width: 380px;
+  height: 300px;
+  max-width: 550px;
   object-fit: cover;
 
+  }
+    .title h1{
+    font-size: 28px;
+  }
+   .title p{
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 350px){
+   .banner .carousel-image:nth-child(2),.banner .carousel-image:nth-child(3){
+    display: flex;
+    flex-wrap: wrap;
+    width: 140px;
+  }
+    .title h1{
+    font-size: 34px;
+  }
+   .title p{
+    font-size: 16px;
   }
  
 }
@@ -315,13 +334,11 @@
   align-items: center;
 }
 .title h1{
-  font-size: 48px;
   margin-bottom: 20px;
   color: #000000;
   font-weight: bold;
 }
 .title p{
-  font-size: 24px;
   width: 50%;
   text-align: center;
 }
