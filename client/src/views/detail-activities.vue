@@ -2,7 +2,7 @@
     <div class="detail">
         
         <div class="side">
-            <aside id="sidebar">
+            <aside  id="sidebar">
                 <ul class="list-group list-group-flush">
                 <li class="list-group-item"><img src="../assets/img/logo_slukat.png" alt=""></li>
                 <br>
@@ -74,6 +74,27 @@
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
                         </div>
                     </div>
+                    <div class="col col-md-12 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col col-md-12 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col col-md-12 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
                 </div>
                 </ul>
             </aside>
@@ -121,9 +142,7 @@
             </div>
             </div>
         </div>
-            </div>
-        </div>
-        
+
 
 
         <div class="end-content">
@@ -136,11 +155,66 @@
                 </div>
                 <div class="col button-more">
                     <button class="more">
-                        More
+                        <span>More</span> 
                     </button>
                 </div>
             </div>
+            <div class="recent">
+                <h5>More from Slukat Learning Center</h5>
+                <div class="col recent-post">
+                    <div class="col-8 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col-8 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col-8 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                       <div class="col-8 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col-8 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col-8 related">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+
+                    <h1>BELUM SELESAI</h1>
+                </div>
+            </div>
         </div>
+        
+            </div>
+        </div>
+        
+
+
 
     </div>
 </template>
@@ -163,7 +237,7 @@
   float: right;
   padding-left: 1em;
   border-left: 1px solid rgb(230, 230, 230);
-  height: 1000px;
+  height: 2000px;
 }
  
 @media screen and (max-width: 1080px) {
@@ -323,15 +397,52 @@
 }
 
 
-
+.end-content{
+    margin-top: 3%;
+    padding: 5% 0 5% 0;
+    background-color: #F6FEF5;
+}
 .content{
     display: flex;
     flex-wrap: wrap;
     text-align: left; 
     margin: 10px auto;
     max-width: 100%;
+
 }
-.content-text p{
+.more{
+    border: none;
+    padding: 0 10px 5px 20px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s;
     display: inline-block;
+    background-color: #a1ee9f;
+}
+.more span::after{
+  content: '\00bb';
+  opacity: 0;
+  color: #a1ee9f;
+  transition: 0.5s;
+  font-size: 25px;
+}
+.more:hover {
+    background-color: transparent;
+    border: 2px solid #a1ee9f;
+    color: #a1ee9f;
+}
+
+.more:hover span:after {
+  opacity: 1;
+  right: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.content-text {
+    display: inline-block;
+    margin-left: 24%;
+
 }
 </style>
