@@ -41,7 +41,7 @@ module.exports = {
                 if (result[0] == null) {
                     return res.json(response(true, "SUCCESS_GET_DATA", "Data is Empty", result));
                 }
-
+                
                 return res.json(response(true, "SUCCESS_GET_DATA", "Success Get Data From Database", result));
             })
     },

@@ -11,19 +11,23 @@ module.exports = {
             response(false, "INVALID_INPUT", "Please Check Your Input", null)
         }
 
-        var newTesti = {
+        const host = req.host;
+        const filePath = req.protocol + "://" + host + '/' + req.file.path;
+
+        var newVolounteer = {
             "name": req.body.name,
             "country": req.body.country,
             "category": "TESTI-VOLOUNTEER",
             "text": req.body.text,
             "createdAt": new Date(),
-            "id": "TESTI-" + generateUserId()
+            "id": "TESTI-" + generateUserId(),
+            "imgUrl": filePath
         }
 
         const dbConnect = db.getDb();
         dbConnect
             .collection("volounteer")
-            .insertOne(newTesti, function (err, result) {
+            .insertOne(newVolounteer, function (err, result) {
                 if (err) {
                     console.error(err);
                     return res.json(
@@ -31,7 +35,7 @@ module.exports = {
                     );
                 }
 
-                return res.json(response(true, "SUCCESS_ADD_DATA", "Succes to add data to database ", newTesti))
+                return res.json(response(true, "SUCCESS_ADD_DATA", "Succes to add data to database ", newVolounteer))
             })
 
     },
@@ -40,19 +44,25 @@ module.exports = {
         if (!validInput) {
             response(false, "INVALID_INPUT", "Please Check Your Input", null)
         }
-        var newTesti = {
+
+
+        const host = req.host;
+        const filePath = req.protocol + "://" + host + '/' + req.file.path;
+
+        var newStudent = {
             "name": req.body.name,
             "address": req.body.address,
             "category": "TESTI-STUDENT",
             "text": req.body.text,
             "createdAt": new Date(),
-            "id": "TESTI-" + generateUserId()
+            "id": "TESTI-" + generateUserId(),
+            "imgUrl": filePath
         }
 
         const dbConnect = db.getDb();
         dbConnect
             .collection("student")
-            .insertOne(newTesti, function (err, result) {
+            .insertOne(newStudent, function (err, result) {
                 if (err) {
                     console.error(err);
                     return res.json(
@@ -60,7 +70,7 @@ module.exports = {
                     );
                 }
 
-                return res.json(response(true, "SUCCESS_ADD_DATA", "Succes to add data to database ", newTesti))
+                return res.json(response(true, "SUCCESS_ADD_DATA", "Succes to add data to database ", newStudent))
             })
 
     },
@@ -69,12 +79,15 @@ module.exports = {
         if (!validInput) {
             response(false, "INVALID_INPUT", "Please Check Your Input", null)
         }
+        const host = req.host;
+        const filePath = req.protocol + "://" + host + '/' + req.file.path;
 
         var newActivity = {
             "title": req.body.title,
             "description": req.body.description,
             "createdAt": new Date(),
-            "id": "ACTIVITY-" + generateUserId()
+            "id": "ACTIVITY-" + generateUserId(),
+            "imgUrl": filePath
         }
 
         const dbConnect = db.getDb();
