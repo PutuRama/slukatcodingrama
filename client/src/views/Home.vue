@@ -8,7 +8,7 @@
         </div>
         <div class="col-lg-5 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
           <span class="image">
-            <img src="../assets/img/3-photo.png" alt="" />
+            <img src="../assets/img/3-photo.png" alt="home banner" />
           </span>
         </div>
       </div>
@@ -19,12 +19,12 @@
       <div class="row" style="z-index: 5; position: relative">
         <div class="col-md-12 col-sm-6 about-img-mobile" >
           <div class="col column">
-            <img data-aos="fade-down-right" data-aos-duration="2000" src="../assets/img/children.jpg" alt="" />
-            <img data-aos="fade-down-left" data-aos-duration="2000" src="../assets/img/child-bule.jpeg" alt="" />
+            <img data-aos="fade-down-right" data-aos-duration="2000" src="../assets/img/children-webp.webp" alt="about us 1" />
+            <img data-aos="fade-down-left" data-aos-duration="2000" src="../assets/img/child-bule-webp.webp" alt="about us 2" />
           </div>
           <div class="col column">
-            <img data-aos="fade-up-right" data-aos-duration="2000" src="../assets/img/all-seminar.jpeg" alt="" />
-            <img  data-aos="fade-up-left" data-aos-duration="2000" src="../assets/img/children-read.jpeg" alt="" />
+            <img data-aos="fade-up-right" data-aos-duration="2000" src="../assets/img/all-seminar-webp.webp" alt="about us 3" />
+            <img  data-aos="fade-up-left" data-aos-duration="2000" src="../assets/img/children-read-webp.webp" alt="about us 4" />
           </div>
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 about-teks" data-aos="fade-right" data-aos-duration="2000">
@@ -37,12 +37,12 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 about-img" >
           <div class="col column" >
-            <img data-aos="fade-down-right" data-aos-duration="2000" src="../assets/img/children.jpg" alt="" />
-            <img data-aos="fade-down-left" data-aos-duration="2000" src="../assets/img/child-bule.jpeg" alt="" />
+            <img data-aos="fade-down-right" data-aos-duration="2000" src="../assets/img/children-webp.webp" alt="about us 1" />
+            <img data-aos="fade-down-left" data-aos-duration="2000" src="../assets/img/child-bule-webp.webp" alt="about us 2" />
           </div>
           <div class="col column">
-            <img data-aos="fade-up-right" data-aos-duration="2000" src="../assets/img/all-seminar.jpeg" alt="" />
-            <img data-aos="fade-up-left" data-aos-duration="2000" src="../assets/img/children-read.jpeg" alt="" />
+            <img data-aos="fade-up-right" data-aos-duration="2000" src="../assets/img/all-seminar-webp.webp" alt="about us 3" />
+            <img data-aos="fade-up-left" data-aos-duration="2000" src="../assets/img/children-read-webp.webp" alt="about us 4" />
           </div>
         </div>
       </div>
@@ -68,7 +68,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-12 col-sm-12 image" data-aos="zoom-in-up" data-aos-duration="2000">
           <div>
-            <img src="../assets/img/Founderwithbg.png" alt="" /><br />
+            <img src="../assets/img/Founderwithbg.png" alt="founder slc" /><br />
             <h5>
               Mrs. I Gusti Ayu Darsini & <br class="break" />
               Mr. I Gusti Agung Rai
@@ -118,44 +118,44 @@
             <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5 text-center" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/coding">
                 <img
-                  src="../assets/img/Rectangle74.png"
-                  alt=""
+                  src="../assets/img/Rectangle74-webp.webp"
+                  alt="program coding 1"
                   class="dekstop"
                 />
-                <img src="../assets/img/coding.png" alt="" class="mobile" />
+                <img src="../assets/img/coding-webp.webp" alt="program coding 2" class="mobile" />
                 <h4>Coding Program</h4>
               </router-link>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/agriculture">
                 <img
-                  src="../assets/img/Rectangle76.png"
-                  alt=""
+                  src="../assets/img/Rectangle76-webp.webp"
+                  alt="program agriculture 1"
                   class="dekstop"
                 />
-                <img src="../assets/img/agri.png" alt="" class="mobile" />
+                <img src="../assets/img/agri-webp.webp" alt="program agriculture 2" class="mobile" />
                 <h4>Agricultre Program</h4>
               </router-link>
             </div>
             <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/english">
                 <img
-                  src="../assets/img/Rectangle75.png"
-                  alt=""
+                  src="../assets/img/Rectangle75-webp.webp"
+                  alt="program english class 1"
                   class="dekstop"
                 />
-                <img src="../assets/img/english.png" alt="" class="mobile" />
+                <img src="../assets/img/english-webp.webp" alt="program english class 2" class="mobile" />
                 <h4>English Program</h4>
               </router-link>
             </div>
                    <div class="col-lg-3 col-md-12 col-sm-12 mb-sm-5" data-aos="fade-up" data-aos-duration="2000">
               <router-link class="program-link" to="/program/enterprenuer">
                 <img
-                  src="../assets/img/Rectangle77.jpg"
-                  alt=""
+                  src="../assets/img/Rectangle77-webp.webp"
+                  alt="program-entreprenuer class 1"
                   class="dekstop"
                 />
-                <img src="../assets/img/Entre_class.png" alt="" class="mobile" />
+                <img src="../assets/img/Entre_class-webp.webp" alt="program-entreprenuer class 2" class="mobile" />
                 <h4>Entrepeneur Program</h4>
               </router-link>
             </div>
@@ -190,7 +190,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-right" data-aos-duration="2000">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/home-student-1.jpg" alt="" />
+                <img src="../assets/img/home-student-1-webp.webp" alt="" />
               </div>
               <div class="col-12">
                 <h3>Made Sanjaya</h3>
@@ -206,7 +206,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/home-student-2.jpg" alt="" />
+                <img src="../assets/img/home-student-2-webp.webp" alt="" />
               </div>
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
@@ -222,7 +222,7 @@
           <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-left" data-aos-duration="2000">
             <div class="row card-student">
               <div class="col-12">
-                <img src="../assets/home-student-3.jpg" alt="" />
+                <img src="../assets/img/home-student-3-webp.webp" alt="" />
               </div>
               <div class="col-12">
                 <h3>I Putu Nanda Amanta</h3>
@@ -241,7 +241,7 @@
         <div class="row">
           <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-right" data-aos-duration="2000">
             <div class="volounteer-card">
-              <img src="../assets/home-volounter-1.jpg" alt="" />
+              <img src="../assets/img/home-volounter-1-webp.webp" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -254,7 +254,7 @@
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up" data-aos-duration="2000">
             <div class="volounteer-card">
-              <img src="../assets/home-volounter-2.jpg" alt="" />
+              <img src="../assets/img/home-volounter-2-webp.webp" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -267,7 +267,7 @@
           </div>
           <div class="col-lg-4 col-md-12 col-sm-12" data-aos="fade-up-left" data-aos-duration="2000">
             <div class="volounteer-card">
-              <img src="../assets/home-volounter-3.jpg" alt="" />
+              <img src="../assets/img/home-volounter-3-webp.webp" alt="" />
               <h4>Brazil</h4>
               <h3>Sanchez</h3>
               <p>
@@ -288,13 +288,13 @@
         <div class="row">
           <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
             <img
-              src="../assets/home-activities-1-2x3.jpg"
+              src="../assets/img/home-activities-1-2x3-webp.webp"
               class="w-100 shadow-1-strong rounded mb-4"
               alt="Yoga dilapangan SLC"
             />
 
             <img
-              src="../assets/home-activities-1-4x3.jpg"
+              src="../assets/img/home-activities-1-4x3-webp.webp"
               class="w-100 shadow-1-strong rounded mb-4"
               alt="Beach clean"
             />
@@ -302,13 +302,13 @@
 
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
-              src="../assets/home-activities-2-4x3.jpg"
+              src="../assets/img/home-activities-2-4x3-webp.webp"
               class="w-100 shadow-1-strong rounded mb-4"
               alt="Balinese Dance"
             />
 
             <img
-              src="../assets/home-activities-2-2x3.jpg"
+              src="../assets/img/home-activities-2-2x3-webp.webp"
               class="w-100 shadow-1-strong rounded mb-4"
               alt="Angklung"
             />
@@ -316,13 +316,13 @@
 
           <div class="col-lg-4 mb-4 mb-lg-0">
             <img
-              src="../assets/home-activities-3-2x3.jpg"
+              src="../assets/img/home-activities-3-2x3-webp.webp"
               class="w-100 shadow-1-strong rounded mb-4"
               alt="Playing Games 1"
             />
 
             <img
-              src="../assets/home-activities-3-4x3.jpg"
+              src="../assets/img/home-activities-3-4x3-webp.webp"
               class="w-100 shadow-1-strong rounded mb-4"
               alt="Playing Games 2"
             />
@@ -359,7 +359,7 @@ span.garis-hijau {
 /* on top */
 .banner {
   width: 100%;
-  background-image: url("../assets/img/banner1.jpg");
+  background-image: url("../assets/img/banner1-webp.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
@@ -488,7 +488,7 @@ span.garis-hijau {
 .volounteer-card {
   color: white;
   padding: 20px 30px;
-  background-image: url("../assets/unsplash_xljtGZ2-P3Y.png");
+  background-image: url("../assets/background-daun.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 90%;
@@ -635,7 +635,7 @@ span.garis-hijau {
   margin: 10px 0 0 0;
 }
 .program-img {
-  background-image: url("../assets/img/our_program_img.png");
+  background-image: url("../assets/img/our_program_img-webp.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -648,7 +648,7 @@ span.garis-hijau {
 .card-student {
   color: white;
   padding: 20px 30px;
-  background-image: url("../assets/unsplash_xljtGZ2-P3Y.png");
+  background-image: url("../assets/background-daun.webp");
   background-repeat: no-repeat;
   background-size: cover;
   width: 90%;

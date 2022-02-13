@@ -293,7 +293,7 @@
   width: 100%;
   height: 100%;
   position:absolute;
-  background-image: url("../assets/img/banner.jpg");
+  background-image: url("../assets/img/banner-webp.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
