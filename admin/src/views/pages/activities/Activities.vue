@@ -51,8 +51,19 @@ export default {
     const activities = null
 
     const deleteActivity = (e) => {
+      console.log(e.target)
       var xhr = new XMLHttpRequest()
-      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/activity'+ e.target.id, true)
+      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/activity/' + e.target.id, true)
+      xhr.onload = function() {
+        axios
+          .get('http://localhost:5000/api/slukat/activity')
+          .then(response => {
+            this.activities = response.data.data
+          })
+          .catch(error => {
+            console.log(error)
+          })
+      }
       xhr.send()
     }
 

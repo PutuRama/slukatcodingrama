@@ -40,6 +40,6 @@ let uploadStudent = multer({ storage: storageStudent })
 router.post("/testi/volounteer", uploadVolounteer.single("image"), (req, res) => slukatController.addVolounteerTesti(req, res));
 router.post("/testi/student", uploadStudent.single("image"), (req, res) => slukatController.addStudentTesti(req, res));
 router.post("/activity", uploadActivity.single("image"), (req, res) => slukatController.addActivity(req, res));
-router.post("/activity/:id", uploadActivity.single("image"), (req, res) => slukatController.deleteActivity(req, res));
+router.delete("/activity/:id", uploadActivity.single("image"), (req, res) => slukatController.deleteActivity(req, res));
 
 module.exports = router;
