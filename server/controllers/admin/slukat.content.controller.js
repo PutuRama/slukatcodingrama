@@ -20,7 +20,7 @@ module.exports = {
             "category": "TESTI-VOLOUNTEER",
             "text": req.body.text,
             "createdAt": new Date(),
-            "id": "TESTI-" + generateItemId(),
+            "id": "VOLOUNTEER-" + generateItemId(),
             "imgUrl": filePath
         }
 
@@ -55,7 +55,7 @@ module.exports = {
             "category": "TESTI-STUDENT",
             "text": req.body.text,
             "createdAt": new Date(),
-            "id": "TESTI-" + generateItemId(),
+            "id": "STUDENT-" + generateItemId(),
             "imgUrl": filePath
         }
 
