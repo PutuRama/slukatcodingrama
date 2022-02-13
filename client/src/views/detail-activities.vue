@@ -449,7 +449,7 @@
 }
 .related2 img{
     width: auto;
-    height: 70px;
+    height: 80px;
     object-fit: cover;
     padding-left: 6%;
     padding-bottom: 3%;
