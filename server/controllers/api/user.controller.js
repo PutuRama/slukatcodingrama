@@ -1,5 +1,5 @@
-const db = require("../db/db");
-const { response } = require("../response/response")
+const db = require("../../db/db");
+const { response } = require("../../response/response")
 
 module.exports = {
 
