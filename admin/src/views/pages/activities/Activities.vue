@@ -1,8 +1,8 @@
 <template>
   <div>
-      <router-link to="/activities/add">
-        <plus-button></plus-button>
-      </router-link>
+    <router-link to="/activities/add">
+      <plus-button></plus-button>
+    </router-link>
     <v-row>
       <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="activity in activities">
         <v-card>
@@ -16,6 +16,9 @@
           <v-card-actions class="dense">
             <v-btn color="primary" text>
               Details
+            </v-btn>
+            <v-btn text :id="activity.id" @click="deleteActivity">
+              Delete
             </v-btn>
           </v-card-actions>
         </v-card>
@@ -47,10 +50,17 @@ export default {
     const rating = ref(5)
     const activities = null
 
+    const deleteActivity = (e) => {
+      var xhr = new XMLHttpRequest()
+      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/activity'+ e.target.id, true)
+      xhr.send()
+    }
+
     return {
       isCardDetailsVisible,
       rating,
       activities,
+      deleteActivity,
 
       // icons
       icons: {
