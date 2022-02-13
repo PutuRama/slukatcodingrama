@@ -65,12 +65,11 @@
         <br><br><br><br>
         <h2>Our Daily Activities</h2>
       </div>
-        <div class="col daily-english">
-          <h4 style="text-align: left; padding-left: 10%"><b>English Class</b> </h4> <br>
-        </div>
+       
       <div class="row row-daily">
-    
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
+        
+        <!-- english -->
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/english1.jpeg" alt="">
           </a> 
@@ -79,7 +78,7 @@
             <h5><a href="">Reading English books in the library of Slukat Learning Center</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2000">
          <a href="">
   
          <img src="../assets/english2.jpeg" alt="">
@@ -89,7 +88,8 @@
             <h5><a href="">Take memorable photos with Volunteers who teach English</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
+
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/english3.jpg" alt="">
@@ -99,17 +99,10 @@
            <h5><a href="">English learning activities taught directly by Slukat Learning Center Volunteers</a></h5>
           </div>
         </div>
-      </div>
-    </div>
-    <br><br><br>
+ 
 
-    <div class="list-activities">
-        <div class="col daily-coding">
-          <h4 style="text-align: left; padding-left: 10%"><b>Coding Program</b> </h4> <br>
-        </div>
-      <div class="row row-daily">
-    
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
+            <!-- Codingg -->
+     <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/coding.jpeg" alt="">
           </a> 
@@ -118,9 +111,8 @@
             <h5><a href="">Coding seminar activities for novice Young Programmers</a></h5>
             </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
+               <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2000">
          <a href="">
-  
          <img src="../assets/coding2.jpeg" alt="">
            </a> 
            <div class="daily-text">
@@ -128,7 +120,7 @@
             <h5><a href="">Programmer Bootcamp Activities to improve Young Programmer's skills</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/coding3.jpeg" alt="">
@@ -138,18 +130,9 @@
             <h5><a href="">Teaching and learning activities about coding for new Programmers</a></h5>
           </div>
         </div>
-      </div>
-    </div>
-    <br><br><br>
 
-
-        <div class="list-activities">
-        <div class="col daily-enterpreneur">
-          <h4 style="text-align: left; padding-left: 10%"><b>Enterpreneur Program</b> </h4> <br>
-        </div>
-      <div class="row row-daily">
-    
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="1500">
+         <!-- Enterpreneur -->
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/enter1.jpeg" alt="">
           </a> 
@@ -158,7 +141,7 @@
             <h5><a href="">Introductory activities about the world of Entrepreneur</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2000">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2000">
          <a href="">
   
          <img src="../assets/enter2.jpeg" alt="">
@@ -168,7 +151,7 @@
             <h5><a href="">Business discussions that are needed in the future</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-up" data-aos-duration="2500">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/enter3.jpeg" alt="">
@@ -178,19 +161,10 @@
             <h5><a href="">Discussion of business products that people are looking for</a></h5>
           </div>
         </div>
-      </div>
-    </div>
-    <br><br><br>
-    
 
 
-    <div class="list-activities">
-        <div class="col daily-agri">
-          <h4 style="text-align: left; padding-left: 10%"><b>Agriculture Program</b> </h4> <br>
-        </div>
-      <div class="row row-daily">
-    
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="1500">
+        <!-- agriculture -->
+             <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="1500">
         <a href="">  
          <img src="../assets/agri1.jpeg" alt="">
           </a> 
@@ -199,7 +173,7 @@
             <h5><a href="">Seed planting activities</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2000">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2000">
          <a href="">
   
          <img src="../assets/agri2.jpeg" alt="">
@@ -209,7 +183,7 @@
             <h5><a href="">The previously planted seeds have grown big</a></h5>
           </div>
         </div>
-        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="fade-left" data-aos-duration="2500">
+        <div class="col-lg-4 col-md-12 col-sm-12 column-daily" data-aos="zoom-in" data-aos-duration="2500">
          <a href="">
   
          <img src="../assets/agri3.jpeg" alt="">
@@ -219,9 +193,20 @@
            <h5><a href="">The process of fertilizing plants for faster plant growth</a></h5>
           </div>
         </div>
+        
+
+
+
+
       </div>
     </div>
-    <br><br><br>
+
+
+
+
+
+    
+
 
     </div>
 </template>
@@ -614,6 +599,21 @@
     font-size: 10px;
     font-weight: 500;
     margin-left: 1%;
+  }
+    .img-text{
+  margin: 0 0 20px 30px ;
+}
+
+    .img-text h3{
+    font-size: 12px;
+  }
+  .img-text p{
+    font-size: 12px;
+     padding: 2px 7px 2px 7px;
+  }
+  .img-text span{
+    margin-left: 2%;
+    font-size: 10px;
   }
 }
 

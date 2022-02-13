@@ -622,8 +622,9 @@
       margin: 15px 0 20px 0;
     }
 }
+
 @media screen and (max-width: 426px) {
-  .aplication >h1{
+    .aplication >h1{
     font-size: 24px;
   }
   .aplication >p{
@@ -631,15 +632,6 @@
     margin: 0 10px;
     margin-bottom: 40px;
   }
-    .aplication .col-3 h1{
-      font-size: 60px;
-    }
-    .aplication .col-6 p{
-      font-size: 16px;
-      margin: 15px 0 20px 0;
-    }
-}
-@media screen and (max-width: 426px) {
     .aplication .col-3,.aplication .col-6{
       padding: 0;
       margin: 0;
@@ -652,13 +644,14 @@
     margin: 15px 0 20px 0;
     }
 }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 341px) {
 
     .aplication .col-3 h1{
-      font-size: 45px;
+      font-size: 40px;
+       margin-left: 0;
     }
     .aplication .col-6 p{
-    font-size: 13px;
+    font-size: 10px;
     margin: 0 0 20px 0;
     }
 }
