@@ -1,5 +1,8 @@
 <template>
   <div>
+      <router-link to="/activities/add">
+        <plus-button></plus-button>
+      </router-link>
     <v-row>
       <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="activity in activities">
         <v-card>
@@ -14,19 +17,7 @@
             <v-btn color="primary" text>
               Details
             </v-btn>
-            <v-spacer></v-spacer>
-            <v-btn icon @click="isCardDetailsVisible = !isCardDetailsVisible">
-              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
-            </v-btn>
           </v-card-actions>
-          <v-expand-transition>
-            <div v-show="isCardDetailsVisible">
-              <v-divider></v-divider>
-              <v-card-text>
-                {{ activity.description }}
-              </v-card-text>
-            </div>
-          </v-expand-transition>
         </v-card>
       </v-col>
     </v-row>
@@ -47,10 +38,12 @@ import {
   mdiHelpCircleOutline,
 } from '@mdi/js'
 import axios from 'axios'
+import PlusButton from '../../../components/PlusButton.vue'
 
 export default {
+  components: { PlusButton },
   setup() {
-    const isCardDetailsVisible = false
+    const isCardDetailsVisible = true
     const rating = ref(5)
     const activities = null
 
