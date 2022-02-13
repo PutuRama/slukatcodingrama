@@ -149,8 +149,8 @@
             <div class="row">
                 <div class="col content">
                     <div class="content-text">
-                    <h5>More Recent Post</h5>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem, tempore corporis iste veritatis quibusdam, ea rerum sequi dolor dignissimos obcaecati quo optio. Nesciunt libero id repellat similique dolorum asperiores iure.</p>
+                    <h5 style="text-align: left">More Recent Post</h5>
+                    <p style="text-align: left">lorem ipsum dolor sit</p>
                     </div>
                 </div>
                 <div class="col button-more">
@@ -162,51 +162,41 @@
             <div class="recent">
                 <h5>More from Slukat Learning Center</h5>
                 <div class="col recent-post">
-                    <div class="col-8 related">
+
+                    <div class="col col-md-6 col-sm-12 related2">
                         <img src="../assets/home-volounter-1.jpg" alt="">
-                        <div class="col text-img">
+                        <div class="col text-img2">
                             <h6 style="text-transform: uppercase;">Lorem</h6>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
                         </div>
                     </div>
-                    <div class="col-8 related">
+                    <div class="col col-md-6 col-sm-12 related2">
                         <img src="../assets/home-volounter-1.jpg" alt="">
-                        <div class="col text-img">
-                            <h6 style="text-transform: uppercase;">Lorem</h6>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                        </div>
-                    </div>
-                    <div class="col-8 related">
-                        <img src="../assets/home-volounter-1.jpg" alt="">
-                        <div class="col text-img">
-                            <h6 style="text-transform: uppercase;">Lorem</h6>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                        </div>
-                    </div>
-                       <div class="col-8 related">
-                        <img src="../assets/home-volounter-1.jpg" alt="">
-                        <div class="col text-img">
-                            <h6 style="text-transform: uppercase;">Lorem</h6>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                        </div>
-                    </div>
-                    <div class="col-8 related">
-                        <img src="../assets/home-volounter-1.jpg" alt="">
-                        <div class="col text-img">
-                            <h6 style="text-transform: uppercase;">Lorem</h6>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
-                        </div>
-                    </div>
-                    <div class="col-8 related">
-                        <img src="../assets/home-volounter-1.jpg" alt="">
-                        <div class="col text-img">
+                        <div class="col text-img2">
                             <h6 style="text-transform: uppercase;">Lorem</h6>
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
                         </div>
                     </div>
 
-                    <h1>BELUM SELESAI</h1>
                 </div>
+
+                <div class="col recent-post">
+                       <div class="col col-md-6 col-sm-12 related2">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img2">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-sm-12 related2">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img2">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+
+                </div>  
             </div>
         </div>
         
@@ -237,7 +227,7 @@
   float: right;
   padding-left: 1em;
   border-left: 1px solid rgb(230, 230, 230);
-  height: 2000px;
+  height: 1000px;
 }
  
 @media screen and (max-width: 1080px) {
@@ -401,14 +391,13 @@
     margin-top: 3%;
     padding: 5% 0 5% 0;
     background-color: #F6FEF5;
+    width: 100%;
 }
 .content{
     display: flex;
     flex-wrap: wrap;
-    text-align: left; 
     margin: 10px auto;
-    max-width: 100%;
-
+    margin-bottom: 10%;
 }
 .more{
     border: none;
@@ -440,9 +429,36 @@
   padding-right: 10px;
 
 }
-.content-text {
+.recent h5{
+    text-align: left;
+    margin-left: 11%;
+}
+.content-text{
     display: inline-block;
     margin-left: 24%;
-
+}
+.content-text h5{
+    max-width: 100%;
+}
+.related2{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left; 
+    margin: 10px auto;
+    max-width: 40%;
+}
+.related2 img{
+    width: auto;
+    height: 70px;
+    object-fit: cover;
+    padding-left: 6%;
+    padding-bottom: 3%;
+}
+.text-img2 p{
+    display: inline-block;
+    font-size: 13px;
+}
+.recent-post{
+    display: flex;
 }
 </style>
