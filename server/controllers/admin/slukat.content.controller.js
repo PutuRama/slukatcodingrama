@@ -104,6 +104,13 @@ module.exports = {
                 return res.json(response(true, "SUCCESS_ADD_DATA", "Succes to add data to database ", newActivity))
             })
     },
+    deleteActivity : async function(req,res){
+        const dbConnect = db.getDb();
+        dbConnect
+            .collection("activities")
+            .findOneAndDelete({"id" : req.params.id})
+            
+    }
 
 
 }
