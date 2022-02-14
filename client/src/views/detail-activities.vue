@@ -39,7 +39,7 @@
                             </div>
                               <div class="button-overlay">
                                   <a href="">
-                                  <button style="margin-left: -30%; " class="text-button">
+                                  <button   class="text-button">
                                      Subscribe
                                   </button>
                                   </a> 
@@ -317,10 +317,10 @@
 .social .button-overlay{
     position: absolute;
     top: 0;
-    left: 68%;
+    left: 52%;
     width: 100%;
     z-index: 1;
-    display: flex;
+    display: inline;
     align-items: flex-end;
 }
  
