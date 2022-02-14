@@ -115,6 +115,7 @@
             <img src="../assets/english1.jpeg" alt=""> <br><br>
             <figcaption style="color: grey">Photo by: Slukat Learning Center</figcaption>
             </div>
+            
             <div class="col-12 mobile-text">
             <h1>Reading English books in the library of Slukat Learning Center</h1>
             <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae neque, eligendi voluptates eos quibusdam vero! Maxime, quae. Suscipit dolores rem doloribus reiciendis nostrum harum ea dolore sequi quasi, labore molestiae!</h5>
@@ -195,8 +196,26 @@
                             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
                         </div>
                     </div>
-
                 </div>  
+
+
+                <div class="col recent-post-mobile">
+                    <div class="col col-md-6 col-sm-12 related2">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img2">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                    <div class="col col-md-6 col-sm-12 related2">
+                        <img src="../assets/home-volounter-1.jpg" alt="">
+                        <div class="col text-img2">
+                            <h6 style="text-transform: uppercase;">Lorem</h6>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit...</p>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
         
@@ -445,7 +464,6 @@
     flex-wrap: wrap;
     text-align: left; 
     margin: 10px auto;
-    max-width: 40%;
 }
 .related2 img{
     width: auto;
@@ -460,5 +478,43 @@
 }
 .recent-post{
     display: flex;
+}
+.recent-post-mobile{
+    display: none;
+}
+@media screen and (max-width: 425px) {
+    .recent-post .related2:nth-child(1){
+        display: none;
+    }
+    .recent-post-mobile{
+        display: block;
+    }
+    .mobile-text h1 {
+        font-size: 28px;
+        text-align: center;
+    }
+    .mobile-text h5{
+        font-size: 14px;
+        color: black;
+        text-align: center;
+    }
+    .first-text{
+        font-size: 14px;
+    }
+    .recent h5{
+        margin-bottom: 5%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .top-text h1 {
+        font-size: 34px;
+    }
+    .top-text h5{
+        font-size: 16px;
+    }
+    .first-text{
+        font-size: 16px;
+    }
+     
 }
 </style>
