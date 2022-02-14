@@ -450,7 +450,7 @@
 }
 .recent h5{
     text-align: left;
-    margin-left: 11%;
+    margin-left: 6%;
 }
 .content-text{
     display: inline-block;
