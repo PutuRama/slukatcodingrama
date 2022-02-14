@@ -183,7 +183,7 @@
     <!-- testimonial -->
     <div class="testimonial">
       <h1>Student & Valounteer</h1>
-      <h5>Lorem ipsum dolor sit amet consectetur.</h5>
+      <h5>Interesting thing they said, scroll down!</h5>
       <div class="student">
         <h4>Student</h4>
         <div class="row">

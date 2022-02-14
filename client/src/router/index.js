@@ -163,7 +163,26 @@ const routes = [
         }
       ]
     }
-  }, {
+  }, 
+  {
+    path: '/detail-activities',
+    name: 'Detail-Activities',
+    component: () => import(/* webpackChunkName: "about" */ '../views/detail-activities.vue'),
+    meta: {
+      title: 'SLC - Detail-Activities',
+      metaTags: [
+        {
+          name: 'description',
+          content: "let's see what we got on our activities"
+        },
+        {
+          property: 'og:description',
+          content: "let's see what we got on our activities"
+        }
+      ]
+    }
+  }, 
+  {
     path: '/about/volounteer',
     name: 'AboutVolunteer',
     component: () => import(/* webpackChunkName: "about" */ '../views/AboutVolunteer.vue'),
