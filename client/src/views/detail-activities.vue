@@ -145,7 +145,6 @@
         </div>
 
 
-
         <div class="end-content">
             <div class="row">
                 <div class="col content">
@@ -222,7 +221,6 @@
             </div>
         </div>
         
-
 
 
     </div>
@@ -344,13 +342,6 @@
     transition-delay: 0.4s;
     opacity: 1;
 }
- 
- 
-
-
-
-
-
 
 
 
@@ -502,7 +493,7 @@
         font-size: 14px;
     }
     .recent h5{
-        margin-bottom: 5%;
+        display: none;
     }
 }
 @media screen and (min-width: 768px) {
