@@ -59,6 +59,16 @@ const routes = [
     component: () => import('@/views/pages/activities/AddActivity.vue'),
   },
   {
+    path: "/volunteer",
+    name: 'slukat-volunteer',
+    component: () => import('@/views/pages/volunteer/volunteer.vue'),
+  },
+  {
+    path: "/volunteer/add",
+    name: 'slukat-add-volunteer',
+    component: () => import('@/views/pages/volunteer/AddVolunteer.vue'),
+  },
+  {
     path: '/pages/login',
     name: 'pages-login',
     component: () => import('@/views/pages/Login.vue'),
