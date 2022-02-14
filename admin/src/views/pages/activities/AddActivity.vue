@@ -78,15 +78,36 @@ export default {
     }
 
     const sendData = (e) => {
-      var file = document.getElementById("file-input").files[0]
-      var fd = new FormData();
-      fd.append("title",accountDataLocale.title)
-      fd.append("description",accountDataLocale.desc)
-      fd.append("image",file)
+      Vue.swal({
+        title: 'Are you sure ?',
+        text: "This activity will be public",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonText: 'Yes Add it!',
+        cancelButtonText: 'No, leave it!',
+        showCloseButton: true,
+        showLoaderOnConfirm: true,
+      }).then(result => {
+        if (result.value) {
+          var file = document.getElementById("file-input").files[0]
+          var fd = new FormData();
 
-      var xhr = new XMLHttpRequest();
-      xhr.open('POST', 'http://localhost:5000/admin/slukat/activity', true);
-      xhr.send(fd);
+          fd.append("title",accountDataLocale.title)
+          fd.append("description",accountDataLocale.desc)
+          fd.append("image",file)
+
+          var xhr = new XMLHttpRequest();
+          xhr.open('POST', 'http://localhost:5000/admin/slukat/activity', true);
+          xhr.send(fd);
+
+          Vue.swal('Added', 'You successfully Added this activity', 'success').then(function(){
+            window.location.pathname = "/activities";
+          })
+          
+        } else {
+          Vue.swal('Cancelled', 'Failed to add activity', 'info')
+        }
+      })
     }
     return {
       status,
