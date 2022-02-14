@@ -45,6 +45,7 @@
 
 <script>
 import { mdiAlertOutline, mdiCloudUploadOutline } from '@mdi/js'
+import Vue from 'vue'
 export default {
   props: {
     accountData: {
