@@ -21,7 +21,7 @@
         v-bind="attrs"
         v-on="on"
       >
-        Add
+        +Add
       </v-btn>
     </template>
   </v-menu>
