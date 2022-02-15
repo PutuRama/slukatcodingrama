@@ -10,12 +10,6 @@
     <h2 class="pa-3">Add New Volunteer</h2>
     
           <v-card-actions class="dense">
-            <v-btn
-              color="success"
-              text
-            >
-            Show
-            </v-btn>
             <v-spacer></v-spacer>
             <v-btn
               icon
