@@ -20,7 +20,7 @@
               color="success"
               text
             >
-              Details
+              Show
             </v-btn>
             <v-spacer></v-spacer>
             <v-btn
@@ -84,7 +84,7 @@ import Vue from 'vue'
 export default {
   components: { PlusButton },
   setup() {
-    const isCardDetailsVisible = true
+    const isCardDetailsVisible = false
     const rating = ref(5)
     const volunteers = null
 
@@ -127,6 +127,7 @@ export default {
       rating,
       volunteers,
       deleteVolunteer,
+      
 
       // icons
       icons: {
