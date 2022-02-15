@@ -85,7 +85,7 @@ module.exports = {
                             response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null)
                         );
                     }
-                    res
+                    
                     return res.cookie('authToken', newToken).json(response(true, "LOGGED_IN", "Your Logged In Now", newToken))
                 })
 
