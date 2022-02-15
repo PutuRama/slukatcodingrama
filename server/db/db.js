@@ -17,7 +17,7 @@ module.exports = {
               return callback(err);
           }  
 
-          dbConnection = db.db("auth");
+          dbConnection = db.db("slukat");
           console.log("Successfully connected to MongoDb");
 
           return callback();

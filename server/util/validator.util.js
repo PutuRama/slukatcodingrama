@@ -1,4 +1,5 @@
 const { response } = require("../response/response")
+const { API_KEY } = require('../config/api.key.config');
 // ======================================================================+
 // this file purpose to validate any input request from client to server |
 // ======================================================================+
@@ -78,6 +79,10 @@ module.exports = {
             return response(false, "NULL_FIELD", "All Field not allowed to be empty", null);
         }
         return response(true, "VALID", "valid input", null);
+    },
+
+    keyValidation: function (key) {
+        return API_KEY == key;
     }
 
 }
