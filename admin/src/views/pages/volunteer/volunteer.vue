@@ -3,27 +3,64 @@
     <router-link to="/volunteer/add">
       <plus-button></plus-button>
     </router-link>
+    
+     <v-col
+        md="12"
+        sm="6"
+        cols="12"
+        class="align-self-start"
+      >
+        <v-card>
+          <v-card-title>
+            The Volunteer
+          </v-card-title>
+  
+          <v-card-actions class="dense">
+            <v-btn
+              color="success"
+              text
+            >
+              Details
+            </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+              icon
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+            >
+              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
+            </v-btn>
+          </v-card-actions>
+          <v-expand-transition>
+            <div v-show="isCardDetailsVisible">
+              <v-divider></v-divider>
+              <v-card-text>
     <v-row>
-      <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="activity in activities">
+      <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunteer in volunteers">
         <v-card>
           <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
           <v-card-title>
-            {{ activity.title }}
+            {{ volunteer.title }}
           </v-card-title>
           <v-card-text>
-            {{ activity.createdAt }}
+            {{ volunteer.createdAt }}
           </v-card-text>
           <v-card-actions class="dense">
             <v-btn color="primary" text>
               Details
             </v-btn>
-            <v-btn text :id="activity.id" @click="deleteActivity">
-              <span @click="deleteActivity" :id="activity.id">Delete</span>
+            <v-btn text :id="volunteer.id" @click="deleteVolunteer">
+              <span @click="deleteVolunteer" :id="volunteer.id">Delete</span>
             </v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
     </v-row>
+
+              </v-card-text>
+            </div>
+          </v-expand-transition>
+        </v-card>
+      </v-col>
   </div>
 </template>
 
@@ -49,9 +86,9 @@ export default {
   setup() {
     const isCardDetailsVisible = true
     const rating = ref(5)
-    const activities = null
+    const volunteers = null
 
-    const deleteActivity = e => {
+    const deleteVolunteer = e => {
       var xhr = new XMLHttpRequest()
       xhr.open('DELETE', 'http://localhost:5000/admin/slukat/volunteer/' + e.target.id, true)
       console.log(e.target)
@@ -59,7 +96,7 @@ export default {
         axios
           .get('http://localhost:5000/api/slukat/volunteer')
           .then(response => {
-            this.activities = response.data.data
+            this.volunteers = response.data.data
           })
           .catch(error => {
             console.log(error)
@@ -88,8 +125,8 @@ export default {
     return {
       isCardDetailsVisible,
       rating,
-      activities,
-      deleteActivity,
+      volunteers,
+      deleteVolunteer,
 
       // icons
       icons: {
@@ -109,7 +146,7 @@ export default {
     axios
       .get('http://localhost:5000/api/slukat/volunteer')
       .then(response => {
-        this.activities = response.data.data
+        this.volunteers = response.data.data
       })
       .catch(error => {
         console.log(error)
