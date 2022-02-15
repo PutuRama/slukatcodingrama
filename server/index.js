@@ -10,11 +10,13 @@ var morgan = require("morgan")
 const app = express();
 const db = require("./db/db")
 
+var cookieParser = require('cookie-parser');
 
 //config
 app.use(bodyParser.json());
 app.use(cors());
 app.use(morgan('common'))
+app.use(cookieParser());
 
 //routes
 app.use("/api/auth", authRouter);
@@ -29,7 +31,6 @@ app.use("/admin/slukat",adminSlukatRoute);
 db.connectToServer(function (err) {
   if (err) {
     console.error(err);
-
   }
 })
 

@@ -85,8 +85,8 @@ module.exports = {
                             response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null)
                         );
                     }
-
-                    return res.json(response(true, "LOGGED_IN", "Your Logged In Now", newToken))
+                    res
+                    return res.cookie('authToken', newToken).json(response(true, "LOGGED_IN", "Your Logged In Now", newToken))
                 })
 
             })
@@ -108,5 +108,27 @@ module.exports = {
             .then(function (result) {
                 return res.json(response(true, "LOGGED_OUT", "Your Logged Out Now", null))
             })
+    },
+    checkAuth : async function(req,res){
+        const dbConnect = db.getDb();
+        console.log(req.cookies);
+        // find user by username
+        dbConnect
+            .collection("admin")
+            .find({ token: req.cookies.token })
+            .toArray(function (err, result) {
+                if (err) {
+                    console.error(err);
+                    return res.json(response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null));
+                }
+                //check result , if there is no user found , return error
+                if (result[0] == null) {
+                    return res.json(response(false, "NOT_AUTHENTICATED", "You are not authenticated", null));
+                }
+
+                return res.json(response(true, "AUTHENTICATED", "You are authenticated", req.cookies));
+
+            })
+
     }
 }
