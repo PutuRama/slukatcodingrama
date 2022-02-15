@@ -53,11 +53,11 @@ export default {
 
     const deleteActivity = e => {
       var xhr = new XMLHttpRequest()
-      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/activity/' + e.target.id, true)
+      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/volunteer/' + e.target.id, true)
       console.log(e.target)
       xhr.onload = function() {
         axios
-          .get('http://localhost:5000/api/slukat/activity')
+          .get('http://localhost:5000/api/slukat/volunteer')
           .then(response => {
             this.activities = response.data.data
           })
@@ -107,7 +107,7 @@ export default {
   },
   mounted() {
     axios
-      .get('http://localhost:5000/api/slukat/activity')
+      .get('http://localhost:5000/api/slukat/volunteer')
       .then(response => {
         this.activities = response.data.data
       })
