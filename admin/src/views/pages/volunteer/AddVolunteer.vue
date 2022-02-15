@@ -1,8 +1,34 @@
 <template>
   <v-card flat class="pa-3 mt-2">
+    <v-col
+        md="12"
+        sm="6"
+        cols="12"
+        class="align-self-start"
+      >
+        <v-card>
     <h2 class="pa-3">Add New Volunteer</h2>
     
-    <img src="img" style="height:500px;" id="img-src"></img>
+          <v-card-actions class="dense">
+            <v-btn
+              color="success"
+              text
+            >
+            Show
+            </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+              icon
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+            >
+              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
+            </v-btn>
+          </v-card-actions>
+          <v-expand-transition>
+            <div v-show="isCardDetailsVisible">
+              <v-divider></v-divider>
+              <v-card-text>
+    <img src="img" style="height:500px;" id="img-src">
     <!-- upload photo -->
     <div>
       <v-btn class="me-3 mt-5 bg-gradient-primary white--text" @click="$refs.refInputEl.click()">
@@ -26,13 +52,13 @@
       <v-form class="multi-col-validation mt-6">
         <v-row>
           <v-col md="12" cols="12" >
-            <v-text-field v-model="accountDataLocale.title" label="Name" dense outlined></v-text-field>
+            <v-text-field color="success" v-model="accountDataLocale.title" label="Name" dense outlined></v-text-field>
           </v-col>
            <v-col md="12" cols="12">
-            <v-text-field v-model="accountDataLocale.title" label="Country" dense outlined></v-text-field>
+            <v-text-field color="success" v-model="accountDataLocale.title" label="Country" dense outlined></v-text-field>
           </v-col>
           <v-col  cols="12">
-            <v-textarea v-model="accountDataLocale.desc" outlined rows="3" label="Description"></v-textarea>
+            <v-textarea color="success" v-model="accountDataLocale.desc" outlined rows="3" label="Description"></v-textarea>
           </v-col>
           <v-btn  class="bg-gradient-primary white--text" @click="sendData">
             Submit
@@ -44,11 +70,29 @@
         </v-row>
       </v-form>
     </v-card-text>
+                
+              </v-card-text>
+            </div>
+          </v-expand-transition>
+        </v-card>
+      </v-col>
   </v-card>
 </template>
 
 <script>
 import { mdiAlertOutline, mdiCloudUploadOutline } from '@mdi/js'
+import { ref } from '@vue/composition-api'
+import {
+  mdiChevronUp,
+  mdiChevronDown,
+  mdiCartPlus,
+  mdiShareVariantOutline,
+  mdiLockOpenOutline,
+  mdiStarOutline,
+  mdiAccountOutline,
+  mdiTrendingUp,
+  mdiHelpCircleOutline,
+} from '@mdi/js'
 export default {
   props: {
     accountData: {
@@ -57,6 +101,8 @@ export default {
     },
   },
   setup(props) {
+    const isCardDetailsVisible = false
+    const rating = ref(5)
     const status = ['Active', 'Inactive', 'Pending', 'Closed']
 
     const accountDataLocale = {}
@@ -76,7 +122,6 @@ export default {
       document.getElementById("img-src").src = img
       console.log(img);
     }
-
     const resetImg = (e)=>{
       document.getElementById("img-src").src = "#"
     }
@@ -112,6 +157,7 @@ export default {
           Vue.swal('Cancelled', 'Failed to add activity', 'info')
         }
       })
+      
     }
     return {
       status,
@@ -121,9 +167,20 @@ export default {
       resetImg,
       sendData,
       img,
+      isCardDetailsVisible,
+      rating,
       icons: {
         mdiAlertOutline,
         mdiCloudUploadOutline,
+        mdiChevronUp,
+        mdiChevronDown,
+        mdiCartPlus,
+        mdiShareVariantOutline,
+        mdiLockOpenOutline,
+        mdiStarOutline,
+        mdiAccountOutline,
+        mdiTrendingUp,
+        mdiHelpCircleOutline,
       },
     }
   },
