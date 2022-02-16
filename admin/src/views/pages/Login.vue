@@ -21,10 +21,10 @@
 
         <!-- title -->
         <v-card-text>
-          <p class="text-2xl font-weight-semibold text--primary mb-2">
-            Welcome to SLC Login
+          <p class="text-2xl font-weight-semibold text--primary mb-2 text-center">
+            Login
           </p>
-          <p class="mb-2">
+          <p class="mb-2 text-center">
             Please sign-in to your account and start the adventure
           </p>
         </v-card-text>
