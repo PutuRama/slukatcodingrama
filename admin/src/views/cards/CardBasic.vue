@@ -111,6 +111,7 @@
           </v-expand-transition>
         </v-card>
       </v-col>
+      
 
       <!-- Apple iPhone 11 Pro -->
       <v-col
