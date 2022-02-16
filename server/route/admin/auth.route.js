@@ -7,7 +7,7 @@ const router = express.Router();
 
 router.post("/login", (req,res) => authController.login(req,res));
 router.post("/signup", (req,res) => authController.signup(req,res));
-router.post("/logout", (req,res) => authController.logOut(req,res));
+router.delete("/logout", (req,res) => authController.logOut(req,res));
 router.get("/check", (req,res) => authController.checkAuth(req,res));
 
 module.exports = router;

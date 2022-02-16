@@ -85,43 +85,40 @@ module.exports = {
                             response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null)
                         );
                     }
-                    
-                    return res.cookie('authToken', newToken).json(response(true, "LOGGED_IN", "Your Logged In Now", newToken))
+                    return res.json(response(true, "LOGGED_IN", "Your Logged In Now", newToken));
                 })
 
             })
     },
     logOut: async function (req, res) {
-        // validation the input
-        var resultValidator = inputLogOut(req.body.token);
-
-        // if input not valid
-        if (!resultValidator.ok) {
-            return res.json(resultValidator);
-        }
-
+        console.log("------"+req.get("authToken"));
         // remove token
         const dbConnect = db.getDb();
         dbConnect
             .collection("adminAuth")
-            .deleteOne({ token: req.body.token })
-            .then(function (result) {
+            .deleteOne({ token: req.get("authToken") })
+            .then(function (err,result) {
+                if(err){
+                    return err;
+                }
+                console.log(result);
                 return res.json(response(true, "LOGGED_OUT", "Your Logged Out Now", null))
             })
     },
-    checkAuth : async function(req,res){
+    checkAuth: async function (req, res) {
         const dbConnect = db.getDb();
-        console.log(req.cookies);
         // find user by username
+        console.log(req.get("authToken"));
         dbConnect
-            .collection("admin")
-            .find({ token: req.cookies.token })
+            .collection("adminAuth")
+            .find({ token: req.get("authToken") })
             .toArray(function (err, result) {
                 if (err) {
                     console.error(err);
                     return res.json(response(false, "INTERNAL_SERVER_ERROR", "Internal Server Error", null));
                 }
                 //check result , if there is no user found , return error
+                console.log(result);
                 if (result[0] == null) {
                     return res.json(response(false, "NOT_AUTHENTICATED", "You are not authenticated", null));
                 }

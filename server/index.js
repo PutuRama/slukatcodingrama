@@ -9,7 +9,6 @@ const adminSlukatRoute = require("./route/admin/slukat.route");
 var morgan = require("morgan")
 const app = express();
 const db = require("./db/db")
-
 var cookieParser = require('cookie-parser');
 
 //config

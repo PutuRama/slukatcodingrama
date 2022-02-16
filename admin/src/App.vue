@@ -11,13 +11,20 @@ import Axios from 'axios'
 import LayoutBlank from '@/layouts/Blank.vue'
 import LayoutContent from '@/layouts/Content.vue'
 
+import Vue from 'vue'
+
+
 export default {
   methods: {
     checkAuth: function() {
       Axios
-      .get('http://localhost:5000/admin/auth/check')
+      .get('http://localhost:5000/admin/auth/check',{
+        headers: {
+          'authToken': Vue.cookie.get('authToken')
+        }
+      })
       .then(response =>{
-
+        console.log(response)
         if(!response.data.ok && window.location.pathname !="/pages/login"){
           window.location.pathname = "/pages/login"
         }
@@ -43,7 +50,7 @@ export default {
 
     return {
       resolveLayout,
-      
+
     }
   },
   beforeMount() {

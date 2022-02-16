@@ -8249,6 +8249,11 @@
   "resolved" "https://registry.npmjs.org/timsort/-/timsort-0.3.0.tgz"
   "version" "0.3.0"
 
+"tiny-cookie@^1.0":
+  "integrity" "sha1-dTeGB5xkKjw9CyrMrWAPjeEZrCo="
+  "resolved" "https://registry.npmjs.org/tiny-cookie/-/tiny-cookie-1.0.1.tgz"
+  "version" "1.0.1"
+
 "tmp@^0.0.33":
   "integrity" "sha512-jRCJlojKnZ3addtTOjdIqoRuPEKBvNXcGYqzO6zWZX8KfKEpnGY5jfggJQ3EjKuu8D4bJRr0y+cYJFmYbImXGw=="
   "resolved" "https://registry.npmjs.org/tmp/-/tmp-0.0.33.tgz"
@@ -8634,6 +8639,13 @@
     "null-loader" "^3.0.0"
     "semver" "^7.1.2"
     "shelljs" "^0.8.3"
+
+"vue-cookie@^1.1.4":
+  "integrity" "sha1-uLRtESvan5Oi9HAXwu1SgtIGT9o="
+  "resolved" "https://registry.npmjs.org/vue-cookie/-/vue-cookie-1.1.4.tgz"
+  "version" "1.1.4"
+  dependencies:
+    "tiny-cookie" "^1.0"
 
 "vue-eslint-parser@^7.0.0":
   "integrity" "sha512-7tc/ewS9Vq9Bn741pvpg8op2fWJPH3k32aL+jcIcWGCTzh/zXSdh7pZ5FV3W2aJancP9+ftPAv292zY5T5IPCg=="

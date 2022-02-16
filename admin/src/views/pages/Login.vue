@@ -116,7 +116,7 @@
 import { mdiFacebook, mdiTwitter, mdiGithub, mdiGoogle, mdiEyeOutline, mdiEyeOffOutline } from '@mdi/js'
 import { ref } from '@vue/composition-api'
 import Axios from 'axios'
-
+import Vue from 'vue'
 export default {
   setup() {
     const isPasswordVisible = ref(false)
@@ -130,10 +130,15 @@ export default {
       }
 
       Axios.post('http://localhost:5000/admin/auth/login', data).then(response => {
-        console.log(data)
-        console.log(response)
         if (response.data.ok) {
+          Vue.cookie.set('authToken', response.data.data.token);
           window.location.pathname = '/'
+        } else {
+          Vue.swal({
+            title: 'Your Account or Password is wrong',
+            text: "Please check your input",
+            type: 'error'
+          })
         }
       })
     }
