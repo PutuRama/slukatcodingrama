@@ -19,6 +19,8 @@
             <v-btn
               color="success"
               text
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+
             >
               Show
             </v-btn>
