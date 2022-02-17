@@ -60,6 +60,7 @@ export default {
       { title: 'About', icon: mdiInformationOutline },
       { title: 'Our Programs', icon: mdiInformationOutline },
       { title: 'Activities', icon: mdiInformationOutline },
+      { title: 'Volunteer', icon: mdiInformationOutline },
     ]
 
     // account settings data

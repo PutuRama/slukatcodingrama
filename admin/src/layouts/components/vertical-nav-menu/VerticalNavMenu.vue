@@ -41,6 +41,11 @@
         :to="{ name: 'slukat-activities' }"
         :icon="icons.mdiAccountCogOutline"
       ></nav-menu-link>
+       <nav-menu-link
+        title="Volunteer"
+        :to="{ name: 'slukat-volunteer' }"
+        :icon="icons.mdiAccountCogOutline"
+      ></nav-menu-link>
       <nav-menu-group title="Pages" :icon="icons.mdiFileOutline">
         <nav-menu-link title="Login" :to="{ name: 'pages-login' }" target="_blank"></nav-menu-link>
         <nav-menu-link title="Register" :to="{ name: 'pages-register' }" target="_blank"></nav-menu-link>
