@@ -47,12 +47,12 @@
               <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
                 <v-card>
                   <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
                   <v-card-title>
                     {{ volunter.title }}
                   </v-card-title>
-                  <v-card-text>
-                    {{ volunter.country }}
-                  </v-card-text>
                   <v-card-text>
                     {{ volunter.createdAt }}
                   </v-card-text>
@@ -113,12 +113,12 @@
               <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
                 <v-card>
                   <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
                   <v-card-title>
                     {{ volunter.title }}
                   </v-card-title>
-                  <v-card-text>
-                    {{ volunter.country }}
-                  </v-card-text>
                   <v-card-text>
                     {{ volunter.createdAt }}
                   </v-card-text>
@@ -179,12 +179,12 @@
               <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
                 <v-card>
                   <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
                   <v-card-title>
                     {{ volunter.title }}
                   </v-card-title>
-                  <v-card-text>
-                    {{ volunter.country }}
-                  </v-card-text>
                   <v-card-text>
                     {{ volunter.createdAt }}
                   </v-card-text>
@@ -245,12 +245,12 @@
               <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
                 <v-card>
                   <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
                   <v-card-title>
                     {{ volunter.title }}
                   </v-card-title>
-                  <v-card-text>
-                    {{ volunter.country }}
-                  </v-card-text>
                   <v-card-text>
                     {{ volunter.createdAt }}
                   </v-card-text>
@@ -311,12 +311,12 @@
               <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
                 <v-card>
                   <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
                   <v-card-title>
                     {{ volunter.title }}
                   </v-card-title>
-                  <v-card-text>
-                    {{ volunter.country }}
-                  </v-card-text>
                   <v-card-text>
                     {{ volunter.createdAt }}
                   </v-card-text>
@@ -377,12 +377,12 @@
               <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
                 <v-card>
                   <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
                   <v-card-title>
                     {{ volunter.title }}
                   </v-card-title>
-                  <v-card-text>
-                    {{ volunter.country }}
-                  </v-card-text>
                   <v-card-text>
                     {{ volunter.createdAt }}
                   </v-card-text>
