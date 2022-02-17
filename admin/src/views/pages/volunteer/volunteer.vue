@@ -3,26 +3,27 @@
     <router-link to="/volunteer/add">
       <plus-button></plus-button>
     </router-link>
-    
-     <v-col
-        md="12"
+    <v-row>
+      
+
+      
+       <v-col
+        md="4"
         sm="6"
         cols="12"
         class="align-self-start"
       >
         <v-card>
-          <v-card-title>
-            The Volunteer
-          </v-card-title>
-  
+          <v-img
+            src="@/assets/images/pages/card-basic-person.png"
+            height="250"
+          ></v-img>
           <v-card-actions class="dense">
             <v-btn
               color="success"
               text
-              @click="isCardDetailsVisible = !isCardDetailsVisible"
-
             >
-              Show
+              Details
             </v-btn>
             <v-spacer></v-spacer>
             <v-btn
@@ -32,37 +33,377 @@
               <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
             </v-btn>
           </v-card-actions>
+          <v-card-title>
+            Popular Uses Of The Internet
+          </v-card-title>
           <v-expand-transition>
             <div v-show="isCardDetailsVisible">
               <v-divider></v-divider>
               <v-card-text>
-    <v-row>
-      <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunteer in volunteers">
-        <v-card>
-          <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
-          <v-card-title>
-            {{ volunteer.title }}
-          </v-card-title>
-          <v-card-text>
-            {{ volunteer.createdAt }}
-          </v-card-text>
-          <v-card-actions class="dense">
-            <v-btn color="primary" text>
-              Details
-            </v-btn>
-            <v-btn text :id="volunteer.id" @click="deleteVolunteer">
-              <span @click="deleteVolunteer" :id="volunteer.id">Delete</span>
-            </v-btn>
-          </v-card-actions>
-        </v-card>
-      </v-col>
-    </v-row>
-
+                Netherland
+              </v-card-text>
+              <v-card-text>
+                I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
+                <v-card>
+                  <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
+                  <v-card-title>
+                    {{ volunter.title }}
+                  </v-card-title>
+                  <v-card-text>
+                    {{ volunter.createdAt }}
+                  </v-card-text>
+                  <v-card-actions class="dense">
+                    <v-btn color="success" text>
+                      Details
+                    </v-btn>
+                    <v-btn text :id="volunter.id" @click="deleteVolunteer">
+                      <span @click="deleteVolunteer" :id="volunter.id">Delete</span>
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-col>
               </v-card-text>
             </div>
           </v-expand-transition>
         </v-card>
       </v-col>
+
+      
+       <v-col
+        md="4"
+        sm="6"
+        cols="12"
+        class="align-self-start"
+      >
+        <v-card>
+          <v-img
+            src="@/assets/images/pages/card-basic-person.png"
+            height="250"
+          ></v-img>
+          <v-card-actions class="dense">
+            <v-btn
+              color="success"
+              text
+            >
+              Details
+            </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+              icon
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+            >
+              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
+            </v-btn>
+          </v-card-actions>
+          <v-card-title>
+            Popular Uses Of The Internet
+          </v-card-title>
+          <v-expand-transition>
+            <div v-show="isCardDetailsVisible">
+              <v-divider></v-divider>
+              <v-card-text>
+                Netherland
+              </v-card-text>
+              <v-card-text>
+                I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
+                <v-card>
+                  <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
+                  <v-card-title>
+                    {{ volunter.title }}
+                  </v-card-title>
+                  <v-card-text>
+                    {{ volunter.createdAt }}
+                  </v-card-text>
+                  <v-card-actions class="dense">
+                    <v-btn color="success" text>
+                      Details
+                    </v-btn>
+                    <v-btn text :id="volunter.id" @click="deleteVolunteer">
+                      <span @click="deleteVolunteer" :id="volunter.id">Delete</span>
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-col>
+              </v-card-text>
+            </div>
+          </v-expand-transition>
+        </v-card>
+      </v-col>
+
+
+       <v-col
+        md="4"
+        sm="6"
+        cols="12"
+        class="align-self-start"
+      >
+        <v-card>
+          <v-img
+            src="@/assets/images/pages/card-basic-person.png"
+            height="250"
+          ></v-img>
+          <v-card-actions class="dense">
+            <v-btn
+              color="success"
+              text
+            >
+              Details
+            </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+              icon
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+            >
+              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
+            </v-btn>
+          </v-card-actions>
+          <v-card-title>
+            Popular Uses Of The Internet
+          </v-card-title>
+          <v-expand-transition>
+            <div v-show="isCardDetailsVisible">
+              <v-divider></v-divider>
+              <v-card-text>
+                Netherland
+              </v-card-text>
+              <v-card-text>
+                I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
+                <v-card>
+                  <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
+                  <v-card-title>
+                    {{ volunter.title }}
+                  </v-card-title>
+                  <v-card-text>
+                    {{ volunter.createdAt }}
+                  </v-card-text>
+                  <v-card-actions class="dense">
+                    <v-btn color="success" text>
+                      Details
+                    </v-btn>
+                    <v-btn text :id="volunter.id" @click="deleteVolunteer">
+                      <span @click="deleteVolunteer" :id="volunter.id">Delete</span>
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-col>
+              </v-card-text>
+            </div>
+          </v-expand-transition>
+        </v-card>
+      </v-col>
+
+
+       <v-col
+        md="4"
+        sm="6"
+        cols="12"
+        class="align-self-start"
+      >
+        <v-card>
+          <v-img
+            src="@/assets/images/pages/card-basic-person.png"
+            height="250"
+          ></v-img>
+          <v-card-actions class="dense">
+            <v-btn
+              color="success"
+              text
+            >
+              Details
+            </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+              icon
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+            >
+              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
+            </v-btn>
+          </v-card-actions>
+          <v-card-title>
+            Popular Uses Of The Internet
+          </v-card-title>
+          <v-expand-transition>
+            <div v-show="isCardDetailsVisible">
+              <v-divider></v-divider>
+              <v-card-text>
+                Netherland
+              </v-card-text>
+              <v-card-text>
+                I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
+                <v-card>
+                  <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
+                  <v-card-title>
+                    {{ volunter.title }}
+                  </v-card-title>
+                  <v-card-text>
+                    {{ volunter.createdAt }}
+                  </v-card-text>
+                  <v-card-actions class="dense">
+                    <v-btn color="success" text>
+                      Details
+                    </v-btn>
+                    <v-btn text :id="volunter.id" @click="deleteVolunteer">
+                      <span @click="deleteVolunteer" :id="volunter.id">Delete</span>
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-col>
+              </v-card-text>
+            </div>
+          </v-expand-transition>
+        </v-card>
+      </v-col>
+
+
+       <v-col
+        md="4"
+        sm="6"
+        cols="12"
+        class="align-self-start"
+      >
+        <v-card>
+          <v-img
+            src="@/assets/images/pages/card-basic-person.png"
+            height="250"
+          ></v-img>
+          <v-card-actions class="dense">
+            <v-btn
+              color="success"
+              text
+            >
+              Details
+            </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+              icon
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+            >
+              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
+            </v-btn>
+          </v-card-actions>
+          <v-card-title>
+            Popular Uses Of The Internet
+          </v-card-title>
+          <v-expand-transition>
+            <div v-show="isCardDetailsVisible">
+              <v-divider></v-divider>
+              <v-card-text>
+                Netherland
+              </v-card-text>
+              <v-card-text>
+                I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
+                <v-card>
+                  <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
+                  <v-card-title>
+                    {{ volunter.title }}
+                  </v-card-title>
+                  <v-card-text>
+                    {{ volunter.createdAt }}
+                  </v-card-text>
+                  <v-card-actions class="dense">
+                    <v-btn color="success" text>
+                      Details
+                    </v-btn>
+                    <v-btn text :id="volunter.id" @click="deleteVolunteer">
+                      <span @click="deleteVolunteer" :id="volunter.id">Delete</span>
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-col>
+              </v-card-text>
+            </div>
+          </v-expand-transition>
+        </v-card>
+      </v-col>
+
+
+       <v-col
+        md="4"
+        sm="6"
+        cols="12"
+        class="align-self-start"
+      >
+        <v-card>
+          <v-img
+            src="@/assets/images/pages/card-basic-person.png"
+            height="250"
+          ></v-img>
+          <v-card-actions class="dense">
+            <v-btn
+              color="success"
+              text
+            >
+              Details
+            </v-btn>
+            <v-spacer></v-spacer>
+            <v-btn
+              icon
+              @click="isCardDetailsVisible = !isCardDetailsVisible"
+            >
+              <v-icon>{{ isCardDetailsVisible ? icons.mdiChevronUp : icons.mdiChevronDown }}</v-icon>
+            </v-btn>
+          </v-card-actions>
+          <v-card-title>
+            Popular Uses Of The Internet
+          </v-card-title>
+          <v-expand-transition>
+            <div v-show="isCardDetailsVisible">
+              <v-divider></v-divider>
+              <v-card-text>
+                Netherland
+              </v-card-text>
+              <v-card-text>
+                I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+              <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="volunter in volunteers">
+                <v-card>
+                  <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+                    <v-card-text>
+                      {{ volunter.country }}
+                    </v-card-text>
+                  <v-card-title>
+                    {{ volunter.title }}
+                  </v-card-title>
+                  <v-card-text>
+                    {{ volunter.createdAt }}
+                  </v-card-text>
+                  <v-card-actions class="dense">
+                    <v-btn color="success" text>
+                      Details
+                    </v-btn>
+                    <v-btn text :id="volunter.id" @click="deleteVolunteer">
+                      <span @click="deleteVolunteer" :id="volunter.id">Delete</span>
+                    </v-btn>
+                  </v-card-actions>
+                </v-card>
+              </v-col>
+              </v-card-text>
+            </div>
+          </v-expand-transition>
+        </v-card>
+      </v-col>
+
+
+    </v-row>
   </div>
 </template>
 
@@ -92,11 +433,11 @@ export default {
 
     const deleteVolunteer = e => {
       var xhr = new XMLHttpRequest()
-      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/volunteer/' + e.target.id, true)
+      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/volunter/' + e.target.id, true)
       console.log(e.target)
       xhr.onload = function() {
         axios
-          .get('http://localhost:5000/api/slukat/volunteer')
+          .get('http://localhost:5000/api/slukat/volunter')
           .then(response => {
             this.volunteers = response.data.data
           })
@@ -106,7 +447,7 @@ export default {
       }
 
       Vue.swal({
-        title: 'Are you sure want to delete this activity?',
+        title: 'Are you sure want to delete this volunter?',
         text: "You can't revert your action",
         type: 'warning',
         showCancelButton: true,
@@ -147,7 +488,7 @@ export default {
   },
   mounted() {
     axios
-      .get('http://localhost:5000/api/slukat/volunteer')
+      .get('http://localhost:5000/api/slukat/volunter')
       .then(response => {
         this.volunteers = response.data.data
       })
