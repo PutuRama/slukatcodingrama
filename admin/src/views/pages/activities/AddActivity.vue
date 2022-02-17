@@ -98,7 +98,7 @@ export default {
           fd.append("image",file)
 
           var xhr = new XMLHttpRequest();
-          xhr.open('POST', 'http://localhost:5000/admin/slukat/activity', true);
+          xhr.open('POST', 'http://103.179.57.47:5000/admin/slukat/activity', true);
           xhr.send(fd);
 
           Vue.swal('Added', 'You successfully Added this activity', 'success').then(function(){

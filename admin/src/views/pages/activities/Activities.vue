@@ -56,14 +56,7 @@ export default {
       xhr.open('DELETE', 'http://103.179.57.47:5000/admin/slukat/activity/' + e.target.id, true)
       console.log(e.target)
       xhr.onload = function() {
-        axios
-          .get('http://localhost:5000/api/slukat/activity')
-          .then(response => {
-            this.activities = response.data.data
-          })
-          .catch(error => {
-            console.log(error)
-          })
+        window.location.reload()
       }
 
       Vue.swal({
@@ -107,7 +100,7 @@ export default {
   },
   mounted() {
     axios
-      .get('http://localhost:5000/api/slukat/activity')
+      .get('http://103.179.57.47:5000/api/slukat/activity')
       .then(response => {
         this.activities = response.data.data
       })
