@@ -79,8 +79,8 @@ module.exports = {
         if (!validInput) {
             response(false, "INVALID_INPUT", "Please Check Your Input", null)
         }
-        const host = req.host;
-        const filePath = req.protocol + "://" + host + '/' + req.file.path;
+        const host = "slukatbali.or.id";
+        const filePath = "https://" + host + '/' + req.file.path;
 
         var newActivity = {
             "title": req.body.title,

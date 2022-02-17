@@ -139,7 +139,7 @@ export default {
   setup() {
     const logout = function() {
       axios
-        .delete('http://localhost:5000/admin/auth/logout', {
+        .delete('http://103.179.57.47:5000/admin/auth/logout', {
           headers: {
             authToken: Vue.cookie.get('authToken'),
           },

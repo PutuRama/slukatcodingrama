@@ -18,7 +18,7 @@ export default {
   methods: {
     checkAuth: function() {
       Axios
-      .get('http://localhost:5000/admin/auth/check',{
+      .get('http://103.179.57.47:5000/admin/auth/check',{
         headers: {
           'authToken': Vue.cookie.get('authToken')
         }

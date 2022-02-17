@@ -121,7 +121,8 @@ import DashboardCardDepositAndWithdraw from './DashboardCardDepositAndWithdraw.v
 import DashboardCardSalesByCountries from './DashboardCardSalesByCountries.vue'
 import DashboardWeeklyOverview from './DashboardWeeklyOverview.vue'
 import DashboardDatatable from './DashboardDatatable.vue'
-
+import Vue from 'vue';
+Vue.swal("Information" , "This Dashboard is still under Construction")
 export default {
   components: {
     StatisticsCardVertical,

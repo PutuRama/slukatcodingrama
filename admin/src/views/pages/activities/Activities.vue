@@ -4,9 +4,9 @@
       <plus-button></plus-button>
     </router-link>
     <v-row>
-      <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="activity in activities">
+      <v-col md="4" sm="6" cols="12" class="align-self-start" v-for="activity in activities" :key="activity.id">
         <v-card>
-          <v-img src="@/assets/images/pages/card-basic-person.png" height="250"></v-img>
+          <v-img :src="activity.imgUrl" height="250"></v-img>
           <v-card-title>
             {{ activity.title }}
           </v-card-title>
@@ -53,7 +53,7 @@ export default {
 
     const deleteActivity = e => {
       var xhr = new XMLHttpRequest()
-      xhr.open('DELETE', 'http://localhost:5000/admin/slukat/activity/' + e.target.id, true)
+      xhr.open('DELETE', 'http://103.179.57.47:5000/admin/slukat/activity/' + e.target.id, true)
       console.log(e.target)
       xhr.onload = function() {
         axios
