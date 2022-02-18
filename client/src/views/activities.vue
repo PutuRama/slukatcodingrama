@@ -88,18 +88,21 @@
           class="col-lg-4 col-md-12 col-sm-12 column-daily"
           data-aos="zoom-in"
           data-aos-duration="1500"
-          v-for="activity in activities" :key="activity.id"
+          v-for="activity in activities"
+          :key="activity.id"
         >
-          <a href="">
-            <img :src="activity.imgUrl" alt="" />
-          </a>
+          <router-link :to="'/detail-activities?id=' + activity.id">
+            <a href="">
+              <img :src="activity.imgUrl" alt="" />
+            </a>
+          </router-link>
           <div class="daily-text">
             <p>Activity</p>
             <span> 02 June 2017</span>
             <h5>
-              <a href=""
-                >{{ activity.title }}</a
-              >
+              <router-link :to="'/detail-activities?id=' + activity.id">
+                <a href="">{{ activity.title }}</a>
+              </router-link>
             </h5>
           </div>
         </div>
@@ -108,14 +111,14 @@
   </div>
 </template>
 <script>
-import axios from 'axios'
+import axios from "axios";
 export default {
   data() {
-    const activities = null
+    const activities = null;
 
     return {
-      activities
-    }
+      activities,
+    };
   },
   mounted() {
     axios
@@ -127,7 +130,7 @@ export default {
       .catch((error) => {
         console.log(error);
       });
-  }
+  },
 };
 </script>
 <style scoped>
