@@ -25,13 +25,13 @@
       <v-form class="multi-col-validation mt-6">
         <v-row>
           <v-col md="12" cols="12" >
-            <v-text-field color="success" v-model="accountDataLocale.title" label="Name" dense outlined></v-text-field>
+            <v-text-field color="success" v-model="accountDataLocale.name" label="Name" dense outlined></v-text-field>
           </v-col>
            <v-col md="12" cols="12">
-            <v-text-field color="success" v-model="accountDataLocale.title" label="Country" dense outlined></v-text-field>
+            <v-text-field color="success" v-model="accountDataLocale.country" label="Country" dense outlined></v-text-field>
           </v-col>
           <v-col  cols="12">
-            <v-textarea color="success" v-model="accountDataLocale.desc" outlined rows="3" label="Description"></v-textarea>
+            <v-textarea color="success" v-model="accountDataLocale.text" outlined rows="3" label="Description"></v-textarea>
           </v-col>
           <v-btn  class="bg-gradient-primary white--text" @click="sendData">
             Submit
@@ -53,27 +53,23 @@ export default {
     accountData: {
       type: Object,
       default: () => {},
-    },
+    }
   },
   setup(props) {
-    const status = ['Active', 'Inactive', 'Pending', 'Closed']
-
-    const accountDataLocale = {}
+    const status = ['Active', 'Inactive', 'Pending', 'Closed'];
+    const accountDataLocale = {};
 
     var img = '#'
 
     const resetForm = () => {
-      accountDataLocale.value = {}
-      document.getElementById("img-src").src = "#"
+      accountDataLocale.value = {};
+      document.getElementById("img-src").src = "#";
     }
 
     const previewImg = (e) => {
-      console.log(e);
-      var [file] = e.target.files
-      img = URL.createObjectURL(file)
-      
-      document.getElementById("img-src").src = img
-      console.log(img);
+      var [file] = e.target.files;
+      img = URL.createObjectURL(file);
+      document.getElementById("img-src").src = img;
     }
 
     const resetImg = (e)=>{
@@ -92,15 +88,16 @@ export default {
         showLoaderOnConfirm: true,
       }).then(result => {
         if (result.value) {
-          var file = document.getElementById("file-input").files[0]
+          var file = document.getElementById("file-input").files[0];
           var fd = new FormData();
 
-          fd.append("title",accountDataLocale.title)
-          fd.append("description",accountDataLocale.desc)
-          fd.append("image",file)
-
+          fd.append("name",accountDataLocale.name);
+          fd.append("country",accountDataLocale.country);
+          fd.append("text",accountDataLocale.text);
+          fd.append("image",file);
+          
           var xhr = new XMLHttpRequest();
-          xhr.open('POST', 'http://localhost:5000/admin/slukat/volunteer', true);
+          xhr.open('POST', 'https://slukatbali.or.id:7177/admin/slukat/testi/volounteer', true);
           xhr.send(fd);
 
           Vue.swal('Added', 'You successfully Added this volunteer', 'success').then(function(){

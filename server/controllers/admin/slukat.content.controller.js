@@ -11,8 +11,8 @@ module.exports = {
             response(false, "INVALID_INPUT", "Please Check Your Input", null)
         }
 
-        const host = req.host;
-        const filePath = req.protocol + "://" + host + '/' + req.file.path;
+        const host = "slukatbali.or.id";
+        const filePath = "https://" + host + '/' + req.file.path;
 
         var newVolounteer = {
             "name": req.body.name,
@@ -46,8 +46,8 @@ module.exports = {
         }
 
 
-        const host = req.host;
-        const filePath = req.protocol + "://" + host + '/' + req.file.path;
+        const host = "slukatbali.or.id";
+        const filePath = "https://" + host + '/' + req.file.path;
 
         var newStudent = {
             "name": req.body.name,
@@ -104,12 +104,12 @@ module.exports = {
                 return res.json(response(true, "SUCCESS_ADD_DATA", "Succes to add data to database ", newActivity))
             })
     },
-    deleteActivity : async function(req,res){
+    deleteActivity: async function (req, res) {
         const dbConnect = db.getDb();
         dbConnect
             .collection("activities")
-            .findOneAndDelete({"id" : req.params.id})
-            
+            .findOneAndDelete({ "id": req.params.id })
+
     }
 
 
