@@ -22,22 +22,24 @@
 
         <div class="row social-media">
           <div class="col nopadding">
-            <div class="icon-text">
-              <i class="fab fa-instagram"></i><br />
-            </div>
-            <p>Slukat</p>
+            <a href="https://www.instagram.com/slukat_bali" class="white-text">
+              <div class="icon-text">
+                <i class="fab fa-instagram"></i><br />
+              </div>
+              <p>@slukat_bali</p>
+            </a>
           </div>
           <div class="col nopadding">
-            <div class="icon-text">
-              <i class="fab fa-facebook"></i><br />
-            </div>
-            <p>Slukat</p>
+            <a href="https://www.instagram.com/slukat_bali" class="white-text">
+              <div class="icon-text"><i class="fab fa-facebook"></i><br /></div>
+              <p>Slukat</p></a
+            >
           </div>
           <div class="col nopadding">
-            <div class="icon-text">
-              <i class="fab fa-twitter"></i><br />
-            </div>
-            <p>Slukat</p>
+            <a href="https://www.instagram.com/slukat_bali" class="white-text">
+              <div class="icon-text"><i class="fab fa-twitter"></i><br /></div>
+              <p>Slukat</p></a
+            >
           </div>
         </div>
       </div>
@@ -51,9 +53,14 @@
           </div>
           <div class="col-sm-12 col-md-3">
             <h5>About Us</h5>
-            <router-link class="router" to="/about/slc"><span class="route-link">SLC</span></router-link><br />
-            <router-link class="router" to="/about/student"><span class="route-link">Student</span></router-link><br />
-            <router-link class="router" to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
+            <router-link class="router" to="/about/slc"
+              ><span class="route-link">SLC</span></router-link
+            ><br />
+            <router-link class="router" to="/about/student"
+              ><span class="route-link">Student</span></router-link
+            ><br />
+            <router-link class="router" to="/about/volounteer"
+              ><span class="route-link">Volounteer</span></router-link
             ><br /><br />
           </div>
           <div class="col-sm-12 col-md-3">
@@ -61,8 +68,11 @@
             <router-link class="router" to="/program/english"
               ><span class="route-link">English Program</span></router-link
             ><br />
-            <router-link class="router" to="/about/coding"><span class="route-link">Coding Program</span></router-link><br />
-            <router-link class="router" to="/about/volounteer"><span class="route-link">Volounteer</span></router-link
+            <router-link class="router" to="/about/coding"
+              ><span class="route-link">Coding Program</span></router-link
+            ><br />
+            <router-link class="router" to="/about/volounteer"
+              ><span class="route-link">Volounteer</span></router-link
             ><br /><br />
           </div>
           <div class="col-sm-12 col-md-3">
@@ -88,15 +98,20 @@
   }
 }
 
+.white-text {
+  color: white;
+}
+.black-text {
+  color: black;
+}
 .route-link {
   color: rgb(252, 252, 252);
-  
 }
 
 .router:hover {
   text-decoration: white solid underline;
 }
-h5{
+h5 {
   font-weight: 900;
 }
 
@@ -120,8 +135,8 @@ h5{
 .button-form {
   max-width: 150px;
   border-radius: 20px;
-  background-color: #A1EE9F;
-  border: 2px solid #A1EE9F;
+  background-color: #a1ee9f;
+  border: 2px solid #a1ee9f;
 }
 
 .social-media {
@@ -131,8 +146,8 @@ h5{
 .icon-text {
   font-size: 30px;
 }
-@media screen and (max-width:750px) {
-  .social-media{
+@media screen and (max-width: 750px) {
+  .social-media {
     font-size: 20px;
   }
   .icon-text {
@@ -140,7 +155,7 @@ h5{
   }
 }
 @media screen and (max-width: 400px) {
-  .input-group{
+  .input-group {
     padding: 0 15px 0 15px;
   }
   .icon-text {
@@ -152,7 +167,7 @@ h5{
   color: #a1ee9f;
 }
 
-.border-footer{
+.border-footer {
   border-left: white 2px solid;
 }
 </style>
