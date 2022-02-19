@@ -187,15 +187,10 @@
     <script>
       $("#app").hide();
       $("#tunggu").hide();
-      setTimeout(function () {
-        $("#tunggu").show();
-      }, 3000);
       $(window).on("load", function () {
-        setTimeout(function () {
-          $("#loading").hide();
-          $("#app").show();
-          AOS.refreshHard();
-        }, 2000);
+        $("#loading").hide();
+        $("#app").show();
+        AOS.refreshHard();
       });
 
       $(window).scroll(function (event) {

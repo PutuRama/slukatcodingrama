@@ -65,7 +65,7 @@ export default {
       accountDataLocale.value = {};
       document.getElementById("img-src").src = "#";
     }
-
+    
     const previewImg = (e) => {
       var [file] = e.target.files;
       img = URL.createObjectURL(file);
