@@ -48,11 +48,19 @@
 
         <div class="row">
           <div class="col-sm-12 col-md-3">
-            <h5>Home</h5>
+            <router-link to="/">
+              <h5>
+                <a href="https://slukatbali.or.id/" class="white-text">Home</a>
+              </h5>
+            </router-link>
             <br /><br />
           </div>
           <div class="col-sm-12 col-md-3">
-            <h5>About Us</h5>
+            <router-link to="/about/slc">
+              <h5>
+                <a href="https://slukatbali.or.id/about/slc" class="white-text">About</a>
+              </h5>
+            </router-link>
             <router-link class="router" to="/about/slc"
               ><span class="route-link">SLC</span></router-link
             ><br />
